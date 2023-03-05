@@ -10,12 +10,8 @@ esac
 
 if [ $machine == "Mac" ]; then
   test_dirs="
-      pass
-      overflow_pass
-      overflow_unpass
-      unpass
-      sys_func
-      ikos_cases
+      paper_case
+      paper_fp
   "
   bc_path="mac_bc"
 elif  [ $machine == "Linux" ]; then
