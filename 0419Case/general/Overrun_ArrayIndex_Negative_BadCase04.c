@@ -13,3 +13,7 @@ void TestBadCase04()
     buffer[-1] = 0;
 }
 
+int main() {
+    TestBadCase04();
+}
+

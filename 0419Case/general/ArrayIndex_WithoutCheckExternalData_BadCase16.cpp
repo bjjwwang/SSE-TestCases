@@ -27,3 +27,7 @@ bool test_bad_16()
         }
     }
 }
+
+int main() {
+    test_bad_16();
+}

@@ -20,3 +20,7 @@ void MyFunc(int n)
         TestCaseBad03(array, n);
     }
 }
+
+int main() {
+    MyFunc(50);
+}

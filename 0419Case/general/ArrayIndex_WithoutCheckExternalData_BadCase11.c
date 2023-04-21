@@ -25,5 +25,6 @@ void test_bad_04()
 
 int main()
 {
+    test_bad_04();
     return 0;
 }
