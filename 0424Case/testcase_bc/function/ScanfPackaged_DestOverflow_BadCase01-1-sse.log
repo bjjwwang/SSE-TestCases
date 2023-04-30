@@ -1,0 +1,176 @@
+GlobalICFGNode0
+CopyStmt: [Var1 <-- Var0]	
+ i8* null { constant data }
+AddrStmt: [Var4 <-- Var6]	
+ @.str = private unnamed_addr constant [3 x i8] c"%s\00", align 1 { Glob  }
+AddrStmt: [Var7 <-- Var8]	
+ i64 0 { constant data }
+AddrStmt: [Var9 <-- Var10]	
+ i8 37 { constant data }
+AddrStmt: [Var11 <-- Var12]	
+ i8 115 { constant data }
+AddrStmt: [Var13 <-- Var14]	
+ i8 0 { constant data }
+AddrStmt: [Var20 <-- Var21]	
+ i32 1 { constant data }
+AddrStmt: [Var44 <-- Var45]	
+ i32 0 { constant data }
+GepStmt: [Var48 <-- Var4]	
+ @.str = private unnamed_addr constant [3 x i8] c"%s\00", align 1 { Glob  }
+StoreStmt: [Var48 <-- Var9]	
+ i8 37 { constant data }
+GepStmt: [Var49 <-- Var4]	
+ @.str = private unnamed_addr constant [3 x i8] c"%s\00", align 1 { Glob  }
+StoreStmt: [Var49 <-- Var11]	
+ i8 115 { constant data }
+GepStmt: [Var50 <-- Var4]	
+ @.str = private unnamed_addr constant [3 x i8] c"%s\00", align 1 { Glob  }
+StoreStmt: [Var50 <-- Var13]	
+ i8 0 { constant data }
+AddrStmt: [Var15 <-- Var16]	
+Function: cwe120_c_22 { in line: 14 file: function/ScanfPackaged_DestOverflow_BadCase01-1.c }
+AddrStmt: [Var29 <-- Var30]	
+Function: llvm.dbg.declare 
+AddrStmt: [Var26 <-- Var27]	
+Function: scanf 
+AddrStmt: [Var38 <-- Var39]	
+Function: main { in line: 20 file: function/ScanfPackaged_DestOverflow_BadCase01-1.c }
+-----------Var and Value-----------
+Var7	 Value: [0, 0]
+Var8	 Value: [0, 0]
+Var9	 Value: [37, 37]
+Var10	 Value: [37, 37]
+Var11	 Value: [115, 115]
+Var12	 Value: [115, 115]
+Var13	 Value: [0, 0]
+Var14	 Value: [0, 0]
+Var20	 Value: [1, 1]
+Var21	 Value: [1, 1]
+Var44	 Value: [0, 0]
+Var45	 Value: [0, 0]
+Var52	 Value: [37, 37]
+Var53	 Value: [115, 115]
+Var54	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var4	 Value: [ 0x7f000006(6) ,]
+Var6	 Value: [ 0x7f000006(6) ,]
+Var15	 Value: [ 0x7f000010(16) ,]
+Var16	 Value: [ 0x7f000010(16) ,]
+Var26	 Value: [ 0x7f00001b(27) ,]
+Var27	 Value: [ 0x7f00001b(27) ,]
+Var29	 Value: [ 0x7f00001e(30) ,]
+Var30	 Value: [ 0x7f00001e(30) ,]
+Var38	 Value: [ 0x7f000027(39) ,]
+Var39	 Value: [ 0x7f000027(39) ,]
+Var48	 Value: [ 0x7f000034(52) ,]
+Var49	 Value: [ 0x7f000035(53) ,]
+Var50	 Value: [ 0x7f000036(54) ,]
+Var52	 Value: [ 0x7f000034(52) ,]
+Var53	 Value: [ 0x7f000035(53) ,]
+Var54	 Value: [ 0x7f000036(54) ,]
+-----------------------------------------
+IntraICFGNode10 {fun: main}
+AddrStmt: [Var41 <-- Var42]	
+   %retval = alloca i32, align 4 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode11 {fun: main}
+StoreStmt: [Var41 <-- Var44]	
+   store i32 0, i32* %retval, align 4 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var42	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode12 {fun: main{ ln: 22  cl: 5  fl: function/ScanfPackaged_DestOverflow_BadCase01-1.c }}
+IntraICFGNode2 {fun: cwe120_c_22{ ln: 16 fl: function/ScanfPackaged_DestOverflow_BadCase01-1.c }}
+AddrStmt: [Var18 <-- Var19]	
+   %dest = alloca [16 x i8], align 16 { ln: 16 fl: function/ScanfPackaged_DestOverflow_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var42	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode16 {fun: cwe120_c_22{ ln: 16  cl: 10  fl: function/ScanfPackaged_DestOverflow_BadCase01-1.c }}
+   call void @llvm.dbg.declare(metadata [16 x i8]* %dest, metadata !14, metadata !DIExpression()), !dbg !19 { ln: 16  cl: 10  fl: function/ScanfPackaged_DestOverflow_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var42	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode3 {fun: cwe120_c_22{ ln: 18  cl: 19  fl: function/ScanfPackaged_DestOverflow_BadCase01-1.c }}
+GepStmt: [Var23 <-- Var18]	
+   %arraydecay = getelementptr inbounds [16 x i8], [16 x i8]* %dest, i64 0, i64 0, !dbg !20 { ln: 18  cl: 19  fl: function/ScanfPackaged_DestOverflow_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var42	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var23	 Value: [ 0x7f000033(51) ,]
+-----------------------------------------
+IntraICFGNode4 {fun: cwe120_c_22}
+GepStmt: [Var24 <-- Var4]	
+   %0 = getelementptr inbounds [3 x i8], [3 x i8]* @.str, i64 0, i64 0 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var42	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var23	 Value: [ 0x7f000033(51) ,]
+Var24	 Value: [ 0x7f000034(52) ,]
+-----------------------------------------
+CallICFGNode5 {fun: cwe120_c_22{ ln: 18  cl: 5  fl: function/ScanfPackaged_DestOverflow_BadCase01-1.c }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var25	 Value: [-INF, +INF]
+Var42	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var23	 Value: [ 0x7f000033(51) ,]
+Var24	 Value: [ 0x7f000034(52) ,]
+-----------------------------------------
+IntraICFGNode7 {fun: cwe120_c_22{ ln: 19  cl: 1  fl: function/ScanfPackaged_DestOverflow_BadCase01-1.c }}
+   ret void, !dbg !22 { ln: 19  cl: 1  fl: function/ScanfPackaged_DestOverflow_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var25	 Value: [-INF, +INF]
+Var42	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var23	 Value: [ 0x7f000033(51) ,]
+Var24	 Value: [ 0x7f000034(52) ,]
+-----------------------------------------
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var25	 Value: [-INF, +INF]
+Var42	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var23	 Value: [ 0x7f000033(51) ,]
+Var24	 Value: [ 0x7f000034(52) ,]
+-----------------------------------------
+FunExitICFGNode8 {fun: cwe120_c_22{ ln: 16 fl: function/ScanfPackaged_DestOverflow_BadCase01-1.c }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var25	 Value: [-INF, +INF]
+Var42	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var23	 Value: [ 0x7f000033(51) ,]
+Var24	 Value: [ 0x7f000034(52) ,]
+-----------------------------------------
+RetICFGNode13 {fun: main{ ln: 22  cl: 5  fl: function/ScanfPackaged_DestOverflow_BadCase01-1.c }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var25	 Value: [-INF, +INF]
+Var42	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var23	 Value: [ 0x7f000033(51) ,]
+Var24	 Value: [ 0x7f000034(52) ,]
+-----------------------------------------
+IntraICFGNode14 {fun: main{ ln: 23  cl: 5  fl: function/ScanfPackaged_DestOverflow_BadCase01-1.c }}
+   ret i32 0, !dbg !16 { ln: 23  cl: 5  fl: function/ScanfPackaged_DestOverflow_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var25	 Value: [-INF, +INF]
+Var42	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var23	 Value: [ 0x7f000033(51) ,]
+Var24	 Value: [ 0x7f000034(52) ,]
+-----------------------------------------

@@ -1,0 +1,757 @@
+GlobalICFGNode0
+CopyStmt: [Var1 <-- Var0]	
+ i8* null { constant data }
+AddrStmt: [Var94 <-- Var95]	
+ i32 0 { constant data }
+AddrStmt: [Var19 <-- Var20]	
+ i8 116 { constant data }
+AddrStmt: [Var28 <-- Var29]	
+ i8 119 { constant data }
+AddrStmt: [Var30 <-- Var31]	
+ i8 43 { constant data }
+AddrStmt: [Var4 <-- Var6]	
+ @.str = private unnamed_addr constant [9 x i8] c"file.txt\00", align 1 { Glob  }
+AddrStmt: [Var25 <-- Var27]	
+ @.str.1 = private unnamed_addr constant [3 x i8] c"w+\00", align 1 { Glob  }
+AddrStmt: [Var32 <-- Var34]	
+ @.str.2 = private unnamed_addr constant [3 x i8] c"%s\00", align 1 { Glob  }
+AddrStmt: [Var23 <-- Var24]	
+ i8 0 { constant data }
+AddrStmt: [Var52 <-- Var53]	
+ i64 10 { constant data }
+AddrStmt: [Var54 <-- Var55]	
+ i1 false { constant data }
+AddrStmt: [Var17 <-- Var18]	
+ i8 46 { constant data }
+AddrStmt: [Var7 <-- Var8]	
+ i64 0 { constant data }
+AddrStmt: [Var9 <-- Var10]	
+ i8 102 { constant data }
+AddrStmt: [Var11 <-- Var12]	
+ i8 105 { constant data }
+AddrStmt: [Var13 <-- Var14]	
+ i8 108 { constant data }
+AddrStmt: [Var15 <-- Var16]	
+ i8 101 { constant data }
+AddrStmt: [Var21 <-- Var22]	
+ i8 120 { constant data }
+AddrStmt: [Var35 <-- Var36]	
+ i8 37 { constant data }
+AddrStmt: [Var37 <-- Var38]	
+ i8 115 { constant data }
+AddrStmt: [Var44 <-- Var45]	
+ i32 1 { constant data }
+GepStmt: [Var96 <-- Var4]	
+ @.str = private unnamed_addr constant [9 x i8] c"file.txt\00", align 1 { Glob  }
+StoreStmt: [Var96 <-- Var9]	
+ i8 102 { constant data }
+GepStmt: [Var97 <-- Var4]	
+ @.str = private unnamed_addr constant [9 x i8] c"file.txt\00", align 1 { Glob  }
+StoreStmt: [Var97 <-- Var11]	
+ i8 105 { constant data }
+GepStmt: [Var98 <-- Var4]	
+ @.str = private unnamed_addr constant [9 x i8] c"file.txt\00", align 1 { Glob  }
+StoreStmt: [Var98 <-- Var13]	
+ i8 108 { constant data }
+GepStmt: [Var99 <-- Var4]	
+ @.str = private unnamed_addr constant [9 x i8] c"file.txt\00", align 1 { Glob  }
+StoreStmt: [Var99 <-- Var15]	
+ i8 101 { constant data }
+GepStmt: [Var100 <-- Var4]	
+ @.str = private unnamed_addr constant [9 x i8] c"file.txt\00", align 1 { Glob  }
+StoreStmt: [Var100 <-- Var17]	
+ i8 46 { constant data }
+GepStmt: [Var101 <-- Var4]	
+ @.str = private unnamed_addr constant [9 x i8] c"file.txt\00", align 1 { Glob  }
+StoreStmt: [Var101 <-- Var19]	
+ i8 116 { constant data }
+GepStmt: [Var102 <-- Var4]	
+ @.str = private unnamed_addr constant [9 x i8] c"file.txt\00", align 1 { Glob  }
+StoreStmt: [Var102 <-- Var21]	
+ i8 120 { constant data }
+GepStmt: [Var103 <-- Var4]	
+ @.str = private unnamed_addr constant [9 x i8] c"file.txt\00", align 1 { Glob  }
+StoreStmt: [Var103 <-- Var19]	
+ i8 116 { constant data }
+GepStmt: [Var104 <-- Var4]	
+ @.str = private unnamed_addr constant [9 x i8] c"file.txt\00", align 1 { Glob  }
+StoreStmt: [Var104 <-- Var23]	
+ i8 0 { constant data }
+GepStmt: [Var105 <-- Var25]	
+ @.str.1 = private unnamed_addr constant [3 x i8] c"w+\00", align 1 { Glob  }
+StoreStmt: [Var105 <-- Var28]	
+ i8 119 { constant data }
+GepStmt: [Var106 <-- Var25]	
+ @.str.1 = private unnamed_addr constant [3 x i8] c"w+\00", align 1 { Glob  }
+StoreStmt: [Var106 <-- Var30]	
+ i8 43 { constant data }
+GepStmt: [Var107 <-- Var25]	
+ @.str.1 = private unnamed_addr constant [3 x i8] c"w+\00", align 1 { Glob  }
+StoreStmt: [Var107 <-- Var23]	
+ i8 0 { constant data }
+GepStmt: [Var108 <-- Var32]	
+ @.str.2 = private unnamed_addr constant [3 x i8] c"%s\00", align 1 { Glob  }
+StoreStmt: [Var108 <-- Var35]	
+ i8 37 { constant data }
+GepStmt: [Var109 <-- Var32]	
+ @.str.2 = private unnamed_addr constant [3 x i8] c"%s\00", align 1 { Glob  }
+StoreStmt: [Var109 <-- Var37]	
+ i8 115 { constant data }
+GepStmt: [Var110 <-- Var32]	
+ @.str.2 = private unnamed_addr constant [3 x i8] c"%s\00", align 1 { Glob  }
+StoreStmt: [Var110 <-- Var23]	
+ i8 0 { constant data }
+AddrStmt: [Var39 <-- Var40]	
+Function: Unsafe_IoFunction_of_Stream_Buffer_case01_Bad_03 { in line: 8 file: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }
+AddrStmt: [Var71 <-- Var72]	
+Function: llvm.dbg.declare 
+AddrStmt: [Var56 <-- Var57]	
+Function: llvm.memset.p0i8.i64 
+AddrStmt: [Var61 <-- Var62]	
+Function: _fopen 
+AddrStmt: [Var68 <-- Var69]	
+Function: fscanf 
+AddrStmt: [Var89 <-- Var90]	
+Function: main { in line: 16 file: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }
+-----------Var and Value-----------
+Var7	 Value: [0, 0]
+Var8	 Value: [0, 0]
+Var9	 Value: [102, 102]
+Var10	 Value: [102, 102]
+Var11	 Value: [105, 105]
+Var12	 Value: [105, 105]
+Var13	 Value: [108, 108]
+Var14	 Value: [108, 108]
+Var15	 Value: [101, 101]
+Var16	 Value: [101, 101]
+Var17	 Value: [46, 46]
+Var18	 Value: [46, 46]
+Var19	 Value: [116, 116]
+Var20	 Value: [116, 116]
+Var21	 Value: [120, 120]
+Var22	 Value: [120, 120]
+Var23	 Value: [0, 0]
+Var24	 Value: [0, 0]
+Var28	 Value: [119, 119]
+Var29	 Value: [119, 119]
+Var30	 Value: [43, 43]
+Var31	 Value: [43, 43]
+Var35	 Value: [37, 37]
+Var36	 Value: [37, 37]
+Var37	 Value: [115, 115]
+Var38	 Value: [115, 115]
+Var44	 Value: [1, 1]
+Var45	 Value: [1, 1]
+Var52	 Value: [10, 10]
+Var53	 Value: [10, 10]
+Var54	 Value: [0, 0]
+Var55	 Value: [0, 0]
+Var94	 Value: [0, 0]
+Var95	 Value: [0, 0]
+Var147	 Value: [102, 102]
+Var148	 Value: [105, 105]
+Var149	 Value: [108, 108]
+Var150	 Value: [101, 101]
+Var151	 Value: [46, 46]
+Var152	 Value: [116, 116]
+Var153	 Value: [120, 120]
+Var154	 Value: [116, 116]
+Var155	 Value: [0, 0]
+Var156	 Value: [119, 119]
+Var157	 Value: [43, 43]
+Var158	 Value: [0, 0]
+Var159	 Value: [37, 37]
+Var160	 Value: [115, 115]
+Var161	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var4	 Value: [ 0x7f000006(6) ,]
+Var6	 Value: [ 0x7f000006(6) ,]
+Var25	 Value: [ 0x7f00001b(27) ,]
+Var27	 Value: [ 0x7f00001b(27) ,]
+Var32	 Value: [ 0x7f000022(34) ,]
+Var34	 Value: [ 0x7f000022(34) ,]
+Var39	 Value: [ 0x7f000028(40) ,]
+Var40	 Value: [ 0x7f000028(40) ,]
+Var56	 Value: [ 0x7f000039(57) ,]
+Var57	 Value: [ 0x7f000039(57) ,]
+Var61	 Value: [ 0x7f00003e(62) ,]
+Var62	 Value: [ 0x7f00003e(62) ,]
+Var68	 Value: [ 0x7f000045(69) ,]
+Var69	 Value: [ 0x7f000045(69) ,]
+Var71	 Value: [ 0x7f000048(72) ,]
+Var72	 Value: [ 0x7f000048(72) ,]
+Var89	 Value: [ 0x7f00005a(90) ,]
+Var90	 Value: [ 0x7f00005a(90) ,]
+Var96	 Value: [ 0x7f000093(147) ,]
+Var97	 Value: [ 0x7f000094(148) ,]
+Var98	 Value: [ 0x7f000095(149) ,]
+Var99	 Value: [ 0x7f000096(150) ,]
+Var100	 Value: [ 0x7f000097(151) ,]
+Var101	 Value: [ 0x7f000098(152) ,]
+Var102	 Value: [ 0x7f000099(153) ,]
+Var103	 Value: [ 0x7f00009a(154) ,]
+Var104	 Value: [ 0x7f00009b(155) ,]
+Var105	 Value: [ 0x7f00009c(156) ,]
+Var106	 Value: [ 0x7f00009d(157) ,]
+Var107	 Value: [ 0x7f00009e(158) ,]
+Var108	 Value: [ 0x7f00009f(159) ,]
+Var109	 Value: [ 0x7f0000a0(160) ,]
+Var110	 Value: [ 0x7f0000a1(161) ,]
+Var147	 Value: [ 0x7f000093(147) ,]
+Var148	 Value: [ 0x7f000094(148) ,]
+Var149	 Value: [ 0x7f000095(149) ,]
+Var150	 Value: [ 0x7f000096(150) ,]
+Var151	 Value: [ 0x7f000097(151) ,]
+Var152	 Value: [ 0x7f000098(152) ,]
+Var153	 Value: [ 0x7f000099(153) ,]
+Var154	 Value: [ 0x7f00009a(154) ,]
+Var155	 Value: [ 0x7f00009b(155) ,]
+Var156	 Value: [ 0x7f00009c(156) ,]
+Var157	 Value: [ 0x7f00009d(157) ,]
+Var158	 Value: [ 0x7f00009e(158) ,]
+Var159	 Value: [ 0x7f00009f(159) ,]
+Var160	 Value: [ 0x7f0000a0(160) ,]
+Var161	 Value: [ 0x7f0000a1(161) ,]
+-----------------------------------------
+CallICFGNode20 {fun: main{ ln: 17  cl: 5  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }}
+IntraICFGNode2 {fun: Unsafe_IoFunction_of_Stream_Buffer_case01_Bad_03{ ln: 10 fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }}
+AddrStmt: [Var42 <-- Var43]	
+   %fp = alloca %struct.__sFILE*, align 8 { ln: 10 fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode3 {fun: Unsafe_IoFunction_of_Stream_Buffer_case01_Bad_03{ ln: 11 fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }}
+AddrStmt: [Var46 <-- Var47]	
+   %buffer = alloca [10 x i8], align 1 { ln: 11 fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode25 {fun: Unsafe_IoFunction_of_Stream_Buffer_case01_Bad_03{ ln: 10  cl: 8  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }}
+   call void @llvm.dbg.declare(metadata %struct.__sFILE** %fp, metadata !14, metadata !DIExpression()), !dbg !79 { ln: 10  cl: 8  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode26 {fun: Unsafe_IoFunction_of_Stream_Buffer_case01_Bad_03{ ln: 11  cl: 7  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }}
+   call void @llvm.dbg.declare(metadata [10 x i8]* %buffer, metadata !80, metadata !DIExpression()), !dbg !84 { ln: 11  cl: 7  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode4 {fun: Unsafe_IoFunction_of_Stream_Buffer_case01_Bad_03{ ln: 11  cl: 7  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }}
+CopyStmt: [Var50 <-- Var46]	
+   %0 = bitcast [10 x i8]* %buffer to i8*, !dbg !84 { ln: 11  cl: 7  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var50	 Value: [ 0x7f00002f(47) ,]
+-----------------------------------------
+CallICFGNode5 {fun: Unsafe_IoFunction_of_Stream_Buffer_case01_Bad_03{ ln: 11  cl: 7  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }}
+GepStmt: [Var127 <-- Var50]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !84 { ln: 11  cl: 7  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }
+StoreStmt: [Var127 <-- Var23]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !84 { ln: 11  cl: 7  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }
+GepStmt: [Var128 <-- Var50]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !84 { ln: 11  cl: 7  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }
+StoreStmt: [Var128 <-- Var23]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !84 { ln: 11  cl: 7  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }
+GepStmt: [Var129 <-- Var50]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !84 { ln: 11  cl: 7  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }
+StoreStmt: [Var129 <-- Var23]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !84 { ln: 11  cl: 7  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }
+GepStmt: [Var130 <-- Var50]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !84 { ln: 11  cl: 7  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }
+StoreStmt: [Var130 <-- Var23]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !84 { ln: 11  cl: 7  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }
+GepStmt: [Var131 <-- Var50]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !84 { ln: 11  cl: 7  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }
+StoreStmt: [Var131 <-- Var23]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !84 { ln: 11  cl: 7  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }
+GepStmt: [Var132 <-- Var50]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !84 { ln: 11  cl: 7  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }
+StoreStmt: [Var132 <-- Var23]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !84 { ln: 11  cl: 7  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }
+GepStmt: [Var133 <-- Var50]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !84 { ln: 11  cl: 7  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }
+StoreStmt: [Var133 <-- Var23]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !84 { ln: 11  cl: 7  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }
+GepStmt: [Var134 <-- Var50]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !84 { ln: 11  cl: 7  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }
+StoreStmt: [Var134 <-- Var23]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !84 { ln: 11  cl: 7  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }
+GepStmt: [Var135 <-- Var50]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !84 { ln: 11  cl: 7  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }
+StoreStmt: [Var135 <-- Var23]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !84 { ln: 11  cl: 7  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }
+GepStmt: [Var136 <-- Var50]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !84 { ln: 11  cl: 7  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }
+StoreStmt: [Var136 <-- Var23]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !84 { ln: 11  cl: 7  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var51	 Value: [-INF, +INF]
+Var137	 Value: [0, 0]
+Var138	 Value: [0, 0]
+Var139	 Value: [0, 0]
+Var140	 Value: [0, 0]
+Var141	 Value: [0, 0]
+Var142	 Value: [0, 0]
+Var143	 Value: [0, 0]
+Var144	 Value: [0, 0]
+Var145	 Value: [0, 0]
+Var146	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var50	 Value: [ 0x7f00002f(47) ,]
+Var127	 Value: [ 0x7f000089(137) ,]
+Var128	 Value: [ 0x7f00008a(138) ,]
+Var129	 Value: [ 0x7f00008b(139) ,]
+Var130	 Value: [ 0x7f00008c(140) ,]
+Var131	 Value: [ 0x7f00008d(141) ,]
+Var132	 Value: [ 0x7f00008e(142) ,]
+Var133	 Value: [ 0x7f00008f(143) ,]
+Var134	 Value: [ 0x7f000090(144) ,]
+Var135	 Value: [ 0x7f000091(145) ,]
+Var136	 Value: [ 0x7f000092(146) ,]
+-----------------------------------------
+IntraICFGNode7 {fun: Unsafe_IoFunction_of_Stream_Buffer_case01_Bad_03}
+GepStmt: [Var58 <-- Var4]	
+   %1 = getelementptr inbounds [9 x i8], [9 x i8]* @.str, i64 0, i64 0 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var51	 Value: [-INF, +INF]
+Var137	 Value: [0, 0]
+Var138	 Value: [0, 0]
+Var139	 Value: [0, 0]
+Var140	 Value: [0, 0]
+Var141	 Value: [0, 0]
+Var142	 Value: [0, 0]
+Var143	 Value: [0, 0]
+Var144	 Value: [0, 0]
+Var145	 Value: [0, 0]
+Var146	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var50	 Value: [ 0x7f00002f(47) ,]
+Var58	 Value: [ 0x7f000093(147) ,]
+Var127	 Value: [ 0x7f000089(137) ,]
+Var128	 Value: [ 0x7f00008a(138) ,]
+Var129	 Value: [ 0x7f00008b(139) ,]
+Var130	 Value: [ 0x7f00008c(140) ,]
+Var131	 Value: [ 0x7f00008d(141) ,]
+Var132	 Value: [ 0x7f00008e(142) ,]
+Var133	 Value: [ 0x7f00008f(143) ,]
+Var134	 Value: [ 0x7f000090(144) ,]
+Var135	 Value: [ 0x7f000091(145) ,]
+Var136	 Value: [ 0x7f000092(146) ,]
+-----------------------------------------
+IntraICFGNode8 {fun: Unsafe_IoFunction_of_Stream_Buffer_case01_Bad_03}
+GepStmt: [Var59 <-- Var25]	
+   %2 = getelementptr inbounds [3 x i8], [3 x i8]* @.str.1, i64 0, i64 0 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var51	 Value: [-INF, +INF]
+Var137	 Value: [0, 0]
+Var138	 Value: [0, 0]
+Var139	 Value: [0, 0]
+Var140	 Value: [0, 0]
+Var141	 Value: [0, 0]
+Var142	 Value: [0, 0]
+Var143	 Value: [0, 0]
+Var144	 Value: [0, 0]
+Var145	 Value: [0, 0]
+Var146	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var50	 Value: [ 0x7f00002f(47) ,]
+Var58	 Value: [ 0x7f000093(147) ,]
+Var59	 Value: [ 0x7f00009c(156) ,]
+Var127	 Value: [ 0x7f000089(137) ,]
+Var128	 Value: [ 0x7f00008a(138) ,]
+Var129	 Value: [ 0x7f00008b(139) ,]
+Var130	 Value: [ 0x7f00008c(140) ,]
+Var131	 Value: [ 0x7f00008d(141) ,]
+Var132	 Value: [ 0x7f00008e(142) ,]
+Var133	 Value: [ 0x7f00008f(143) ,]
+Var134	 Value: [ 0x7f000090(144) ,]
+Var135	 Value: [ 0x7f000091(145) ,]
+Var136	 Value: [ 0x7f000092(146) ,]
+-----------------------------------------
+CallICFGNode9 {fun: Unsafe_IoFunction_of_Stream_Buffer_case01_Bad_03{ ln: 12  cl: 7  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var51	 Value: [-INF, +INF]
+Var60	 Value: [-INF, +INF]
+Var137	 Value: [0, 0]
+Var138	 Value: [0, 0]
+Var139	 Value: [0, 0]
+Var140	 Value: [0, 0]
+Var141	 Value: [0, 0]
+Var142	 Value: [0, 0]
+Var143	 Value: [0, 0]
+Var144	 Value: [0, 0]
+Var145	 Value: [0, 0]
+Var146	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var50	 Value: [ 0x7f00002f(47) ,]
+Var58	 Value: [ 0x7f000093(147) ,]
+Var59	 Value: [ 0x7f00009c(156) ,]
+Var127	 Value: [ 0x7f000089(137) ,]
+Var128	 Value: [ 0x7f00008a(138) ,]
+Var129	 Value: [ 0x7f00008b(139) ,]
+Var130	 Value: [ 0x7f00008c(140) ,]
+Var131	 Value: [ 0x7f00008d(141) ,]
+Var132	 Value: [ 0x7f00008e(142) ,]
+Var133	 Value: [ 0x7f00008f(143) ,]
+Var134	 Value: [ 0x7f000090(144) ,]
+Var135	 Value: [ 0x7f000091(145) ,]
+Var136	 Value: [ 0x7f000092(146) ,]
+-----------------------------------------
+IntraICFGNode11 {fun: Unsafe_IoFunction_of_Stream_Buffer_case01_Bad_03{ ln: 12  cl: 5  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }}
+StoreStmt: [Var42 <-- Var60]	
+   store %struct.__sFILE* %call, %struct.__sFILE** %fp, align 8, !dbg !86 { ln: 12  cl: 5  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var51	 Value: [-INF, +INF]
+Var60	 Value: [-INF, +INF]
+Var43	 Value: [-INF, +INF]
+Var137	 Value: [0, 0]
+Var138	 Value: [0, 0]
+Var139	 Value: [0, 0]
+Var140	 Value: [0, 0]
+Var141	 Value: [0, 0]
+Var142	 Value: [0, 0]
+Var143	 Value: [0, 0]
+Var144	 Value: [0, 0]
+Var145	 Value: [0, 0]
+Var146	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var50	 Value: [ 0x7f00002f(47) ,]
+Var58	 Value: [ 0x7f000093(147) ,]
+Var59	 Value: [ 0x7f00009c(156) ,]
+Var127	 Value: [ 0x7f000089(137) ,]
+Var128	 Value: [ 0x7f00008a(138) ,]
+Var129	 Value: [ 0x7f00008b(139) ,]
+Var130	 Value: [ 0x7f00008c(140) ,]
+Var131	 Value: [ 0x7f00008d(141) ,]
+Var132	 Value: [ 0x7f00008e(142) ,]
+Var133	 Value: [ 0x7f00008f(143) ,]
+Var134	 Value: [ 0x7f000090(144) ,]
+Var135	 Value: [ 0x7f000091(145) ,]
+Var136	 Value: [ 0x7f000092(146) ,]
+-----------------------------------------
+IntraICFGNode12 {fun: Unsafe_IoFunction_of_Stream_Buffer_case01_Bad_03{ ln: 14  cl: 12  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }}
+LoadStmt: [Var64 <-- Var42]	
+   %3 = load %struct.__sFILE*, %struct.__sFILE** %fp, align 8, !dbg !87 { ln: 14  cl: 12  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var51	 Value: [-INF, +INF]
+Var60	 Value: [-INF, +INF]
+Var64	 Value: [-INF, +INF]
+Var43	 Value: [-INF, +INF]
+Var137	 Value: [0, 0]
+Var138	 Value: [0, 0]
+Var139	 Value: [0, 0]
+Var140	 Value: [0, 0]
+Var141	 Value: [0, 0]
+Var142	 Value: [0, 0]
+Var143	 Value: [0, 0]
+Var144	 Value: [0, 0]
+Var145	 Value: [0, 0]
+Var146	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var50	 Value: [ 0x7f00002f(47) ,]
+Var58	 Value: [ 0x7f000093(147) ,]
+Var59	 Value: [ 0x7f00009c(156) ,]
+Var127	 Value: [ 0x7f000089(137) ,]
+Var128	 Value: [ 0x7f00008a(138) ,]
+Var129	 Value: [ 0x7f00008b(139) ,]
+Var130	 Value: [ 0x7f00008c(140) ,]
+Var131	 Value: [ 0x7f00008d(141) ,]
+Var132	 Value: [ 0x7f00008e(142) ,]
+Var133	 Value: [ 0x7f00008f(143) ,]
+Var134	 Value: [ 0x7f000090(144) ,]
+Var135	 Value: [ 0x7f000091(145) ,]
+Var136	 Value: [ 0x7f000092(146) ,]
+-----------------------------------------
+IntraICFGNode13 {fun: Unsafe_IoFunction_of_Stream_Buffer_case01_Bad_03{ ln: 14  cl: 20  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }}
+GepStmt: [Var65 <-- Var46]	
+   %arraydecay = getelementptr inbounds [10 x i8], [10 x i8]* %buffer, i64 0, i64 0, !dbg !88 { ln: 14  cl: 20  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var51	 Value: [-INF, +INF]
+Var60	 Value: [-INF, +INF]
+Var64	 Value: [-INF, +INF]
+Var43	 Value: [-INF, +INF]
+Var137	 Value: [0, 0]
+Var138	 Value: [0, 0]
+Var139	 Value: [0, 0]
+Var140	 Value: [0, 0]
+Var141	 Value: [0, 0]
+Var142	 Value: [0, 0]
+Var143	 Value: [0, 0]
+Var144	 Value: [0, 0]
+Var145	 Value: [0, 0]
+Var146	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var50	 Value: [ 0x7f00002f(47) ,]
+Var58	 Value: [ 0x7f000093(147) ,]
+Var59	 Value: [ 0x7f00009c(156) ,]
+Var65	 Value: [ 0x7f000089(137) ,]
+Var127	 Value: [ 0x7f000089(137) ,]
+Var128	 Value: [ 0x7f00008a(138) ,]
+Var129	 Value: [ 0x7f00008b(139) ,]
+Var130	 Value: [ 0x7f00008c(140) ,]
+Var131	 Value: [ 0x7f00008d(141) ,]
+Var132	 Value: [ 0x7f00008e(142) ,]
+Var133	 Value: [ 0x7f00008f(143) ,]
+Var134	 Value: [ 0x7f000090(144) ,]
+Var135	 Value: [ 0x7f000091(145) ,]
+Var136	 Value: [ 0x7f000092(146) ,]
+-----------------------------------------
+IntraICFGNode14 {fun: Unsafe_IoFunction_of_Stream_Buffer_case01_Bad_03}
+GepStmt: [Var66 <-- Var32]	
+   %4 = getelementptr inbounds [3 x i8], [3 x i8]* @.str.2, i64 0, i64 0 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var51	 Value: [-INF, +INF]
+Var60	 Value: [-INF, +INF]
+Var64	 Value: [-INF, +INF]
+Var43	 Value: [-INF, +INF]
+Var137	 Value: [0, 0]
+Var138	 Value: [0, 0]
+Var139	 Value: [0, 0]
+Var140	 Value: [0, 0]
+Var141	 Value: [0, 0]
+Var142	 Value: [0, 0]
+Var143	 Value: [0, 0]
+Var144	 Value: [0, 0]
+Var145	 Value: [0, 0]
+Var146	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var50	 Value: [ 0x7f00002f(47) ,]
+Var58	 Value: [ 0x7f000093(147) ,]
+Var59	 Value: [ 0x7f00009c(156) ,]
+Var65	 Value: [ 0x7f000089(137) ,]
+Var66	 Value: [ 0x7f00009f(159) ,]
+Var127	 Value: [ 0x7f000089(137) ,]
+Var128	 Value: [ 0x7f00008a(138) ,]
+Var129	 Value: [ 0x7f00008b(139) ,]
+Var130	 Value: [ 0x7f00008c(140) ,]
+Var131	 Value: [ 0x7f00008d(141) ,]
+Var132	 Value: [ 0x7f00008e(142) ,]
+Var133	 Value: [ 0x7f00008f(143) ,]
+Var134	 Value: [ 0x7f000090(144) ,]
+Var135	 Value: [ 0x7f000091(145) ,]
+Var136	 Value: [ 0x7f000092(146) ,]
+-----------------------------------------
+CallICFGNode15 {fun: Unsafe_IoFunction_of_Stream_Buffer_case01_Bad_03{ ln: 14  cl: 5  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var51	 Value: [-INF, +INF]
+Var60	 Value: [-INF, +INF]
+Var64	 Value: [-INF, +INF]
+Var67	 Value: [-INF, +INF]
+Var43	 Value: [-INF, +INF]
+Var137	 Value: [0, 0]
+Var138	 Value: [0, 0]
+Var139	 Value: [0, 0]
+Var140	 Value: [0, 0]
+Var141	 Value: [0, 0]
+Var142	 Value: [0, 0]
+Var143	 Value: [0, 0]
+Var144	 Value: [0, 0]
+Var145	 Value: [0, 0]
+Var146	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var50	 Value: [ 0x7f00002f(47) ,]
+Var58	 Value: [ 0x7f000093(147) ,]
+Var59	 Value: [ 0x7f00009c(156) ,]
+Var65	 Value: [ 0x7f000089(137) ,]
+Var66	 Value: [ 0x7f00009f(159) ,]
+Var127	 Value: [ 0x7f000089(137) ,]
+Var128	 Value: [ 0x7f00008a(138) ,]
+Var129	 Value: [ 0x7f00008b(139) ,]
+Var130	 Value: [ 0x7f00008c(140) ,]
+Var131	 Value: [ 0x7f00008d(141) ,]
+Var132	 Value: [ 0x7f00008e(142) ,]
+Var133	 Value: [ 0x7f00008f(143) ,]
+Var134	 Value: [ 0x7f000090(144) ,]
+Var135	 Value: [ 0x7f000091(145) ,]
+Var136	 Value: [ 0x7f000092(146) ,]
+-----------------------------------------
+IntraICFGNode17 {fun: Unsafe_IoFunction_of_Stream_Buffer_case01_Bad_03{ ln: 15  cl: 1  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }}
+   ret void, !dbg !90 { ln: 15  cl: 1  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var51	 Value: [-INF, +INF]
+Var60	 Value: [-INF, +INF]
+Var64	 Value: [-INF, +INF]
+Var67	 Value: [-INF, +INF]
+Var43	 Value: [-INF, +INF]
+Var137	 Value: [0, 0]
+Var138	 Value: [0, 0]
+Var139	 Value: [0, 0]
+Var140	 Value: [0, 0]
+Var141	 Value: [0, 0]
+Var142	 Value: [0, 0]
+Var143	 Value: [0, 0]
+Var144	 Value: [0, 0]
+Var145	 Value: [0, 0]
+Var146	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var50	 Value: [ 0x7f00002f(47) ,]
+Var58	 Value: [ 0x7f000093(147) ,]
+Var59	 Value: [ 0x7f00009c(156) ,]
+Var65	 Value: [ 0x7f000089(137) ,]
+Var66	 Value: [ 0x7f00009f(159) ,]
+Var127	 Value: [ 0x7f000089(137) ,]
+Var128	 Value: [ 0x7f00008a(138) ,]
+Var129	 Value: [ 0x7f00008b(139) ,]
+Var130	 Value: [ 0x7f00008c(140) ,]
+Var131	 Value: [ 0x7f00008d(141) ,]
+Var132	 Value: [ 0x7f00008e(142) ,]
+Var133	 Value: [ 0x7f00008f(143) ,]
+Var134	 Value: [ 0x7f000090(144) ,]
+Var135	 Value: [ 0x7f000091(145) ,]
+Var136	 Value: [ 0x7f000092(146) ,]
+-----------------------------------------
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var51	 Value: [-INF, +INF]
+Var60	 Value: [-INF, +INF]
+Var64	 Value: [-INF, +INF]
+Var67	 Value: [-INF, +INF]
+Var43	 Value: [-INF, +INF]
+Var137	 Value: [0, 0]
+Var138	 Value: [0, 0]
+Var139	 Value: [0, 0]
+Var140	 Value: [0, 0]
+Var141	 Value: [0, 0]
+Var142	 Value: [0, 0]
+Var143	 Value: [0, 0]
+Var144	 Value: [0, 0]
+Var145	 Value: [0, 0]
+Var146	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var50	 Value: [ 0x7f00002f(47) ,]
+Var58	 Value: [ 0x7f000093(147) ,]
+Var59	 Value: [ 0x7f00009c(156) ,]
+Var65	 Value: [ 0x7f000089(137) ,]
+Var66	 Value: [ 0x7f00009f(159) ,]
+Var127	 Value: [ 0x7f000089(137) ,]
+Var128	 Value: [ 0x7f00008a(138) ,]
+Var129	 Value: [ 0x7f00008b(139) ,]
+Var130	 Value: [ 0x7f00008c(140) ,]
+Var131	 Value: [ 0x7f00008d(141) ,]
+Var132	 Value: [ 0x7f00008e(142) ,]
+Var133	 Value: [ 0x7f00008f(143) ,]
+Var134	 Value: [ 0x7f000090(144) ,]
+Var135	 Value: [ 0x7f000091(145) ,]
+Var136	 Value: [ 0x7f000092(146) ,]
+-----------------------------------------
+FunExitICFGNode18 {fun: Unsafe_IoFunction_of_Stream_Buffer_case01_Bad_03{ ln: 10 fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var51	 Value: [-INF, +INF]
+Var60	 Value: [-INF, +INF]
+Var64	 Value: [-INF, +INF]
+Var67	 Value: [-INF, +INF]
+Var43	 Value: [-INF, +INF]
+Var137	 Value: [0, 0]
+Var138	 Value: [0, 0]
+Var139	 Value: [0, 0]
+Var140	 Value: [0, 0]
+Var141	 Value: [0, 0]
+Var142	 Value: [0, 0]
+Var143	 Value: [0, 0]
+Var144	 Value: [0, 0]
+Var145	 Value: [0, 0]
+Var146	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var50	 Value: [ 0x7f00002f(47) ,]
+Var58	 Value: [ 0x7f000093(147) ,]
+Var59	 Value: [ 0x7f00009c(156) ,]
+Var65	 Value: [ 0x7f000089(137) ,]
+Var66	 Value: [ 0x7f00009f(159) ,]
+Var127	 Value: [ 0x7f000089(137) ,]
+Var128	 Value: [ 0x7f00008a(138) ,]
+Var129	 Value: [ 0x7f00008b(139) ,]
+Var130	 Value: [ 0x7f00008c(140) ,]
+Var131	 Value: [ 0x7f00008d(141) ,]
+Var132	 Value: [ 0x7f00008e(142) ,]
+Var133	 Value: [ 0x7f00008f(143) ,]
+Var134	 Value: [ 0x7f000090(144) ,]
+Var135	 Value: [ 0x7f000091(145) ,]
+Var136	 Value: [ 0x7f000092(146) ,]
+-----------------------------------------
+RetICFGNode21 {fun: main{ ln: 17  cl: 5  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var51	 Value: [-INF, +INF]
+Var60	 Value: [-INF, +INF]
+Var64	 Value: [-INF, +INF]
+Var67	 Value: [-INF, +INF]
+Var43	 Value: [-INF, +INF]
+Var137	 Value: [0, 0]
+Var138	 Value: [0, 0]
+Var139	 Value: [0, 0]
+Var140	 Value: [0, 0]
+Var141	 Value: [0, 0]
+Var142	 Value: [0, 0]
+Var143	 Value: [0, 0]
+Var144	 Value: [0, 0]
+Var145	 Value: [0, 0]
+Var146	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var50	 Value: [ 0x7f00002f(47) ,]
+Var58	 Value: [ 0x7f000093(147) ,]
+Var59	 Value: [ 0x7f00009c(156) ,]
+Var65	 Value: [ 0x7f000089(137) ,]
+Var66	 Value: [ 0x7f00009f(159) ,]
+Var127	 Value: [ 0x7f000089(137) ,]
+Var128	 Value: [ 0x7f00008a(138) ,]
+Var129	 Value: [ 0x7f00008b(139) ,]
+Var130	 Value: [ 0x7f00008c(140) ,]
+Var131	 Value: [ 0x7f00008d(141) ,]
+Var132	 Value: [ 0x7f00008e(142) ,]
+Var133	 Value: [ 0x7f00008f(143) ,]
+Var134	 Value: [ 0x7f000090(144) ,]
+Var135	 Value: [ 0x7f000091(145) ,]
+Var136	 Value: [ 0x7f000092(146) ,]
+-----------------------------------------
+IntraICFGNode22 {fun: main{ ln: 18  cl: 1  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }}
+   ret i32 0, !dbg !16 { ln: 18  cl: 1  fl: function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var51	 Value: [-INF, +INF]
+Var60	 Value: [-INF, +INF]
+Var64	 Value: [-INF, +INF]
+Var67	 Value: [-INF, +INF]
+Var43	 Value: [-INF, +INF]
+Var137	 Value: [0, 0]
+Var138	 Value: [0, 0]
+Var139	 Value: [0, 0]
+Var140	 Value: [0, 0]
+Var141	 Value: [0, 0]
+Var142	 Value: [0, 0]
+Var143	 Value: [0, 0]
+Var144	 Value: [0, 0]
+Var145	 Value: [0, 0]
+Var146	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var50	 Value: [ 0x7f00002f(47) ,]
+Var58	 Value: [ 0x7f000093(147) ,]
+Var59	 Value: [ 0x7f00009c(156) ,]
+Var65	 Value: [ 0x7f000089(137) ,]
+Var66	 Value: [ 0x7f00009f(159) ,]
+Var127	 Value: [ 0x7f000089(137) ,]
+Var128	 Value: [ 0x7f00008a(138) ,]
+Var129	 Value: [ 0x7f00008b(139) ,]
+Var130	 Value: [ 0x7f00008c(140) ,]
+Var131	 Value: [ 0x7f00008d(141) ,]
+Var132	 Value: [ 0x7f00008e(142) ,]
+Var133	 Value: [ 0x7f00008f(143) ,]
+Var134	 Value: [ 0x7f000090(144) ,]
+Var135	 Value: [ 0x7f000091(145) ,]
+Var136	 Value: [ 0x7f000092(146) ,]
+-----------------------------------------

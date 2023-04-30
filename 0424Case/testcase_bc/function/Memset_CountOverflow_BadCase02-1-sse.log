@@ -1,0 +1,650 @@
+GlobalICFGNode0
+CopyStmt: [Var1 <-- Var0]	
+ i8* null { constant data }
+AddrStmt: [Var16 <-- Var17]	
+ i8 0 { constant data }
+AddrStmt: [Var18 <-- Var19]	
+ i64 10 { constant data }
+AddrStmt: [Var20 <-- Var21]	
+ i1 false { constant data }
+AddrStmt: [Var53 <-- Var54]	
+ i1 true { constant data }
+AddrStmt: [Var29 <-- Var30]	
+ i32 0 { constant data }
+AddrStmt: [Var58 <-- Var59]	
+ i64 8 { constant data }
+AddrStmt: [Var11 <-- Var12]	
+ i32 1 { constant data }
+AddrStmt: [Var25 <-- Var26]	
+ i64 0 { constant data }
+AddrStmt: [Var4 <-- Var5]	
+ @dest = global [128 x i8] zeroinitializer, align 16, !dbg !0 { Glob ln: 32 fl: function/Memset_CountOverflow_BadCase02-1.c }
+AddrStmt: [Var6 <-- Var7]	
+Function: cwe120_c_50 { in line: 19 file: function/Memset_CountOverflow_BadCase02-1.c }
+AddrStmt: [Var31 <-- Var32]	
+Function: llvm.dbg.declare 
+AddrStmt: [Var22 <-- Var23]	
+Function: llvm.memset.p0i8.i64 
+AddrStmt: [Var42 <-- Var43]	
+Function: cwe120_c_49 { in line: 37 file: function/Memset_CountOverflow_BadCase02-1.c }
+AddrStmt: [Var60 <-- Var61]	
+Function: __memset_chk 
+AddrStmt: [Var55 <-- Var56]	
+Function: llvm.objectsize.i64.p0i8 
+AddrStmt: [Var73 <-- Var74]	
+Function: main { in line: 44 file: function/Memset_CountOverflow_BadCase02-1.c }
+-----------Var and Value-----------
+Var11	 Value: [1, 1]
+Var12	 Value: [1, 1]
+Var16	 Value: [0, 0]
+Var17	 Value: [0, 0]
+Var18	 Value: [10, 10]
+Var19	 Value: [10, 10]
+Var20	 Value: [0, 0]
+Var21	 Value: [0, 0]
+Var25	 Value: [0, 0]
+Var26	 Value: [0, 0]
+Var29	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var53	 Value: [1, 1]
+Var54	 Value: [1, 1]
+Var58	 Value: [8, 8]
+Var59	 Value: [8, 8]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var4	 Value: [ 0x7f000005(5) ,]
+Var5	 Value: [ 0x7f000005(5) ,]
+Var6	 Value: [ 0x7f000007(7) ,]
+Var7	 Value: [ 0x7f000007(7) ,]
+Var22	 Value: [ 0x7f000017(23) ,]
+Var23	 Value: [ 0x7f000017(23) ,]
+Var31	 Value: [ 0x7f000020(32) ,]
+Var32	 Value: [ 0x7f000020(32) ,]
+Var42	 Value: [ 0x7f00002b(43) ,]
+Var43	 Value: [ 0x7f00002b(43) ,]
+Var55	 Value: [ 0x7f000038(56) ,]
+Var56	 Value: [ 0x7f000038(56) ,]
+Var60	 Value: [ 0x7f00003d(61) ,]
+Var61	 Value: [ 0x7f00003d(61) ,]
+Var73	 Value: [ 0x7f00004a(74) ,]
+Var74	 Value: [ 0x7f00004a(74) ,]
+-----------------------------------------
+IntraICFGNode24 {fun: main}
+AddrStmt: [Var76 <-- Var77]	
+   %retval = alloca i32, align 4 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode25 {fun: main}
+StoreStmt: [Var76 <-- Var29]	
+   store i32 0, i32* %retval, align 4 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode26 {fun: main{ ln: 46  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }}
+IntraICFGNode12 {fun: cwe120_c_49{ ln: 39 fl: function/Memset_CountOverflow_BadCase02-1.c }}
+AddrStmt: [Var45 <-- Var46]	
+   %dest = alloca %struct.DEST*, align 8 { ln: 39 fl: function/Memset_CountOverflow_BadCase02-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode36 {fun: cwe120_c_49{ ln: 39  cl: 11  fl: function/Memset_CountOverflow_BadCase02-1.c }}
+   call void @llvm.dbg.declare(metadata %struct.DEST** %dest, metadata !32, metadata !DIExpression()), !dbg !39 { ln: 39  cl: 11  fl: function/Memset_CountOverflow_BadCase02-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode13 {fun: cwe120_c_49{ ln: 41  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }}
+LoadStmt: [Var48 <-- Var45]	
+   %0 = load %struct.DEST*, %struct.DEST** %dest, align 8, !dbg !30 { ln: 41  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode14 {fun: cwe120_c_49{ ln: 41  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }}
+CopyStmt: [Var49 <-- Var48]	
+   %1 = bitcast %struct.DEST* %0 to i8*, !dbg !30 { ln: 41  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode15 {fun: cwe120_c_49{ ln: 41  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }}
+LoadStmt: [Var50 <-- Var45]	
+   %2 = load %struct.DEST*, %struct.DEST** %dest, align 8, !dbg !30 { ln: 41  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode16 {fun: cwe120_c_49{ ln: 41  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }}
+CopyStmt: [Var51 <-- Var50]	
+   %3 = bitcast %struct.DEST* %2 to i8*, !dbg !30 { ln: 41  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode17 {fun: cwe120_c_49{ ln: 41  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, +INF]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode19 {fun: cwe120_c_49{ ln: 41  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }}
+GepStmt: [Var118 <-- Var49]	
+   %call = call i8* @__memset_chk(i8* noundef %1, i32 noundef 0, i64 noundef 8, i64 noundef %4) #4, !dbg !30 { ln: 41  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+StoreStmt: [Var118 <-- Var29]	
+   %call = call i8* @__memset_chk(i8* noundef %1, i32 noundef 0, i64 noundef 8, i64 noundef %4) #4, !dbg !30 { ln: 41  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+GepStmt: [Var119 <-- Var49]	
+   %call = call i8* @__memset_chk(i8* noundef %1, i32 noundef 0, i64 noundef 8, i64 noundef %4) #4, !dbg !30 { ln: 41  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+StoreStmt: [Var119 <-- Var29]	
+   %call = call i8* @__memset_chk(i8* noundef %1, i32 noundef 0, i64 noundef 8, i64 noundef %4) #4, !dbg !30 { ln: 41  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+GepStmt: [Var120 <-- Var49]	
+   %call = call i8* @__memset_chk(i8* noundef %1, i32 noundef 0, i64 noundef 8, i64 noundef %4) #4, !dbg !30 { ln: 41  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+StoreStmt: [Var120 <-- Var29]	
+   %call = call i8* @__memset_chk(i8* noundef %1, i32 noundef 0, i64 noundef 8, i64 noundef %4) #4, !dbg !30 { ln: 41  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+GepStmt: [Var121 <-- Var49]	
+   %call = call i8* @__memset_chk(i8* noundef %1, i32 noundef 0, i64 noundef 8, i64 noundef %4) #4, !dbg !30 { ln: 41  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+StoreStmt: [Var121 <-- Var29]	
+   %call = call i8* @__memset_chk(i8* noundef %1, i32 noundef 0, i64 noundef 8, i64 noundef %4) #4, !dbg !30 { ln: 41  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+GepStmt: [Var122 <-- Var49]	
+   %call = call i8* @__memset_chk(i8* noundef %1, i32 noundef 0, i64 noundef 8, i64 noundef %4) #4, !dbg !30 { ln: 41  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+StoreStmt: [Var122 <-- Var29]	
+   %call = call i8* @__memset_chk(i8* noundef %1, i32 noundef 0, i64 noundef 8, i64 noundef %4) #4, !dbg !30 { ln: 41  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+GepStmt: [Var123 <-- Var49]	
+   %call = call i8* @__memset_chk(i8* noundef %1, i32 noundef 0, i64 noundef 8, i64 noundef %4) #4, !dbg !30 { ln: 41  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+StoreStmt: [Var123 <-- Var29]	
+   %call = call i8* @__memset_chk(i8* noundef %1, i32 noundef 0, i64 noundef 8, i64 noundef %4) #4, !dbg !30 { ln: 41  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+GepStmt: [Var124 <-- Var49]	
+   %call = call i8* @__memset_chk(i8* noundef %1, i32 noundef 0, i64 noundef 8, i64 noundef %4) #4, !dbg !30 { ln: 41  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+StoreStmt: [Var124 <-- Var29]	
+   %call = call i8* @__memset_chk(i8* noundef %1, i32 noundef 0, i64 noundef 8, i64 noundef %4) #4, !dbg !30 { ln: 41  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+GepStmt: [Var125 <-- Var49]	
+   %call = call i8* @__memset_chk(i8* noundef %1, i32 noundef 0, i64 noundef 8, i64 noundef %4) #4, !dbg !30 { ln: 41  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+StoreStmt: [Var125 <-- Var29]	
+   %call = call i8* @__memset_chk(i8* noundef %1, i32 noundef 0, i64 noundef 8, i64 noundef %4) #4, !dbg !30 { ln: 41  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+CopyStmt: [Var57 <-- Var49]	
+   %call = call i8* @__memset_chk(i8* noundef %1, i32 noundef 0, i64 noundef 8, i64 noundef %4) #4, !dbg !30 { ln: 41  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, +INF]
+Var57	 Value: [-INF, +INF]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode21 {fun: cwe120_c_49{ ln: 42  cl: 1  fl: function/Memset_CountOverflow_BadCase02-1.c }}
+   ret void, !dbg !31 { ln: 42  cl: 1  fl: function/Memset_CountOverflow_BadCase02-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, +INF]
+Var57	 Value: [-INF, +INF]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, +INF]
+Var57	 Value: [-INF, +INF]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+FunExitICFGNode22 {fun: cwe120_c_49{ ln: 39 fl: function/Memset_CountOverflow_BadCase02-1.c }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, +INF]
+Var57	 Value: [-INF, +INF]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+RetICFGNode27 {fun: main{ ln: 46  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, +INF]
+Var57	 Value: [-INF, +INF]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode28 {fun: main{ ln: 47  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }}
+IntraICFGNode2 {fun: cwe120_c_50{ ln: 21 fl: function/Memset_CountOverflow_BadCase02-1.c }}
+AddrStmt: [Var9 <-- Var10]	
+   %temp = alloca [10 x i8], align 1 { ln: 21 fl: function/Memset_CountOverflow_BadCase02-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, +INF]
+Var57	 Value: [-INF, +INF]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode35 {fun: cwe120_c_50{ ln: 21  cl: 10  fl: function/Memset_CountOverflow_BadCase02-1.c }}
+   call void @llvm.dbg.declare(metadata [10 x i8]* %temp, metadata !22, metadata !DIExpression()), !dbg !26 { ln: 21  cl: 10  fl: function/Memset_CountOverflow_BadCase02-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, +INF]
+Var57	 Value: [-INF, +INF]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode3 {fun: cwe120_c_50{ ln: 21  cl: 10  fl: function/Memset_CountOverflow_BadCase02-1.c }}
+CopyStmt: [Var14 <-- Var9]	
+   %0 = bitcast [10 x i8]* %temp to i8*, !dbg !26 { ln: 21  cl: 10  fl: function/Memset_CountOverflow_BadCase02-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, +INF]
+Var57	 Value: [-INF, +INF]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var14	 Value: [ 0x7f00000a(10) ,]
+-----------------------------------------
+CallICFGNode4 {fun: cwe120_c_50{ ln: 21  cl: 10  fl: function/Memset_CountOverflow_BadCase02-1.c }}
+GepStmt: [Var98 <-- Var14]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !26 { ln: 21  cl: 10  fl: function/Memset_CountOverflow_BadCase02-1.c }
+StoreStmt: [Var98 <-- Var16]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !26 { ln: 21  cl: 10  fl: function/Memset_CountOverflow_BadCase02-1.c }
+GepStmt: [Var99 <-- Var14]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !26 { ln: 21  cl: 10  fl: function/Memset_CountOverflow_BadCase02-1.c }
+StoreStmt: [Var99 <-- Var16]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !26 { ln: 21  cl: 10  fl: function/Memset_CountOverflow_BadCase02-1.c }
+GepStmt: [Var100 <-- Var14]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !26 { ln: 21  cl: 10  fl: function/Memset_CountOverflow_BadCase02-1.c }
+StoreStmt: [Var100 <-- Var16]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !26 { ln: 21  cl: 10  fl: function/Memset_CountOverflow_BadCase02-1.c }
+GepStmt: [Var101 <-- Var14]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !26 { ln: 21  cl: 10  fl: function/Memset_CountOverflow_BadCase02-1.c }
+StoreStmt: [Var101 <-- Var16]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !26 { ln: 21  cl: 10  fl: function/Memset_CountOverflow_BadCase02-1.c }
+GepStmt: [Var102 <-- Var14]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !26 { ln: 21  cl: 10  fl: function/Memset_CountOverflow_BadCase02-1.c }
+StoreStmt: [Var102 <-- Var16]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !26 { ln: 21  cl: 10  fl: function/Memset_CountOverflow_BadCase02-1.c }
+GepStmt: [Var103 <-- Var14]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !26 { ln: 21  cl: 10  fl: function/Memset_CountOverflow_BadCase02-1.c }
+StoreStmt: [Var103 <-- Var16]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !26 { ln: 21  cl: 10  fl: function/Memset_CountOverflow_BadCase02-1.c }
+GepStmt: [Var104 <-- Var14]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !26 { ln: 21  cl: 10  fl: function/Memset_CountOverflow_BadCase02-1.c }
+StoreStmt: [Var104 <-- Var16]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !26 { ln: 21  cl: 10  fl: function/Memset_CountOverflow_BadCase02-1.c }
+GepStmt: [Var105 <-- Var14]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !26 { ln: 21  cl: 10  fl: function/Memset_CountOverflow_BadCase02-1.c }
+StoreStmt: [Var105 <-- Var16]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !26 { ln: 21  cl: 10  fl: function/Memset_CountOverflow_BadCase02-1.c }
+GepStmt: [Var106 <-- Var14]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !26 { ln: 21  cl: 10  fl: function/Memset_CountOverflow_BadCase02-1.c }
+StoreStmt: [Var106 <-- Var16]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !26 { ln: 21  cl: 10  fl: function/Memset_CountOverflow_BadCase02-1.c }
+GepStmt: [Var107 <-- Var14]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !26 { ln: 21  cl: 10  fl: function/Memset_CountOverflow_BadCase02-1.c }
+StoreStmt: [Var107 <-- Var16]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !26 { ln: 21  cl: 10  fl: function/Memset_CountOverflow_BadCase02-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var15	 Value: [-INF, +INF]
+Var52	 Value: [-INF, +INF]
+Var57	 Value: [-INF, +INF]
+Var77	 Value: [0, 0]
+Var126	 Value: [0, 0]
+Var127	 Value: [0, 0]
+Var128	 Value: [0, 0]
+Var129	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var131	 Value: [0, 0]
+Var132	 Value: [0, 0]
+Var133	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var14	 Value: [ 0x7f00000a(10) ,]
+Var98	 Value: [ 0x7f00007e(126) ,]
+Var99	 Value: [ 0x7f00007f(127) ,]
+Var100	 Value: [ 0x7f000080(128) ,]
+Var101	 Value: [ 0x7f000081(129) ,]
+Var102	 Value: [ 0x7f000082(130) ,]
+Var103	 Value: [ 0x7f000083(131) ,]
+Var104	 Value: [ 0x7f000084(132) ,]
+Var105	 Value: [ 0x7f000085(133) ,]
+Var106	 Value: [ 0x7f000086(134) ,]
+Var107	 Value: [ 0x7f000087(135) ,]
+-----------------------------------------
+IntraICFGNode6 {fun: cwe120_c_50{ ln: 23  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }}
+GepStmt: [Var24 <-- Var9]	
+   %arraydecay = getelementptr inbounds [10 x i8], [10 x i8]* %temp, i64 0, i64 0, !dbg !27 { ln: 23  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var15	 Value: [-INF, +INF]
+Var52	 Value: [-INF, +INF]
+Var57	 Value: [-INF, +INF]
+Var77	 Value: [0, 0]
+Var126	 Value: [0, 0]
+Var127	 Value: [0, 0]
+Var128	 Value: [0, 0]
+Var129	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var131	 Value: [0, 0]
+Var132	 Value: [0, 0]
+Var133	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var14	 Value: [ 0x7f00000a(10) ,]
+Var24	 Value: [ 0x7f00007e(126) ,]
+Var98	 Value: [ 0x7f00007e(126) ,]
+Var99	 Value: [ 0x7f00007f(127) ,]
+Var100	 Value: [ 0x7f000080(128) ,]
+Var101	 Value: [ 0x7f000081(129) ,]
+Var102	 Value: [ 0x7f000082(130) ,]
+Var103	 Value: [ 0x7f000083(131) ,]
+Var104	 Value: [ 0x7f000084(132) ,]
+Var105	 Value: [ 0x7f000085(133) ,]
+Var106	 Value: [ 0x7f000086(134) ,]
+Var107	 Value: [ 0x7f000087(135) ,]
+-----------------------------------------
+CallICFGNode7 {fun: cwe120_c_50{ ln: 23  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }}
+GepStmt: [Var108 <-- Var9]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %arraydecay, i8 0, i64 10, i1 false), !dbg !27 { ln: 23  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+StoreStmt: [Var108 <-- Var16]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %arraydecay, i8 0, i64 10, i1 false), !dbg !27 { ln: 23  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+GepStmt: [Var109 <-- Var9]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %arraydecay, i8 0, i64 10, i1 false), !dbg !27 { ln: 23  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+StoreStmt: [Var109 <-- Var16]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %arraydecay, i8 0, i64 10, i1 false), !dbg !27 { ln: 23  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+GepStmt: [Var110 <-- Var9]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %arraydecay, i8 0, i64 10, i1 false), !dbg !27 { ln: 23  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+StoreStmt: [Var110 <-- Var16]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %arraydecay, i8 0, i64 10, i1 false), !dbg !27 { ln: 23  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+GepStmt: [Var111 <-- Var9]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %arraydecay, i8 0, i64 10, i1 false), !dbg !27 { ln: 23  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+StoreStmt: [Var111 <-- Var16]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %arraydecay, i8 0, i64 10, i1 false), !dbg !27 { ln: 23  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+GepStmt: [Var112 <-- Var9]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %arraydecay, i8 0, i64 10, i1 false), !dbg !27 { ln: 23  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+StoreStmt: [Var112 <-- Var16]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %arraydecay, i8 0, i64 10, i1 false), !dbg !27 { ln: 23  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+GepStmt: [Var113 <-- Var9]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %arraydecay, i8 0, i64 10, i1 false), !dbg !27 { ln: 23  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+StoreStmt: [Var113 <-- Var16]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %arraydecay, i8 0, i64 10, i1 false), !dbg !27 { ln: 23  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+GepStmt: [Var114 <-- Var9]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %arraydecay, i8 0, i64 10, i1 false), !dbg !27 { ln: 23  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+StoreStmt: [Var114 <-- Var16]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %arraydecay, i8 0, i64 10, i1 false), !dbg !27 { ln: 23  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+GepStmt: [Var115 <-- Var9]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %arraydecay, i8 0, i64 10, i1 false), !dbg !27 { ln: 23  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+StoreStmt: [Var115 <-- Var16]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %arraydecay, i8 0, i64 10, i1 false), !dbg !27 { ln: 23  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+GepStmt: [Var116 <-- Var9]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %arraydecay, i8 0, i64 10, i1 false), !dbg !27 { ln: 23  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+StoreStmt: [Var116 <-- Var16]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %arraydecay, i8 0, i64 10, i1 false), !dbg !27 { ln: 23  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+GepStmt: [Var117 <-- Var9]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %arraydecay, i8 0, i64 10, i1 false), !dbg !27 { ln: 23  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+StoreStmt: [Var117 <-- Var16]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %arraydecay, i8 0, i64 10, i1 false), !dbg !27 { ln: 23  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var15	 Value: [-INF, +INF]
+Var27	 Value: [-INF, +INF]
+Var52	 Value: [-INF, +INF]
+Var57	 Value: [-INF, +INF]
+Var77	 Value: [0, 0]
+Var126	 Value: [0, 0]
+Var127	 Value: [0, 0]
+Var128	 Value: [0, 0]
+Var129	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var131	 Value: [0, 0]
+Var132	 Value: [0, 0]
+Var133	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var14	 Value: [ 0x7f00000a(10) ,]
+Var24	 Value: [ 0x7f00007e(126) ,]
+Var98	 Value: [ 0x7f00007e(126) ,]
+Var99	 Value: [ 0x7f00007f(127) ,]
+Var100	 Value: [ 0x7f000080(128) ,]
+Var101	 Value: [ 0x7f000081(129) ,]
+Var102	 Value: [ 0x7f000082(130) ,]
+Var103	 Value: [ 0x7f000083(131) ,]
+Var104	 Value: [ 0x7f000084(132) ,]
+Var105	 Value: [ 0x7f000085(133) ,]
+Var106	 Value: [ 0x7f000086(134) ,]
+Var107	 Value: [ 0x7f000087(135) ,]
+Var108	 Value: [ 0x7f00007e(126) ,]
+Var109	 Value: [ 0x7f00007f(127) ,]
+Var110	 Value: [ 0x7f000080(128) ,]
+Var111	 Value: [ 0x7f000081(129) ,]
+Var112	 Value: [ 0x7f000082(130) ,]
+Var113	 Value: [ 0x7f000083(131) ,]
+Var114	 Value: [ 0x7f000084(132) ,]
+Var115	 Value: [ 0x7f000085(133) ,]
+Var116	 Value: [ 0x7f000086(134) ,]
+Var117	 Value: [ 0x7f000087(135) ,]
+-----------------------------------------
+IntraICFGNode9 {fun: cwe120_c_50{ ln: 25  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }}
+   ret i32 0, !dbg !28 { ln: 25  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var15	 Value: [-INF, +INF]
+Var27	 Value: [-INF, +INF]
+Var52	 Value: [-INF, +INF]
+Var57	 Value: [-INF, +INF]
+Var77	 Value: [0, 0]
+Var126	 Value: [0, 0]
+Var127	 Value: [0, 0]
+Var128	 Value: [0, 0]
+Var129	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var131	 Value: [0, 0]
+Var132	 Value: [0, 0]
+Var133	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var14	 Value: [ 0x7f00000a(10) ,]
+Var24	 Value: [ 0x7f00007e(126) ,]
+Var98	 Value: [ 0x7f00007e(126) ,]
+Var99	 Value: [ 0x7f00007f(127) ,]
+Var100	 Value: [ 0x7f000080(128) ,]
+Var101	 Value: [ 0x7f000081(129) ,]
+Var102	 Value: [ 0x7f000082(130) ,]
+Var103	 Value: [ 0x7f000083(131) ,]
+Var104	 Value: [ 0x7f000084(132) ,]
+Var105	 Value: [ 0x7f000085(133) ,]
+Var106	 Value: [ 0x7f000086(134) ,]
+Var107	 Value: [ 0x7f000087(135) ,]
+Var108	 Value: [ 0x7f00007e(126) ,]
+Var109	 Value: [ 0x7f00007f(127) ,]
+Var110	 Value: [ 0x7f000080(128) ,]
+Var111	 Value: [ 0x7f000081(129) ,]
+Var112	 Value: [ 0x7f000082(130) ,]
+Var113	 Value: [ 0x7f000083(131) ,]
+Var114	 Value: [ 0x7f000084(132) ,]
+Var115	 Value: [ 0x7f000085(133) ,]
+Var116	 Value: [ 0x7f000086(134) ,]
+Var117	 Value: [ 0x7f000087(135) ,]
+-----------------------------------------
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var15	 Value: [-INF, +INF]
+Var27	 Value: [-INF, +INF]
+Var52	 Value: [-INF, +INF]
+Var57	 Value: [-INF, +INF]
+Var77	 Value: [0, 0]
+Var126	 Value: [0, 0]
+Var127	 Value: [0, 0]
+Var128	 Value: [0, 0]
+Var129	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var131	 Value: [0, 0]
+Var132	 Value: [0, 0]
+Var133	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var14	 Value: [ 0x7f00000a(10) ,]
+Var24	 Value: [ 0x7f00007e(126) ,]
+Var98	 Value: [ 0x7f00007e(126) ,]
+Var99	 Value: [ 0x7f00007f(127) ,]
+Var100	 Value: [ 0x7f000080(128) ,]
+Var101	 Value: [ 0x7f000081(129) ,]
+Var102	 Value: [ 0x7f000082(130) ,]
+Var103	 Value: [ 0x7f000083(131) ,]
+Var104	 Value: [ 0x7f000084(132) ,]
+Var105	 Value: [ 0x7f000085(133) ,]
+Var106	 Value: [ 0x7f000086(134) ,]
+Var107	 Value: [ 0x7f000087(135) ,]
+Var108	 Value: [ 0x7f00007e(126) ,]
+Var109	 Value: [ 0x7f00007f(127) ,]
+Var110	 Value: [ 0x7f000080(128) ,]
+Var111	 Value: [ 0x7f000081(129) ,]
+Var112	 Value: [ 0x7f000082(130) ,]
+Var113	 Value: [ 0x7f000083(131) ,]
+Var114	 Value: [ 0x7f000084(132) ,]
+Var115	 Value: [ 0x7f000085(133) ,]
+Var116	 Value: [ 0x7f000086(134) ,]
+Var117	 Value: [ 0x7f000087(135) ,]
+-----------------------------------------
+FunExitICFGNode10 {fun: cwe120_c_50{ ln: 21 fl: function/Memset_CountOverflow_BadCase02-1.c }}
+PhiStmt: [Var8 <-- ([Var29, ICFGNode9],)]	
+   ret i32 0, !dbg !28 { ln: 25  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var8	 Value: [0, 0]
+Var15	 Value: [-INF, +INF]
+Var27	 Value: [-INF, +INF]
+Var52	 Value: [-INF, +INF]
+Var57	 Value: [-INF, +INF]
+Var77	 Value: [0, 0]
+Var126	 Value: [0, 0]
+Var127	 Value: [0, 0]
+Var128	 Value: [0, 0]
+Var129	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var131	 Value: [0, 0]
+Var132	 Value: [0, 0]
+Var133	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var14	 Value: [ 0x7f00000a(10) ,]
+Var24	 Value: [ 0x7f00007e(126) ,]
+Var98	 Value: [ 0x7f00007e(126) ,]
+Var99	 Value: [ 0x7f00007f(127) ,]
+Var100	 Value: [ 0x7f000080(128) ,]
+Var101	 Value: [ 0x7f000081(129) ,]
+Var102	 Value: [ 0x7f000082(130) ,]
+Var103	 Value: [ 0x7f000083(131) ,]
+Var104	 Value: [ 0x7f000084(132) ,]
+Var105	 Value: [ 0x7f000085(133) ,]
+Var106	 Value: [ 0x7f000086(134) ,]
+Var107	 Value: [ 0x7f000087(135) ,]
+Var108	 Value: [ 0x7f00007e(126) ,]
+Var109	 Value: [ 0x7f00007f(127) ,]
+Var110	 Value: [ 0x7f000080(128) ,]
+Var111	 Value: [ 0x7f000081(129) ,]
+Var112	 Value: [ 0x7f000082(130) ,]
+Var113	 Value: [ 0x7f000083(131) ,]
+Var114	 Value: [ 0x7f000084(132) ,]
+Var115	 Value: [ 0x7f000085(133) ,]
+Var116	 Value: [ 0x7f000086(134) ,]
+Var117	 Value: [ 0x7f000087(135) ,]
+-----------------------------------------
+RetICFGNode29 {fun: main{ ln: 47  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }}
+RetPE: [Var80 <-- Var8]	
+   %call = call i32 @cwe120_c_50(), !dbg !23 { ln: 47  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var8	 Value: [0, 0]
+Var15	 Value: [-INF, +INF]
+Var27	 Value: [-INF, +INF]
+Var52	 Value: [-INF, +INF]
+Var57	 Value: [-INF, +INF]
+Var80	 Value: [0, 0]
+Var77	 Value: [0, 0]
+Var126	 Value: [0, 0]
+Var127	 Value: [0, 0]
+Var128	 Value: [0, 0]
+Var129	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var131	 Value: [0, 0]
+Var132	 Value: [0, 0]
+Var133	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var14	 Value: [ 0x7f00000a(10) ,]
+Var24	 Value: [ 0x7f00007e(126) ,]
+Var98	 Value: [ 0x7f00007e(126) ,]
+Var99	 Value: [ 0x7f00007f(127) ,]
+Var100	 Value: [ 0x7f000080(128) ,]
+Var101	 Value: [ 0x7f000081(129) ,]
+Var102	 Value: [ 0x7f000082(130) ,]
+Var103	 Value: [ 0x7f000083(131) ,]
+Var104	 Value: [ 0x7f000084(132) ,]
+Var105	 Value: [ 0x7f000085(133) ,]
+Var106	 Value: [ 0x7f000086(134) ,]
+Var107	 Value: [ 0x7f000087(135) ,]
+Var108	 Value: [ 0x7f00007e(126) ,]
+Var109	 Value: [ 0x7f00007f(127) ,]
+Var110	 Value: [ 0x7f000080(128) ,]
+Var111	 Value: [ 0x7f000081(129) ,]
+Var112	 Value: [ 0x7f000082(130) ,]
+Var113	 Value: [ 0x7f000083(131) ,]
+Var114	 Value: [ 0x7f000084(132) ,]
+Var115	 Value: [ 0x7f000085(133) ,]
+Var116	 Value: [ 0x7f000086(134) ,]
+Var117	 Value: [ 0x7f000087(135) ,]
+-----------------------------------------
+IntraICFGNode30 {fun: main{ ln: 48  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }}
+   ret i32 0, !dbg !24 { ln: 48  cl: 5  fl: function/Memset_CountOverflow_BadCase02-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var8	 Value: [0, 0]
+Var15	 Value: [-INF, +INF]
+Var27	 Value: [-INF, +INF]
+Var52	 Value: [-INF, +INF]
+Var57	 Value: [-INF, +INF]
+Var80	 Value: [0, 0]
+Var77	 Value: [0, 0]
+Var126	 Value: [0, 0]
+Var127	 Value: [0, 0]
+Var128	 Value: [0, 0]
+Var129	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var131	 Value: [0, 0]
+Var132	 Value: [0, 0]
+Var133	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var14	 Value: [ 0x7f00000a(10) ,]
+Var24	 Value: [ 0x7f00007e(126) ,]
+Var98	 Value: [ 0x7f00007e(126) ,]
+Var99	 Value: [ 0x7f00007f(127) ,]
+Var100	 Value: [ 0x7f000080(128) ,]
+Var101	 Value: [ 0x7f000081(129) ,]
+Var102	 Value: [ 0x7f000082(130) ,]
+Var103	 Value: [ 0x7f000083(131) ,]
+Var104	 Value: [ 0x7f000084(132) ,]
+Var105	 Value: [ 0x7f000085(133) ,]
+Var106	 Value: [ 0x7f000086(134) ,]
+Var107	 Value: [ 0x7f000087(135) ,]
+Var108	 Value: [ 0x7f00007e(126) ,]
+Var109	 Value: [ 0x7f00007f(127) ,]
+Var110	 Value: [ 0x7f000080(128) ,]
+Var111	 Value: [ 0x7f000081(129) ,]
+Var112	 Value: [ 0x7f000082(130) ,]
+Var113	 Value: [ 0x7f000083(131) ,]
+Var114	 Value: [ 0x7f000084(132) ,]
+Var115	 Value: [ 0x7f000085(133) ,]
+Var116	 Value: [ 0x7f000086(134) ,]
+Var117	 Value: [ 0x7f000087(135) ,]
+-----------------------------------------

@@ -1,0 +1,492 @@
+GlobalICFGNode0
+CopyStmt: [Var1 <-- Var0]	
+ i8* null { constant data }
+AddrStmt: [Var63 <-- Var64]	
+ i32 0 { constant data }
+AddrStmt: [Var60 <-- Var61]	
+ i32 10 { constant data }
+AddrStmt: [Var10 <-- Var11]	
+ i32 1 { constant data }
+AddrStmt: [Var37 <-- Var38]	
+ i8 97 { constant data }
+AddrStmt: [Var4 <-- Var5]	
+Function: TestCaseBad01 { in line: 9 file: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }
+AddrStmt: [Var46 <-- Var47]	
+Function: llvm.dbg.declare 
+AddrStmt: [Var23 <-- Var24]	
+Function: malloc 
+AddrStmt: [Var41 <-- Var42]	
+Function: free 
+AddrStmt: [Var56 <-- Var57]	
+Function: main { in line: 20 file: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }
+-----------Var and Value-----------
+Var10	 Value: [1, 1]
+Var11	 Value: [1, 1]
+Var37	 Value: [97, 97]
+Var38	 Value: [97, 97]
+Var60	 Value: [10, 10]
+Var61	 Value: [10, 10]
+Var63	 Value: [0, 0]
+Var64	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var4	 Value: [ 0x7f000005(5) ,]
+Var5	 Value: [ 0x7f000005(5) ,]
+Var23	 Value: [ 0x7f000018(24) ,]
+Var24	 Value: [ 0x7f000018(24) ,]
+Var41	 Value: [ 0x7f00002a(42) ,]
+Var42	 Value: [ 0x7f00002a(42) ,]
+Var46	 Value: [ 0x7f00002f(47) ,]
+Var47	 Value: [ 0x7f00002f(47) ,]
+Var56	 Value: [ 0x7f000039(57) ,]
+Var57	 Value: [ 0x7f000039(57) ,]
+-----------------------------------------
+CallICFGNode28 {fun: main{ ln: 21  cl: 5  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }}
+CallPE: [Var7 <-- Var60]	
+   call void @TestCaseBad01(i32 noundef 10), !dbg !15 { ln: 21  cl: 5  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }
+IntraICFGNode2 {fun: TestCaseBad01{ ln: 9 fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }}
+AddrStmt: [Var8 <-- Var9]	
+   %n.addr = alloca i32, align 4 { ln: 9 fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var7	 Value: [10, 10]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode3 {fun: TestCaseBad01{ ln: 11 fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }}
+AddrStmt: [Var12 <-- Var13]	
+   %p = alloca i8*, align 8 { ln: 11 fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var7	 Value: [10, 10]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode4 {fun: TestCaseBad01{ ln: 12 fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }}
+AddrStmt: [Var14 <-- Var15]	
+   %y = alloca i32, align 4 { ln: 12 fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var7	 Value: [10, 10]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode5 {fun: TestCaseBad01}
+StoreStmt: [Var8 <-- Var7]	
+   store i32 %n, i32* %n.addr, align 4 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var7	 Value: [10, 10]
+Var9	 Value: [10, 10]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode32 {fun: TestCaseBad01{ ln: 9  cl: 24  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }}
+   call void @llvm.dbg.declare(metadata i32* %n.addr, metadata !15, metadata !DIExpression()), !dbg !16 { ln: 9  cl: 24  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var7	 Value: [10, 10]
+Var9	 Value: [10, 10]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode33 {fun: TestCaseBad01{ ln: 11  cl: 11  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }}
+   call void @llvm.dbg.declare(metadata i8** %p, metadata !17, metadata !DIExpression()), !dbg !20 { ln: 11  cl: 11  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var7	 Value: [10, 10]
+Var9	 Value: [10, 10]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode6 {fun: TestCaseBad01{ ln: 11  cl: 22  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }}
+LoadStmt: [Var19 <-- Var8]	
+   %0 = load i32, i32* %n.addr, align 4, !dbg !21 { ln: 11  cl: 22  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var7	 Value: [10, 10]
+Var19	 Value: [10, 10]
+Var9	 Value: [10, 10]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode7 {fun: TestCaseBad01{ ln: 11  cl: 22  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }}
+CopyStmt: [Var20 <-- Var19]	
+   %conv = sext i32 %0 to i64, !dbg !21 { ln: 11  cl: 22  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var7	 Value: [10, 10]
+Var19	 Value: [10, 10]
+Var20	 Value: [10, 10]
+Var9	 Value: [10, 10]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode8 {fun: TestCaseBad01{ ln: 11  cl: 15  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }}
+AddrStmt: [Var21 <-- Var22]	
+   %call = call i8* @malloc(i64 noundef %conv) #4, !dbg !22 { ln: 11  cl: 15  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var7	 Value: [10, 10]
+Var19	 Value: [10, 10]
+Var20	 Value: [10, 10]
+Var9	 Value: [10, 10]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode10 {fun: TestCaseBad01{ ln: 11  cl: 11  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }}
+StoreStmt: [Var12 <-- Var21]	
+   store i8* %call, i8** %p, align 8, !dbg !20 { ln: 11  cl: 11  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var7	 Value: [10, 10]
+Var19	 Value: [10, 10]
+Var20	 Value: [10, 10]
+Var9	 Value: [10, 10]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f000016(22) ,]
+-----------------------------------------
+IntraICFGNode34 {fun: TestCaseBad01{ ln: 12  cl: 9  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }}
+   call void @llvm.dbg.declare(metadata i32* %y, metadata !23, metadata !DIExpression()), !dbg !24 { ln: 12  cl: 9  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var7	 Value: [10, 10]
+Var19	 Value: [10, 10]
+Var20	 Value: [10, 10]
+Var9	 Value: [10, 10]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f000016(22) ,]
+-----------------------------------------
+IntraICFGNode11 {fun: TestCaseBad01{ ln: 12  cl: 13  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }}
+LoadStmt: [Var27 <-- Var8]	
+   %1 = load i32, i32* %n.addr, align 4, !dbg !25 { ln: 12  cl: 13  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var7	 Value: [10, 10]
+Var19	 Value: [10, 10]
+Var20	 Value: [10, 10]
+Var27	 Value: [10, 10]
+Var9	 Value: [10, 10]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f000016(22) ,]
+-----------------------------------------
+IntraICFGNode12 {fun: TestCaseBad01{ ln: 12  cl: 9  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }}
+StoreStmt: [Var14 <-- Var27]	
+   store i32 %1, i32* %y, align 4, !dbg !24 { ln: 12  cl: 9  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var7	 Value: [10, 10]
+Var19	 Value: [10, 10]
+Var20	 Value: [10, 10]
+Var27	 Value: [10, 10]
+Var9	 Value: [10, 10]
+Var15	 Value: [10, 10]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f000016(22) ,]
+-----------------------------------------
+IntraICFGNode13 {fun: TestCaseBad01{ ln: 13  cl: 9  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }}
+LoadStmt: [Var29 <-- Var12]	
+   %2 = load i8*, i8** %p, align 8, !dbg !26 { ln: 13  cl: 9  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var7	 Value: [10, 10]
+Var19	 Value: [10, 10]
+Var20	 Value: [10, 10]
+Var27	 Value: [10, 10]
+Var9	 Value: [10, 10]
+Var15	 Value: [10, 10]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var29	 Value: [ 0x7f000016(22) ,]
+Var13	 Value: [ 0x7f000016(22) ,]
+-----------------------------------------
+IntraICFGNode14 {fun: TestCaseBad01{ ln: 13  cl: 9  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }}
+CmpStmt: [Var30 <-- (Var29 predicate33 Var0)]	
+   %tobool = icmp ne i8* %2, null, !dbg !26 { ln: 13  cl: 9  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var7	 Value: [10, 10]
+Var19	 Value: [10, 10]
+Var20	 Value: [10, 10]
+Var27	 Value: [10, 10]
+Var30	 Value: [1, 1]
+Var9	 Value: [10, 10]
+Var15	 Value: [10, 10]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var29	 Value: [ 0x7f000016(22) ,]
+Var13	 Value: [ 0x7f000016(22) ,]
+-----------------------------------------
+IntraICFGNode15 {fun: TestCaseBad01{ ln: 13  cl: 9  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }}
+BranchStmt: [Condition Var30]
+Successor 0 ICFGNode16   Successor 1 ICFGNode17   
+   br i1 %tobool, label %if.then, label %if.end, !dbg !28 { ln: 13  cl: 9  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var7	 Value: [10, 10]
+Var19	 Value: [10, 10]
+Var20	 Value: [10, 10]
+Var27	 Value: [10, 10]
+Var30	 Value: [1, 1]
+Var9	 Value: [10, 10]
+Var15	 Value: [10, 10]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var29	 Value: [ 0x7f000016(22) ,]
+Var13	 Value: [ 0x7f000016(22) ,]
+-----------------------------------------
+IntraICFGNode16 {fun: TestCaseBad01{ ln: 15  cl: 9  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }}
+LoadStmt: [Var32 <-- Var12]	
+   %3 = load i8*, i8** %p, align 8, !dbg !29 { ln: 15  cl: 9  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var7	 Value: [10, 10]
+Var19	 Value: [10, 10]
+Var20	 Value: [10, 10]
+Var27	 Value: [10, 10]
+Var30	 Value: [1, 1]
+Var9	 Value: [10, 10]
+Var15	 Value: [10, 10]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var29	 Value: [ 0x7f000016(22) ,]
+Var32	 Value: [ 0x7f000016(22) ,]
+Var13	 Value: [ 0x7f000016(22) ,]
+-----------------------------------------
+IntraICFGNode18 {fun: TestCaseBad01{ ln: 15  cl: 11  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }}
+LoadStmt: [Var33 <-- Var14]	
+   %4 = load i32, i32* %y, align 4, !dbg !31 { ln: 15  cl: 11  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var7	 Value: [10, 10]
+Var19	 Value: [10, 10]
+Var20	 Value: [10, 10]
+Var27	 Value: [10, 10]
+Var30	 Value: [1, 1]
+Var33	 Value: [10, 10]
+Var9	 Value: [10, 10]
+Var15	 Value: [10, 10]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var29	 Value: [ 0x7f000016(22) ,]
+Var32	 Value: [ 0x7f000016(22) ,]
+Var13	 Value: [ 0x7f000016(22) ,]
+-----------------------------------------
+IntraICFGNode20 {fun: TestCaseBad01{ ln: 15  cl: 9  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }}
+CopyStmt: [Var34 <-- Var33]	
+   %idxprom = sext i32 %4 to i64, !dbg !29 { ln: 15  cl: 9  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var7	 Value: [10, 10]
+Var19	 Value: [10, 10]
+Var20	 Value: [10, 10]
+Var27	 Value: [10, 10]
+Var30	 Value: [1, 1]
+Var33	 Value: [10, 10]
+Var34	 Value: [10, 10]
+Var9	 Value: [10, 10]
+Var15	 Value: [10, 10]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var29	 Value: [ 0x7f000016(22) ,]
+Var32	 Value: [ 0x7f000016(22) ,]
+Var13	 Value: [ 0x7f000016(22) ,]
+-----------------------------------------
+IntraICFGNode21 {fun: TestCaseBad01{ ln: 15  cl: 9  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }}
+GepStmt: [Var35 <-- Var32]	
+   %arrayidx = getelementptr inbounds i8, i8* %3, i64 %idxprom, !dbg !29 { ln: 15  cl: 9  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var7	 Value: [10, 10]
+Var19	 Value: [10, 10]
+Var20	 Value: [10, 10]
+Var27	 Value: [10, 10]
+Var30	 Value: [1, 1]
+Var33	 Value: [10, 10]
+Var34	 Value: [10, 10]
+Var9	 Value: [10, 10]
+Var15	 Value: [10, 10]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var29	 Value: [ 0x7f000016(22) ,]
+Var32	 Value: [ 0x7f000016(22) ,]
+Var35	 Value: [ 0x7f000041(65) ,]
+Var13	 Value: [ 0x7f000016(22) ,]
+-----------------------------------------
+IntraICFGNode22 {fun: TestCaseBad01{ ln: 15  cl: 14  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }}
+StoreStmt: [Var35 <-- Var37]	
+   store i8 97, i8* %arrayidx, align 1, !dbg !32 { ln: 15  cl: 14  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var7	 Value: [10, 10]
+Var19	 Value: [10, 10]
+Var20	 Value: [10, 10]
+Var27	 Value: [10, 10]
+Var30	 Value: [1, 1]
+Var33	 Value: [10, 10]
+Var34	 Value: [10, 10]
+Var9	 Value: [10, 10]
+Var15	 Value: [10, 10]
+Var65	 Value: [97, 97]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var29	 Value: [ 0x7f000016(22) ,]
+Var32	 Value: [ 0x7f000016(22) ,]
+Var35	 Value: [ 0x7f000041(65) ,]
+Var13	 Value: [ 0x7f000016(22) ,]
+-----------------------------------------
+IntraICFGNode23 {fun: TestCaseBad01{ ln: 16  cl: 14  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }}
+LoadStmt: [Var39 <-- Var12]	
+   %5 = load i8*, i8** %p, align 8, !dbg !33 { ln: 16  cl: 14  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var7	 Value: [10, 10]
+Var19	 Value: [10, 10]
+Var20	 Value: [10, 10]
+Var27	 Value: [10, 10]
+Var30	 Value: [1, 1]
+Var33	 Value: [10, 10]
+Var34	 Value: [10, 10]
+Var9	 Value: [10, 10]
+Var15	 Value: [10, 10]
+Var65	 Value: [97, 97]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var29	 Value: [ 0x7f000016(22) ,]
+Var32	 Value: [ 0x7f000016(22) ,]
+Var35	 Value: [ 0x7f000041(65) ,]
+Var39	 Value: [ 0x7f000016(22) ,]
+Var13	 Value: [ 0x7f000016(22) ,]
+-----------------------------------------
+CallICFGNode24 {fun: TestCaseBad01{ ln: 16  cl: 9  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var7	 Value: [10, 10]
+Var19	 Value: [10, 10]
+Var20	 Value: [10, 10]
+Var27	 Value: [10, 10]
+Var30	 Value: [1, 1]
+Var33	 Value: [10, 10]
+Var34	 Value: [10, 10]
+Var40	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var15	 Value: [10, 10]
+Var65	 Value: [97, 97]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var29	 Value: [ 0x7f000016(22) ,]
+Var32	 Value: [ 0x7f000016(22) ,]
+Var35	 Value: [ 0x7f000041(65) ,]
+Var39	 Value: [ 0x7f000016(22) ,]
+Var13	 Value: [ 0x7f000016(22) ,]
+-----------------------------------------
+IntraICFGNode26 {fun: TestCaseBad01{ ln: 17  cl: 5  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode17   
+   br label %if.end, !dbg !35 { ln: 17  cl: 5  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var7	 Value: [10, 10]
+Var19	 Value: [10, 10]
+Var20	 Value: [10, 10]
+Var27	 Value: [10, 10]
+Var30	 Value: [1, 1]
+Var33	 Value: [10, 10]
+Var34	 Value: [10, 10]
+Var40	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var15	 Value: [10, 10]
+Var65	 Value: [97, 97]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var29	 Value: [ 0x7f000016(22) ,]
+Var32	 Value: [ 0x7f000016(22) ,]
+Var35	 Value: [ 0x7f000041(65) ,]
+Var39	 Value: [ 0x7f000016(22) ,]
+Var13	 Value: [ 0x7f000016(22) ,]
+-----------------------------------------
+IntraICFGNode17 {fun: TestCaseBad01{ ln: 18  cl: 1  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }}
+   ret void, !dbg !36 { ln: 18  cl: 1  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var7	 Value: [10, 10]
+Var19	 Value: [10, 10]
+Var20	 Value: [10, 10]
+Var27	 Value: [10, 10]
+Var30	 Value: [1, 1]
+Var33	 Value: [10, 10]
+Var34	 Value: [10, 10]
+Var40	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var15	 Value: [10, 10]
+Var65	 Value: [97, 97]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var29	 Value: [ 0x7f000016(22) ,]
+Var32	 Value: [ 0x7f000016(22) ,]
+Var35	 Value: [ 0x7f000041(65) ,]
+Var39	 Value: [ 0x7f000016(22) ,]
+Var13	 Value: [ 0x7f000016(22) ,]
+-----------------------------------------
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var7	 Value: [10, 10]
+Var19	 Value: [10, 10]
+Var20	 Value: [10, 10]
+Var27	 Value: [10, 10]
+Var30	 Value: [1, 1]
+Var33	 Value: [10, 10]
+Var34	 Value: [10, 10]
+Var40	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var15	 Value: [10, 10]
+Var65	 Value: [97, 97]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var29	 Value: [ 0x7f000016(22) ,]
+Var32	 Value: [ 0x7f000016(22) ,]
+Var35	 Value: [ 0x7f000041(65) ,]
+Var39	 Value: [ 0x7f000016(22) ,]
+Var13	 Value: [ 0x7f000016(22) ,]
+-----------------------------------------
+FunExitICFGNode19 {fun: TestCaseBad01{ ln: 18  cl: 1  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var7	 Value: [10, 10]
+Var19	 Value: [10, 10]
+Var20	 Value: [10, 10]
+Var27	 Value: [10, 10]
+Var30	 Value: [1, 1]
+Var33	 Value: [10, 10]
+Var34	 Value: [10, 10]
+Var40	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var15	 Value: [10, 10]
+Var65	 Value: [97, 97]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var29	 Value: [ 0x7f000016(22) ,]
+Var32	 Value: [ 0x7f000016(22) ,]
+Var35	 Value: [ 0x7f000041(65) ,]
+Var39	 Value: [ 0x7f000016(22) ,]
+Var13	 Value: [ 0x7f000016(22) ,]
+-----------------------------------------
+RetICFGNode29 {fun: main{ ln: 21  cl: 5  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var7	 Value: [10, 10]
+Var19	 Value: [10, 10]
+Var20	 Value: [10, 10]
+Var27	 Value: [10, 10]
+Var30	 Value: [1, 1]
+Var33	 Value: [10, 10]
+Var34	 Value: [10, 10]
+Var40	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var15	 Value: [10, 10]
+Var65	 Value: [97, 97]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var29	 Value: [ 0x7f000016(22) ,]
+Var32	 Value: [ 0x7f000016(22) ,]
+Var35	 Value: [ 0x7f000041(65) ,]
+Var39	 Value: [ 0x7f000016(22) ,]
+Var13	 Value: [ 0x7f000016(22) ,]
+-----------------------------------------
+IntraICFGNode30 {fun: main{ ln: 22  cl: 1  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }}
+   ret i32 0, !dbg !16 { ln: 22  cl: 1  fl: general/Overrun_Bad_Boundary_Check_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var7	 Value: [10, 10]
+Var19	 Value: [10, 10]
+Var20	 Value: [10, 10]
+Var27	 Value: [10, 10]
+Var30	 Value: [1, 1]
+Var33	 Value: [10, 10]
+Var34	 Value: [10, 10]
+Var40	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var15	 Value: [10, 10]
+Var65	 Value: [97, 97]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var29	 Value: [ 0x7f000016(22) ,]
+Var32	 Value: [ 0x7f000016(22) ,]
+Var35	 Value: [ 0x7f000041(65) ,]
+Var39	 Value: [ 0x7f000016(22) ,]
+Var13	 Value: [ 0x7f000016(22) ,]
+-----------------------------------------

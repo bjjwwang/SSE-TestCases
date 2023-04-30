@@ -1,0 +1,532 @@
+GlobalICFGNode0
+CopyStmt: [Var1 <-- Var0]	
+ i8* null { constant data }
+AddrStmt: [Var4 <-- Var6]	
+ @.str = private unnamed_addr constant [13 x i8] c"hello world!\00", align 1 { Glob  }
+AddrStmt: [Var27 <-- Var28]	
+ i8 0 { constant data }
+AddrStmt: [Var41 <-- Var42]	
+ i64 10 { constant data }
+AddrStmt: [Var43 <-- Var44]	
+ i1 false { constant data }
+AddrStmt: [Var53 <-- Var54]	
+ i64 8 { constant data }
+AddrStmt: [Var19 <-- Var20]	
+ i8 119 { constant data }
+AddrStmt: [Var7 <-- Var8]	
+ i64 0 { constant data }
+AddrStmt: [Var9 <-- Var10]	
+ i8 104 { constant data }
+AddrStmt: [Var11 <-- Var12]	
+ i8 101 { constant data }
+AddrStmt: [Var13 <-- Var14]	
+ i8 108 { constant data }
+AddrStmt: [Var15 <-- Var16]	
+ i8 111 { constant data }
+AddrStmt: [Var17 <-- Var18]	
+ i8 32 { constant data }
+AddrStmt: [Var21 <-- Var22]	
+ i8 114 { constant data }
+AddrStmt: [Var23 <-- Var24]	
+ i8 100 { constant data }
+AddrStmt: [Var25 <-- Var26]	
+ i8 33 { constant data }
+AddrStmt: [Var34 <-- Var35]	
+ i32 1 { constant data }
+AddrStmt: [Var80 <-- Var81]	
+ i32 0 { constant data }
+GepStmt: [Var84 <-- Var4]	
+ @.str = private unnamed_addr constant [13 x i8] c"hello world!\00", align 1 { Glob  }
+StoreStmt: [Var84 <-- Var9]	
+ i8 104 { constant data }
+GepStmt: [Var85 <-- Var4]	
+ @.str = private unnamed_addr constant [13 x i8] c"hello world!\00", align 1 { Glob  }
+StoreStmt: [Var85 <-- Var11]	
+ i8 101 { constant data }
+GepStmt: [Var86 <-- Var4]	
+ @.str = private unnamed_addr constant [13 x i8] c"hello world!\00", align 1 { Glob  }
+StoreStmt: [Var86 <-- Var13]	
+ i8 108 { constant data }
+GepStmt: [Var87 <-- Var4]	
+ @.str = private unnamed_addr constant [13 x i8] c"hello world!\00", align 1 { Glob  }
+StoreStmt: [Var87 <-- Var13]	
+ i8 108 { constant data }
+GepStmt: [Var88 <-- Var4]	
+ @.str = private unnamed_addr constant [13 x i8] c"hello world!\00", align 1 { Glob  }
+StoreStmt: [Var88 <-- Var15]	
+ i8 111 { constant data }
+GepStmt: [Var89 <-- Var4]	
+ @.str = private unnamed_addr constant [13 x i8] c"hello world!\00", align 1 { Glob  }
+StoreStmt: [Var89 <-- Var17]	
+ i8 32 { constant data }
+GepStmt: [Var90 <-- Var4]	
+ @.str = private unnamed_addr constant [13 x i8] c"hello world!\00", align 1 { Glob  }
+StoreStmt: [Var90 <-- Var19]	
+ i8 119 { constant data }
+GepStmt: [Var91 <-- Var4]	
+ @.str = private unnamed_addr constant [13 x i8] c"hello world!\00", align 1 { Glob  }
+StoreStmt: [Var91 <-- Var15]	
+ i8 111 { constant data }
+GepStmt: [Var92 <-- Var4]	
+ @.str = private unnamed_addr constant [13 x i8] c"hello world!\00", align 1 { Glob  }
+StoreStmt: [Var92 <-- Var21]	
+ i8 114 { constant data }
+GepStmt: [Var93 <-- Var4]	
+ @.str = private unnamed_addr constant [13 x i8] c"hello world!\00", align 1 { Glob  }
+StoreStmt: [Var93 <-- Var13]	
+ i8 108 { constant data }
+GepStmt: [Var94 <-- Var4]	
+ @.str = private unnamed_addr constant [13 x i8] c"hello world!\00", align 1 { Glob  }
+StoreStmt: [Var94 <-- Var23]	
+ i8 100 { constant data }
+GepStmt: [Var95 <-- Var4]	
+ @.str = private unnamed_addr constant [13 x i8] c"hello world!\00", align 1 { Glob  }
+StoreStmt: [Var95 <-- Var25]	
+ i8 33 { constant data }
+GepStmt: [Var96 <-- Var4]	
+ @.str = private unnamed_addr constant [13 x i8] c"hello world!\00", align 1 { Glob  }
+StoreStmt: [Var96 <-- Var27]	
+ i8 0 { constant data }
+AddrStmt: [Var29 <-- Var30]	
+Function: TestCaseBad01 { "ln": 7, "file": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }
+AddrStmt: [Var58 <-- Var59]	
+Function: llvm.dbg.declare 
+AddrStmt: [Var45 <-- Var46]	
+Function: llvm.memset.p0i8.i64 
+AddrStmt: [Var55 <-- Var56]	
+Function: llvm.memcpy.p0i8.p0i8.i64 
+AddrStmt: [Var74 <-- Var75]	
+Function: main { "ln": 16, "file": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }
+-----------Var and Value-----------
+Var7	 Value: [0, 0]
+Var8	 Value: [0, 0]
+Var9	 Value: [104, 104]
+Var10	 Value: [104, 104]
+Var11	 Value: [101, 101]
+Var12	 Value: [101, 101]
+Var13	 Value: [108, 108]
+Var14	 Value: [108, 108]
+Var15	 Value: [111, 111]
+Var16	 Value: [111, 111]
+Var17	 Value: [32, 32]
+Var18	 Value: [32, 32]
+Var19	 Value: [119, 119]
+Var20	 Value: [119, 119]
+Var21	 Value: [114, 114]
+Var22	 Value: [114, 114]
+Var23	 Value: [100, 100]
+Var24	 Value: [100, 100]
+Var25	 Value: [33, 33]
+Var26	 Value: [33, 33]
+Var27	 Value: [0, 0]
+Var28	 Value: [0, 0]
+Var34	 Value: [1, 1]
+Var35	 Value: [1, 1]
+Var41	 Value: [10, 10]
+Var42	 Value: [10, 10]
+Var43	 Value: [0, 0]
+Var44	 Value: [0, 0]
+Var53	 Value: [8, 8]
+Var54	 Value: [8, 8]
+Var80	 Value: [0, 0]
+Var81	 Value: [0, 0]
+Var136	 Value: [104, 104]
+Var137	 Value: [101, 101]
+Var138	 Value: [108, 108]
+Var139	 Value: [108, 108]
+Var140	 Value: [111, 111]
+Var141	 Value: [32, 32]
+Var142	 Value: [119, 119]
+Var143	 Value: [111, 111]
+Var144	 Value: [114, 114]
+Var145	 Value: [108, 108]
+Var146	 Value: [100, 100]
+Var147	 Value: [33, 33]
+Var148	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var4	 Value: [ 0x7f000006(6) ,]
+Var6	 Value: [ 0x7f000006(6) ,]
+Var29	 Value: [ 0x7f00001e(30) ,]
+Var30	 Value: [ 0x7f00001e(30) ,]
+Var45	 Value: [ 0x7f00002e(46) ,]
+Var46	 Value: [ 0x7f00002e(46) ,]
+Var55	 Value: [ 0x7f000038(56) ,]
+Var56	 Value: [ 0x7f000038(56) ,]
+Var58	 Value: [ 0x7f00003b(59) ,]
+Var59	 Value: [ 0x7f00003b(59) ,]
+Var74	 Value: [ 0x7f00004b(75) ,]
+Var75	 Value: [ 0x7f00004b(75) ,]
+Var84	 Value: [ 0x7f000088(136) ,]
+Var85	 Value: [ 0x7f000089(137) ,]
+Var86	 Value: [ 0x7f00008a(138) ,]
+Var87	 Value: [ 0x7f00008b(139) ,]
+Var88	 Value: [ 0x7f00008c(140) ,]
+Var89	 Value: [ 0x7f00008d(141) ,]
+Var90	 Value: [ 0x7f00008e(142) ,]
+Var91	 Value: [ 0x7f00008f(143) ,]
+Var92	 Value: [ 0x7f000090(144) ,]
+Var93	 Value: [ 0x7f000091(145) ,]
+Var94	 Value: [ 0x7f000092(146) ,]
+Var95	 Value: [ 0x7f000093(147) ,]
+Var96	 Value: [ 0x7f000094(148) ,]
+Var136	 Value: [ 0x7f000088(136) ,]
+Var137	 Value: [ 0x7f000089(137) ,]
+Var138	 Value: [ 0x7f00008a(138) ,]
+Var139	 Value: [ 0x7f00008b(139) ,]
+Var140	 Value: [ 0x7f00008c(140) ,]
+Var141	 Value: [ 0x7f00008d(141) ,]
+Var142	 Value: [ 0x7f00008e(142) ,]
+Var143	 Value: [ 0x7f00008f(143) ,]
+Var144	 Value: [ 0x7f000090(144) ,]
+Var145	 Value: [ 0x7f000091(145) ,]
+Var146	 Value: [ 0x7f000092(146) ,]
+Var147	 Value: [ 0x7f000093(147) ,]
+Var148	 Value: [ 0x7f000094(148) ,]
+-----------------------------------------
+IntraICFGNode16 {fun: main}
+AddrStmt: [Var77 <-- Var78]	
+   %retval = alloca i32, align 4 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode17 {fun: main}
+StoreStmt: [Var77 <-- Var80]	
+   store i32 0, i32* %retval, align 4 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var78	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode18 {fun: main{ "ln": 18, "cl": 5, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }}
+IntraICFGNode2 {fun: TestCaseBad01{ "ln": 9, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }}
+AddrStmt: [Var32 <-- Var33]	
+   %dest = alloca [10 x i8], align 1 { "ln": 9, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var78	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode3 {fun: TestCaseBad01{ "ln": 10, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }}
+AddrStmt: [Var36 <-- Var37]	
+   %src = alloca i8*, align 8 { "ln": 10, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var78	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode24 {fun: TestCaseBad01{ "ln": 9, "cl": 10, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata [10 x i8]* %dest, metadata !14, metadata !DIExpression()), !dbg !19 { "ln": 9, "cl": 10, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var78	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode4 {fun: TestCaseBad01{ "ln": 9, "cl": 10, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }}
+CopyStmt: [Var39 <-- Var32]	
+   %0 = bitcast [10 x i8]* %dest to i8*, !dbg !19 { "ln": 9, "cl": 10, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }
+arr type size: 10
+arr type size: 10
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var78	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode5 {fun: TestCaseBad01{ "ln": 9, "cl": 10, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }}
+GepStmt: [Var113 <-- Var39]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 9, "cl": 10, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }
+StoreStmt: [Var113 <-- Var27]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 9, "cl": 10, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }
+GepStmt: [Var114 <-- Var39]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 9, "cl": 10, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }
+StoreStmt: [Var114 <-- Var27]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 9, "cl": 10, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }
+GepStmt: [Var115 <-- Var39]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 9, "cl": 10, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }
+StoreStmt: [Var115 <-- Var27]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 9, "cl": 10, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }
+GepStmt: [Var116 <-- Var39]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 9, "cl": 10, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }
+StoreStmt: [Var116 <-- Var27]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 9, "cl": 10, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }
+GepStmt: [Var117 <-- Var39]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 9, "cl": 10, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }
+StoreStmt: [Var117 <-- Var27]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 9, "cl": 10, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }
+GepStmt: [Var118 <-- Var39]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 9, "cl": 10, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }
+StoreStmt: [Var118 <-- Var27]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 9, "cl": 10, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }
+GepStmt: [Var119 <-- Var39]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 9, "cl": 10, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }
+StoreStmt: [Var119 <-- Var27]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 9, "cl": 10, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }
+GepStmt: [Var120 <-- Var39]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 9, "cl": 10, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }
+StoreStmt: [Var120 <-- Var27]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 9, "cl": 10, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }
+GepStmt: [Var121 <-- Var39]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 9, "cl": 10, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }
+StoreStmt: [Var121 <-- Var27]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 9, "cl": 10, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }
+GepStmt: [Var122 <-- Var39]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 9, "cl": 10, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }
+StoreStmt: [Var122 <-- Var27]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 9, "cl": 10, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }
+arr type size: 10
+arr type size: 10
+Buffer Overflow Check Safe
+arr type size: 10
+arr type size: 10
+Buffer Overflow Check Safe
+arr type size: 10
+arr type size: 10
+Buffer Overflow Check Safe
+arr type size: 10
+arr type size: 10
+Buffer Overflow Check Safe
+arr type size: 10
+arr type size: 10
+Buffer Overflow Check Safe
+arr type size: 10
+arr type size: 10
+Buffer Overflow Check Safe
+arr type size: 10
+arr type size: 10
+Buffer Overflow Check Safe
+arr type size: 10
+arr type size: 10
+Buffer Overflow Check Safe
+arr type size: 10
+arr type size: 10
+Buffer Overflow Check Safe
+arr type size: 10
+arr type size: 10
+Buffer Overflow Check Safe
+arr type size: 10
+arr type size: 10
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var78	 Value: [0, 0]
+Var126	 Value: [0, 0]
+Var127	 Value: [0, 0]
+Var128	 Value: [0, 0]
+Var129	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var131	 Value: [0, 0]
+Var132	 Value: [0, 0]
+Var133	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode25 {fun: TestCaseBad01{ "ln": 10, "cl": 11, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata i8** %src, metadata !20, metadata !DIExpression()), !dbg !22 { "ln": 10, "cl": 11, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var78	 Value: [0, 0]
+Var126	 Value: [0, 0]
+Var127	 Value: [0, 0]
+Var128	 Value: [0, 0]
+Var129	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var131	 Value: [0, 0]
+Var132	 Value: [0, 0]
+Var133	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode7 {fun: TestCaseBad01}
+GepStmt: [Var48 <-- Var4]	
+   %1 = getelementptr inbounds [13 x i8], [13 x i8]* @.str, i64 0, i64 0 
+[13 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var78	 Value: [0, 0]
+Var126	 Value: [0, 0]
+Var127	 Value: [0, 0]
+Var128	 Value: [0, 0]
+Var129	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var131	 Value: [0, 0]
+Var132	 Value: [0, 0]
+Var133	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode8 {fun: TestCaseBad01{ "ln": 10, "cl": 11, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }}
+StoreStmt: [Var36 <-- Var48]	
+   store i8* %1, i8** %src, align 8, !dbg !22 { "ln": 10, "cl": 11, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var78	 Value: [0, 0]
+Var126	 Value: [0, 0]
+Var127	 Value: [0, 0]
+Var128	 Value: [0, 0]
+Var129	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var131	 Value: [0, 0]
+Var132	 Value: [0, 0]
+Var133	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var37	 Value: [ 0x7f000088(136) ,]
+-----------------------------------------
+IntraICFGNode9 {fun: TestCaseBad01{ "ln": 12, "cl": 5, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }}
+GepStmt: [Var50 <-- Var32]	
+   %arraydecay = getelementptr inbounds [10 x i8], [10 x i8]* %dest, i64 0, i64 0, !dbg !23 { "ln": 12, "cl": 5, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }
+[10 x i8]*, byteOffset:[0, 0]
+arr type size: a
+arr type size: a
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var78	 Value: [0, 0]
+Var126	 Value: [0, 0]
+Var127	 Value: [0, 0]
+Var128	 Value: [0, 0]
+Var129	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var131	 Value: [0, 0]
+Var132	 Value: [0, 0]
+Var133	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var37	 Value: [ 0x7f000088(136) ,]
+-----------------------------------------
+IntraICFGNode10 {fun: TestCaseBad01{ "ln": 12, "cl": 5, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }}
+LoadStmt: [Var51 <-- Var36]	
+   %2 = load i8*, i8** %src, align 8, !dbg !23 { "ln": 12, "cl": 5, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var78	 Value: [0, 0]
+Var126	 Value: [0, 0]
+Var127	 Value: [0, 0]
+Var128	 Value: [0, 0]
+Var129	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var131	 Value: [0, 0]
+Var132	 Value: [0, 0]
+Var133	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var37	 Value: [ 0x7f000088(136) ,]
+-----------------------------------------
+CallICFGNode11 {fun: TestCaseBad01{ "ln": 12, "cl": 5, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }}
+GepStmt: [Var123 <-- Var32]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %arraydecay, i8* align 1 %2, i64 8, i1 false), !dbg !23 { "ln": 12, "cl": 5, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }
+GepStmt: [Var124 <-- Var51]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %arraydecay, i8* align 1 %2, i64 8, i1 false), !dbg !23 { "ln": 12, "cl": 5, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }
+LoadStmt: [Var125 <-- Var124]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %arraydecay, i8* align 1 %2, i64 8, i1 false), !dbg !23 { "ln": 12, "cl": 5, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }
+StoreStmt: [Var123 <-- Var125]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %arraydecay, i8* align 1 %2, i64 8, i1 false), !dbg !23 { "ln": 12, "cl": 5, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }
+CopyStmt: [Var52 <-- Var0]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %arraydecay, i8* align 1 %2, i64 8, i1 false), !dbg !23 { "ln": 12, "cl": 5, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }
+[10 x i8]*, byteOffset:[0, 0]
+arr type size: a
+arr type size: a
+Buffer Overflow Check Safe
+Buffer Overflow Check Safe
+[10 x i8]*, byteOffset:[0, 0]
+arr type size: a
+arr type size: a
+Buffer Overflow Check Safe
+Buffer Overflow Check Safe
+arr type size: d
+[10 x i8]*, byteOffset:[0, 0]
+arr type size: a
+arr type size: a
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var78	 Value: [0, 0]
+Var126	 Value: [104, 104]
+Var127	 Value: [101, 101]
+Var128	 Value: [108, 108]
+Var129	 Value: [108, 108]
+Var130	 Value: [111, 111]
+Var131	 Value: [32, 32]
+Var132	 Value: [119, 119]
+Var133	 Value: [111, 111]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var37	 Value: [ 0x7f000088(136) ,]
+-----------------------------------------
+IntraICFGNode13 {fun: TestCaseBad01{ "ln": 13, "cl": 1, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }}
+   ret void, !dbg !24 { "ln": 13, "cl": 1, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var78	 Value: [0, 0]
+Var126	 Value: [104, 104]
+Var127	 Value: [101, 101]
+Var128	 Value: [108, 108]
+Var129	 Value: [108, 108]
+Var130	 Value: [111, 111]
+Var131	 Value: [32, 32]
+Var132	 Value: [119, 119]
+Var133	 Value: [111, 111]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var37	 Value: [ 0x7f000088(136) ,]
+-----------------------------------------
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var78	 Value: [0, 0]
+Var126	 Value: [104, 104]
+Var127	 Value: [101, 101]
+Var128	 Value: [108, 108]
+Var129	 Value: [108, 108]
+Var130	 Value: [111, 111]
+Var131	 Value: [32, 32]
+Var132	 Value: [119, 119]
+Var133	 Value: [111, 111]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var37	 Value: [ 0x7f000088(136) ,]
+-----------------------------------------
+FunExitICFGNode14 {fun: TestCaseBad01{ "ln": 9, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var78	 Value: [0, 0]
+Var126	 Value: [104, 104]
+Var127	 Value: [101, 101]
+Var128	 Value: [108, 108]
+Var129	 Value: [108, 108]
+Var130	 Value: [111, 111]
+Var131	 Value: [32, 32]
+Var132	 Value: [119, 119]
+Var133	 Value: [111, 111]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var37	 Value: [ 0x7f000088(136) ,]
+-----------------------------------------
+RetICFGNode19 {fun: main{ "ln": 18, "cl": 5, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var78	 Value: [0, 0]
+Var126	 Value: [104, 104]
+Var127	 Value: [101, 101]
+Var128	 Value: [108, 108]
+Var129	 Value: [108, 108]
+Var130	 Value: [111, 111]
+Var131	 Value: [32, 32]
+Var132	 Value: [119, 119]
+Var133	 Value: [111, 111]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var37	 Value: [ 0x7f000088(136) ,]
+-----------------------------------------
+IntraICFGNode20 {fun: main{ "ln": 19, "cl": 5, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }}
+   ret i32 0, !dbg !16 { "ln": 19, "cl": 5, "fl": "function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.c" }

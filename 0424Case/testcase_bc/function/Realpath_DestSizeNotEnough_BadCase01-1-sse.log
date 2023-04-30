@@ -1,0 +1,471 @@
+GlobalICFGNode0
+CopyStmt: [Var1 <-- Var0]	
+ i8* null { constant data }
+AddrStmt: [Var19 <-- Var20]	
+ i8 0 { constant data }
+AddrStmt: [Var33 <-- Var34]	
+ i64 5 { constant data }
+AddrStmt: [Var35 <-- Var36]	
+ i1 false { constant data }
+AddrStmt: [Var7 <-- Var8]	
+ i64 0 { constant data }
+AddrStmt: [Var68 <-- Var69]	
+ i32 0 { constant data }
+AddrStmt: [Var9 <-- Var10]	
+ i8 116 { constant data }
+AddrStmt: [Var11 <-- Var12]	
+ i8 101 { constant data }
+AddrStmt: [Var13 <-- Var14]	
+ i8 115 { constant data }
+AddrStmt: [Var15 <-- Var16]	
+ i8 46 { constant data }
+AddrStmt: [Var17 <-- Var18]	
+ i8 120 { constant data }
+AddrStmt: [Var26 <-- Var27]	
+ i32 1 { constant data }
+AddrStmt: [Var4 <-- Var6]	
+ @.str = private unnamed_addr constant [9 x i8] c"test.txt\00", align 1 { Glob  }
+GepStmt: [Var72 <-- Var4]	
+ @.str = private unnamed_addr constant [9 x i8] c"test.txt\00", align 1 { Glob  }
+StoreStmt: [Var72 <-- Var9]	
+ i8 116 { constant data }
+GepStmt: [Var73 <-- Var4]	
+ @.str = private unnamed_addr constant [9 x i8] c"test.txt\00", align 1 { Glob  }
+StoreStmt: [Var73 <-- Var11]	
+ i8 101 { constant data }
+GepStmt: [Var74 <-- Var4]	
+ @.str = private unnamed_addr constant [9 x i8] c"test.txt\00", align 1 { Glob  }
+StoreStmt: [Var74 <-- Var13]	
+ i8 115 { constant data }
+GepStmt: [Var75 <-- Var4]	
+ @.str = private unnamed_addr constant [9 x i8] c"test.txt\00", align 1 { Glob  }
+StoreStmt: [Var75 <-- Var9]	
+ i8 116 { constant data }
+GepStmt: [Var76 <-- Var4]	
+ @.str = private unnamed_addr constant [9 x i8] c"test.txt\00", align 1 { Glob  }
+StoreStmt: [Var76 <-- Var15]	
+ i8 46 { constant data }
+GepStmt: [Var77 <-- Var4]	
+ @.str = private unnamed_addr constant [9 x i8] c"test.txt\00", align 1 { Glob  }
+StoreStmt: [Var77 <-- Var9]	
+ i8 116 { constant data }
+GepStmt: [Var78 <-- Var4]	
+ @.str = private unnamed_addr constant [9 x i8] c"test.txt\00", align 1 { Glob  }
+StoreStmt: [Var78 <-- Var17]	
+ i8 120 { constant data }
+GepStmt: [Var79 <-- Var4]	
+ @.str = private unnamed_addr constant [9 x i8] c"test.txt\00", align 1 { Glob  }
+StoreStmt: [Var79 <-- Var9]	
+ i8 116 { constant data }
+GepStmt: [Var80 <-- Var4]	
+ @.str = private unnamed_addr constant [9 x i8] c"test.txt\00", align 1 { Glob  }
+StoreStmt: [Var80 <-- Var19]	
+ i8 0 { constant data }
+AddrStmt: [Var21 <-- Var22]	
+Function: test_bad_1 { in line: 8 file: function/Realpath_DestSizeNotEnough_BadCase01-1.c }
+AddrStmt: [Var48 <-- Var49]	
+Function: llvm.dbg.declare 
+AddrStmt: [Var37 <-- Var38]	
+Function: llvm.memset.p0i8.i64 
+AddrStmt: [Var45 <-- Var46]	
+Function: _realpath$DARWIN_EXTSN 
+AddrStmt: [Var62 <-- Var63]	
+Function: main { in line: 17 file: function/Realpath_DestSizeNotEnough_BadCase01-1.c }
+-----------Var and Value-----------
+Var7	 Value: [0, 0]
+Var8	 Value: [0, 0]
+Var9	 Value: [116, 116]
+Var10	 Value: [116, 116]
+Var11	 Value: [101, 101]
+Var12	 Value: [101, 101]
+Var13	 Value: [115, 115]
+Var14	 Value: [115, 115]
+Var15	 Value: [46, 46]
+Var16	 Value: [46, 46]
+Var17	 Value: [120, 120]
+Var18	 Value: [120, 120]
+Var19	 Value: [0, 0]
+Var20	 Value: [0, 0]
+Var26	 Value: [1, 1]
+Var27	 Value: [1, 1]
+Var33	 Value: [5, 5]
+Var34	 Value: [5, 5]
+Var35	 Value: [0, 0]
+Var36	 Value: [0, 0]
+Var68	 Value: [0, 0]
+Var69	 Value: [0, 0]
+Var97	 Value: [116, 116]
+Var98	 Value: [101, 101]
+Var99	 Value: [115, 115]
+Var100	 Value: [116, 116]
+Var101	 Value: [46, 46]
+Var102	 Value: [116, 116]
+Var103	 Value: [120, 120]
+Var104	 Value: [116, 116]
+Var105	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var4	 Value: [ 0x7f000006(6) ,]
+Var6	 Value: [ 0x7f000006(6) ,]
+Var21	 Value: [ 0x7f000016(22) ,]
+Var22	 Value: [ 0x7f000016(22) ,]
+Var37	 Value: [ 0x7f000026(38) ,]
+Var38	 Value: [ 0x7f000026(38) ,]
+Var45	 Value: [ 0x7f00002e(46) ,]
+Var46	 Value: [ 0x7f00002e(46) ,]
+Var48	 Value: [ 0x7f000031(49) ,]
+Var49	 Value: [ 0x7f000031(49) ,]
+Var62	 Value: [ 0x7f00003f(63) ,]
+Var63	 Value: [ 0x7f00003f(63) ,]
+Var72	 Value: [ 0x7f000061(97) ,]
+Var73	 Value: [ 0x7f000062(98) ,]
+Var74	 Value: [ 0x7f000063(99) ,]
+Var75	 Value: [ 0x7f000064(100) ,]
+Var76	 Value: [ 0x7f000065(101) ,]
+Var77	 Value: [ 0x7f000066(102) ,]
+Var78	 Value: [ 0x7f000067(103) ,]
+Var79	 Value: [ 0x7f000068(104) ,]
+Var80	 Value: [ 0x7f000069(105) ,]
+Var97	 Value: [ 0x7f000061(97) ,]
+Var98	 Value: [ 0x7f000062(98) ,]
+Var99	 Value: [ 0x7f000063(99) ,]
+Var100	 Value: [ 0x7f000064(100) ,]
+Var101	 Value: [ 0x7f000065(101) ,]
+Var102	 Value: [ 0x7f000066(102) ,]
+Var103	 Value: [ 0x7f000067(103) ,]
+Var104	 Value: [ 0x7f000068(104) ,]
+Var105	 Value: [ 0x7f000069(105) ,]
+-----------------------------------------
+IntraICFGNode16 {fun: main}
+AddrStmt: [Var65 <-- Var66]	
+   %retval = alloca i32, align 4 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode17 {fun: main}
+StoreStmt: [Var65 <-- Var68]	
+   store i32 0, i32* %retval, align 4 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var66	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode18 {fun: main{ ln: 19  cl: 5  fl: function/Realpath_DestSizeNotEnough_BadCase01-1.c }}
+IntraICFGNode2 {fun: test_bad_1{ ln: 10 fl: function/Realpath_DestSizeNotEnough_BadCase01-1.c }}
+AddrStmt: [Var24 <-- Var25]	
+   %path = alloca [5 x i8], align 1 { ln: 10 fl: function/Realpath_DestSizeNotEnough_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var66	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode3 {fun: test_bad_1{ ln: 11 fl: function/Realpath_DestSizeNotEnough_BadCase01-1.c }}
+AddrStmt: [Var28 <-- Var29]	
+   %src = alloca i8*, align 8 { ln: 11 fl: function/Realpath_DestSizeNotEnough_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var66	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode23 {fun: test_bad_1{ ln: 10  cl: 10  fl: function/Realpath_DestSizeNotEnough_BadCase01-1.c }}
+   call void @llvm.dbg.declare(metadata [5 x i8]* %path, metadata !14, metadata !DIExpression()), !dbg !19 { ln: 10  cl: 10  fl: function/Realpath_DestSizeNotEnough_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var66	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode4 {fun: test_bad_1{ ln: 10  cl: 10  fl: function/Realpath_DestSizeNotEnough_BadCase01-1.c }}
+CopyStmt: [Var31 <-- Var24]	
+   %0 = bitcast [5 x i8]* %path to i8*, !dbg !19 { ln: 10  cl: 10  fl: function/Realpath_DestSizeNotEnough_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var66	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var31	 Value: [ 0x7f000019(25) ,]
+-----------------------------------------
+CallICFGNode5 {fun: test_bad_1{ ln: 10  cl: 10  fl: function/Realpath_DestSizeNotEnough_BadCase01-1.c }}
+GepStmt: [Var87 <-- Var31]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 5, i1 false), !dbg !19 { ln: 10  cl: 10  fl: function/Realpath_DestSizeNotEnough_BadCase01-1.c }
+StoreStmt: [Var87 <-- Var19]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 5, i1 false), !dbg !19 { ln: 10  cl: 10  fl: function/Realpath_DestSizeNotEnough_BadCase01-1.c }
+GepStmt: [Var88 <-- Var31]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 5, i1 false), !dbg !19 { ln: 10  cl: 10  fl: function/Realpath_DestSizeNotEnough_BadCase01-1.c }
+StoreStmt: [Var88 <-- Var19]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 5, i1 false), !dbg !19 { ln: 10  cl: 10  fl: function/Realpath_DestSizeNotEnough_BadCase01-1.c }
+GepStmt: [Var89 <-- Var31]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 5, i1 false), !dbg !19 { ln: 10  cl: 10  fl: function/Realpath_DestSizeNotEnough_BadCase01-1.c }
+StoreStmt: [Var89 <-- Var19]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 5, i1 false), !dbg !19 { ln: 10  cl: 10  fl: function/Realpath_DestSizeNotEnough_BadCase01-1.c }
+GepStmt: [Var90 <-- Var31]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 5, i1 false), !dbg !19 { ln: 10  cl: 10  fl: function/Realpath_DestSizeNotEnough_BadCase01-1.c }
+StoreStmt: [Var90 <-- Var19]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 5, i1 false), !dbg !19 { ln: 10  cl: 10  fl: function/Realpath_DestSizeNotEnough_BadCase01-1.c }
+GepStmt: [Var91 <-- Var31]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 5, i1 false), !dbg !19 { ln: 10  cl: 10  fl: function/Realpath_DestSizeNotEnough_BadCase01-1.c }
+StoreStmt: [Var91 <-- Var19]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 5, i1 false), !dbg !19 { ln: 10  cl: 10  fl: function/Realpath_DestSizeNotEnough_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var32	 Value: [-INF, +INF]
+Var66	 Value: [0, 0]
+Var92	 Value: [0, 0]
+Var93	 Value: [0, 0]
+Var94	 Value: [0, 0]
+Var95	 Value: [0, 0]
+Var96	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var31	 Value: [ 0x7f000019(25) ,]
+Var87	 Value: [ 0x7f00005c(92) ,]
+Var88	 Value: [ 0x7f00005d(93) ,]
+Var89	 Value: [ 0x7f00005e(94) ,]
+Var90	 Value: [ 0x7f00005f(95) ,]
+Var91	 Value: [ 0x7f000060(96) ,]
+-----------------------------------------
+IntraICFGNode24 {fun: test_bad_1{ ln: 11  cl: 11  fl: function/Realpath_DestSizeNotEnough_BadCase01-1.c }}
+   call void @llvm.dbg.declare(metadata i8** %src, metadata !20, metadata !DIExpression()), !dbg !22 { ln: 11  cl: 11  fl: function/Realpath_DestSizeNotEnough_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var32	 Value: [-INF, +INF]
+Var66	 Value: [0, 0]
+Var92	 Value: [0, 0]
+Var93	 Value: [0, 0]
+Var94	 Value: [0, 0]
+Var95	 Value: [0, 0]
+Var96	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var31	 Value: [ 0x7f000019(25) ,]
+Var87	 Value: [ 0x7f00005c(92) ,]
+Var88	 Value: [ 0x7f00005d(93) ,]
+Var89	 Value: [ 0x7f00005e(94) ,]
+Var90	 Value: [ 0x7f00005f(95) ,]
+Var91	 Value: [ 0x7f000060(96) ,]
+-----------------------------------------
+IntraICFGNode7 {fun: test_bad_1}
+GepStmt: [Var40 <-- Var4]	
+   %1 = getelementptr inbounds [9 x i8], [9 x i8]* @.str, i64 0, i64 0 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var32	 Value: [-INF, +INF]
+Var66	 Value: [0, 0]
+Var92	 Value: [0, 0]
+Var93	 Value: [0, 0]
+Var94	 Value: [0, 0]
+Var95	 Value: [0, 0]
+Var96	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var31	 Value: [ 0x7f000019(25) ,]
+Var40	 Value: [ 0x7f000061(97) ,]
+Var87	 Value: [ 0x7f00005c(92) ,]
+Var88	 Value: [ 0x7f00005d(93) ,]
+Var89	 Value: [ 0x7f00005e(94) ,]
+Var90	 Value: [ 0x7f00005f(95) ,]
+Var91	 Value: [ 0x7f000060(96) ,]
+-----------------------------------------
+IntraICFGNode8 {fun: test_bad_1{ ln: 11  cl: 11  fl: function/Realpath_DestSizeNotEnough_BadCase01-1.c }}
+StoreStmt: [Var28 <-- Var40]	
+   store i8* %1, i8** %src, align 8, !dbg !22 { ln: 11  cl: 11  fl: function/Realpath_DestSizeNotEnough_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var32	 Value: [-INF, +INF]
+Var66	 Value: [0, 0]
+Var92	 Value: [0, 0]
+Var93	 Value: [0, 0]
+Var94	 Value: [0, 0]
+Var95	 Value: [0, 0]
+Var96	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var31	 Value: [ 0x7f000019(25) ,]
+Var40	 Value: [ 0x7f000061(97) ,]
+Var87	 Value: [ 0x7f00005c(92) ,]
+Var88	 Value: [ 0x7f00005d(93) ,]
+Var89	 Value: [ 0x7f00005e(94) ,]
+Var90	 Value: [ 0x7f00005f(95) ,]
+Var91	 Value: [ 0x7f000060(96) ,]
+Var29	 Value: [ 0x7f000061(97) ,]
+-----------------------------------------
+IntraICFGNode9 {fun: test_bad_1{ ln: 13  cl: 14  fl: function/Realpath_DestSizeNotEnough_BadCase01-1.c }}
+LoadStmt: [Var42 <-- Var28]	
+   %2 = load i8*, i8** %src, align 8, !dbg !23 { ln: 13  cl: 14  fl: function/Realpath_DestSizeNotEnough_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var32	 Value: [-INF, +INF]
+Var66	 Value: [0, 0]
+Var92	 Value: [0, 0]
+Var93	 Value: [0, 0]
+Var94	 Value: [0, 0]
+Var95	 Value: [0, 0]
+Var96	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var31	 Value: [ 0x7f000019(25) ,]
+Var40	 Value: [ 0x7f000061(97) ,]
+Var42	 Value: [ 0x7f000061(97) ,]
+Var87	 Value: [ 0x7f00005c(92) ,]
+Var88	 Value: [ 0x7f00005d(93) ,]
+Var89	 Value: [ 0x7f00005e(94) ,]
+Var90	 Value: [ 0x7f00005f(95) ,]
+Var91	 Value: [ 0x7f000060(96) ,]
+Var29	 Value: [ 0x7f000061(97) ,]
+-----------------------------------------
+IntraICFGNode10 {fun: test_bad_1{ ln: 13  cl: 19  fl: function/Realpath_DestSizeNotEnough_BadCase01-1.c }}
+GepStmt: [Var43 <-- Var24]	
+   %arraydecay = getelementptr inbounds [5 x i8], [5 x i8]* %path, i64 0, i64 0, !dbg !24 { ln: 13  cl: 19  fl: function/Realpath_DestSizeNotEnough_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var32	 Value: [-INF, +INF]
+Var66	 Value: [0, 0]
+Var92	 Value: [0, 0]
+Var93	 Value: [0, 0]
+Var94	 Value: [0, 0]
+Var95	 Value: [0, 0]
+Var96	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var31	 Value: [ 0x7f000019(25) ,]
+Var40	 Value: [ 0x7f000061(97) ,]
+Var42	 Value: [ 0x7f000061(97) ,]
+Var43	 Value: [ 0x7f00005c(92) ,]
+Var87	 Value: [ 0x7f00005c(92) ,]
+Var88	 Value: [ 0x7f00005d(93) ,]
+Var89	 Value: [ 0x7f00005e(94) ,]
+Var90	 Value: [ 0x7f00005f(95) ,]
+Var91	 Value: [ 0x7f000060(96) ,]
+Var29	 Value: [ 0x7f000061(97) ,]
+-----------------------------------------
+CallICFGNode11 {fun: test_bad_1{ ln: 13  cl: 5  fl: function/Realpath_DestSizeNotEnough_BadCase01-1.c }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var32	 Value: [-INF, +INF]
+Var44	 Value: [-INF, +INF]
+Var66	 Value: [0, 0]
+Var92	 Value: [0, 0]
+Var93	 Value: [0, 0]
+Var94	 Value: [0, 0]
+Var95	 Value: [0, 0]
+Var96	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var31	 Value: [ 0x7f000019(25) ,]
+Var40	 Value: [ 0x7f000061(97) ,]
+Var42	 Value: [ 0x7f000061(97) ,]
+Var43	 Value: [ 0x7f00005c(92) ,]
+Var87	 Value: [ 0x7f00005c(92) ,]
+Var88	 Value: [ 0x7f00005d(93) ,]
+Var89	 Value: [ 0x7f00005e(94) ,]
+Var90	 Value: [ 0x7f00005f(95) ,]
+Var91	 Value: [ 0x7f000060(96) ,]
+Var29	 Value: [ 0x7f000061(97) ,]
+-----------------------------------------
+IntraICFGNode13 {fun: test_bad_1{ ln: 14  cl: 1  fl: function/Realpath_DestSizeNotEnough_BadCase01-1.c }}
+   ret void, !dbg !26 { ln: 14  cl: 1  fl: function/Realpath_DestSizeNotEnough_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var32	 Value: [-INF, +INF]
+Var44	 Value: [-INF, +INF]
+Var66	 Value: [0, 0]
+Var92	 Value: [0, 0]
+Var93	 Value: [0, 0]
+Var94	 Value: [0, 0]
+Var95	 Value: [0, 0]
+Var96	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var31	 Value: [ 0x7f000019(25) ,]
+Var40	 Value: [ 0x7f000061(97) ,]
+Var42	 Value: [ 0x7f000061(97) ,]
+Var43	 Value: [ 0x7f00005c(92) ,]
+Var87	 Value: [ 0x7f00005c(92) ,]
+Var88	 Value: [ 0x7f00005d(93) ,]
+Var89	 Value: [ 0x7f00005e(94) ,]
+Var90	 Value: [ 0x7f00005f(95) ,]
+Var91	 Value: [ 0x7f000060(96) ,]
+Var29	 Value: [ 0x7f000061(97) ,]
+-----------------------------------------
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var32	 Value: [-INF, +INF]
+Var44	 Value: [-INF, +INF]
+Var66	 Value: [0, 0]
+Var92	 Value: [0, 0]
+Var93	 Value: [0, 0]
+Var94	 Value: [0, 0]
+Var95	 Value: [0, 0]
+Var96	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var31	 Value: [ 0x7f000019(25) ,]
+Var40	 Value: [ 0x7f000061(97) ,]
+Var42	 Value: [ 0x7f000061(97) ,]
+Var43	 Value: [ 0x7f00005c(92) ,]
+Var87	 Value: [ 0x7f00005c(92) ,]
+Var88	 Value: [ 0x7f00005d(93) ,]
+Var89	 Value: [ 0x7f00005e(94) ,]
+Var90	 Value: [ 0x7f00005f(95) ,]
+Var91	 Value: [ 0x7f000060(96) ,]
+Var29	 Value: [ 0x7f000061(97) ,]
+-----------------------------------------
+FunExitICFGNode14 {fun: test_bad_1{ ln: 10 fl: function/Realpath_DestSizeNotEnough_BadCase01-1.c }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var32	 Value: [-INF, +INF]
+Var44	 Value: [-INF, +INF]
+Var66	 Value: [0, 0]
+Var92	 Value: [0, 0]
+Var93	 Value: [0, 0]
+Var94	 Value: [0, 0]
+Var95	 Value: [0, 0]
+Var96	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var31	 Value: [ 0x7f000019(25) ,]
+Var40	 Value: [ 0x7f000061(97) ,]
+Var42	 Value: [ 0x7f000061(97) ,]
+Var43	 Value: [ 0x7f00005c(92) ,]
+Var87	 Value: [ 0x7f00005c(92) ,]
+Var88	 Value: [ 0x7f00005d(93) ,]
+Var89	 Value: [ 0x7f00005e(94) ,]
+Var90	 Value: [ 0x7f00005f(95) ,]
+Var91	 Value: [ 0x7f000060(96) ,]
+Var29	 Value: [ 0x7f000061(97) ,]
+-----------------------------------------
+RetICFGNode19 {fun: main{ ln: 19  cl: 5  fl: function/Realpath_DestSizeNotEnough_BadCase01-1.c }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var32	 Value: [-INF, +INF]
+Var44	 Value: [-INF, +INF]
+Var66	 Value: [0, 0]
+Var92	 Value: [0, 0]
+Var93	 Value: [0, 0]
+Var94	 Value: [0, 0]
+Var95	 Value: [0, 0]
+Var96	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var31	 Value: [ 0x7f000019(25) ,]
+Var40	 Value: [ 0x7f000061(97) ,]
+Var42	 Value: [ 0x7f000061(97) ,]
+Var43	 Value: [ 0x7f00005c(92) ,]
+Var87	 Value: [ 0x7f00005c(92) ,]
+Var88	 Value: [ 0x7f00005d(93) ,]
+Var89	 Value: [ 0x7f00005e(94) ,]
+Var90	 Value: [ 0x7f00005f(95) ,]
+Var91	 Value: [ 0x7f000060(96) ,]
+Var29	 Value: [ 0x7f000061(97) ,]
+-----------------------------------------
+IntraICFGNode20 {fun: main{ ln: 20  cl: 5  fl: function/Realpath_DestSizeNotEnough_BadCase01-1.c }}
+   ret i32 0, !dbg !16 { ln: 20  cl: 5  fl: function/Realpath_DestSizeNotEnough_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var32	 Value: [-INF, +INF]
+Var44	 Value: [-INF, +INF]
+Var66	 Value: [0, 0]
+Var92	 Value: [0, 0]
+Var93	 Value: [0, 0]
+Var94	 Value: [0, 0]
+Var95	 Value: [0, 0]
+Var96	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var31	 Value: [ 0x7f000019(25) ,]
+Var40	 Value: [ 0x7f000061(97) ,]
+Var42	 Value: [ 0x7f000061(97) ,]
+Var43	 Value: [ 0x7f00005c(92) ,]
+Var87	 Value: [ 0x7f00005c(92) ,]
+Var88	 Value: [ 0x7f00005d(93) ,]
+Var89	 Value: [ 0x7f00005e(94) ,]
+Var90	 Value: [ 0x7f00005f(95) ,]
+Var91	 Value: [ 0x7f000060(96) ,]
+Var29	 Value: [ 0x7f000061(97) ,]
+-----------------------------------------

@@ -1,0 +1,2283 @@
+GlobalICFGNode0
+CopyStmt: [Var1 <-- Var0]	
+ i8* null { constant data }
+AddrStmt: [Var220 <-- Var221]	
+ i64 0 { constant data }
+AddrStmt: [Var234 <-- Var235]	
+ i32 5 { constant data }
+AddrStmt: [Var407 <-- Var408]	
+ i32 32 { constant data }
+AddrStmt: [Var215 <-- Var216]	
+ i64 6 { constant data }
+AddrStmt: [Var62 <-- Var63]	
+ i1 false { constant data }
+AddrStmt: [Var7 <-- Var8]	
+ i32 0 { constant data }
+AddrStmt: [Var9 <-- Var10]	
+ i8 49 { constant data }
+AddrStmt: [Var43 <-- Var44]	
+ i64 1 { constant data }
+AddrStmt: [Var11 <-- Var12]	
+ i8 50 { constant data }
+AddrStmt: [Var13 <-- Var14]	
+ i8 51 { constant data }
+AddrStmt: [Var15 <-- Var16]	
+ i8 52 { constant data }
+AddrStmt: [Var17 <-- Var18]	
+ i8 53 { constant data }
+AddrStmt: [Var19 <-- Var20]	
+ i8 0 { constant data }
+AddrStmt: [Var27 <-- Var28]	
+ i32 1 { constant data }
+AddrStmt: [Var52 <-- Var53]	
+ i32 34 { constant data }
+AddrStmt: [Var74 <-- Var75]	
+ i32 92 { constant data }
+AddrStmt: [Var4 <-- Var6]	
+ @__const.test_bad_04.arr = private unnamed_addr constant [6 x i8] c"12345\00", align 1 { Glob  }
+GepStmt: [Var465 <-- Var4]	
+ @__const.test_bad_04.arr = private unnamed_addr constant [6 x i8] c"12345\00", align 1 { Glob  }
+StoreStmt: [Var465 <-- Var9]	
+ i8 49 { constant data }
+GepStmt: [Var466 <-- Var4]	
+ @__const.test_bad_04.arr = private unnamed_addr constant [6 x i8] c"12345\00", align 1 { Glob  }
+StoreStmt: [Var466 <-- Var11]	
+ i8 50 { constant data }
+GepStmt: [Var467 <-- Var4]	
+ @__const.test_bad_04.arr = private unnamed_addr constant [6 x i8] c"12345\00", align 1 { Glob  }
+StoreStmt: [Var467 <-- Var13]	
+ i8 51 { constant data }
+GepStmt: [Var468 <-- Var4]	
+ @__const.test_bad_04.arr = private unnamed_addr constant [6 x i8] c"12345\00", align 1 { Glob  }
+StoreStmt: [Var468 <-- Var15]	
+ i8 52 { constant data }
+GepStmt: [Var469 <-- Var4]	
+ @__const.test_bad_04.arr = private unnamed_addr constant [6 x i8] c"12345\00", align 1 { Glob  }
+StoreStmt: [Var469 <-- Var17]	
+ i8 53 { constant data }
+GepStmt: [Var470 <-- Var4]	
+ @__const.test_bad_04.arr = private unnamed_addr constant [6 x i8] c"12345\00", align 1 { Glob  }
+StoreStmt: [Var470 <-- Var19]	
+ i8 0 { constant data }
+AddrStmt: [Var21 <-- Var22]	
+Function: test_bad_01 { "ln": 11, "file": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+AddrStmt: [Var84 <-- Var85]	
+Function: llvm.dbg.declare 
+AddrStmt: [Var90 <-- Var91]	
+Function: test_bad_02 { "ln": 30, "file": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+AddrStmt: [Var152 <-- Var153]	
+Function: test_bad_03 { "ln": 52, "file": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+AddrStmt: [Var203 <-- Var204]	
+Function: test_bad_04 { "ln": 75, "file": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+AddrStmt: [Var217 <-- Var218]	
+Function: llvm.memcpy.p0i8.p0i8.i64 
+AddrStmt: [Var254 <-- Var255]	
+Function: test_bad_05 { "ln": 92, "file": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+AddrStmt: [Var306 <-- Var307]	
+Function: test_bad_06 { "ln": 115, "file": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+AddrStmt: [Var392 <-- Var393]	
+Function: test_bad_07 { "ln": 147, "file": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+AddrStmt: [Var457 <-- Var458]	
+Function: main { "ln": 168, "file": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var7	 Value: [0, 0]
+Var8	 Value: [0, 0]
+Var9	 Value: [49, 49]
+Var10	 Value: [49, 49]
+Var11	 Value: [50, 50]
+Var12	 Value: [50, 50]
+Var13	 Value: [51, 51]
+Var14	 Value: [51, 51]
+Var15	 Value: [52, 52]
+Var16	 Value: [52, 52]
+Var17	 Value: [53, 53]
+Var18	 Value: [53, 53]
+Var19	 Value: [0, 0]
+Var20	 Value: [0, 0]
+Var27	 Value: [1, 1]
+Var28	 Value: [1, 1]
+Var43	 Value: [1, 1]
+Var44	 Value: [1, 1]
+Var52	 Value: [34, 34]
+Var53	 Value: [34, 34]
+Var62	 Value: [0, 0]
+Var63	 Value: [0, 0]
+Var74	 Value: [92, 92]
+Var75	 Value: [92, 92]
+Var215	 Value: [6, 6]
+Var216	 Value: [6, 6]
+Var220	 Value: [0, 0]
+Var221	 Value: [0, 0]
+Var234	 Value: [5, 5]
+Var235	 Value: [5, 5]
+Var407	 Value: [32, 32]
+Var408	 Value: [32, 32]
+Var501	 Value: [49, 49]
+Var502	 Value: [50, 50]
+Var503	 Value: [51, 51]
+Var504	 Value: [52, 52]
+Var505	 Value: [53, 53]
+Var506	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var4	 Value: [ 0x7f000006(6) ,]
+Var6	 Value: [ 0x7f000006(6) ,]
+Var21	 Value: [ 0x7f000016(22) ,]
+Var22	 Value: [ 0x7f000016(22) ,]
+Var84	 Value: [ 0x7f000055(85) ,]
+Var85	 Value: [ 0x7f000055(85) ,]
+Var90	 Value: [ 0x7f00005b(91) ,]
+Var91	 Value: [ 0x7f00005b(91) ,]
+Var152	 Value: [ 0x7f000099(153) ,]
+Var153	 Value: [ 0x7f000099(153) ,]
+Var203	 Value: [ 0x7f0000cc(204) ,]
+Var204	 Value: [ 0x7f0000cc(204) ,]
+Var217	 Value: [ 0x7f0000da(218) ,]
+Var218	 Value: [ 0x7f0000da(218) ,]
+Var254	 Value: [ 0x7f0000ff(255) ,]
+Var255	 Value: [ 0x7f0000ff(255) ,]
+Var306	 Value: [ 0x7f000133(307) ,]
+Var307	 Value: [ 0x7f000133(307) ,]
+Var392	 Value: [ 0x7f000189(393) ,]
+Var393	 Value: [ 0x7f000189(393) ,]
+Var457	 Value: [ 0x7f0001ca(458) ,]
+Var458	 Value: [ 0x7f0001ca(458) ,]
+Var465	 Value: [ 0x7f0001f5(501) ,]
+Var466	 Value: [ 0x7f0001f6(502) ,]
+Var467	 Value: [ 0x7f0001f7(503) ,]
+Var468	 Value: [ 0x7f0001f8(504) ,]
+Var469	 Value: [ 0x7f0001f9(505) ,]
+Var470	 Value: [ 0x7f0001fa(506) ,]
+Var501	 Value: [ 0x7f0001f5(501) ,]
+Var502	 Value: [ 0x7f0001f6(502) ,]
+Var503	 Value: [ 0x7f0001f7(503) ,]
+Var504	 Value: [ 0x7f0001f8(504) ,]
+Var505	 Value: [ 0x7f0001f9(505) ,]
+Var506	 Value: [ 0x7f0001fa(506) ,]
+-----------------------------------------
+IntraICFGNode324 {fun: main}
+AddrStmt: [Var460 <-- Var461]	
+   %retval = alloca i32, align 4 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode325 {fun: main}
+StoreStmt: [Var460 <-- Var7]	
+   store i32 0, i32* %retval, align 4 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode326 {fun: main{ "ln": 170, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+IntraICFGNode130 {fun: test_bad_04{ "ln": 77, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+AddrStmt: [Var206 <-- Var207]	
+   %ptr = alloca i8*, align 8 { "ln": 77, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode131 {fun: test_bad_04{ "ln": 78, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+AddrStmt: [Var208 <-- Var209]	
+   %arr = alloca [6 x i8], align 1 { "ln": 78, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode342 {fun: test_bad_04{ "ln": 77, "cl": 12, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+   call void @llvm.dbg.declare(metadata i8** %ptr, metadata !133, metadata !DIExpression()), !dbg !134 { "ln": 77, "cl": 12, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode343 {fun: test_bad_04{ "ln": 78, "cl": 10, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+   call void @llvm.dbg.declare(metadata [6 x i8]* %arr, metadata !135, metadata !DIExpression()), !dbg !139 { "ln": 78, "cl": 10, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode132 {fun: test_bad_04{ "ln": 78, "cl": 10, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+CopyStmt: [Var212 <-- Var208]	
+   %0 = bitcast [6 x i8]* %arr to i8*, !dbg !24 { "ln": 78, "cl": 10, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+arr type size: 6
+arr type size: 6
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode133 {fun: test_bad_04}
+GepStmt: [Var213 <-- Var4]	
+   %1 = getelementptr inbounds [6 x i8], [6 x i8]* @__const.test_bad_04.arr, i32 0, i32 0 
+[6 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode134 {fun: test_bad_04{ "ln": 78, "cl": 10, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+GepStmt: [Var477 <-- Var212]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 6, i1 false), !dbg !24 { "ln": 78, "cl": 10, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+GepStmt: [Var478 <-- Var4]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 6, i1 false), !dbg !24 { "ln": 78, "cl": 10, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+LoadStmt: [Var479 <-- Var478]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 6, i1 false), !dbg !24 { "ln": 78, "cl": 10, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+StoreStmt: [Var477 <-- Var479]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 6, i1 false), !dbg !24 { "ln": 78, "cl": 10, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+GepStmt: [Var480 <-- Var212]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 6, i1 false), !dbg !24 { "ln": 78, "cl": 10, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+GepStmt: [Var481 <-- Var4]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 6, i1 false), !dbg !24 { "ln": 78, "cl": 10, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+LoadStmt: [Var482 <-- Var481]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 6, i1 false), !dbg !24 { "ln": 78, "cl": 10, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+StoreStmt: [Var480 <-- Var482]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 6, i1 false), !dbg !24 { "ln": 78, "cl": 10, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+GepStmt: [Var483 <-- Var212]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 6, i1 false), !dbg !24 { "ln": 78, "cl": 10, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+GepStmt: [Var484 <-- Var4]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 6, i1 false), !dbg !24 { "ln": 78, "cl": 10, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+LoadStmt: [Var485 <-- Var484]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 6, i1 false), !dbg !24 { "ln": 78, "cl": 10, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+StoreStmt: [Var483 <-- Var485]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 6, i1 false), !dbg !24 { "ln": 78, "cl": 10, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+GepStmt: [Var486 <-- Var212]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 6, i1 false), !dbg !24 { "ln": 78, "cl": 10, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+GepStmt: [Var487 <-- Var4]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 6, i1 false), !dbg !24 { "ln": 78, "cl": 10, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+LoadStmt: [Var488 <-- Var487]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 6, i1 false), !dbg !24 { "ln": 78, "cl": 10, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+StoreStmt: [Var486 <-- Var488]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 6, i1 false), !dbg !24 { "ln": 78, "cl": 10, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+GepStmt: [Var489 <-- Var212]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 6, i1 false), !dbg !24 { "ln": 78, "cl": 10, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+GepStmt: [Var490 <-- Var4]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 6, i1 false), !dbg !24 { "ln": 78, "cl": 10, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+LoadStmt: [Var491 <-- Var490]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 6, i1 false), !dbg !24 { "ln": 78, "cl": 10, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+StoreStmt: [Var489 <-- Var491]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 6, i1 false), !dbg !24 { "ln": 78, "cl": 10, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+GepStmt: [Var492 <-- Var212]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 6, i1 false), !dbg !24 { "ln": 78, "cl": 10, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+GepStmt: [Var493 <-- Var4]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 6, i1 false), !dbg !24 { "ln": 78, "cl": 10, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+LoadStmt: [Var494 <-- Var493]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 6, i1 false), !dbg !24 { "ln": 78, "cl": 10, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+StoreStmt: [Var492 <-- Var494]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 6, i1 false), !dbg !24 { "ln": 78, "cl": 10, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+CopyStmt: [Var214 <-- Var0]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 6, i1 false), !dbg !24 { "ln": 78, "cl": 10, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+arr type size: 6
+arr type size: 6
+Buffer Overflow Check Safe
+[6 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: 6
+arr type size: 6
+Buffer Overflow Check Safe
+[6 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: 6
+arr type size: 6
+Buffer Overflow Check Safe
+[6 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: 6
+arr type size: 6
+Buffer Overflow Check Safe
+[6 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: 6
+arr type size: 6
+Buffer Overflow Check Safe
+[6 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: 6
+arr type size: 6
+Buffer Overflow Check Safe
+[6 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: 6
+arr type size: 6
+Buffer Overflow Check Safe
+[6 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+[6 x i8]*, byteOffset:[0, 0]
+arr type size: 6
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode136 {fun: test_bad_04{ "ln": 79, "cl": 11, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+GepStmt: [Var219 <-- Var208]	
+   %arraydecay = getelementptr inbounds [6 x i8], [6 x i8]* %arr, i64 0, i64 0, !dbg !25 { "ln": 79, "cl": 11, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+[6 x i8]*, byteOffset:[0, 0]
+arr type size: 6
+arr type size: 6
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode137 {fun: test_bad_04{ "ln": 79, "cl": 9, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+StoreStmt: [Var206 <-- Var219]	
+   store i8* %arraydecay, i8** %ptr, align 8, !dbg !26 { "ln": 79, "cl": 9, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001ef(495) ,]
+-----------------------------------------
+IntraICFGNode138 {fun: test_bad_04{ "ln": 80, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode139   
+   br label %for.cond, !dbg !27 { "ln": 80, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001ef(495) ,]
+-----------------------------------------
+IntraICFGNode139 {fun: test_bad_04{ "ln": 80, "cl": 12, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+LoadStmt: [Var225 <-- Var206]	
+   %2 = load i8*, i8** %ptr, align 8, !dbg !28 { "ln": 80, "cl": 12, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001ef(495) ,]
+-----------------------------------------
+IntraICFGNode140 {fun: test_bad_04{ "ln": 80, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+CmpStmt: [Var226 <-- (Var225 predicate33 Var0)]	
+   %cmp = icmp ne i8* %2, null, !dbg !31 { "ln": 80, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001ef(495) ,]
+-----------------------------------------
+IntraICFGNode141 {fun: test_bad_04{ "ln": 80, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+BranchStmt: [Condition Var226]
+Successor 0 ICFGNode142   Successor 1 ICFGNode143   
+   br i1 %cmp, label %for.body, label %for.end, !dbg !32 { "ln": 80, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001ef(495) ,]
+-----------------------------------------
+IntraICFGNode142 {fun: test_bad_04{ "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+LoadStmt: [Var228 <-- Var206]	
+   %3 = load i8*, i8** %ptr, align 8, !dbg !33 { "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001ef(495) ,]
+-----------------------------------------
+IntraICFGNode144 {fun: test_bad_04{ "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+GepStmt: [Var229 <-- Var228]	
+   %incdec.ptr = getelementptr inbounds i8, i8* %3, i32 1, !dbg !33 { "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+i8*, byteOffset:[1, 1]
+arr type size: 6
+arr type size: 6
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001ef(495) ,]
+-----------------------------------------
+IntraICFGNode146 {fun: test_bad_04{ "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+StoreStmt: [Var206 <-- Var229]	
+   store i8* %incdec.ptr, i8** %ptr, align 8, !dbg !33 { "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f0(496) ,]
+-----------------------------------------
+IntraICFGNode147 {fun: test_bad_04{ "ln": 81, "cl": 13, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+LoadStmt: [Var231 <-- Var228]	
+   %4 = load i8, i8* %3, align 1, !dbg !36 { "ln": 81, "cl": 13, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f0(496) ,]
+-----------------------------------------
+IntraICFGNode148 {fun: test_bad_04{ "ln": 81, "cl": 13, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+CopyStmt: [Var232 <-- Var231]	
+   %conv = sext i8 %4 to i32, !dbg !36 { "ln": 81, "cl": 13, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f0(496) ,]
+-----------------------------------------
+IntraICFGNode149 {fun: test_bad_04{ "ln": 81, "cl": 20, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+CmpStmt: [Var233 <-- (Var232 predicate32 Var234)]	
+   %cmp1 = icmp eq i32 %conv, 5, !dbg !37 { "ln": 81, "cl": 20, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f0(496) ,]
+-----------------------------------------
+IntraICFGNode150 {fun: test_bad_04{ "ln": 81, "cl": 13, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+BranchStmt: [Condition Var233]
+Successor 0 ICFGNode151   Successor 1 ICFGNode152   
+   br i1 %cmp1, label %if.then, label %if.end, !dbg !38 { "ln": 81, "cl": 13, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f0(496) ,]
+-----------------------------------------
+IntraICFGNode152 {fun: test_bad_04{ "ln": 85, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode154   
+   br label %for.inc, !dbg !42 { "ln": 85, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f0(496) ,]
+-----------------------------------------
+IntraICFGNode154 {fun: test_bad_04{ "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+LoadStmt: [Var244 <-- Var206]	
+   %6 = load i8*, i8** %ptr, align 8, !dbg !43 { "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f0(496) ,]
+-----------------------------------------
+IntraICFGNode156 {fun: test_bad_04{ "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+GepStmt: [Var245 <-- Var244]	
+   %incdec.ptr4 = getelementptr inbounds i8, i8* %6, i32 1, !dbg !43 { "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+i8*, byteOffset:[1, 1]
+arr type size: 6
+arr type size: 6
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f0(496) ,]
+-----------------------------------------
+IntraICFGNode158 {fun: test_bad_04{ "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+StoreStmt: [Var206 <-- Var245]	
+   store i8* %incdec.ptr4, i8** %ptr, align 8, !dbg !43 { "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f1(497) ,]
+-----------------------------------------
+IntraICFGNode159 {fun: test_bad_04{ "ln": 80, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode139   
+   br label %for.cond, !dbg !44, !llvm.loop !45 { "ln": 80, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f1(497) ,]
+-----------------------------------------
+IntraICFGNode139 {fun: test_bad_04{ "ln": 80, "cl": 12, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+LoadStmt: [Var225 <-- Var206]	
+   %2 = load i8*, i8** %ptr, align 8, !dbg !28 { "ln": 80, "cl": 12, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001ef(495) ,0x7f0001f1(497) ,]
+-----------------------------------------
+IntraICFGNode140 {fun: test_bad_04{ "ln": 80, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+CmpStmt: [Var226 <-- (Var225 predicate33 Var0)]	
+   %cmp = icmp ne i8* %2, null, !dbg !31 { "ln": 80, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001ef(495) ,0x7f0001f1(497) ,]
+-----------------------------------------
+IntraICFGNode141 {fun: test_bad_04{ "ln": 80, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+BranchStmt: [Condition Var226]
+Successor 0 ICFGNode142   Successor 1 ICFGNode143   
+   br i1 %cmp, label %for.body, label %for.end, !dbg !32 { "ln": 80, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001ef(495) ,0x7f0001f1(497) ,]
+-----------------------------------------
+IntraICFGNode142 {fun: test_bad_04{ "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+LoadStmt: [Var228 <-- Var206]	
+   %3 = load i8*, i8** %ptr, align 8, !dbg !33 { "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001ef(495) ,0x7f0001f1(497) ,]
+-----------------------------------------
+IntraICFGNode144 {fun: test_bad_04{ "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+GepStmt: [Var229 <-- Var228]	
+   %incdec.ptr = getelementptr inbounds i8, i8* %3, i32 1, !dbg !33 { "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+i8*, byteOffset:[1, 1]
+arr type size: 6
+arr type size: 6
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001ef(495) ,0x7f0001f1(497) ,]
+-----------------------------------------
+IntraICFGNode146 {fun: test_bad_04{ "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+StoreStmt: [Var206 <-- Var229]	
+   store i8* %incdec.ptr, i8** %ptr, align 8, !dbg !33 { "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f2(498) ,0x7f0001f0(496) ,]
+-----------------------------------------
+IntraICFGNode147 {fun: test_bad_04{ "ln": 81, "cl": 13, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+LoadStmt: [Var231 <-- Var228]	
+   %4 = load i8, i8* %3, align 1, !dbg !36 { "ln": 81, "cl": 13, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f2(498) ,0x7f0001f0(496) ,]
+-----------------------------------------
+IntraICFGNode148 {fun: test_bad_04{ "ln": 81, "cl": 13, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+CopyStmt: [Var232 <-- Var231]	
+   %conv = sext i8 %4 to i32, !dbg !36 { "ln": 81, "cl": 13, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f2(498) ,0x7f0001f0(496) ,]
+-----------------------------------------
+IntraICFGNode149 {fun: test_bad_04{ "ln": 81, "cl": 20, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+CmpStmt: [Var233 <-- (Var232 predicate32 Var234)]	
+   %cmp1 = icmp eq i32 %conv, 5, !dbg !37 { "ln": 81, "cl": 20, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f2(498) ,0x7f0001f0(496) ,]
+-----------------------------------------
+IntraICFGNode150 {fun: test_bad_04{ "ln": 81, "cl": 13, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+BranchStmt: [Condition Var233]
+Successor 0 ICFGNode151   Successor 1 ICFGNode152   
+   br i1 %cmp1, label %if.then, label %if.end, !dbg !38 { "ln": 81, "cl": 13, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f2(498) ,0x7f0001f0(496) ,]
+-----------------------------------------
+IntraICFGNode152 {fun: test_bad_04{ "ln": 85, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode154   
+   br label %for.inc, !dbg !42 { "ln": 85, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [49, 51]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f2(498) ,0x7f0001f0(496) ,]
+-----------------------------------------
+IntraICFGNode154 {fun: test_bad_04{ "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+LoadStmt: [Var244 <-- Var206]	
+   %6 = load i8*, i8** %ptr, align 8, !dbg !43 { "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [49, 51]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f2(498) ,0x7f0001f0(496) ,]
+-----------------------------------------
+IntraICFGNode156 {fun: test_bad_04{ "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+GepStmt: [Var245 <-- Var244]	
+   %incdec.ptr4 = getelementptr inbounds i8, i8* %6, i32 1, !dbg !43 { "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+i8*, byteOffset:[1, 1]
+arr type size: 6
+arr type size: 6
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [49, 51]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f2(498) ,0x7f0001f0(496) ,]
+-----------------------------------------
+IntraICFGNode158 {fun: test_bad_04{ "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+StoreStmt: [Var206 <-- Var245]	
+   store i8* %incdec.ptr4, i8** %ptr, align 8, !dbg !43 { "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [49, 51]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f1(497) ,0x7f0001f3(499) ,]
+-----------------------------------------
+IntraICFGNode159 {fun: test_bad_04{ "ln": 80, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode139   
+   br label %for.cond, !dbg !44, !llvm.loop !45 { "ln": 80, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [49, 51]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f1(497) ,0x7f0001f3(499) ,]
+-----------------------------------------
+IntraICFGNode139 {fun: test_bad_04{ "ln": 80, "cl": 12, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+LoadStmt: [Var225 <-- Var206]	
+   %2 = load i8*, i8** %ptr, align 8, !dbg !28 { "ln": 80, "cl": 12, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [49, 51]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f3(499) ,0x7f0001f1(497) ,0x7f0001ef(495) ,]
+-----------------------------------------
+IntraICFGNode140 {fun: test_bad_04{ "ln": 80, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+CmpStmt: [Var226 <-- (Var225 predicate33 Var0)]	
+   %cmp = icmp ne i8* %2, null, !dbg !31 { "ln": 80, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [49, 51]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f3(499) ,0x7f0001f1(497) ,0x7f0001ef(495) ,]
+-----------------------------------------
+IntraICFGNode141 {fun: test_bad_04{ "ln": 80, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+BranchStmt: [Condition Var226]
+Successor 0 ICFGNode142   Successor 1 ICFGNode143   
+   br i1 %cmp, label %for.body, label %for.end, !dbg !32 { "ln": 80, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [49, 51]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f3(499) ,0x7f0001f1(497) ,0x7f0001ef(495) ,]
+-----------------------------------------
+IntraICFGNode142 {fun: test_bad_04{ "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+LoadStmt: [Var228 <-- Var206]	
+   %3 = load i8*, i8** %ptr, align 8, !dbg !33 { "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [49, 51]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f3(499) ,0x7f0001f1(497) ,0x7f0001ef(495) ,]
+-----------------------------------------
+IntraICFGNode144 {fun: test_bad_04{ "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+GepStmt: [Var229 <-- Var228]	
+   %incdec.ptr = getelementptr inbounds i8, i8* %3, i32 1, !dbg !33 { "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+i8*, byteOffset:[1, 1]
+arr type size: 6
+arr type size: 6
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [49, 51]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f3(499) ,0x7f0001f1(497) ,0x7f0001ef(495) ,]
+-----------------------------------------
+IntraICFGNode146 {fun: test_bad_04{ "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+StoreStmt: [Var206 <-- Var229]	
+   store i8* %incdec.ptr, i8** %ptr, align 8, !dbg !33 { "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [49, 51]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f0(496) ,0x7f0001f4(500) ,0x7f0001f2(498) ,]
+-----------------------------------------
+IntraICFGNode147 {fun: test_bad_04{ "ln": 81, "cl": 13, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+LoadStmt: [Var231 <-- Var228]	
+   %4 = load i8, i8* %3, align 1, !dbg !36 { "ln": 81, "cl": 13, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [49, 51]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f0(496) ,0x7f0001f4(500) ,0x7f0001f2(498) ,]
+-----------------------------------------
+IntraICFGNode148 {fun: test_bad_04{ "ln": 81, "cl": 13, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+CopyStmt: [Var232 <-- Var231]	
+   %conv = sext i8 %4 to i32, !dbg !36 { "ln": 81, "cl": 13, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [49, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f0(496) ,0x7f0001f4(500) ,0x7f0001f2(498) ,]
+-----------------------------------------
+IntraICFGNode149 {fun: test_bad_04{ "ln": 81, "cl": 20, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+CmpStmt: [Var233 <-- (Var232 predicate32 Var234)]	
+   %cmp1 = icmp eq i32 %conv, 5, !dbg !37 { "ln": 81, "cl": 20, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [49, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f0(496) ,0x7f0001f4(500) ,0x7f0001f2(498) ,]
+-----------------------------------------
+IntraICFGNode150 {fun: test_bad_04{ "ln": 81, "cl": 13, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+BranchStmt: [Condition Var233]
+Successor 0 ICFGNode151   Successor 1 ICFGNode152   
+   br i1 %cmp1, label %if.then, label %if.end, !dbg !38 { "ln": 81, "cl": 13, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [49, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f0(496) ,0x7f0001f4(500) ,0x7f0001f2(498) ,]
+-----------------------------------------
+IntraICFGNode152 {fun: test_bad_04{ "ln": 85, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode154   
+   br label %for.inc, !dbg !42 { "ln": 85, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [49, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f0(496) ,0x7f0001f4(500) ,0x7f0001f2(498) ,]
+-----------------------------------------
+IntraICFGNode154 {fun: test_bad_04{ "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+LoadStmt: [Var244 <-- Var206]	
+   %6 = load i8*, i8** %ptr, align 8, !dbg !43 { "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [49, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f0(496) ,0x7f0001f4(500) ,0x7f0001f2(498) ,]
+-----------------------------------------
+IntraICFGNode156 {fun: test_bad_04{ "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+GepStmt: [Var245 <-- Var244]	
+   %incdec.ptr4 = getelementptr inbounds i8, i8* %6, i32 1, !dbg !43 { "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+i8*, byteOffset:[1, 1]
+arr type size: 6
+arr type size: 6
+[1;31mBuffer overflow!! Accessing buffer range: [7, 7]
+Allocated buffer size: 6
+IntraICFGNode156 {fun: test_bad_04{ "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+GepStmt: [Var245 <-- Var244]	
+   %incdec.ptr4 = getelementptr inbounds i8, i8* %6, i32 1, !dbg !43 { "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }, Offset: [1, 1]
+[1;0m
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [49, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f0(496) ,0x7f0001f4(500) ,0x7f0001f2(498) ,]
+-----------------------------------------
+IntraICFGNode158 {fun: test_bad_04{ "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+StoreStmt: [Var206 <-- Var245]	
+   store i8* %incdec.ptr4, i8** %ptr, align 8, !dbg !43 { "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [49, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f3(499) ,0x7f0001f4(500) ,0x7f0001f1(497) ,]
+-----------------------------------------
+IntraICFGNode159 {fun: test_bad_04{ "ln": 80, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode139   
+   br label %for.cond, !dbg !44, !llvm.loop !45 { "ln": 80, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [49, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f3(499) ,0x7f0001f4(500) ,0x7f0001f1(497) ,]
+-----------------------------------------
+IntraICFGNode139 {fun: test_bad_04{ "ln": 80, "cl": 12, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+LoadStmt: [Var225 <-- Var206]	
+   %2 = load i8*, i8** %ptr, align 8, !dbg !28 { "ln": 80, "cl": 12, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [49, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f1(497) ,0x7f0001f3(499) ,0x7f0001ef(495) ,0x7f0001f4(500) ,]
+-----------------------------------------
+IntraICFGNode140 {fun: test_bad_04{ "ln": 80, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+CmpStmt: [Var226 <-- (Var225 predicate33 Var0)]	
+   %cmp = icmp ne i8* %2, null, !dbg !31 { "ln": 80, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [49, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f1(497) ,0x7f0001f3(499) ,0x7f0001ef(495) ,0x7f0001f4(500) ,]
+-----------------------------------------
+IntraICFGNode141 {fun: test_bad_04{ "ln": 80, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+BranchStmt: [Condition Var226]
+Successor 0 ICFGNode142   Successor 1 ICFGNode143   
+   br i1 %cmp, label %for.body, label %for.end, !dbg !32 { "ln": 80, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [49, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f1(497) ,0x7f0001f3(499) ,0x7f0001ef(495) ,0x7f0001f4(500) ,]
+-----------------------------------------
+IntraICFGNode142 {fun: test_bad_04{ "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+LoadStmt: [Var228 <-- Var206]	
+   %3 = load i8*, i8** %ptr, align 8, !dbg !33 { "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [49, +INF]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f1(497) ,0x7f0001f3(499) ,0x7f0001ef(495) ,0x7f0001f4(500) ,]
+-----------------------------------------
+IntraICFGNode144 {fun: test_bad_04{ "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+GepStmt: [Var229 <-- Var228]	
+   %incdec.ptr = getelementptr inbounds i8, i8* %3, i32 1, !dbg !33 { "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+i8*, byteOffset:[1, 1]
+arr type size: 6
+arr type size: 6
+[1;31mBuffer overflow!! Accessing buffer range: [7, 7]
+Allocated buffer size: 6
+IntraICFGNode144 {fun: test_bad_04{ "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+GepStmt: [Var229 <-- Var228]	
+   %incdec.ptr = getelementptr inbounds i8, i8* %3, i32 1, !dbg !33 { "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }, Offset: [1, 1]
+[1;0m
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [49, +INF]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f1(497) ,0x7f0001f3(499) ,0x7f0001ef(495) ,0x7f0001f4(500) ,]
+-----------------------------------------
+IntraICFGNode146 {fun: test_bad_04{ "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+StoreStmt: [Var206 <-- Var229]	
+   store i8* %incdec.ptr, i8** %ptr, align 8, !dbg !33 { "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [49, +INF]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f0(496) ,0x7f0001f4(500) ,0x7f0001f2(498) ,]
+-----------------------------------------
+IntraICFGNode147 {fun: test_bad_04{ "ln": 81, "cl": 13, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+LoadStmt: [Var231 <-- Var228]	
+   %4 = load i8, i8* %3, align 1, !dbg !36 { "ln": 81, "cl": 13, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [49, +INF]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f0(496) ,0x7f0001f4(500) ,0x7f0001f2(498) ,]
+-----------------------------------------
+IntraICFGNode148 {fun: test_bad_04{ "ln": 81, "cl": 13, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+CopyStmt: [Var232 <-- Var231]	
+   %conv = sext i8 %4 to i32, !dbg !36 { "ln": 81, "cl": 13, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f0(496) ,0x7f0001f4(500) ,0x7f0001f2(498) ,]
+-----------------------------------------
+IntraICFGNode149 {fun: test_bad_04{ "ln": 81, "cl": 20, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+CmpStmt: [Var233 <-- (Var232 predicate32 Var234)]	
+   %cmp1 = icmp eq i32 %conv, 5, !dbg !37 { "ln": 81, "cl": 20, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f0(496) ,0x7f0001f4(500) ,0x7f0001f2(498) ,]
+-----------------------------------------
+IntraICFGNode150 {fun: test_bad_04{ "ln": 81, "cl": 13, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+BranchStmt: [Condition Var233]
+Successor 0 ICFGNode151   Successor 1 ICFGNode152   
+   br i1 %cmp1, label %if.then, label %if.end, !dbg !38 { "ln": 81, "cl": 13, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f0(496) ,0x7f0001f4(500) ,0x7f0001f2(498) ,]
+-----------------------------------------
+IntraICFGNode151 {fun: test_bad_04{ "ln": 83, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+LoadStmt: [Var237 <-- Var206]	
+   %5 = load i8*, i8** %ptr, align 8, !dbg !39 { "ln": 83, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [5, 5]
+Var461	 Value: [0, 0]
+Var495	 Value: ⊥
+Var496	 Value: [50, 50]
+Var497	 Value: ⊥
+Var498	 Value: [52, 52]
+Var499	 Value: ⊥
+Var500	 Value: ⊥
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f0(496) ,0x7f0001f4(500) ,0x7f0001f2(498) ,]
+-----------------------------------------
+IntraICFGNode153 {fun: test_bad_04{ "ln": 83, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+GepStmt: [Var238 <-- Var237]	
+   %incdec.ptr3 = getelementptr inbounds i8, i8* %5, i32 1, !dbg !39 { "ln": 83, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+i8*, byteOffset:[1, 1]
+arr type size: 6
+arr type size: 6
+[1;31mBuffer overflow!! Accessing buffer range: [7, 7]
+Allocated buffer size: 6
+IntraICFGNode153 {fun: test_bad_04{ "ln": 83, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+GepStmt: [Var238 <-- Var237]	
+   %incdec.ptr3 = getelementptr inbounds i8, i8* %5, i32 1, !dbg !39 { "ln": 83, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }, Offset: [1, 1]
+[1;0m
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [5, 5]
+Var461	 Value: [0, 0]
+Var495	 Value: ⊥
+Var496	 Value: [50, 50]
+Var497	 Value: ⊥
+Var498	 Value: [52, 52]
+Var499	 Value: ⊥
+Var500	 Value: ⊥
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f0(496) ,0x7f0001f4(500) ,0x7f0001f2(498) ,]
+-----------------------------------------
+IntraICFGNode155 {fun: test_bad_04{ "ln": 83, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+StoreStmt: [Var206 <-- Var238]	
+   store i8* %incdec.ptr3, i8** %ptr, align 8, !dbg !39 { "ln": 83, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [5, 5]
+Var461	 Value: [0, 0]
+Var495	 Value: ⊥
+Var496	 Value: [50, 50]
+Var497	 Value: ⊥
+Var498	 Value: [52, 52]
+Var499	 Value: ⊥
+Var500	 Value: ⊥
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f3(499) ,0x7f0001f4(500) ,0x7f0001f1(497) ,]
+-----------------------------------------
+IntraICFGNode157 {fun: test_bad_04{ "ln": 84, "cl": 9, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode152   
+   br label %if.end, !dbg !41 { "ln": 84, "cl": 9, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [5, 5]
+Var461	 Value: [0, 0]
+Var495	 Value: ⊥
+Var496	 Value: [50, 50]
+Var497	 Value: ⊥
+Var498	 Value: [52, 52]
+Var499	 Value: ⊥
+Var500	 Value: ⊥
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f3(499) ,0x7f0001f4(500) ,0x7f0001f1(497) ,]
+-----------------------------------------
+IntraICFGNode152 {fun: test_bad_04{ "ln": 85, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode154   
+   br label %for.inc, !dbg !42 { "ln": 85, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f1(497) ,0x7f0001f3(499) ,0x7f0001f0(496) ,0x7f0001f2(498) ,0x7f0001f4(500) ,]
+-----------------------------------------
+IntraICFGNode154 {fun: test_bad_04{ "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+LoadStmt: [Var244 <-- Var206]	
+   %6 = load i8*, i8** %ptr, align 8, !dbg !43 { "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f1(497) ,0x7f0001f3(499) ,0x7f0001f0(496) ,0x7f0001f2(498) ,0x7f0001f4(500) ,]
+-----------------------------------------
+IntraICFGNode156 {fun: test_bad_04{ "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+GepStmt: [Var245 <-- Var244]	
+   %incdec.ptr4 = getelementptr inbounds i8, i8* %6, i32 1, !dbg !43 { "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+i8*, byteOffset:[1, 1]
+arr type size: 6
+arr type size: 6
+[1;31mBuffer overflow!! Accessing buffer range: [7, 7]
+Allocated buffer size: 6
+IntraICFGNode156 {fun: test_bad_04{ "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+GepStmt: [Var245 <-- Var244]	
+   %incdec.ptr4 = getelementptr inbounds i8, i8* %6, i32 1, !dbg !43 { "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }, Offset: [1, 1]
+[1;0m
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f1(497) ,0x7f0001f3(499) ,0x7f0001f0(496) ,0x7f0001f2(498) ,0x7f0001f4(500) ,]
+-----------------------------------------
+IntraICFGNode158 {fun: test_bad_04{ "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+StoreStmt: [Var206 <-- Var245]	
+   store i8* %incdec.ptr4, i8** %ptr, align 8, !dbg !43 { "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f3(499) ,0x7f0001f1(497) ,0x7f0001f4(500) ,0x7f0001f2(498) ,]
+-----------------------------------------
+IntraICFGNode159 {fun: test_bad_04{ "ln": 80, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode139   
+   br label %for.cond, !dbg !44, !llvm.loop !45 { "ln": 80, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f3(499) ,0x7f0001f1(497) ,0x7f0001f4(500) ,0x7f0001f2(498) ,]
+-----------------------------------------
+IntraICFGNode139 {fun: test_bad_04{ "ln": 80, "cl": 12, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+LoadStmt: [Var225 <-- Var206]	
+   %2 = load i8*, i8** %ptr, align 8, !dbg !28 { "ln": 80, "cl": 12, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f2(498) ,0x7f0001f1(497) ,0x7f0001f3(499) ,0x7f0001ef(495) ,0x7f0001f4(500) ,]
+-----------------------------------------
+IntraICFGNode140 {fun: test_bad_04{ "ln": 80, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+CmpStmt: [Var226 <-- (Var225 predicate33 Var0)]	
+   %cmp = icmp ne i8* %2, null, !dbg !31 { "ln": 80, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f2(498) ,0x7f0001f1(497) ,0x7f0001f3(499) ,0x7f0001ef(495) ,0x7f0001f4(500) ,]
+-----------------------------------------
+IntraICFGNode141 {fun: test_bad_04{ "ln": 80, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+BranchStmt: [Condition Var226]
+Successor 0 ICFGNode142   Successor 1 ICFGNode143   
+   br i1 %cmp, label %for.body, label %for.end, !dbg !32 { "ln": 80, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f2(498) ,0x7f0001f1(497) ,0x7f0001f3(499) ,0x7f0001ef(495) ,0x7f0001f4(500) ,]
+-----------------------------------------
+IntraICFGNode142 {fun: test_bad_04{ "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+LoadStmt: [Var228 <-- Var206]	
+   %3 = load i8*, i8** %ptr, align 8, !dbg !33 { "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f2(498) ,0x7f0001f1(497) ,0x7f0001f3(499) ,0x7f0001ef(495) ,0x7f0001f4(500) ,]
+-----------------------------------------
+IntraICFGNode144 {fun: test_bad_04{ "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+GepStmt: [Var229 <-- Var228]	
+   %incdec.ptr = getelementptr inbounds i8, i8* %3, i32 1, !dbg !33 { "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+i8*, byteOffset:[1, 1]
+arr type size: 6
+arr type size: 6
+[1;31mBuffer overflow!! Accessing buffer range: [7, 7]
+Allocated buffer size: 6
+IntraICFGNode144 {fun: test_bad_04{ "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+GepStmt: [Var229 <-- Var228]	
+   %incdec.ptr = getelementptr inbounds i8, i8* %3, i32 1, !dbg !33 { "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }, Offset: [1, 1]
+[1;0m
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f2(498) ,0x7f0001f1(497) ,0x7f0001f3(499) ,0x7f0001ef(495) ,0x7f0001f4(500) ,]
+-----------------------------------------
+IntraICFGNode146 {fun: test_bad_04{ "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+StoreStmt: [Var206 <-- Var229]	
+   store i8* %incdec.ptr, i8** %ptr, align 8, !dbg !33 { "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f0(496) ,0x7f0001f4(500) ,0x7f0001f2(498) ,0x7f0001f3(499) ,]
+-----------------------------------------
+IntraICFGNode147 {fun: test_bad_04{ "ln": 81, "cl": 13, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+LoadStmt: [Var231 <-- Var228]	
+   %4 = load i8, i8* %3, align 1, !dbg !36 { "ln": 81, "cl": 13, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [-INF, +INF]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f0(496) ,0x7f0001f4(500) ,0x7f0001f2(498) ,0x7f0001f3(499) ,]
+-----------------------------------------
+IntraICFGNode148 {fun: test_bad_04{ "ln": 81, "cl": 13, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+CopyStmt: [Var232 <-- Var231]	
+   %conv = sext i8 %4 to i32, !dbg !36 { "ln": 81, "cl": 13, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f0(496) ,0x7f0001f4(500) ,0x7f0001f2(498) ,0x7f0001f3(499) ,]
+-----------------------------------------
+IntraICFGNode149 {fun: test_bad_04{ "ln": 81, "cl": 20, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+CmpStmt: [Var233 <-- (Var232 predicate32 Var234)]	
+   %cmp1 = icmp eq i32 %conv, 5, !dbg !37 { "ln": 81, "cl": 20, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f0(496) ,0x7f0001f4(500) ,0x7f0001f2(498) ,0x7f0001f3(499) ,]
+-----------------------------------------
+IntraICFGNode150 {fun: test_bad_04{ "ln": 81, "cl": 13, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+BranchStmt: [Condition Var233]
+Successor 0 ICFGNode151   Successor 1 ICFGNode152   
+   br i1 %cmp1, label %if.then, label %if.end, !dbg !38 { "ln": 81, "cl": 13, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f0(496) ,0x7f0001f4(500) ,0x7f0001f2(498) ,0x7f0001f3(499) ,]
+-----------------------------------------
+IntraICFGNode151 {fun: test_bad_04{ "ln": 83, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+LoadStmt: [Var237 <-- Var206]	
+   %5 = load i8*, i8** %ptr, align 8, !dbg !39 { "ln": 83, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [5, 5]
+Var461	 Value: [0, 0]
+Var495	 Value: ⊥
+Var496	 Value: [50, 50]
+Var497	 Value: ⊥
+Var498	 Value: ⊥
+Var499	 Value: ⊥
+Var500	 Value: ⊥
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f0(496) ,0x7f0001f4(500) ,0x7f0001f2(498) ,0x7f0001f3(499) ,]
+-----------------------------------------
+IntraICFGNode153 {fun: test_bad_04{ "ln": 83, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+GepStmt: [Var238 <-- Var237]	
+   %incdec.ptr3 = getelementptr inbounds i8, i8* %5, i32 1, !dbg !39 { "ln": 83, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+i8*, byteOffset:[1, 1]
+arr type size: 6
+arr type size: 6
+[1;31mBuffer overflow!! Accessing buffer range: [7, 7]
+Allocated buffer size: 6
+IntraICFGNode153 {fun: test_bad_04{ "ln": 83, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+GepStmt: [Var238 <-- Var237]	
+   %incdec.ptr3 = getelementptr inbounds i8, i8* %5, i32 1, !dbg !39 { "ln": 83, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }, Offset: [1, 1]
+[1;0m
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [5, 5]
+Var461	 Value: [0, 0]
+Var495	 Value: ⊥
+Var496	 Value: [50, 50]
+Var497	 Value: ⊥
+Var498	 Value: ⊥
+Var499	 Value: ⊥
+Var500	 Value: ⊥
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f0(496) ,0x7f0001f4(500) ,0x7f0001f2(498) ,0x7f0001f3(499) ,]
+-----------------------------------------
+IntraICFGNode155 {fun: test_bad_04{ "ln": 83, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+StoreStmt: [Var206 <-- Var238]	
+   store i8* %incdec.ptr3, i8** %ptr, align 8, !dbg !39 { "ln": 83, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [5, 5]
+Var461	 Value: [0, 0]
+Var495	 Value: ⊥
+Var496	 Value: [50, 50]
+Var497	 Value: ⊥
+Var498	 Value: ⊥
+Var499	 Value: ⊥
+Var500	 Value: ⊥
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f3(499) ,0x7f0001f4(500) ,0x7f0001f1(497) ,]
+-----------------------------------------
+IntraICFGNode157 {fun: test_bad_04{ "ln": 84, "cl": 9, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode152   
+   br label %if.end, !dbg !41 { "ln": 84, "cl": 9, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [5, 5]
+Var461	 Value: [0, 0]
+Var495	 Value: ⊥
+Var496	 Value: [50, 50]
+Var497	 Value: ⊥
+Var498	 Value: ⊥
+Var499	 Value: ⊥
+Var500	 Value: ⊥
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f3(499) ,0x7f0001f4(500) ,0x7f0001f1(497) ,]
+-----------------------------------------
+IntraICFGNode152 {fun: test_bad_04{ "ln": 85, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode154   
+   br label %for.inc, !dbg !42 { "ln": 85, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f1(497) ,0x7f0001f0(496) ,0x7f0001f4(500) ,0x7f0001f2(498) ,0x7f0001f3(499) ,]
+-----------------------------------------
+IntraICFGNode154 {fun: test_bad_04{ "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+LoadStmt: [Var244 <-- Var206]	
+   %6 = load i8*, i8** %ptr, align 8, !dbg !43 { "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f1(497) ,0x7f0001f0(496) ,0x7f0001f4(500) ,0x7f0001f2(498) ,0x7f0001f3(499) ,]
+-----------------------------------------
+IntraICFGNode156 {fun: test_bad_04{ "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+GepStmt: [Var245 <-- Var244]	
+   %incdec.ptr4 = getelementptr inbounds i8, i8* %6, i32 1, !dbg !43 { "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+i8*, byteOffset:[1, 1]
+arr type size: 6
+arr type size: 6
+[1;31mBuffer overflow!! Accessing buffer range: [7, 7]
+Allocated buffer size: 6
+IntraICFGNode156 {fun: test_bad_04{ "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+GepStmt: [Var245 <-- Var244]	
+   %incdec.ptr4 = getelementptr inbounds i8, i8* %6, i32 1, !dbg !43 { "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }, Offset: [1, 1]
+[1;0m
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f1(497) ,0x7f0001f0(496) ,0x7f0001f4(500) ,0x7f0001f2(498) ,0x7f0001f3(499) ,]
+-----------------------------------------
+IntraICFGNode158 {fun: test_bad_04{ "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+StoreStmt: [Var206 <-- Var245]	
+   store i8* %incdec.ptr4, i8** %ptr, align 8, !dbg !43 { "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f3(499) ,0x7f0001f1(497) ,0x7f0001f4(500) ,0x7f0001f2(498) ,]
+-----------------------------------------
+IntraICFGNode159 {fun: test_bad_04{ "ln": 80, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode139   
+   br label %for.cond, !dbg !44, !llvm.loop !45 { "ln": 80, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f3(499) ,0x7f0001f1(497) ,0x7f0001f4(500) ,0x7f0001f2(498) ,]
+-----------------------------------------
+IntraICFGNode139 {fun: test_bad_04{ "ln": 80, "cl": 12, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+LoadStmt: [Var225 <-- Var206]	
+   %2 = load i8*, i8** %ptr, align 8, !dbg !28 { "ln": 80, "cl": 12, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f2(498) ,0x7f0001f1(497) ,0x7f0001f3(499) ,0x7f0001ef(495) ,0x7f0001f4(500) ,]
+-----------------------------------------
+IntraICFGNode140 {fun: test_bad_04{ "ln": 80, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+CmpStmt: [Var226 <-- (Var225 predicate33 Var0)]	
+   %cmp = icmp ne i8* %2, null, !dbg !31 { "ln": 80, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f2(498) ,0x7f0001f1(497) ,0x7f0001f3(499) ,0x7f0001ef(495) ,0x7f0001f4(500) ,]
+-----------------------------------------
+IntraICFGNode141 {fun: test_bad_04{ "ln": 80, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+BranchStmt: [Condition Var226]
+Successor 0 ICFGNode142   Successor 1 ICFGNode143   
+   br i1 %cmp, label %for.body, label %for.end, !dbg !32 { "ln": 80, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f2(498) ,0x7f0001f1(497) ,0x7f0001f3(499) ,0x7f0001ef(495) ,0x7f0001f4(500) ,]
+-----------------------------------------
+IntraICFGNode139 {fun: test_bad_04{ "ln": 80, "cl": 12, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+LoadStmt: [Var225 <-- Var206]	
+   %2 = load i8*, i8** %ptr, align 8, !dbg !28 { "ln": 80, "cl": 12, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f2(498) ,0x7f0001f1(497) ,0x7f0001f3(499) ,0x7f0001ef(495) ,0x7f0001f4(500) ,]
+-----------------------------------------
+IntraICFGNode140 {fun: test_bad_04{ "ln": 80, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+CmpStmt: [Var226 <-- (Var225 predicate33 Var0)]	
+   %cmp = icmp ne i8* %2, null, !dbg !31 { "ln": 80, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f2(498) ,0x7f0001f1(497) ,0x7f0001f3(499) ,0x7f0001ef(495) ,0x7f0001f4(500) ,]
+-----------------------------------------
+IntraICFGNode141 {fun: test_bad_04{ "ln": 80, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+BranchStmt: [Condition Var226]
+Successor 0 ICFGNode142   Successor 1 ICFGNode143   
+   br i1 %cmp, label %for.body, label %for.end, !dbg !32 { "ln": 80, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f2(498) ,0x7f0001f1(497) ,0x7f0001f3(499) ,0x7f0001ef(495) ,0x7f0001f4(500) ,]
+-----------------------------------------
+IntraICFGNode142 {fun: test_bad_04{ "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+LoadStmt: [Var228 <-- Var206]	
+   %3 = load i8*, i8** %ptr, align 8, !dbg !33 { "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f2(498) ,0x7f0001f1(497) ,0x7f0001f3(499) ,0x7f0001ef(495) ,0x7f0001f4(500) ,]
+-----------------------------------------
+IntraICFGNode144 {fun: test_bad_04{ "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+GepStmt: [Var229 <-- Var228]	
+   %incdec.ptr = getelementptr inbounds i8, i8* %3, i32 1, !dbg !33 { "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+i8*, byteOffset:[1, 1]
+arr type size: 6
+arr type size: 6
+[1;31mBuffer overflow!! Accessing buffer range: [7, 7]
+Allocated buffer size: 6
+IntraICFGNode144 {fun: test_bad_04{ "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+GepStmt: [Var229 <-- Var228]	
+   %incdec.ptr = getelementptr inbounds i8, i8* %3, i32 1, !dbg !33 { "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }, Offset: [1, 1]
+[1;0m
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f2(498) ,0x7f0001f1(497) ,0x7f0001f3(499) ,0x7f0001ef(495) ,0x7f0001f4(500) ,]
+-----------------------------------------
+IntraICFGNode146 {fun: test_bad_04{ "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+StoreStmt: [Var206 <-- Var229]	
+   store i8* %incdec.ptr, i8** %ptr, align 8, !dbg !33 { "ln": 81, "cl": 17, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f0(496) ,0x7f0001f4(500) ,0x7f0001f2(498) ,0x7f0001f3(499) ,]
+-----------------------------------------
+IntraICFGNode147 {fun: test_bad_04{ "ln": 81, "cl": 13, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+LoadStmt: [Var231 <-- Var228]	
+   %4 = load i8, i8* %3, align 1, !dbg !36 { "ln": 81, "cl": 13, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f0(496) ,0x7f0001f4(500) ,0x7f0001f2(498) ,0x7f0001f3(499) ,]
+-----------------------------------------
+IntraICFGNode148 {fun: test_bad_04{ "ln": 81, "cl": 13, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+CopyStmt: [Var232 <-- Var231]	
+   %conv = sext i8 %4 to i32, !dbg !36 { "ln": 81, "cl": 13, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f0(496) ,0x7f0001f4(500) ,0x7f0001f2(498) ,0x7f0001f3(499) ,]
+-----------------------------------------
+IntraICFGNode149 {fun: test_bad_04{ "ln": 81, "cl": 20, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+CmpStmt: [Var233 <-- (Var232 predicate32 Var234)]	
+   %cmp1 = icmp eq i32 %conv, 5, !dbg !37 { "ln": 81, "cl": 20, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f0(496) ,0x7f0001f4(500) ,0x7f0001f2(498) ,0x7f0001f3(499) ,]
+-----------------------------------------
+IntraICFGNode150 {fun: test_bad_04{ "ln": 81, "cl": 13, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+BranchStmt: [Condition Var233]
+Successor 0 ICFGNode151   Successor 1 ICFGNode152   
+   br i1 %cmp1, label %if.then, label %if.end, !dbg !38 { "ln": 81, "cl": 13, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f0(496) ,0x7f0001f4(500) ,0x7f0001f2(498) ,0x7f0001f3(499) ,]
+-----------------------------------------
+IntraICFGNode151 {fun: test_bad_04{ "ln": 83, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+LoadStmt: [Var237 <-- Var206]	
+   %5 = load i8*, i8** %ptr, align 8, !dbg !39 { "ln": 83, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [5, 5]
+Var461	 Value: [0, 0]
+Var495	 Value: ⊥
+Var496	 Value: [50, 50]
+Var497	 Value: ⊥
+Var498	 Value: ⊥
+Var499	 Value: ⊥
+Var500	 Value: ⊥
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f0(496) ,0x7f0001f4(500) ,0x7f0001f2(498) ,0x7f0001f3(499) ,]
+-----------------------------------------
+IntraICFGNode153 {fun: test_bad_04{ "ln": 83, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+GepStmt: [Var238 <-- Var237]	
+   %incdec.ptr3 = getelementptr inbounds i8, i8* %5, i32 1, !dbg !39 { "ln": 83, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+i8*, byteOffset:[1, 1]
+arr type size: 6
+arr type size: 6
+[1;31mBuffer overflow!! Accessing buffer range: [7, 7]
+Allocated buffer size: 6
+IntraICFGNode153 {fun: test_bad_04{ "ln": 83, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+GepStmt: [Var238 <-- Var237]	
+   %incdec.ptr3 = getelementptr inbounds i8, i8* %5, i32 1, !dbg !39 { "ln": 83, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }, Offset: [1, 1]
+[1;0m
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [5, 5]
+Var461	 Value: [0, 0]
+Var495	 Value: ⊥
+Var496	 Value: [50, 50]
+Var497	 Value: ⊥
+Var498	 Value: ⊥
+Var499	 Value: ⊥
+Var500	 Value: ⊥
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f0(496) ,0x7f0001f4(500) ,0x7f0001f2(498) ,0x7f0001f3(499) ,]
+-----------------------------------------
+IntraICFGNode155 {fun: test_bad_04{ "ln": 83, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+StoreStmt: [Var206 <-- Var238]	
+   store i8* %incdec.ptr3, i8** %ptr, align 8, !dbg !39 { "ln": 83, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [5, 5]
+Var461	 Value: [0, 0]
+Var495	 Value: ⊥
+Var496	 Value: [50, 50]
+Var497	 Value: ⊥
+Var498	 Value: ⊥
+Var499	 Value: ⊥
+Var500	 Value: ⊥
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f3(499) ,0x7f0001f4(500) ,0x7f0001f1(497) ,]
+-----------------------------------------
+IntraICFGNode157 {fun: test_bad_04{ "ln": 84, "cl": 9, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode152   
+   br label %if.end, !dbg !41 { "ln": 84, "cl": 9, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [5, 5]
+Var461	 Value: [0, 0]
+Var495	 Value: ⊥
+Var496	 Value: [50, 50]
+Var497	 Value: ⊥
+Var498	 Value: ⊥
+Var499	 Value: ⊥
+Var500	 Value: ⊥
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f3(499) ,0x7f0001f4(500) ,0x7f0001f1(497) ,]
+-----------------------------------------
+IntraICFGNode152 {fun: test_bad_04{ "ln": 85, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode154   
+   br label %for.inc, !dbg !42 { "ln": 85, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f1(497) ,0x7f0001f0(496) ,0x7f0001f4(500) ,0x7f0001f2(498) ,0x7f0001f3(499) ,]
+-----------------------------------------
+IntraICFGNode154 {fun: test_bad_04{ "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+LoadStmt: [Var244 <-- Var206]	
+   %6 = load i8*, i8** %ptr, align 8, !dbg !43 { "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f1(497) ,0x7f0001f0(496) ,0x7f0001f4(500) ,0x7f0001f2(498) ,0x7f0001f3(499) ,]
+-----------------------------------------
+IntraICFGNode156 {fun: test_bad_04{ "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+GepStmt: [Var245 <-- Var244]	
+   %incdec.ptr4 = getelementptr inbounds i8, i8* %6, i32 1, !dbg !43 { "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+i8*, byteOffset:[1, 1]
+arr type size: 6
+arr type size: 6
+[1;31mBuffer overflow!! Accessing buffer range: [7, 7]
+Allocated buffer size: 6
+IntraICFGNode156 {fun: test_bad_04{ "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+GepStmt: [Var245 <-- Var244]	
+   %incdec.ptr4 = getelementptr inbounds i8, i8* %6, i32 1, !dbg !43 { "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }, Offset: [1, 1]
+[1;0m
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f1(497) ,0x7f0001f0(496) ,0x7f0001f4(500) ,0x7f0001f2(498) ,0x7f0001f3(499) ,]
+-----------------------------------------
+IntraICFGNode158 {fun: test_bad_04{ "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+StoreStmt: [Var206 <-- Var245]	
+   store i8* %incdec.ptr4, i8** %ptr, align 8, !dbg !43 { "ln": 80, "cl": 28, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f3(499) ,0x7f0001f1(497) ,0x7f0001f4(500) ,0x7f0001f2(498) ,]
+-----------------------------------------
+IntraICFGNode159 {fun: test_bad_04{ "ln": 80, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode139   
+   br label %for.cond, !dbg !44, !llvm.loop !45 { "ln": 80, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f3(499) ,0x7f0001f1(497) ,0x7f0001f4(500) ,0x7f0001f2(498) ,]
+-----------------------------------------
+IntraICFGNode139 {fun: test_bad_04{ "ln": 80, "cl": 12, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+LoadStmt: [Var225 <-- Var206]	
+   %2 = load i8*, i8** %ptr, align 8, !dbg !28 { "ln": 80, "cl": 12, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f2(498) ,0x7f0001f1(497) ,0x7f0001f3(499) ,0x7f0001ef(495) ,0x7f0001f4(500) ,]
+-----------------------------------------
+IntraICFGNode140 {fun: test_bad_04{ "ln": 80, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+CmpStmt: [Var226 <-- (Var225 predicate33 Var0)]	
+   %cmp = icmp ne i8* %2, null, !dbg !31 { "ln": 80, "cl": 16, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f2(498) ,0x7f0001f1(497) ,0x7f0001f3(499) ,0x7f0001ef(495) ,0x7f0001f4(500) ,]
+-----------------------------------------
+IntraICFGNode141 {fun: test_bad_04{ "ln": 80, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+BranchStmt: [Condition Var226]
+Successor 0 ICFGNode142   Successor 1 ICFGNode143   
+   br i1 %cmp, label %for.body, label %for.end, !dbg !32 { "ln": 80, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f2(498) ,0x7f0001f1(497) ,0x7f0001f3(499) ,0x7f0001ef(495) ,0x7f0001f4(500) ,]
+-----------------------------------------
+IntraICFGNode143 {fun: test_bad_04{ "ln": 86, "cl": 1, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+   ret void, !dbg !48 { "ln": 86, "cl": 1, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f2(498) ,0x7f0001f1(497) ,0x7f0001f3(499) ,0x7f0001ef(495) ,0x7f0001f4(500) ,]
+-----------------------------------------
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f2(498) ,0x7f0001f1(497) ,0x7f0001f3(499) ,0x7f0001ef(495) ,0x7f0001f4(500) ,]
+-----------------------------------------
+FunExitICFGNode145 {fun: test_bad_04{ "ln": 86, "cl": 1, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f2(498) ,0x7f0001f1(497) ,0x7f0001f3(499) ,0x7f0001ef(495) ,0x7f0001f4(500) ,]
+-----------------------------------------
+RetICFGNode327 {fun: main{ "ln": 170, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f2(498) ,0x7f0001f1(497) ,0x7f0001f3(499) ,0x7f0001ef(495) ,0x7f0001f4(500) ,]
+-----------------------------------------
+IntraICFGNode328 {fun: main{ "ln": 171, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }}
+   ret i32 0, !dbg !18 { "ln": 171, "cl": 5, "fl": "dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var232	 Value: [0, 53]
+Var461	 Value: [0, 0]
+Var495	 Value: [49, 49]
+Var496	 Value: [50, 50]
+Var497	 Value: [51, 51]
+Var498	 Value: [52, 52]
+Var499	 Value: [53, 53]
+Var500	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var207	 Value: [ 0x7f0001f2(498) ,0x7f0001f1(497) ,0x7f0001f3(499) ,0x7f0001ef(495) ,0x7f0001f4(500) ,]
+-----------------------------------------

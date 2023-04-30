@@ -1,0 +1,143 @@
+GlobalICFGNode0
+CopyStmt: [Var1 <-- Var0]	
+ i8* null { constant data }
+AddrStmt: [Var4 <-- Var6]	
+ @__const.test_bad_04.arr = private unnamed_addr constant [6 x i8] c"12345\00", align 1 { Glob  }
+AddrStmt: [Var35 <-- Var36]	
+ i64 6 { constant data }
+AddrStmt: [Var37 <-- Var38]	
+ i1 false { constant data }
+AddrStmt: [Var7 <-- Var8]	
+ i32 0 { constant data }
+AddrStmt: [Var9 <-- Var10]	
+ i8 49 { constant data }
+AddrStmt: [Var42 <-- Var43]	
+ i64 0 { constant data }
+AddrStmt: [Var11 <-- Var12]	
+ i8 50 { constant data }
+AddrStmt: [Var13 <-- Var14]	
+ i8 51 { constant data }
+AddrStmt: [Var15 <-- Var16]	
+ i8 52 { constant data }
+AddrStmt: [Var17 <-- Var18]	
+ i8 53 { constant data }
+AddrStmt: [Var19 <-- Var20]	
+ i8 0 { constant data }
+AddrStmt: [Var26 <-- Var27]	
+ i32 1 { constant data }
+AddrStmt: [Var56 <-- Var57]	
+ i32 5 { constant data }
+GepStmt: [Var94 <-- Var4]	
+ @__const.test_bad_04.arr = private unnamed_addr constant [6 x i8] c"12345\00", align 1 { Glob  }
+StoreStmt: [Var94 <-- Var9]	
+ i8 49 { constant data }
+GepStmt: [Var95 <-- Var4]	
+ @__const.test_bad_04.arr = private unnamed_addr constant [6 x i8] c"12345\00", align 1 { Glob  }
+StoreStmt: [Var95 <-- Var11]	
+ i8 50 { constant data }
+GepStmt: [Var96 <-- Var4]	
+ @__const.test_bad_04.arr = private unnamed_addr constant [6 x i8] c"12345\00", align 1 { Glob  }
+StoreStmt: [Var96 <-- Var13]	
+ i8 51 { constant data }
+GepStmt: [Var97 <-- Var4]	
+ @__const.test_bad_04.arr = private unnamed_addr constant [6 x i8] c"12345\00", align 1 { Glob  }
+StoreStmt: [Var97 <-- Var15]	
+ i8 52 { constant data }
+GepStmt: [Var98 <-- Var4]	
+ @__const.test_bad_04.arr = private unnamed_addr constant [6 x i8] c"12345\00", align 1 { Glob  }
+StoreStmt: [Var98 <-- Var17]	
+ i8 53 { constant data }
+GepStmt: [Var99 <-- Var4]	
+ @__const.test_bad_04.arr = private unnamed_addr constant [6 x i8] c"12345\00", align 1 { Glob  }
+StoreStmt: [Var99 <-- Var19]	
+ i8 0 { constant data }
+AddrStmt: [Var21 <-- Var22]	
+Function: test_bad_04 { "ln": 12, "file": "general/ArrayIndex_WithoutCheckExternalData_BadCase11-1.c" }
+AddrStmt: [Var71 <-- Var72]	
+Function: llvm.dbg.declare 
+AddrStmt: [Var39 <-- Var40]	
+Function: llvm.memcpy.p0i8.p0i8.i64 
+AddrStmt: [Var82 <-- Var83]	
+Function: main { "ln": 26, "file": "general/ArrayIndex_WithoutCheckExternalData_BadCase11-1.c" }
+AddrStmt: [Var89 <-- Var90]	
+Function: Øtest_bad_04 
+-----------Var and Value-----------
+Var7	 Value: [0, 0]
+Var8	 Value: [0, 0]
+Var9	 Value: [49, 49]
+Var10	 Value: [49, 49]
+Var11	 Value: [50, 50]
+Var12	 Value: [50, 50]
+Var13	 Value: [51, 51]
+Var14	 Value: [51, 51]
+Var15	 Value: [52, 52]
+Var16	 Value: [52, 52]
+Var17	 Value: [53, 53]
+Var18	 Value: [53, 53]
+Var19	 Value: [0, 0]
+Var20	 Value: [0, 0]
+Var26	 Value: [1, 1]
+Var27	 Value: [1, 1]
+Var35	 Value: [6, 6]
+Var36	 Value: [6, 6]
+Var37	 Value: [0, 0]
+Var38	 Value: [0, 0]
+Var42	 Value: [0, 0]
+Var43	 Value: [0, 0]
+Var56	 Value: [5, 5]
+Var57	 Value: [5, 5]
+Var130	 Value: [49, 49]
+Var131	 Value: [50, 50]
+Var132	 Value: [51, 51]
+Var133	 Value: [52, 52]
+Var134	 Value: [53, 53]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var4	 Value: [ 0x7f000006(6) ,]
+Var6	 Value: [ 0x7f000006(6) ,]
+Var21	 Value: [ 0x7f000016(22) ,]
+Var22	 Value: [ 0x7f000016(22) ,]
+Var39	 Value: [ 0x7f000028(40) ,]
+Var40	 Value: [ 0x7f000028(40) ,]
+Var71	 Value: [ 0x7f000048(72) ,]
+Var72	 Value: [ 0x7f000048(72) ,]
+Var82	 Value: [ 0x7f000053(83) ,]
+Var83	 Value: [ 0x7f000053(83) ,]
+Var89	 Value: [ 0x7f00005a(90) ,]
+Var90	 Value: [ 0x7f00005a(90) ,]
+Var94	 Value: [ 0x7f000082(130) ,]
+Var95	 Value: [ 0x7f000083(131) ,]
+Var96	 Value: [ 0x7f000084(132) ,]
+Var97	 Value: [ 0x7f000085(133) ,]
+Var98	 Value: [ 0x7f000086(134) ,]
+Var99	 Value: [ 0x7f000087(135) ,]
+Var130	 Value: [ 0x7f000082(130) ,]
+Var131	 Value: [ 0x7f000083(131) ,]
+Var132	 Value: [ 0x7f000084(132) ,]
+Var133	 Value: [ 0x7f000085(133) ,]
+Var134	 Value: [ 0x7f000086(134) ,]
+Var135	 Value: [ 0x7f000087(135) ,]
+-----------------------------------------
+IntraICFGNode33 {fun: main}
+AddrStmt: [Var85 <-- Var86]	
+   %retval = alloca i32, align 4 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode34 {fun: main}
+StoreStmt: [Var85 <-- Var7]	
+   store i32 0, i32* %retval, align 4 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var86	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode35 {fun: main{ "ln": 28, "cl": 5, "fl": "general/ArrayIndex_WithoutCheckExternalData_BadCase11-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var86	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode37 {fun: main{ "ln": 29, "cl": 5, "fl": "general/ArrayIndex_WithoutCheckExternalData_BadCase11-1.c" }}
+   ret i32 0, !dbg !18 { "ln": 29, "cl": 5, "fl": "general/ArrayIndex_WithoutCheckExternalData_BadCase11-1.c" }

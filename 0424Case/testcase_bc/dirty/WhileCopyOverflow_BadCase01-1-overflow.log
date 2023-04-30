@@ -1,0 +1,2513 @@
+GlobalICFGNode0
+CopyStmt: [Var1 <-- Var0]	
+ i8* null { constant data }
+AddrStmt: [Var4 <-- Var6]	
+ @__const.main.dest = private unnamed_addr constant [3 x i8] c"ab\00", align 1 { Glob  }
+AddrStmt: [Var15 <-- Var17]	
+ @__const.main.src = private unnamed_addr constant [2 x i8] c"c\00", align 1 { Glob  }
+AddrStmt: [Var104 <-- Var105]	
+ i64 3 { constant data }
+AddrStmt: [Var106 <-- Var107]	
+ i1 false { constant data }
+AddrStmt: [Var114 <-- Var115]	
+ i64 2 { constant data }
+AddrStmt: [Var28 <-- Var29]	
+ i32 1 { constant data }
+AddrStmt: [Var7 <-- Var8]	
+ i32 0 { constant data }
+AddrStmt: [Var9 <-- Var10]	
+ i8 97 { constant data }
+AddrStmt: [Var11 <-- Var12]	
+ i8 98 { constant data }
+AddrStmt: [Var13 <-- Var14]	
+ i8 0 { constant data }
+AddrStmt: [Var18 <-- Var19]	
+ i8 99 { constant data }
+AddrStmt: [Var54 <-- Var55]	
+ i64 -1 { constant data }
+AddrStmt: [Var58 <-- Var59]	
+ i64 0 { constant data }
+AddrStmt: [Var118 <-- Var119]	
+ i64 5 { constant data }
+GepStmt: [Var130 <-- Var4]	
+ @__const.main.dest = private unnamed_addr constant [3 x i8] c"ab\00", align 1 { Glob  }
+StoreStmt: [Var130 <-- Var9]	
+ i8 97 { constant data }
+GepStmt: [Var131 <-- Var4]	
+ @__const.main.dest = private unnamed_addr constant [3 x i8] c"ab\00", align 1 { Glob  }
+StoreStmt: [Var131 <-- Var11]	
+ i8 98 { constant data }
+GepStmt: [Var132 <-- Var4]	
+ @__const.main.dest = private unnamed_addr constant [3 x i8] c"ab\00", align 1 { Glob  }
+StoreStmt: [Var132 <-- Var13]	
+ i8 0 { constant data }
+GepStmt: [Var133 <-- Var15]	
+ @__const.main.src = private unnamed_addr constant [2 x i8] c"c\00", align 1 { Glob  }
+StoreStmt: [Var133 <-- Var18]	
+ i8 99 { constant data }
+GepStmt: [Var134 <-- Var15]	
+ @__const.main.src = private unnamed_addr constant [2 x i8] c"c\00", align 1 { Glob  }
+StoreStmt: [Var134 <-- Var13]	
+ i8 0 { constant data }
+AddrStmt: [Var20 <-- Var21]	
+Function: cwe120_c_85 { "ln": 13, "file": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+AddrStmt: [Var72 <-- Var73]	
+Function: llvm.dbg.declare 
+AddrStmt: [Var78 <-- Var79]	
+Function: main { "ln": 23, "file": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+AddrStmt: [Var108 <-- Var109]	
+Function: llvm.memcpy.p0i8.p0i8.i64 
+-----------Var and Value-----------
+Var7	 Value: [0, 0]
+Var8	 Value: [0, 0]
+Var9	 Value: [97, 97]
+Var10	 Value: [97, 97]
+Var11	 Value: [98, 98]
+Var12	 Value: [98, 98]
+Var13	 Value: [0, 0]
+Var14	 Value: [0, 0]
+Var18	 Value: [99, 99]
+Var19	 Value: [99, 99]
+Var28	 Value: [1, 1]
+Var29	 Value: [1, 1]
+Var54	 Value: [(- 1), (- 1)]
+Var55	 Value: [(- 1), (- 1)]
+Var58	 Value: [0, 0]
+Var59	 Value: [0, 0]
+Var104	 Value: [3, 3]
+Var105	 Value: [3, 3]
+Var106	 Value: [0, 0]
+Var107	 Value: [0, 0]
+Var114	 Value: [2, 2]
+Var115	 Value: [2, 2]
+Var118	 Value: [5, 5]
+Var119	 Value: [5, 5]
+Var157	 Value: [97, 97]
+Var158	 Value: [98, 98]
+Var159	 Value: [0, 0]
+Var160	 Value: [99, 99]
+Var161	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var4	 Value: [ 0x7f000006(6) ,]
+Var6	 Value: [ 0x7f000006(6) ,]
+Var15	 Value: [ 0x7f000011(17) ,]
+Var17	 Value: [ 0x7f000011(17) ,]
+Var20	 Value: [ 0x7f000015(21) ,]
+Var21	 Value: [ 0x7f000015(21) ,]
+Var72	 Value: [ 0x7f000049(73) ,]
+Var73	 Value: [ 0x7f000049(73) ,]
+Var78	 Value: [ 0x7f00004f(79) ,]
+Var79	 Value: [ 0x7f00004f(79) ,]
+Var108	 Value: [ 0x7f00006d(109) ,]
+Var109	 Value: [ 0x7f00006d(109) ,]
+Var130	 Value: [ 0x7f00009d(157) ,]
+Var131	 Value: [ 0x7f00009e(158) ,]
+Var132	 Value: [ 0x7f00009f(159) ,]
+Var133	 Value: [ 0x7f0000a0(160) ,]
+Var134	 Value: [ 0x7f0000a1(161) ,]
+Var157	 Value: [ 0x7f00009d(157) ,]
+Var158	 Value: [ 0x7f00009e(158) ,]
+Var159	 Value: [ 0x7f00009f(159) ,]
+Var160	 Value: [ 0x7f0000a0(160) ,]
+Var161	 Value: [ 0x7f0000a1(161) ,]
+-----------------------------------------
+IntraICFGNode33 {fun: main}
+AddrStmt: [Var83 <-- Var84]	
+   %retval = alloca i32, align 4 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode34 {fun: main{ "ln": 23, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+AddrStmt: [Var85 <-- Var86]	
+   %argc.addr = alloca i32, align 4 { "ln": 23, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode35 {fun: main{ "ln": 23, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+AddrStmt: [Var87 <-- Var88]	
+   %argv.addr = alloca i8**, align 8 { "ln": 23, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode36 {fun: main{ "ln": 25, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+AddrStmt: [Var89 <-- Var90]	
+   %dest = alloca [3 x i8], align 1 { "ln": 25, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode37 {fun: main{ "ln": 26, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+AddrStmt: [Var91 <-- Var92]	
+   %src = alloca [2 x i8], align 1 { "ln": 26, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode38 {fun: main{ "ln": 27, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+AddrStmt: [Var93 <-- Var94]	
+   %count = alloca i64, align 8 { "ln": 27, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode39 {fun: main}
+StoreStmt: [Var83 <-- Var7]	
+   store i32 0, i32* %retval, align 4 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var84	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode40 {fun: main}
+StoreStmt: [Var85 <-- Var81]	
+   store i32 %argc, i32* %argc.addr, align 4 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var84	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode65 {fun: main{ "ln": 23, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata i32* %argc.addr, metadata !52, metadata !DIExpression()), !dbg !53 { "ln": 23, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var84	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode41 {fun: main}
+StoreStmt: [Var87 <-- Var82]	
+   store i8** %argv, i8*** %argv.addr, align 8 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var84	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode66 {fun: main{ "ln": 23, "cl": 25, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata i8*** %argv.addr, metadata !54, metadata !DIExpression()), !dbg !55 { "ln": 23, "cl": 25, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var84	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode67 {fun: main{ "ln": 25, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata [3 x i8]* %dest, metadata !56, metadata !DIExpression()), !dbg !60 { "ln": 25, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var84	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode42 {fun: main{ "ln": 25, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+CopyStmt: [Var101 <-- Var89]	
+   %0 = bitcast [3 x i8]* %dest to i8*, !dbg !28 { "ln": 25, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+arr type size: 3
+arr type size: 3
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var84	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode43 {fun: main}
+GepStmt: [Var102 <-- Var4]	
+   %1 = getelementptr inbounds [3 x i8], [3 x i8]* @__const.main.dest, i32 0, i32 0 
+[3 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var84	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode44 {fun: main{ "ln": 25, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+GepStmt: [Var137 <-- Var101]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 3, i1 false), !dbg !28 { "ln": 25, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+GepStmt: [Var138 <-- Var4]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 3, i1 false), !dbg !28 { "ln": 25, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+LoadStmt: [Var139 <-- Var138]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 3, i1 false), !dbg !28 { "ln": 25, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+StoreStmt: [Var137 <-- Var139]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 3, i1 false), !dbg !28 { "ln": 25, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+GepStmt: [Var140 <-- Var101]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 3, i1 false), !dbg !28 { "ln": 25, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+GepStmt: [Var141 <-- Var4]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 3, i1 false), !dbg !28 { "ln": 25, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+LoadStmt: [Var142 <-- Var141]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 3, i1 false), !dbg !28 { "ln": 25, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+StoreStmt: [Var140 <-- Var142]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 3, i1 false), !dbg !28 { "ln": 25, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+GepStmt: [Var143 <-- Var101]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 3, i1 false), !dbg !28 { "ln": 25, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+GepStmt: [Var144 <-- Var4]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 3, i1 false), !dbg !28 { "ln": 25, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+LoadStmt: [Var145 <-- Var144]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 3, i1 false), !dbg !28 { "ln": 25, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+StoreStmt: [Var143 <-- Var145]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 3, i1 false), !dbg !28 { "ln": 25, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+CopyStmt: [Var103 <-- Var0]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 3, i1 false), !dbg !28 { "ln": 25, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+arr type size: 3
+arr type size: 3
+Buffer Overflow Check Safe
+[3 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: 3
+arr type size: 3
+Buffer Overflow Check Safe
+[3 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: 3
+arr type size: 3
+Buffer Overflow Check Safe
+[3 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: 3
+arr type size: 3
+Buffer Overflow Check Safe
+[3 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+[3 x i8]*, byteOffset:[0, 0]
+arr type size: 3
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var84	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode68 {fun: main{ "ln": 26, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata [2 x i8]* %src, metadata !61, metadata !DIExpression()), !dbg !65 { "ln": 26, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var84	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode46 {fun: main{ "ln": 26, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+CopyStmt: [Var111 <-- Var91]	
+   %2 = bitcast [2 x i8]* %src to i8*, !dbg !33 { "ln": 26, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+arr type size: 2
+arr type size: 2
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var84	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode47 {fun: main}
+GepStmt: [Var112 <-- Var15]	
+   %3 = getelementptr inbounds [2 x i8], [2 x i8]* @__const.main.src, i32 0, i32 0 
+[2 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var84	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode48 {fun: main{ "ln": 26, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+GepStmt: [Var146 <-- Var111]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 2, i1 false), !dbg !33 { "ln": 26, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+GepStmt: [Var147 <-- Var15]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 2, i1 false), !dbg !33 { "ln": 26, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+LoadStmt: [Var148 <-- Var147]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 2, i1 false), !dbg !33 { "ln": 26, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+StoreStmt: [Var146 <-- Var148]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 2, i1 false), !dbg !33 { "ln": 26, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+GepStmt: [Var149 <-- Var111]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 2, i1 false), !dbg !33 { "ln": 26, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+GepStmt: [Var150 <-- Var15]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 2, i1 false), !dbg !33 { "ln": 26, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+LoadStmt: [Var151 <-- Var150]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 2, i1 false), !dbg !33 { "ln": 26, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+StoreStmt: [Var149 <-- Var151]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 2, i1 false), !dbg !33 { "ln": 26, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+CopyStmt: [Var113 <-- Var0]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 2, i1 false), !dbg !33 { "ln": 26, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+arr type size: 2
+arr type size: 2
+Buffer Overflow Check Safe
+[2 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: 2
+arr type size: 2
+Buffer Overflow Check Safe
+[2 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: 2
+arr type size: 2
+Buffer Overflow Check Safe
+[2 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+[2 x i8]*, byteOffset:[0, 0]
+arr type size: 2
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var84	 Value: [0, 0]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode69 {fun: main{ "ln": 27, "cl": 9, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata i64* %count, metadata !66, metadata !DIExpression()), !dbg !67 { "ln": 27, "cl": 9, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var84	 Value: [0, 0]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode50 {fun: main{ "ln": 27, "cl": 9, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+StoreStmt: [Var93 <-- Var118]	
+   store i64 5, i64* %count, align 8, !dbg !40 { "ln": 27, "cl": 9, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode51 {fun: main{ "ln": 28, "cl": 21, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+GepStmt: [Var120 <-- Var89]	
+   %arraydecay = getelementptr inbounds [3 x i8], [3 x i8]* %dest, i64 0, i64 0, !dbg !41 { "ln": 28, "cl": 21, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+[3 x i8]*, byteOffset:[0, 0]
+arr type size: 3
+arr type size: 3
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode52 {fun: main{ "ln": 28, "cl": 27, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+GepStmt: [Var121 <-- Var91]	
+   %arraydecay1 = getelementptr inbounds [2 x i8], [2 x i8]* %src, i64 0, i64 0, !dbg !42 { "ln": 28, "cl": 27, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+[2 x i8]*, byteOffset:[0, 0]
+arr type size: 2
+arr type size: 2
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode53 {fun: main{ "ln": 28, "cl": 32, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+LoadStmt: [Var122 <-- Var93]	
+   %4 = load i64, i64* %count, align 8, !dbg !43 { "ln": 28, "cl": 32, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode54 {fun: main{ "ln": 28, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+CallPE: [Var23 <-- Var120]	
+   %call = call i8* @cwe120_c_85(i8* noundef %arraydecay, i8* noundef %arraydecay1, i64 noundef %4), !dbg !44 { "ln": 28, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+CallPE: [Var24 <-- Var121]	
+   %call = call i8* @cwe120_c_85(i8* noundef %arraydecay, i8* noundef %arraydecay1, i64 noundef %4), !dbg !44 { "ln": 28, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+CallPE: [Var25 <-- Var122]	
+   %call = call i8* @cwe120_c_85(i8* noundef %arraydecay, i8* noundef %arraydecay1, i64 noundef %4), !dbg !44 { "ln": 28, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+IntraICFGNode2 {fun: cwe120_c_85{ "ln": 13, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+AddrStmt: [Var26 <-- Var27]	
+   %dest.addr = alloca i8*, align 8 { "ln": 13, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode3 {fun: cwe120_c_85{ "ln": 13, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+AddrStmt: [Var30 <-- Var31]	
+   %src.addr = alloca i8*, align 8 { "ln": 13, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode4 {fun: cwe120_c_85{ "ln": 13, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+AddrStmt: [Var32 <-- Var33]	
+   %count.addr = alloca i64, align 8 { "ln": 13, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode5 {fun: cwe120_c_85{ "ln": 16, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+AddrStmt: [Var34 <-- Var35]	
+   %tmp = alloca i8*, align 8 { "ln": 16, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode6 {fun: cwe120_c_85{ "ln": 16, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+AddrStmt: [Var36 <-- Var37]	
+   %s = alloca i8*, align 8 { "ln": 16, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode7 {fun: cwe120_c_85}
+StoreStmt: [Var26 <-- Var23]	
+   store i8* %dest, i8** %dest.addr, align 8 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+-----------------------------------------
+IntraICFGNode60 {fun: cwe120_c_85{ "ln": 13, "cl": 26, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata i8** %dest.addr, metadata !25, metadata !DIExpression()), !dbg !26 { "ln": 13, "cl": 26, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+-----------------------------------------
+IntraICFGNode8 {fun: cwe120_c_85}
+StoreStmt: [Var30 <-- Var24]	
+   store i8* %src, i8** %src.addr, align 8 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode61 {fun: cwe120_c_85{ "ln": 13, "cl": 44, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata i8** %src.addr, metadata !27, metadata !DIExpression()), !dbg !28 { "ln": 13, "cl": 44, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode9 {fun: cwe120_c_85}
+StoreStmt: [Var32 <-- Var25]	
+   store i64 %count, i64* %count.addr, align 8 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var33	 Value: [5, 5]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode62 {fun: cwe120_c_85{ "ln": 13, "cl": 56, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata i64* %count.addr, metadata !29, metadata !DIExpression()), !dbg !30 { "ln": 13, "cl": 56, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var33	 Value: [5, 5]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode63 {fun: cwe120_c_85{ "ln": 16, "cl": 8, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata i8** %tmp, metadata !31, metadata !DIExpression()), !dbg !32 { "ln": 16, "cl": 8, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var33	 Value: [5, 5]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode10 {fun: cwe120_c_85{ "ln": 16, "cl": 22, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+LoadStmt: [Var45 <-- Var26]	
+   %0 = load i8*, i8** %dest.addr, align 8, !dbg !33 { "ln": 16, "cl": 22, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var33	 Value: [5, 5]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode11 {fun: cwe120_c_85{ "ln": 16, "cl": 8, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+StoreStmt: [Var34 <-- Var45]	
+   store i8* %0, i8** %tmp, align 8, !dbg !32 { "ln": 16, "cl": 8, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var33	 Value: [5, 5]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009a(154) ,]
+-----------------------------------------
+IntraICFGNode64 {fun: cwe120_c_85{ "ln": 16, "cl": 29, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata i8** %s, metadata !34, metadata !DIExpression()), !dbg !35 { "ln": 16, "cl": 29, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var33	 Value: [5, 5]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009a(154) ,]
+-----------------------------------------
+IntraICFGNode12 {fun: cwe120_c_85{ "ln": 16, "cl": 41, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+LoadStmt: [Var48 <-- Var30]	
+   %1 = load i8*, i8** %src.addr, align 8, !dbg !36 { "ln": 16, "cl": 41, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var33	 Value: [5, 5]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009a(154) ,]
+-----------------------------------------
+IntraICFGNode13 {fun: cwe120_c_85{ "ln": 16, "cl": 29, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+StoreStmt: [Var36 <-- Var48]	
+   store i8* %1, i8** %s, align 8, !dbg !35 { "ln": 16, "cl": 29, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var33	 Value: [5, 5]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode14 {fun: cwe120_c_85{ "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode15   
+   br label %while.cond, !dbg !37 { "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var33	 Value: [5, 5]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode15 {fun: cwe120_c_85{ "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+LoadStmt: [Var52 <-- Var32]	
+   %2 = load i64, i64* %count.addr, align 8, !dbg !38 { "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var33	 Value: [5, 5]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode16 {fun: cwe120_c_85{ "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+BinaryOPStmt: [Var53 <-- (Var52 opcode13 Var54)]	
+   %dec = add i64 %2, -1, !dbg !38 { "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var33	 Value: [5, 5]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode17 {fun: cwe120_c_85{ "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+StoreStmt: [Var32 <-- Var53]	
+   store i64 %dec, i64* %count.addr, align 8, !dbg !38 { "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var33	 Value: [4, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode18 {fun: cwe120_c_85{ "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+CmpStmt: [Var57 <-- (Var52 predicate33 Var58)]	
+   %tobool = icmp ne i64 %2, 0, !dbg !37 { "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var33	 Value: [4, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode19 {fun: cwe120_c_85{ "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+BranchStmt: [Condition Var57]
+Successor 0 ICFGNode20   Successor 1 ICFGNode21   
+   br i1 %tobool, label %while.body, label %while.end, !dbg !37 { "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var33	 Value: [4, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode20 {fun: cwe120_c_85{ "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+LoadStmt: [Var61 <-- Var36]	
+   %3 = load i8*, i8** %s, align 8, !dbg !39 { "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var33	 Value: [4, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode22 {fun: cwe120_c_85{ "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+GepStmt: [Var62 <-- Var61]	
+   %incdec.ptr = getelementptr inbounds i8, i8* %3, i32 1, !dbg !39 { "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+i8*, byteOffset:[1, 1]
+arr type size: 2
+arr type size: 2
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var33	 Value: [4, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode24 {fun: cwe120_c_85{ "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+StoreStmt: [Var36 <-- Var62]	
+   store i8* %incdec.ptr, i8** %s, align 8, !dbg !39 { "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var33	 Value: [4, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,]
+-----------------------------------------
+IntraICFGNode26 {fun: cwe120_c_85{ "ln": 19, "cl": 12, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+LoadStmt: [Var64 <-- Var61]	
+   %4 = load i8, i8* %3, align 1, !dbg !40 { "ln": 19, "cl": 12, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var33	 Value: [4, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,]
+-----------------------------------------
+IntraICFGNode27 {fun: cwe120_c_85{ "ln": 19, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+LoadStmt: [Var65 <-- Var34]	
+   %5 = load i8*, i8** %tmp, align 8, !dbg !41 { "ln": 19, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var33	 Value: [4, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,]
+-----------------------------------------
+IntraICFGNode28 {fun: cwe120_c_85{ "ln": 19, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+GepStmt: [Var66 <-- Var65]	
+   %incdec.ptr1 = getelementptr inbounds i8, i8* %5, i32 1, !dbg !41 { "ln": 19, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+i8*, byteOffset:[1, 1]
+arr type size: 3
+arr type size: 3
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var33	 Value: [4, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,]
+-----------------------------------------
+IntraICFGNode29 {fun: cwe120_c_85{ "ln": 19, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+StoreStmt: [Var34 <-- Var66]	
+   store i8* %incdec.ptr1, i8** %tmp, align 8, !dbg !41 { "ln": 19, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var33	 Value: [4, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 97]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009b(155) ,]
+Var37	 Value: [ 0x7f000099(153) ,]
+-----------------------------------------
+IntraICFGNode30 {fun: cwe120_c_85{ "ln": 19, "cl": 10, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+StoreStmt: [Var65 <-- Var64]	
+   store i8 %4, i8* %5, align 1, !dbg !42 { "ln": 19, "cl": 10, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var33	 Value: [4, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [99, 99]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009b(155) ,]
+Var37	 Value: [ 0x7f000099(153) ,]
+-----------------------------------------
+IntraICFGNode31 {fun: cwe120_c_85{ "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode15   
+   br label %while.cond, !dbg !37, !llvm.loop !43 { "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var33	 Value: [4, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [99, 99]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009b(155) ,]
+Var37	 Value: [ 0x7f000099(153) ,]
+-----------------------------------------
+IntraICFGNode15 {fun: cwe120_c_85{ "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+LoadStmt: [Var52 <-- Var32]	
+   %2 = load i64, i64* %count.addr, align 8, !dbg !38 { "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var33	 Value: [4, 5]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 99]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode16 {fun: cwe120_c_85{ "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+BinaryOPStmt: [Var53 <-- (Var52 opcode13 Var54)]	
+   %dec = add i64 %2, -1, !dbg !38 { "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var33	 Value: [4, 5]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 99]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode17 {fun: cwe120_c_85{ "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+StoreStmt: [Var32 <-- Var53]	
+   store i64 %dec, i64* %count.addr, align 8, !dbg !38 { "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var33	 Value: [3, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 99]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode18 {fun: cwe120_c_85{ "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+CmpStmt: [Var57 <-- (Var52 predicate33 Var58)]	
+   %tobool = icmp ne i64 %2, 0, !dbg !37 { "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var33	 Value: [3, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 99]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode19 {fun: cwe120_c_85{ "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+BranchStmt: [Condition Var57]
+Successor 0 ICFGNode20   Successor 1 ICFGNode21   
+   br i1 %tobool, label %while.body, label %while.end, !dbg !37 { "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var33	 Value: [3, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 99]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode20 {fun: cwe120_c_85{ "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+LoadStmt: [Var61 <-- Var36]	
+   %3 = load i8*, i8** %s, align 8, !dbg !39 { "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [4, 5]
+Var33	 Value: [3, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 99]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode22 {fun: cwe120_c_85{ "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+GepStmt: [Var62 <-- Var61]	
+   %incdec.ptr = getelementptr inbounds i8, i8* %3, i32 1, !dbg !39 { "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+i8*, byteOffset:[1, 1]
+arr type size: 2
+arr type size: 2
+[1;31mBuffer overflow!! Accessing buffer range: [3, 3]
+Allocated buffer size: 2
+IntraICFGNode22 {fun: cwe120_c_85{ "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+GepStmt: [Var62 <-- Var61]	
+   %incdec.ptr = getelementptr inbounds i8, i8* %3, i32 1, !dbg !39 { "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }, Offset: [1, 1]
+[1;0m
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [4, 5]
+Var33	 Value: [3, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 99]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode24 {fun: cwe120_c_85{ "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+StoreStmt: [Var36 <-- Var62]	
+   store i8* %incdec.ptr, i8** %s, align 8, !dbg !39 { "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [4, 5]
+Var33	 Value: [3, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 99]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,]
+-----------------------------------------
+IntraICFGNode26 {fun: cwe120_c_85{ "ln": 19, "cl": 12, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+LoadStmt: [Var64 <-- Var61]	
+   %4 = load i8, i8* %3, align 1, !dbg !40 { "ln": 19, "cl": 12, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [4, 5]
+Var33	 Value: [3, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 99]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,]
+-----------------------------------------
+IntraICFGNode27 {fun: cwe120_c_85{ "ln": 19, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+LoadStmt: [Var65 <-- Var34]	
+   %5 = load i8*, i8** %tmp, align 8, !dbg !41 { "ln": 19, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [4, 5]
+Var33	 Value: [3, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 99]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,]
+-----------------------------------------
+IntraICFGNode28 {fun: cwe120_c_85{ "ln": 19, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+GepStmt: [Var66 <-- Var65]	
+   %incdec.ptr1 = getelementptr inbounds i8, i8* %5, i32 1, !dbg !41 { "ln": 19, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+i8*, byteOffset:[1, 1]
+arr type size: 3
+arr type size: 3
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [4, 5]
+Var33	 Value: [3, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 99]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,]
+-----------------------------------------
+IntraICFGNode29 {fun: cwe120_c_85{ "ln": 19, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+StoreStmt: [Var34 <-- Var66]	
+   store i8* %incdec.ptr1, i8** %tmp, align 8, !dbg !41 { "ln": 19, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [4, 5]
+Var33	 Value: [3, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [97, 99]
+Var155	 Value: [98, 98]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009b(155) ,0x7f00009c(156) ,]
+Var37	 Value: [ 0x7f000099(153) ,]
+-----------------------------------------
+IntraICFGNode30 {fun: cwe120_c_85{ "ln": 19, "cl": 10, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+StoreStmt: [Var65 <-- Var64]	
+   store i8 %4, i8* %5, align 1, !dbg !42 { "ln": 19, "cl": 10, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [4, 5]
+Var33	 Value: [3, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009b(155) ,0x7f00009c(156) ,]
+Var37	 Value: [ 0x7f000099(153) ,]
+-----------------------------------------
+IntraICFGNode31 {fun: cwe120_c_85{ "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode15   
+   br label %while.cond, !dbg !37, !llvm.loop !43 { "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [4, 5]
+Var33	 Value: [3, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009b(155) ,0x7f00009c(156) ,]
+Var37	 Value: [ 0x7f000099(153) ,]
+-----------------------------------------
+IntraICFGNode15 {fun: cwe120_c_85{ "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+LoadStmt: [Var52 <-- Var32]	
+   %2 = load i64, i64* %count.addr, align 8, !dbg !38 { "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [3, 5]
+Var33	 Value: [3, 5]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode16 {fun: cwe120_c_85{ "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+BinaryOPStmt: [Var53 <-- (Var52 opcode13 Var54)]	
+   %dec = add i64 %2, -1, !dbg !38 { "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [3, 5]
+Var33	 Value: [3, 5]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode17 {fun: cwe120_c_85{ "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+StoreStmt: [Var32 <-- Var53]	
+   store i64 %dec, i64* %count.addr, align 8, !dbg !38 { "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [3, 5]
+Var33	 Value: [2, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode18 {fun: cwe120_c_85{ "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+CmpStmt: [Var57 <-- (Var52 predicate33 Var58)]	
+   %tobool = icmp ne i64 %2, 0, !dbg !37 { "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [3, 5]
+Var33	 Value: [2, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode19 {fun: cwe120_c_85{ "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+BranchStmt: [Condition Var57]
+Successor 0 ICFGNode20   Successor 1 ICFGNode21   
+   br i1 %tobool, label %while.body, label %while.end, !dbg !37 { "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [3, 5]
+Var33	 Value: [2, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode20 {fun: cwe120_c_85{ "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+LoadStmt: [Var61 <-- Var36]	
+   %3 = load i8*, i8** %s, align 8, !dbg !39 { "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [3, 5]
+Var33	 Value: [2, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode22 {fun: cwe120_c_85{ "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+GepStmt: [Var62 <-- Var61]	
+   %incdec.ptr = getelementptr inbounds i8, i8* %3, i32 1, !dbg !39 { "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+i8*, byteOffset:[1, 1]
+arr type size: 2
+arr type size: 2
+[1;31mBuffer overflow!! Accessing buffer range: [3, 3]
+Allocated buffer size: 2
+IntraICFGNode22 {fun: cwe120_c_85{ "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+GepStmt: [Var62 <-- Var61]	
+   %incdec.ptr = getelementptr inbounds i8, i8* %3, i32 1, !dbg !39 { "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }, Offset: [1, 1]
+[1;0m
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [3, 5]
+Var33	 Value: [2, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode24 {fun: cwe120_c_85{ "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+StoreStmt: [Var36 <-- Var62]	
+   store i8* %incdec.ptr, i8** %s, align 8, !dbg !39 { "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [3, 5]
+Var33	 Value: [2, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,]
+-----------------------------------------
+IntraICFGNode26 {fun: cwe120_c_85{ "ln": 19, "cl": 12, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+LoadStmt: [Var64 <-- Var61]	
+   %4 = load i8, i8* %3, align 1, !dbg !40 { "ln": 19, "cl": 12, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [3, 5]
+Var33	 Value: [2, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,]
+-----------------------------------------
+IntraICFGNode27 {fun: cwe120_c_85{ "ln": 19, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+LoadStmt: [Var65 <-- Var34]	
+   %5 = load i8*, i8** %tmp, align 8, !dbg !41 { "ln": 19, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [3, 5]
+Var33	 Value: [2, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,]
+-----------------------------------------
+IntraICFGNode28 {fun: cwe120_c_85{ "ln": 19, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+GepStmt: [Var66 <-- Var65]	
+   %incdec.ptr1 = getelementptr inbounds i8, i8* %5, i32 1, !dbg !41 { "ln": 19, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+i8*, byteOffset:[1, 1]
+arr type size: 3
+arr type size: 3
+[1;31mBuffer overflow!! Accessing buffer range: [4, 4]
+Allocated buffer size: 3
+IntraICFGNode28 {fun: cwe120_c_85{ "ln": 19, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+GepStmt: [Var66 <-- Var65]	
+   %incdec.ptr1 = getelementptr inbounds i8, i8* %5, i32 1, !dbg !41 { "ln": 19, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }, Offset: [1, 1]
+[1;0m
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [3, 5]
+Var33	 Value: [2, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,]
+-----------------------------------------
+IntraICFGNode29 {fun: cwe120_c_85{ "ln": 19, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+StoreStmt: [Var34 <-- Var66]	
+   store i8* %incdec.ptr1, i8** %tmp, align 8, !dbg !41 { "ln": 19, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [3, 5]
+Var33	 Value: [2, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009b(155) ,0x7f00009c(156) ,]
+Var37	 Value: [ 0x7f000099(153) ,]
+-----------------------------------------
+IntraICFGNode30 {fun: cwe120_c_85{ "ln": 19, "cl": 10, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+StoreStmt: [Var65 <-- Var64]	
+   store i8 %4, i8* %5, align 1, !dbg !42 { "ln": 19, "cl": 10, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [3, 5]
+Var33	 Value: [2, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009b(155) ,0x7f00009c(156) ,]
+Var37	 Value: [ 0x7f000099(153) ,]
+-----------------------------------------
+IntraICFGNode31 {fun: cwe120_c_85{ "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode15   
+   br label %while.cond, !dbg !37, !llvm.loop !43 { "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [3, 5]
+Var33	 Value: [2, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009b(155) ,0x7f00009c(156) ,]
+Var37	 Value: [ 0x7f000099(153) ,]
+-----------------------------------------
+IntraICFGNode15 {fun: cwe120_c_85{ "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+LoadStmt: [Var52 <-- Var32]	
+   %2 = load i64, i64* %count.addr, align 8, !dbg !38 { "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [2, 5]
+Var33	 Value: [2, 5]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode16 {fun: cwe120_c_85{ "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+BinaryOPStmt: [Var53 <-- (Var52 opcode13 Var54)]	
+   %dec = add i64 %2, -1, !dbg !38 { "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [2, 5]
+Var33	 Value: [2, 5]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode17 {fun: cwe120_c_85{ "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+StoreStmt: [Var32 <-- Var53]	
+   store i64 %dec, i64* %count.addr, align 8, !dbg !38 { "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [2, 5]
+Var33	 Value: [1, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode18 {fun: cwe120_c_85{ "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+CmpStmt: [Var57 <-- (Var52 predicate33 Var58)]	
+   %tobool = icmp ne i64 %2, 0, !dbg !37 { "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [2, 5]
+Var33	 Value: [1, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode19 {fun: cwe120_c_85{ "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+BranchStmt: [Condition Var57]
+Successor 0 ICFGNode20   Successor 1 ICFGNode21   
+   br i1 %tobool, label %while.body, label %while.end, !dbg !37 { "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [2, 5]
+Var33	 Value: [1, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode20 {fun: cwe120_c_85{ "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+LoadStmt: [Var61 <-- Var36]	
+   %3 = load i8*, i8** %s, align 8, !dbg !39 { "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, 5]
+Var33	 Value: [-INF, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode22 {fun: cwe120_c_85{ "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+GepStmt: [Var62 <-- Var61]	
+   %incdec.ptr = getelementptr inbounds i8, i8* %3, i32 1, !dbg !39 { "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+i8*, byteOffset:[1, 1]
+arr type size: 2
+arr type size: 2
+[1;31mBuffer overflow!! Accessing buffer range: [3, 3]
+Allocated buffer size: 2
+IntraICFGNode22 {fun: cwe120_c_85{ "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+GepStmt: [Var62 <-- Var61]	
+   %incdec.ptr = getelementptr inbounds i8, i8* %3, i32 1, !dbg !39 { "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }, Offset: [1, 1]
+[1;0m
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, 5]
+Var33	 Value: [-INF, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode24 {fun: cwe120_c_85{ "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+StoreStmt: [Var36 <-- Var62]	
+   store i8* %incdec.ptr, i8** %s, align 8, !dbg !39 { "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, 5]
+Var33	 Value: [-INF, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,]
+-----------------------------------------
+IntraICFGNode26 {fun: cwe120_c_85{ "ln": 19, "cl": 12, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+LoadStmt: [Var64 <-- Var61]	
+   %4 = load i8, i8* %3, align 1, !dbg !40 { "ln": 19, "cl": 12, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, 5]
+Var33	 Value: [-INF, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,]
+-----------------------------------------
+IntraICFGNode27 {fun: cwe120_c_85{ "ln": 19, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+LoadStmt: [Var65 <-- Var34]	
+   %5 = load i8*, i8** %tmp, align 8, !dbg !41 { "ln": 19, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, 5]
+Var33	 Value: [-INF, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,]
+-----------------------------------------
+IntraICFGNode28 {fun: cwe120_c_85{ "ln": 19, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+GepStmt: [Var66 <-- Var65]	
+   %incdec.ptr1 = getelementptr inbounds i8, i8* %5, i32 1, !dbg !41 { "ln": 19, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+i8*, byteOffset:[1, 1]
+arr type size: 3
+arr type size: 3
+[1;31mBuffer overflow!! Accessing buffer range: [4, 4]
+Allocated buffer size: 3
+IntraICFGNode28 {fun: cwe120_c_85{ "ln": 19, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+GepStmt: [Var66 <-- Var65]	
+   %incdec.ptr1 = getelementptr inbounds i8, i8* %5, i32 1, !dbg !41 { "ln": 19, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }, Offset: [1, 1]
+[1;0m
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, 5]
+Var33	 Value: [-INF, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,]
+-----------------------------------------
+IntraICFGNode29 {fun: cwe120_c_85{ "ln": 19, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+StoreStmt: [Var34 <-- Var66]	
+   store i8* %incdec.ptr1, i8** %tmp, align 8, !dbg !41 { "ln": 19, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, 5]
+Var33	 Value: [-INF, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009b(155) ,0x7f00009c(156) ,]
+Var37	 Value: [ 0x7f000099(153) ,]
+-----------------------------------------
+IntraICFGNode30 {fun: cwe120_c_85{ "ln": 19, "cl": 10, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+StoreStmt: [Var65 <-- Var64]	
+   store i8 %4, i8* %5, align 1, !dbg !42 { "ln": 19, "cl": 10, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, 5]
+Var33	 Value: [-INF, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009b(155) ,0x7f00009c(156) ,]
+Var37	 Value: [ 0x7f000099(153) ,]
+-----------------------------------------
+IntraICFGNode31 {fun: cwe120_c_85{ "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode15   
+   br label %while.cond, !dbg !37, !llvm.loop !43 { "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, 5]
+Var33	 Value: [-INF, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009b(155) ,0x7f00009c(156) ,]
+Var37	 Value: [ 0x7f000099(153) ,]
+-----------------------------------------
+IntraICFGNode15 {fun: cwe120_c_85{ "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+LoadStmt: [Var52 <-- Var32]	
+   %2 = load i64, i64* %count.addr, align 8, !dbg !38 { "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, 5]
+Var33	 Value: [-INF, 5]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode16 {fun: cwe120_c_85{ "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+BinaryOPStmt: [Var53 <-- (Var52 opcode13 Var54)]	
+   %dec = add i64 %2, -1, !dbg !38 { "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, 5]
+Var33	 Value: [-INF, 5]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode17 {fun: cwe120_c_85{ "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+StoreStmt: [Var32 <-- Var53]	
+   store i64 %dec, i64* %count.addr, align 8, !dbg !38 { "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, 5]
+Var33	 Value: [-INF, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode18 {fun: cwe120_c_85{ "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+CmpStmt: [Var57 <-- (Var52 predicate33 Var58)]	
+   %tobool = icmp ne i64 %2, 0, !dbg !37 { "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, 5]
+Var33	 Value: [-INF, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode19 {fun: cwe120_c_85{ "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+BranchStmt: [Condition Var57]
+Successor 0 ICFGNode20   Successor 1 ICFGNode21   
+   br i1 %tobool, label %while.body, label %while.end, !dbg !37 { "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, 5]
+Var33	 Value: [-INF, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode15 {fun: cwe120_c_85{ "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+LoadStmt: [Var52 <-- Var32]	
+   %2 = load i64, i64* %count.addr, align 8, !dbg !38 { "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, 5]
+Var33	 Value: [-INF, 5]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode16 {fun: cwe120_c_85{ "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+BinaryOPStmt: [Var53 <-- (Var52 opcode13 Var54)]	
+   %dec = add i64 %2, -1, !dbg !38 { "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, 5]
+Var33	 Value: [-INF, 5]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode17 {fun: cwe120_c_85{ "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+StoreStmt: [Var32 <-- Var53]	
+   store i64 %dec, i64* %count.addr, align 8, !dbg !38 { "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, 5]
+Var33	 Value: [-INF, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode18 {fun: cwe120_c_85{ "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+CmpStmt: [Var57 <-- (Var52 predicate33 Var58)]	
+   %tobool = icmp ne i64 %2, 0, !dbg !37 { "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, 5]
+Var33	 Value: [-INF, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode19 {fun: cwe120_c_85{ "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+BranchStmt: [Condition Var57]
+Successor 0 ICFGNode20   Successor 1 ICFGNode21   
+   br i1 %tobool, label %while.body, label %while.end, !dbg !37 { "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, 5]
+Var33	 Value: [-INF, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode20 {fun: cwe120_c_85{ "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+LoadStmt: [Var61 <-- Var36]	
+   %3 = load i8*, i8** %s, align 8, !dbg !39 { "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, 5]
+Var33	 Value: [-INF, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode22 {fun: cwe120_c_85{ "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+GepStmt: [Var62 <-- Var61]	
+   %incdec.ptr = getelementptr inbounds i8, i8* %3, i32 1, !dbg !39 { "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+i8*, byteOffset:[1, 1]
+arr type size: 2
+arr type size: 2
+[1;31mBuffer overflow!! Accessing buffer range: [3, 3]
+Allocated buffer size: 2
+IntraICFGNode22 {fun: cwe120_c_85{ "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+GepStmt: [Var62 <-- Var61]	
+   %incdec.ptr = getelementptr inbounds i8, i8* %3, i32 1, !dbg !39 { "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }, Offset: [1, 1]
+[1;0m
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, 5]
+Var33	 Value: [-INF, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode24 {fun: cwe120_c_85{ "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+StoreStmt: [Var36 <-- Var62]	
+   store i8* %incdec.ptr, i8** %s, align 8, !dbg !39 { "ln": 19, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, 5]
+Var33	 Value: [-INF, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,]
+-----------------------------------------
+IntraICFGNode26 {fun: cwe120_c_85{ "ln": 19, "cl": 12, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+LoadStmt: [Var64 <-- Var61]	
+   %4 = load i8, i8* %3, align 1, !dbg !40 { "ln": 19, "cl": 12, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, 5]
+Var33	 Value: [-INF, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,]
+-----------------------------------------
+IntraICFGNode27 {fun: cwe120_c_85{ "ln": 19, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+LoadStmt: [Var65 <-- Var34]	
+   %5 = load i8*, i8** %tmp, align 8, !dbg !41 { "ln": 19, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, 5]
+Var33	 Value: [-INF, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,]
+-----------------------------------------
+IntraICFGNode28 {fun: cwe120_c_85{ "ln": 19, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+GepStmt: [Var66 <-- Var65]	
+   %incdec.ptr1 = getelementptr inbounds i8, i8* %5, i32 1, !dbg !41 { "ln": 19, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+i8*, byteOffset:[1, 1]
+arr type size: 3
+arr type size: 3
+[1;31mBuffer overflow!! Accessing buffer range: [4, 4]
+Allocated buffer size: 3
+IntraICFGNode28 {fun: cwe120_c_85{ "ln": 19, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+GepStmt: [Var66 <-- Var65]	
+   %incdec.ptr1 = getelementptr inbounds i8, i8* %5, i32 1, !dbg !41 { "ln": 19, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }, Offset: [1, 1]
+[1;0m
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, 5]
+Var33	 Value: [-INF, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,]
+-----------------------------------------
+IntraICFGNode29 {fun: cwe120_c_85{ "ln": 19, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+StoreStmt: [Var34 <-- Var66]	
+   store i8* %incdec.ptr1, i8** %tmp, align 8, !dbg !41 { "ln": 19, "cl": 7, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, 5]
+Var33	 Value: [-INF, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009b(155) ,0x7f00009c(156) ,]
+Var37	 Value: [ 0x7f000099(153) ,]
+-----------------------------------------
+IntraICFGNode30 {fun: cwe120_c_85{ "ln": 19, "cl": 10, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+StoreStmt: [Var65 <-- Var64]	
+   store i8 %4, i8* %5, align 1, !dbg !42 { "ln": 19, "cl": 10, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, 5]
+Var33	 Value: [-INF, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009b(155) ,0x7f00009c(156) ,]
+Var37	 Value: [ 0x7f000099(153) ,]
+-----------------------------------------
+IntraICFGNode31 {fun: cwe120_c_85{ "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode15   
+   br label %while.cond, !dbg !37, !llvm.loop !43 { "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, 5]
+Var33	 Value: [-INF, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009b(155) ,0x7f00009c(156) ,]
+Var37	 Value: [ 0x7f000099(153) ,]
+-----------------------------------------
+IntraICFGNode15 {fun: cwe120_c_85{ "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+LoadStmt: [Var52 <-- Var32]	
+   %2 = load i64, i64* %count.addr, align 8, !dbg !38 { "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, 5]
+Var33	 Value: [-INF, 5]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode16 {fun: cwe120_c_85{ "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+BinaryOPStmt: [Var53 <-- (Var52 opcode13 Var54)]	
+   %dec = add i64 %2, -1, !dbg !38 { "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, 5]
+Var33	 Value: [-INF, 5]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode17 {fun: cwe120_c_85{ "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+StoreStmt: [Var32 <-- Var53]	
+   store i64 %dec, i64* %count.addr, align 8, !dbg !38 { "ln": 17, "cl": 14, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, 5]
+Var33	 Value: [-INF, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode18 {fun: cwe120_c_85{ "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+CmpStmt: [Var57 <-- (Var52 predicate33 Var58)]	
+   %tobool = icmp ne i64 %2, 0, !dbg !37 { "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, 5]
+Var33	 Value: [-INF, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode19 {fun: cwe120_c_85{ "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+BranchStmt: [Condition Var57]
+Successor 0 ICFGNode20   Successor 1 ICFGNode21   
+   br i1 %tobool, label %while.body, label %while.end, !dbg !37 { "ln": 17, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [-INF, 5]
+Var33	 Value: [-INF, 4]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode21 {fun: cwe120_c_85{ "ln": 20, "cl": 9, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+LoadStmt: [Var70 <-- Var26]	
+   %6 = load i8*, i8** %dest.addr, align 8, !dbg !45 { "ln": 20, "cl": 9, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [0, 0]
+Var33	 Value: [0, 0]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode23 {fun: cwe120_c_85{ "ln": 20, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+   ret i8* %6, !dbg !46 { "ln": 20, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [0, 0]
+Var33	 Value: [0, 0]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [0, 0]
+Var33	 Value: [0, 0]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+FunExitICFGNode25 {fun: cwe120_c_85{ "ln": 20, "cl": 9, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+PhiStmt: [Var22 <-- ([Var70, ICFGNode23],)]	
+   ret i8* %6, !dbg !46 { "ln": 20, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [0, 0]
+Var33	 Value: [0, 0]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+RetICFGNode55 {fun: main{ "ln": 28, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+RetPE: [Var123 <-- Var22]	
+   %call = call i8* @cwe120_c_85(i8* noundef %arraydecay, i8* noundef %arraydecay1, i64 noundef %4), !dbg !44 { "ln": 28, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [0, 0]
+Var33	 Value: [0, 0]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------
+IntraICFGNode56 {fun: main{ "ln": 29, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }}
+   ret i32 0, !dbg !45 { "ln": 29, "cl": 2, "fl": "dirty/WhileCopyOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var52	 Value: [0, 0]
+Var33	 Value: [0, 0]
+Var84	 Value: [0, 0]
+Var94	 Value: [5, 5]
+Var152	 Value: [99, 99]
+Var153	 Value: [0, 0]
+Var154	 Value: [0, 99]
+Var155	 Value: [0, 99]
+Var156	 Value: [0, 99]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var27	 Value: [ 0x7f00009a(154) ,]
+Var31	 Value: [ 0x7f000098(152) ,]
+Var35	 Value: [ 0x7f00009c(156) ,0x7f00009b(155) ,0x7f00009a(154) ,]
+Var37	 Value: [ 0x7f000099(153) ,0x7f000098(152) ,]
+-----------------------------------------

@@ -1,0 +1,4213 @@
+GlobalICFGNode0
+CopyStmt: [Var1 <-- Var0]	
+ i8* null { constant data }
+AddrStmt: [Var4 <-- Var6]	
+ @__const.TestCaseBad03.deviceBlockPath = private unnamed_addr constant [12 x i8] c"/dev/block/\00", align 1 { Glob  }
+AddrStmt: [Var29 <-- Var31]	
+ @__const.TestCaseBad03.devicePathEmmc = private unnamed_addr constant [11 x i8] c"mmcblk0p28\00", align 1 { Glob  }
+AddrStmt: [Var42 <-- Var44]	
+ @__const.TestCaseBad03.devicePathUfs = private unnamed_addr constant [6 x i8] c"sdd24\00", align 1 { Glob  }
+AddrStmt: [Var49 <-- Var51]	
+ @__const.main.str = private unnamed_addr constant [8 x i8] c"abcdefg\00", align 1 { Glob  }
+AddrStmt: [Var58 <-- Var60]	
+ @__const.main.pblkname = private unnamed_addr constant [8 x i8] c"abcdefg\00", align 1 { Glob  }
+AddrStmt: [Var134 <-- Var135]	
+ i1 true { constant data }
+AddrStmt: [Var92 <-- Var93]	
+ i64 12 { constant data }
+AddrStmt: [Var7 <-- Var8]	
+ i32 0 { constant data }
+AddrStmt: [Var94 <-- Var95]	
+ i1 false { constant data }
+AddrStmt: [Var102 <-- Var103]	
+ i64 11 { constant data }
+AddrStmt: [Var108 <-- Var109]	
+ i64 6 { constant data }
+AddrStmt: [Var152 <-- Var153]	
+ i64 -1 { constant data }
+AddrStmt: [Var210 <-- Var211]	
+ i64 8 { constant data }
+AddrStmt: [Var9 <-- Var10]	
+ i8 47 { constant data }
+AddrStmt: [Var11 <-- Var12]	
+ i8 100 { constant data }
+AddrStmt: [Var13 <-- Var14]	
+ i8 101 { constant data }
+AddrStmt: [Var15 <-- Var16]	
+ i8 118 { constant data }
+AddrStmt: [Var17 <-- Var18]	
+ i8 98 { constant data }
+AddrStmt: [Var19 <-- Var20]	
+ i8 108 { constant data }
+AddrStmt: [Var21 <-- Var22]	
+ i8 111 { constant data }
+AddrStmt: [Var23 <-- Var24]	
+ i8 99 { constant data }
+AddrStmt: [Var25 <-- Var26]	
+ i8 107 { constant data }
+AddrStmt: [Var27 <-- Var28]	
+ i8 0 { constant data }
+AddrStmt: [Var32 <-- Var33]	
+ i8 109 { constant data }
+AddrStmt: [Var34 <-- Var35]	
+ i8 48 { constant data }
+AddrStmt: [Var36 <-- Var37]	
+ i8 112 { constant data }
+AddrStmt: [Var38 <-- Var39]	
+ i8 50 { constant data }
+AddrStmt: [Var40 <-- Var41]	
+ i8 56 { constant data }
+AddrStmt: [Var45 <-- Var46]	
+ i8 115 { constant data }
+AddrStmt: [Var47 <-- Var48]	
+ i8 52 { constant data }
+AddrStmt: [Var52 <-- Var53]	
+ i8 97 { constant data }
+AddrStmt: [Var54 <-- Var55]	
+ i8 102 { constant data }
+AddrStmt: [Var56 <-- Var57]	
+ i8 103 { constant data }
+AddrStmt: [Var72 <-- Var73]	
+ i32 1 { constant data }
+AddrStmt: [Var126 <-- Var127]	
+ i64 0 { constant data }
+AddrStmt: [Var149 <-- Var150]	
+ i64 1 { constant data }
+GepStmt: [Var220 <-- Var4]	
+ @__const.TestCaseBad03.deviceBlockPath = private unnamed_addr constant [12 x i8] c"/dev/block/\00", align 1 { Glob  }
+StoreStmt: [Var220 <-- Var9]	
+ i8 47 { constant data }
+GepStmt: [Var221 <-- Var4]	
+ @__const.TestCaseBad03.deviceBlockPath = private unnamed_addr constant [12 x i8] c"/dev/block/\00", align 1 { Glob  }
+StoreStmt: [Var221 <-- Var11]	
+ i8 100 { constant data }
+GepStmt: [Var222 <-- Var4]	
+ @__const.TestCaseBad03.deviceBlockPath = private unnamed_addr constant [12 x i8] c"/dev/block/\00", align 1 { Glob  }
+StoreStmt: [Var222 <-- Var13]	
+ i8 101 { constant data }
+GepStmt: [Var223 <-- Var4]	
+ @__const.TestCaseBad03.deviceBlockPath = private unnamed_addr constant [12 x i8] c"/dev/block/\00", align 1 { Glob  }
+StoreStmt: [Var223 <-- Var15]	
+ i8 118 { constant data }
+GepStmt: [Var224 <-- Var4]	
+ @__const.TestCaseBad03.deviceBlockPath = private unnamed_addr constant [12 x i8] c"/dev/block/\00", align 1 { Glob  }
+StoreStmt: [Var224 <-- Var9]	
+ i8 47 { constant data }
+GepStmt: [Var225 <-- Var4]	
+ @__const.TestCaseBad03.deviceBlockPath = private unnamed_addr constant [12 x i8] c"/dev/block/\00", align 1 { Glob  }
+StoreStmt: [Var225 <-- Var17]	
+ i8 98 { constant data }
+GepStmt: [Var226 <-- Var4]	
+ @__const.TestCaseBad03.deviceBlockPath = private unnamed_addr constant [12 x i8] c"/dev/block/\00", align 1 { Glob  }
+StoreStmt: [Var226 <-- Var19]	
+ i8 108 { constant data }
+GepStmt: [Var227 <-- Var4]	
+ @__const.TestCaseBad03.deviceBlockPath = private unnamed_addr constant [12 x i8] c"/dev/block/\00", align 1 { Glob  }
+StoreStmt: [Var227 <-- Var21]	
+ i8 111 { constant data }
+GepStmt: [Var228 <-- Var4]	
+ @__const.TestCaseBad03.deviceBlockPath = private unnamed_addr constant [12 x i8] c"/dev/block/\00", align 1 { Glob  }
+StoreStmt: [Var228 <-- Var23]	
+ i8 99 { constant data }
+GepStmt: [Var229 <-- Var4]	
+ @__const.TestCaseBad03.deviceBlockPath = private unnamed_addr constant [12 x i8] c"/dev/block/\00", align 1 { Glob  }
+StoreStmt: [Var229 <-- Var25]	
+ i8 107 { constant data }
+GepStmt: [Var230 <-- Var4]	
+ @__const.TestCaseBad03.deviceBlockPath = private unnamed_addr constant [12 x i8] c"/dev/block/\00", align 1 { Glob  }
+StoreStmt: [Var230 <-- Var9]	
+ i8 47 { constant data }
+GepStmt: [Var231 <-- Var4]	
+ @__const.TestCaseBad03.deviceBlockPath = private unnamed_addr constant [12 x i8] c"/dev/block/\00", align 1 { Glob  }
+StoreStmt: [Var231 <-- Var27]	
+ i8 0 { constant data }
+GepStmt: [Var232 <-- Var29]	
+ @__const.TestCaseBad03.devicePathEmmc = private unnamed_addr constant [11 x i8] c"mmcblk0p28\00", align 1 { Glob  }
+StoreStmt: [Var232 <-- Var32]	
+ i8 109 { constant data }
+GepStmt: [Var233 <-- Var29]	
+ @__const.TestCaseBad03.devicePathEmmc = private unnamed_addr constant [11 x i8] c"mmcblk0p28\00", align 1 { Glob  }
+StoreStmt: [Var233 <-- Var32]	
+ i8 109 { constant data }
+GepStmt: [Var234 <-- Var29]	
+ @__const.TestCaseBad03.devicePathEmmc = private unnamed_addr constant [11 x i8] c"mmcblk0p28\00", align 1 { Glob  }
+StoreStmt: [Var234 <-- Var23]	
+ i8 99 { constant data }
+GepStmt: [Var235 <-- Var29]	
+ @__const.TestCaseBad03.devicePathEmmc = private unnamed_addr constant [11 x i8] c"mmcblk0p28\00", align 1 { Glob  }
+StoreStmt: [Var235 <-- Var17]	
+ i8 98 { constant data }
+GepStmt: [Var236 <-- Var29]	
+ @__const.TestCaseBad03.devicePathEmmc = private unnamed_addr constant [11 x i8] c"mmcblk0p28\00", align 1 { Glob  }
+StoreStmt: [Var236 <-- Var19]	
+ i8 108 { constant data }
+GepStmt: [Var237 <-- Var29]	
+ @__const.TestCaseBad03.devicePathEmmc = private unnamed_addr constant [11 x i8] c"mmcblk0p28\00", align 1 { Glob  }
+StoreStmt: [Var237 <-- Var25]	
+ i8 107 { constant data }
+GepStmt: [Var238 <-- Var29]	
+ @__const.TestCaseBad03.devicePathEmmc = private unnamed_addr constant [11 x i8] c"mmcblk0p28\00", align 1 { Glob  }
+StoreStmt: [Var238 <-- Var34]	
+ i8 48 { constant data }
+GepStmt: [Var239 <-- Var29]	
+ @__const.TestCaseBad03.devicePathEmmc = private unnamed_addr constant [11 x i8] c"mmcblk0p28\00", align 1 { Glob  }
+StoreStmt: [Var239 <-- Var36]	
+ i8 112 { constant data }
+GepStmt: [Var240 <-- Var29]	
+ @__const.TestCaseBad03.devicePathEmmc = private unnamed_addr constant [11 x i8] c"mmcblk0p28\00", align 1 { Glob  }
+StoreStmt: [Var240 <-- Var38]	
+ i8 50 { constant data }
+GepStmt: [Var241 <-- Var29]	
+ @__const.TestCaseBad03.devicePathEmmc = private unnamed_addr constant [11 x i8] c"mmcblk0p28\00", align 1 { Glob  }
+StoreStmt: [Var241 <-- Var40]	
+ i8 56 { constant data }
+GepStmt: [Var242 <-- Var29]	
+ @__const.TestCaseBad03.devicePathEmmc = private unnamed_addr constant [11 x i8] c"mmcblk0p28\00", align 1 { Glob  }
+StoreStmt: [Var242 <-- Var27]	
+ i8 0 { constant data }
+GepStmt: [Var243 <-- Var42]	
+ @__const.TestCaseBad03.devicePathUfs = private unnamed_addr constant [6 x i8] c"sdd24\00", align 1 { Glob  }
+StoreStmt: [Var243 <-- Var45]	
+ i8 115 { constant data }
+GepStmt: [Var244 <-- Var42]	
+ @__const.TestCaseBad03.devicePathUfs = private unnamed_addr constant [6 x i8] c"sdd24\00", align 1 { Glob  }
+StoreStmt: [Var244 <-- Var11]	
+ i8 100 { constant data }
+GepStmt: [Var245 <-- Var42]	
+ @__const.TestCaseBad03.devicePathUfs = private unnamed_addr constant [6 x i8] c"sdd24\00", align 1 { Glob  }
+StoreStmt: [Var245 <-- Var11]	
+ i8 100 { constant data }
+GepStmt: [Var246 <-- Var42]	
+ @__const.TestCaseBad03.devicePathUfs = private unnamed_addr constant [6 x i8] c"sdd24\00", align 1 { Glob  }
+StoreStmt: [Var246 <-- Var38]	
+ i8 50 { constant data }
+GepStmt: [Var247 <-- Var42]	
+ @__const.TestCaseBad03.devicePathUfs = private unnamed_addr constant [6 x i8] c"sdd24\00", align 1 { Glob  }
+StoreStmt: [Var247 <-- Var47]	
+ i8 52 { constant data }
+GepStmt: [Var248 <-- Var42]	
+ @__const.TestCaseBad03.devicePathUfs = private unnamed_addr constant [6 x i8] c"sdd24\00", align 1 { Glob  }
+StoreStmt: [Var248 <-- Var27]	
+ i8 0 { constant data }
+GepStmt: [Var249 <-- Var49]	
+ @__const.main.str = private unnamed_addr constant [8 x i8] c"abcdefg\00", align 1 { Glob  }
+StoreStmt: [Var249 <-- Var52]	
+ i8 97 { constant data }
+GepStmt: [Var250 <-- Var49]	
+ @__const.main.str = private unnamed_addr constant [8 x i8] c"abcdefg\00", align 1 { Glob  }
+StoreStmt: [Var250 <-- Var17]	
+ i8 98 { constant data }
+GepStmt: [Var251 <-- Var49]	
+ @__const.main.str = private unnamed_addr constant [8 x i8] c"abcdefg\00", align 1 { Glob  }
+StoreStmt: [Var251 <-- Var23]	
+ i8 99 { constant data }
+GepStmt: [Var252 <-- Var49]	
+ @__const.main.str = private unnamed_addr constant [8 x i8] c"abcdefg\00", align 1 { Glob  }
+StoreStmt: [Var252 <-- Var11]	
+ i8 100 { constant data }
+GepStmt: [Var253 <-- Var49]	
+ @__const.main.str = private unnamed_addr constant [8 x i8] c"abcdefg\00", align 1 { Glob  }
+StoreStmt: [Var253 <-- Var13]	
+ i8 101 { constant data }
+GepStmt: [Var254 <-- Var49]	
+ @__const.main.str = private unnamed_addr constant [8 x i8] c"abcdefg\00", align 1 { Glob  }
+StoreStmt: [Var254 <-- Var54]	
+ i8 102 { constant data }
+GepStmt: [Var255 <-- Var49]	
+ @__const.main.str = private unnamed_addr constant [8 x i8] c"abcdefg\00", align 1 { Glob  }
+StoreStmt: [Var255 <-- Var56]	
+ i8 103 { constant data }
+GepStmt: [Var256 <-- Var49]	
+ @__const.main.str = private unnamed_addr constant [8 x i8] c"abcdefg\00", align 1 { Glob  }
+StoreStmt: [Var256 <-- Var27]	
+ i8 0 { constant data }
+GepStmt: [Var257 <-- Var58]	
+ @__const.main.pblkname = private unnamed_addr constant [8 x i8] c"abcdefg\00", align 1 { Glob  }
+StoreStmt: [Var257 <-- Var52]	
+ i8 97 { constant data }
+GepStmt: [Var258 <-- Var58]	
+ @__const.main.pblkname = private unnamed_addr constant [8 x i8] c"abcdefg\00", align 1 { Glob  }
+StoreStmt: [Var258 <-- Var17]	
+ i8 98 { constant data }
+GepStmt: [Var259 <-- Var58]	
+ @__const.main.pblkname = private unnamed_addr constant [8 x i8] c"abcdefg\00", align 1 { Glob  }
+StoreStmt: [Var259 <-- Var23]	
+ i8 99 { constant data }
+GepStmt: [Var260 <-- Var58]	
+ @__const.main.pblkname = private unnamed_addr constant [8 x i8] c"abcdefg\00", align 1 { Glob  }
+StoreStmt: [Var260 <-- Var11]	
+ i8 100 { constant data }
+GepStmt: [Var261 <-- Var58]	
+ @__const.main.pblkname = private unnamed_addr constant [8 x i8] c"abcdefg\00", align 1 { Glob  }
+StoreStmt: [Var261 <-- Var13]	
+ i8 101 { constant data }
+GepStmt: [Var262 <-- Var58]	
+ @__const.main.pblkname = private unnamed_addr constant [8 x i8] c"abcdefg\00", align 1 { Glob  }
+StoreStmt: [Var262 <-- Var54]	
+ i8 102 { constant data }
+GepStmt: [Var263 <-- Var58]	
+ @__const.main.pblkname = private unnamed_addr constant [8 x i8] c"abcdefg\00", align 1 { Glob  }
+StoreStmt: [Var263 <-- Var56]	
+ i8 103 { constant data }
+GepStmt: [Var264 <-- Var58]	
+ @__const.main.pblkname = private unnamed_addr constant [8 x i8] c"abcdefg\00", align 1 { Glob  }
+StoreStmt: [Var264 <-- Var27]	
+ i8 0 { constant data }
+AddrStmt: [Var61 <-- Var62]	
+Function: GetBootdeviceType { "ln": 14, "file": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+AddrStmt: [Var65 <-- Var66]	
+Function: TestCaseBad03 { "ln": 22, "file": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+AddrStmt: [Var173 <-- Var174]	
+Function: llvm.dbg.declare 
+AddrStmt: [Var96 <-- Var97]	
+Function: llvm.memcpy.p0i8.p0i8.i64 
+AddrStmt: [Var139 <-- Var140]	
+Function: __strncpy_chk 
+AddrStmt: [Var130 <-- Var131]	
+Function: strlen 
+AddrStmt: [Var136 <-- Var137]	
+Function: llvm.objectsize.i64.p0i8 
+AddrStmt: [Var196 <-- Var197]	
+Function: main { "ln": 45, "file": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var7	 Value: [0, 0]
+Var8	 Value: [0, 0]
+Var9	 Value: [47, 47]
+Var10	 Value: [47, 47]
+Var11	 Value: [100, 100]
+Var12	 Value: [100, 100]
+Var13	 Value: [101, 101]
+Var14	 Value: [101, 101]
+Var15	 Value: [118, 118]
+Var16	 Value: [118, 118]
+Var17	 Value: [98, 98]
+Var18	 Value: [98, 98]
+Var19	 Value: [108, 108]
+Var20	 Value: [108, 108]
+Var21	 Value: [111, 111]
+Var22	 Value: [111, 111]
+Var23	 Value: [99, 99]
+Var24	 Value: [99, 99]
+Var25	 Value: [107, 107]
+Var26	 Value: [107, 107]
+Var27	 Value: [0, 0]
+Var28	 Value: [0, 0]
+Var32	 Value: [109, 109]
+Var33	 Value: [109, 109]
+Var34	 Value: [48, 48]
+Var35	 Value: [48, 48]
+Var36	 Value: [112, 112]
+Var37	 Value: [112, 112]
+Var38	 Value: [50, 50]
+Var39	 Value: [50, 50]
+Var40	 Value: [56, 56]
+Var41	 Value: [56, 56]
+Var45	 Value: [115, 115]
+Var46	 Value: [115, 115]
+Var47	 Value: [52, 52]
+Var48	 Value: [52, 52]
+Var52	 Value: [97, 97]
+Var53	 Value: [97, 97]
+Var54	 Value: [102, 102]
+Var55	 Value: [102, 102]
+Var56	 Value: [103, 103]
+Var57	 Value: [103, 103]
+Var72	 Value: [1, 1]
+Var73	 Value: [1, 1]
+Var92	 Value: [12, 12]
+Var93	 Value: [12, 12]
+Var94	 Value: [0, 0]
+Var95	 Value: [0, 0]
+Var102	 Value: [11, 11]
+Var103	 Value: [11, 11]
+Var108	 Value: [6, 6]
+Var109	 Value: [6, 6]
+Var126	 Value: [0, 0]
+Var127	 Value: [0, 0]
+Var134	 Value: [1, 1]
+Var135	 Value: [1, 1]
+Var149	 Value: [1, 1]
+Var150	 Value: [1, 1]
+Var152	 Value: [(- 1), (- 1)]
+Var153	 Value: [(- 1), (- 1)]
+Var210	 Value: [8, 8]
+Var211	 Value: [8, 8]
+Var465	 Value: [47, 47]
+Var466	 Value: [100, 100]
+Var467	 Value: [101, 101]
+Var468	 Value: [118, 118]
+Var469	 Value: [47, 47]
+Var470	 Value: [98, 98]
+Var471	 Value: [108, 108]
+Var472	 Value: [111, 111]
+Var473	 Value: [99, 99]
+Var474	 Value: [107, 107]
+Var475	 Value: [47, 47]
+Var476	 Value: [0, 0]
+Var477	 Value: [109, 109]
+Var478	 Value: [109, 109]
+Var479	 Value: [99, 99]
+Var480	 Value: [98, 98]
+Var481	 Value: [108, 108]
+Var482	 Value: [107, 107]
+Var483	 Value: [48, 48]
+Var484	 Value: [112, 112]
+Var485	 Value: [50, 50]
+Var486	 Value: [56, 56]
+Var487	 Value: [0, 0]
+Var488	 Value: [115, 115]
+Var489	 Value: [100, 100]
+Var490	 Value: [100, 100]
+Var491	 Value: [50, 50]
+Var492	 Value: [52, 52]
+Var493	 Value: [0, 0]
+Var494	 Value: [97, 97]
+Var495	 Value: [98, 98]
+Var496	 Value: [99, 99]
+Var497	 Value: [100, 100]
+Var498	 Value: [101, 101]
+Var499	 Value: [102, 102]
+Var500	 Value: [103, 103]
+Var501	 Value: [0, 0]
+Var502	 Value: [97, 97]
+Var503	 Value: [98, 98]
+Var504	 Value: [99, 99]
+Var505	 Value: [100, 100]
+Var506	 Value: [101, 101]
+Var507	 Value: [102, 102]
+Var508	 Value: [103, 103]
+Var509	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var4	 Value: [ 0x7f000006(6) ,]
+Var6	 Value: [ 0x7f000006(6) ,]
+Var29	 Value: [ 0x7f00001f(31) ,]
+Var31	 Value: [ 0x7f00001f(31) ,]
+Var42	 Value: [ 0x7f00002c(44) ,]
+Var44	 Value: [ 0x7f00002c(44) ,]
+Var49	 Value: [ 0x7f000033(51) ,]
+Var51	 Value: [ 0x7f000033(51) ,]
+Var58	 Value: [ 0x7f00003c(60) ,]
+Var60	 Value: [ 0x7f00003c(60) ,]
+Var61	 Value: [ 0x7f00003e(62) ,]
+Var62	 Value: [ 0x7f00003e(62) ,]
+Var65	 Value: [ 0x7f000042(66) ,]
+Var66	 Value: [ 0x7f000042(66) ,]
+Var96	 Value: [ 0x7f000061(97) ,]
+Var97	 Value: [ 0x7f000061(97) ,]
+Var130	 Value: [ 0x7f000083(131) ,]
+Var131	 Value: [ 0x7f000083(131) ,]
+Var136	 Value: [ 0x7f000089(137) ,]
+Var137	 Value: [ 0x7f000089(137) ,]
+Var139	 Value: [ 0x7f00008c(140) ,]
+Var140	 Value: [ 0x7f00008c(140) ,]
+Var173	 Value: [ 0x7f0000ae(174) ,]
+Var174	 Value: [ 0x7f0000ae(174) ,]
+Var196	 Value: [ 0x7f0000c5(197) ,]
+Var197	 Value: [ 0x7f0000c5(197) ,]
+Var220	 Value: [ 0x7f0001d1(465) ,]
+Var221	 Value: [ 0x7f0001d2(466) ,]
+Var222	 Value: [ 0x7f0001d3(467) ,]
+Var223	 Value: [ 0x7f0001d4(468) ,]
+Var224	 Value: [ 0x7f0001d5(469) ,]
+Var225	 Value: [ 0x7f0001d6(470) ,]
+Var226	 Value: [ 0x7f0001d7(471) ,]
+Var227	 Value: [ 0x7f0001d8(472) ,]
+Var228	 Value: [ 0x7f0001d9(473) ,]
+Var229	 Value: [ 0x7f0001da(474) ,]
+Var230	 Value: [ 0x7f0001db(475) ,]
+Var231	 Value: [ 0x7f0001dc(476) ,]
+Var232	 Value: [ 0x7f0001dd(477) ,]
+Var233	 Value: [ 0x7f0001de(478) ,]
+Var234	 Value: [ 0x7f0001df(479) ,]
+Var235	 Value: [ 0x7f0001e0(480) ,]
+Var236	 Value: [ 0x7f0001e1(481) ,]
+Var237	 Value: [ 0x7f0001e2(482) ,]
+Var238	 Value: [ 0x7f0001e3(483) ,]
+Var239	 Value: [ 0x7f0001e4(484) ,]
+Var240	 Value: [ 0x7f0001e5(485) ,]
+Var241	 Value: [ 0x7f0001e6(486) ,]
+Var242	 Value: [ 0x7f0001e7(487) ,]
+Var243	 Value: [ 0x7f0001e8(488) ,]
+Var244	 Value: [ 0x7f0001e9(489) ,]
+Var245	 Value: [ 0x7f0001ea(490) ,]
+Var246	 Value: [ 0x7f0001eb(491) ,]
+Var247	 Value: [ 0x7f0001ec(492) ,]
+Var248	 Value: [ 0x7f0001ed(493) ,]
+Var249	 Value: [ 0x7f0001ee(494) ,]
+Var250	 Value: [ 0x7f0001ef(495) ,]
+Var251	 Value: [ 0x7f0001f0(496) ,]
+Var252	 Value: [ 0x7f0001f1(497) ,]
+Var253	 Value: [ 0x7f0001f2(498) ,]
+Var254	 Value: [ 0x7f0001f3(499) ,]
+Var255	 Value: [ 0x7f0001f4(500) ,]
+Var256	 Value: [ 0x7f0001f5(501) ,]
+Var257	 Value: [ 0x7f0001f6(502) ,]
+Var258	 Value: [ 0x7f0001f7(503) ,]
+Var259	 Value: [ 0x7f0001f8(504) ,]
+Var260	 Value: [ 0x7f0001f9(505) ,]
+Var261	 Value: [ 0x7f0001fa(506) ,]
+Var262	 Value: [ 0x7f0001fb(507) ,]
+Var263	 Value: [ 0x7f0001fc(508) ,]
+Var264	 Value: [ 0x7f0001fd(509) ,]
+Var465	 Value: [ 0x7f0001d1(465) ,]
+Var466	 Value: [ 0x7f0001d2(466) ,]
+Var467	 Value: [ 0x7f0001d3(467) ,]
+Var468	 Value: [ 0x7f0001d4(468) ,]
+Var469	 Value: [ 0x7f0001d5(469) ,]
+Var470	 Value: [ 0x7f0001d6(470) ,]
+Var471	 Value: [ 0x7f0001d7(471) ,]
+Var472	 Value: [ 0x7f0001d8(472) ,]
+Var473	 Value: [ 0x7f0001d9(473) ,]
+Var474	 Value: [ 0x7f0001da(474) ,]
+Var475	 Value: [ 0x7f0001db(475) ,]
+Var476	 Value: [ 0x7f0001dc(476) ,]
+Var477	 Value: [ 0x7f0001dd(477) ,]
+Var478	 Value: [ 0x7f0001de(478) ,]
+Var479	 Value: [ 0x7f0001df(479) ,]
+Var480	 Value: [ 0x7f0001e0(480) ,]
+Var481	 Value: [ 0x7f0001e1(481) ,]
+Var482	 Value: [ 0x7f0001e2(482) ,]
+Var483	 Value: [ 0x7f0001e3(483) ,]
+Var484	 Value: [ 0x7f0001e4(484) ,]
+Var485	 Value: [ 0x7f0001e5(485) ,]
+Var486	 Value: [ 0x7f0001e6(486) ,]
+Var487	 Value: [ 0x7f0001e7(487) ,]
+Var488	 Value: [ 0x7f0001e8(488) ,]
+Var489	 Value: [ 0x7f0001e9(489) ,]
+Var490	 Value: [ 0x7f0001ea(490) ,]
+Var491	 Value: [ 0x7f0001eb(491) ,]
+Var492	 Value: [ 0x7f0001ec(492) ,]
+Var493	 Value: [ 0x7f0001ed(493) ,]
+Var494	 Value: [ 0x7f0001ee(494) ,]
+Var495	 Value: [ 0x7f0001ef(495) ,]
+Var496	 Value: [ 0x7f0001f0(496) ,]
+Var497	 Value: [ 0x7f0001f1(497) ,]
+Var498	 Value: [ 0x7f0001f2(498) ,]
+Var499	 Value: [ 0x7f0001f3(499) ,]
+Var500	 Value: [ 0x7f0001f4(500) ,]
+Var501	 Value: [ 0x7f0001f5(501) ,]
+Var502	 Value: [ 0x7f0001f6(502) ,]
+Var503	 Value: [ 0x7f0001f7(503) ,]
+Var504	 Value: [ 0x7f0001f8(504) ,]
+Var505	 Value: [ 0x7f0001f9(505) ,]
+Var506	 Value: [ 0x7f0001fa(506) ,]
+Var507	 Value: [ 0x7f0001fb(507) ,]
+Var508	 Value: [ 0x7f0001fc(508) ,]
+Var509	 Value: [ 0x7f0001fd(509) ,]
+-----------------------------------------
+IntraICFGNode87 {fun: main}
+AddrStmt: [Var199 <-- Var200]	
+   %retval = alloca i32, align 4 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode88 {fun: main{ "ln": 46, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+AddrStmt: [Var201 <-- Var202]	
+   %str = alloca [8 x i8], align 1 { "ln": 46, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode89 {fun: main{ "ln": 47, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+AddrStmt: [Var203 <-- Var204]	
+   %pblkname = alloca [8 x i8], align 1 { "ln": 47, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode90 {fun: main}
+StoreStmt: [Var199 <-- Var7]	
+   store i32 0, i32* %retval, align 4 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode116 {fun: main{ "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+   call void @llvm.dbg.declare(metadata [8 x i8]* %str, metadata !72, metadata !DIExpression()), !dbg !76 { "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode91 {fun: main{ "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+CopyStmt: [Var207 <-- Var201]	
+   %0 = bitcast [8 x i8]* %str to i8*, !dbg !25 { "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+arr type size: 8
+arr type size: 8
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode92 {fun: main}
+GepStmt: [Var208 <-- Var49]	
+   %1 = getelementptr inbounds [8 x i8], [8 x i8]* @__const.main.str, i32 0, i32 0 
+[8 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode93 {fun: main{ "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+GepStmt: [Var372 <-- Var207]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 8, i1 false), !dbg !25 { "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var373 <-- Var49]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 8, i1 false), !dbg !25 { "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var374 <-- Var373]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 8, i1 false), !dbg !25 { "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var372 <-- Var374]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 8, i1 false), !dbg !25 { "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var375 <-- Var207]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 8, i1 false), !dbg !25 { "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var376 <-- Var49]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 8, i1 false), !dbg !25 { "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var377 <-- Var376]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 8, i1 false), !dbg !25 { "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var375 <-- Var377]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 8, i1 false), !dbg !25 { "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var378 <-- Var207]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 8, i1 false), !dbg !25 { "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var379 <-- Var49]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 8, i1 false), !dbg !25 { "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var380 <-- Var379]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 8, i1 false), !dbg !25 { "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var378 <-- Var380]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 8, i1 false), !dbg !25 { "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var381 <-- Var207]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 8, i1 false), !dbg !25 { "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var382 <-- Var49]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 8, i1 false), !dbg !25 { "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var383 <-- Var382]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 8, i1 false), !dbg !25 { "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var381 <-- Var383]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 8, i1 false), !dbg !25 { "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var384 <-- Var207]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 8, i1 false), !dbg !25 { "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var385 <-- Var49]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 8, i1 false), !dbg !25 { "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var386 <-- Var385]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 8, i1 false), !dbg !25 { "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var384 <-- Var386]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 8, i1 false), !dbg !25 { "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var387 <-- Var207]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 8, i1 false), !dbg !25 { "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var388 <-- Var49]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 8, i1 false), !dbg !25 { "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var389 <-- Var388]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 8, i1 false), !dbg !25 { "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var387 <-- Var389]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 8, i1 false), !dbg !25 { "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var390 <-- Var207]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 8, i1 false), !dbg !25 { "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var391 <-- Var49]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 8, i1 false), !dbg !25 { "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var392 <-- Var391]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 8, i1 false), !dbg !25 { "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var390 <-- Var392]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 8, i1 false), !dbg !25 { "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var393 <-- Var207]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 8, i1 false), !dbg !25 { "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var394 <-- Var49]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 8, i1 false), !dbg !25 { "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var395 <-- Var394]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 8, i1 false), !dbg !25 { "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var393 <-- Var395]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 8, i1 false), !dbg !25 { "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+CopyStmt: [Var209 <-- Var0]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 8, i1 false), !dbg !25 { "ln": 46, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+arr type size: 8
+arr type size: 8
+Buffer Overflow Check Safe
+[8 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: 8
+arr type size: 8
+Buffer Overflow Check Safe
+[8 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: 8
+arr type size: 8
+Buffer Overflow Check Safe
+[8 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: 8
+arr type size: 8
+Buffer Overflow Check Safe
+[8 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: 8
+arr type size: 8
+Buffer Overflow Check Safe
+[8 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: 8
+arr type size: 8
+Buffer Overflow Check Safe
+[8 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: 8
+arr type size: 8
+Buffer Overflow Check Safe
+[8 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: 8
+arr type size: 8
+Buffer Overflow Check Safe
+[8 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: 8
+arr type size: 8
+Buffer Overflow Check Safe
+[8 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+[8 x i8]*, byteOffset:[0, 0]
+arr type size: 8
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode117 {fun: main{ "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+   call void @llvm.dbg.declare(metadata [8 x i8]* %pblkname, metadata !77, metadata !DIExpression()), !dbg !78 { "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode95 {fun: main{ "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+CopyStmt: [Var213 <-- Var203]	
+   %2 = bitcast [8 x i8]* %pblkname to i8*, !dbg !27 { "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+arr type size: 8
+arr type size: 8
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode96 {fun: main}
+GepStmt: [Var214 <-- Var58]	
+   %3 = getelementptr inbounds [8 x i8], [8 x i8]* @__const.main.pblkname, i32 0, i32 0 
+[8 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode97 {fun: main{ "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+GepStmt: [Var396 <-- Var213]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 8, i1 false), !dbg !27 { "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var397 <-- Var58]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 8, i1 false), !dbg !27 { "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var398 <-- Var397]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 8, i1 false), !dbg !27 { "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var396 <-- Var398]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 8, i1 false), !dbg !27 { "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var399 <-- Var213]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 8, i1 false), !dbg !27 { "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var400 <-- Var58]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 8, i1 false), !dbg !27 { "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var401 <-- Var400]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 8, i1 false), !dbg !27 { "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var399 <-- Var401]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 8, i1 false), !dbg !27 { "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var402 <-- Var213]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 8, i1 false), !dbg !27 { "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var403 <-- Var58]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 8, i1 false), !dbg !27 { "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var404 <-- Var403]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 8, i1 false), !dbg !27 { "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var402 <-- Var404]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 8, i1 false), !dbg !27 { "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var405 <-- Var213]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 8, i1 false), !dbg !27 { "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var406 <-- Var58]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 8, i1 false), !dbg !27 { "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var407 <-- Var406]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 8, i1 false), !dbg !27 { "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var405 <-- Var407]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 8, i1 false), !dbg !27 { "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var408 <-- Var213]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 8, i1 false), !dbg !27 { "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var409 <-- Var58]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 8, i1 false), !dbg !27 { "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var410 <-- Var409]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 8, i1 false), !dbg !27 { "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var408 <-- Var410]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 8, i1 false), !dbg !27 { "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var411 <-- Var213]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 8, i1 false), !dbg !27 { "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var412 <-- Var58]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 8, i1 false), !dbg !27 { "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var413 <-- Var412]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 8, i1 false), !dbg !27 { "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var411 <-- Var413]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 8, i1 false), !dbg !27 { "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var414 <-- Var213]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 8, i1 false), !dbg !27 { "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var415 <-- Var58]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 8, i1 false), !dbg !27 { "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var416 <-- Var415]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 8, i1 false), !dbg !27 { "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var414 <-- Var416]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 8, i1 false), !dbg !27 { "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var417 <-- Var213]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 8, i1 false), !dbg !27 { "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var418 <-- Var58]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 8, i1 false), !dbg !27 { "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var419 <-- Var418]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 8, i1 false), !dbg !27 { "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var417 <-- Var419]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 8, i1 false), !dbg !27 { "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+CopyStmt: [Var215 <-- Var0]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 8, i1 false), !dbg !27 { "ln": 47, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+arr type size: 8
+arr type size: 8
+Buffer Overflow Check Safe
+[8 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: 8
+arr type size: 8
+Buffer Overflow Check Safe
+[8 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: 8
+arr type size: 8
+Buffer Overflow Check Safe
+[8 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: 8
+arr type size: 8
+Buffer Overflow Check Safe
+[8 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: 8
+arr type size: 8
+Buffer Overflow Check Safe
+[8 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: 8
+arr type size: 8
+Buffer Overflow Check Safe
+[8 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: 8
+arr type size: 8
+Buffer Overflow Check Safe
+[8 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: 8
+arr type size: 8
+Buffer Overflow Check Safe
+[8 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: 8
+arr type size: 8
+Buffer Overflow Check Safe
+[8 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+[8 x i8]*, byteOffset:[0, 0]
+arr type size: 8
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode99 {fun: main{ "ln": 48, "cl": 19, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+GepStmt: [Var216 <-- Var201]	
+   %arraydecay = getelementptr inbounds [8 x i8], [8 x i8]* %str, i64 0, i64 0, !dbg !28 { "ln": 48, "cl": 19, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+[8 x i8]*, byteOffset:[0, 0]
+arr type size: 8
+arr type size: 8
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode100 {fun: main{ "ln": 48, "cl": 24, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+GepStmt: [Var217 <-- Var203]	
+   %arraydecay1 = getelementptr inbounds [8 x i8], [8 x i8]* %pblkname, i64 0, i64 0, !dbg !29 { "ln": 48, "cl": 24, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+[8 x i8]*, byteOffset:[0, 0]
+arr type size: 8
+arr type size: 8
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode101 {fun: main{ "ln": 48, "cl": 5, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+CallPE: [Var68 <-- Var216]	
+   call void @TestCaseBad03(i8* noundef %arraydecay, i8* noundef %arraydecay1), !dbg !30 { "ln": 48, "cl": 5, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+CallPE: [Var69 <-- Var217]	
+   call void @TestCaseBad03(i8* noundef %arraydecay, i8* noundef %arraydecay1), !dbg !30 { "ln": 48, "cl": 5, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+IntraICFGNode5 {fun: TestCaseBad03{ "ln": 22, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+AddrStmt: [Var70 <-- Var71]	
+   %str.addr = alloca i8*, align 8 { "ln": 22, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode6 {fun: TestCaseBad03{ "ln": 22, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+AddrStmt: [Var74 <-- Var75]	
+   %pblkname.addr = alloca i8*, align 8 { "ln": 22, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode7 {fun: TestCaseBad03{ "ln": 24, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+AddrStmt: [Var76 <-- Var77]	
+   %deviceBlockPath = alloca [12 x i8], align 1 { "ln": 24, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode8 {fun: TestCaseBad03{ "ln": 25, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+AddrStmt: [Var78 <-- Var79]	
+   %devicePathEmmc = alloca [11 x i8], align 1 { "ln": 25, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode9 {fun: TestCaseBad03{ "ln": 26, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+AddrStmt: [Var80 <-- Var81]	
+   %devicePathUfs = alloca [6 x i8], align 1 { "ln": 26, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode10 {fun: TestCaseBad03{ "ln": 27, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+AddrStmt: [Var82 <-- Var83]	
+   %bootDeviceType = alloca i32, align 4 { "ln": 27, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode11 {fun: TestCaseBad03}
+StoreStmt: [Var70 <-- Var68]	
+   store i8* %str, i8** %str.addr, align 8 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+-----------------------------------------
+IntraICFGNode110 {fun: TestCaseBad03{ "ln": 22, "cl": 32, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+   call void @llvm.dbg.declare(metadata i8** %str.addr, metadata !26, metadata !DIExpression()), !dbg !27 { "ln": 22, "cl": 32, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+-----------------------------------------
+IntraICFGNode12 {fun: TestCaseBad03}
+StoreStmt: [Var74 <-- Var69]	
+   store i8* %pblkname, i8** %pblkname.addr, align 8 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+IntraICFGNode111 {fun: TestCaseBad03{ "ln": 22, "cl": 43, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+   call void @llvm.dbg.declare(metadata i8** %pblkname.addr, metadata !28, metadata !DIExpression()), !dbg !29 { "ln": 22, "cl": 43, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+IntraICFGNode112 {fun: TestCaseBad03{ "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+   call void @llvm.dbg.declare(metadata [12 x i8]* %deviceBlockPath, metadata !30, metadata !DIExpression()), !dbg !34 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+IntraICFGNode13 {fun: TestCaseBad03{ "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+CopyStmt: [Var89 <-- Var76]	
+   %0 = bitcast [12 x i8]* %deviceBlockPath to i8*, !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+arr type size: c
+arr type size: c
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+IntraICFGNode14 {fun: TestCaseBad03}
+GepStmt: [Var90 <-- Var4]	
+   %1 = getelementptr inbounds [12 x i8], [12 x i8]* @__const.TestCaseBad03.deviceBlockPath, i32 0, i32 0 
+[12 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+CallICFGNode15 {fun: TestCaseBad03{ "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+GepStmt: [Var285 <-- Var89]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var286 <-- Var4]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var287 <-- Var286]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var285 <-- Var287]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var288 <-- Var89]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var289 <-- Var4]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var290 <-- Var289]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var288 <-- Var290]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var291 <-- Var89]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var292 <-- Var4]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var293 <-- Var292]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var291 <-- Var293]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var294 <-- Var89]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var295 <-- Var4]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var296 <-- Var295]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var294 <-- Var296]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var297 <-- Var89]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var298 <-- Var4]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var299 <-- Var298]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var297 <-- Var299]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var300 <-- Var89]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var301 <-- Var4]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var302 <-- Var301]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var300 <-- Var302]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var303 <-- Var89]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var304 <-- Var4]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var305 <-- Var304]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var303 <-- Var305]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var306 <-- Var89]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var307 <-- Var4]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var308 <-- Var307]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var306 <-- Var308]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var309 <-- Var89]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var310 <-- Var4]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var311 <-- Var310]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var309 <-- Var311]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var312 <-- Var89]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var313 <-- Var4]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var314 <-- Var313]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var312 <-- Var314]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var315 <-- Var89]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var316 <-- Var4]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var317 <-- Var316]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var315 <-- Var317]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var318 <-- Var89]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var319 <-- Var4]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var320 <-- Var319]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var318 <-- Var320]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+CopyStmt: [Var91 <-- Var0]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %0, i8* align 1 %1, i64 12, i1 false), !dbg !31 { "ln": 24, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+arr type size: c
+arr type size: c
+Buffer Overflow Check Safe
+[12 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: c
+arr type size: c
+Buffer Overflow Check Safe
+[12 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: c
+arr type size: c
+Buffer Overflow Check Safe
+[12 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: c
+arr type size: c
+Buffer Overflow Check Safe
+[12 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: c
+arr type size: c
+Buffer Overflow Check Safe
+[12 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: c
+arr type size: c
+Buffer Overflow Check Safe
+[12 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: c
+arr type size: c
+Buffer Overflow Check Safe
+[12 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: c
+arr type size: c
+Buffer Overflow Check Safe
+[12 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: c
+arr type size: c
+Buffer Overflow Check Safe
+[12 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: c
+arr type size: c
+Buffer Overflow Check Safe
+[12 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: c
+arr type size: c
+Buffer Overflow Check Safe
+[12 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: c
+arr type size: c
+Buffer Overflow Check Safe
+[12 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: c
+arr type size: c
+Buffer Overflow Check Safe
+[12 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+[12 x i8]*, byteOffset:[0, 0]
+arr type size: c
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+IntraICFGNode113 {fun: TestCaseBad03{ "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+   call void @llvm.dbg.declare(metadata [11 x i8]* %devicePathEmmc, metadata !35, metadata !DIExpression()), !dbg !39 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+IntraICFGNode17 {fun: TestCaseBad03{ "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+CopyStmt: [Var99 <-- Var78]	
+   %2 = bitcast [11 x i8]* %devicePathEmmc to i8*, !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+arr type size: b
+arr type size: b
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+IntraICFGNode18 {fun: TestCaseBad03}
+GepStmt: [Var100 <-- Var29]	
+   %3 = getelementptr inbounds [11 x i8], [11 x i8]* @__const.TestCaseBad03.devicePathEmmc, i32 0, i32 0 
+[11 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+CallICFGNode19 {fun: TestCaseBad03{ "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+GepStmt: [Var321 <-- Var99]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var322 <-- Var29]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var323 <-- Var322]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var321 <-- Var323]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var324 <-- Var99]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var325 <-- Var29]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var326 <-- Var325]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var324 <-- Var326]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var327 <-- Var99]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var328 <-- Var29]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var329 <-- Var328]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var327 <-- Var329]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var330 <-- Var99]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var331 <-- Var29]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var332 <-- Var331]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var330 <-- Var332]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var333 <-- Var99]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var334 <-- Var29]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var335 <-- Var334]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var333 <-- Var335]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var336 <-- Var99]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var337 <-- Var29]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var338 <-- Var337]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var336 <-- Var338]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var339 <-- Var99]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var340 <-- Var29]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var341 <-- Var340]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var339 <-- Var341]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var342 <-- Var99]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var343 <-- Var29]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var344 <-- Var343]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var342 <-- Var344]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var345 <-- Var99]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var346 <-- Var29]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var347 <-- Var346]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var345 <-- Var347]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var348 <-- Var99]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var349 <-- Var29]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var350 <-- Var349]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var348 <-- Var350]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var351 <-- Var99]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var352 <-- Var29]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var353 <-- Var352]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var351 <-- Var353]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+CopyStmt: [Var101 <-- Var0]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %2, i8* align 1 %3, i64 11, i1 false), !dbg !36 { "ln": 25, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+arr type size: b
+arr type size: b
+Buffer Overflow Check Safe
+[11 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: b
+arr type size: b
+Buffer Overflow Check Safe
+[11 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: b
+arr type size: b
+Buffer Overflow Check Safe
+[11 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: b
+arr type size: b
+Buffer Overflow Check Safe
+[11 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: b
+arr type size: b
+Buffer Overflow Check Safe
+[11 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: b
+arr type size: b
+Buffer Overflow Check Safe
+[11 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: b
+arr type size: b
+Buffer Overflow Check Safe
+[11 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: b
+arr type size: b
+Buffer Overflow Check Safe
+[11 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: b
+arr type size: b
+Buffer Overflow Check Safe
+[11 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: b
+arr type size: b
+Buffer Overflow Check Safe
+[11 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: b
+arr type size: b
+Buffer Overflow Check Safe
+[11 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: b
+arr type size: b
+Buffer Overflow Check Safe
+[11 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+[11 x i8]*, byteOffset:[0, 0]
+arr type size: b
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+IntraICFGNode114 {fun: TestCaseBad03{ "ln": 26, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+   call void @llvm.dbg.declare(metadata [6 x i8]* %devicePathUfs, metadata !40, metadata !DIExpression()), !dbg !44 { "ln": 26, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+IntraICFGNode21 {fun: TestCaseBad03{ "ln": 26, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+CopyStmt: [Var105 <-- Var80]	
+   %4 = bitcast [6 x i8]* %devicePathUfs to i8*, !dbg !41 { "ln": 26, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+arr type size: 6
+arr type size: 6
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+IntraICFGNode22 {fun: TestCaseBad03}
+GepStmt: [Var106 <-- Var42]	
+   %5 = getelementptr inbounds [6 x i8], [6 x i8]* @__const.TestCaseBad03.devicePathUfs, i32 0, i32 0 
+[6 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+CallICFGNode23 {fun: TestCaseBad03{ "ln": 26, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+GepStmt: [Var354 <-- Var105]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %4, i8* align 1 %5, i64 6, i1 false), !dbg !41 { "ln": 26, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var355 <-- Var42]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %4, i8* align 1 %5, i64 6, i1 false), !dbg !41 { "ln": 26, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var356 <-- Var355]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %4, i8* align 1 %5, i64 6, i1 false), !dbg !41 { "ln": 26, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var354 <-- Var356]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %4, i8* align 1 %5, i64 6, i1 false), !dbg !41 { "ln": 26, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var357 <-- Var105]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %4, i8* align 1 %5, i64 6, i1 false), !dbg !41 { "ln": 26, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var358 <-- Var42]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %4, i8* align 1 %5, i64 6, i1 false), !dbg !41 { "ln": 26, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var359 <-- Var358]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %4, i8* align 1 %5, i64 6, i1 false), !dbg !41 { "ln": 26, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var357 <-- Var359]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %4, i8* align 1 %5, i64 6, i1 false), !dbg !41 { "ln": 26, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var360 <-- Var105]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %4, i8* align 1 %5, i64 6, i1 false), !dbg !41 { "ln": 26, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var361 <-- Var42]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %4, i8* align 1 %5, i64 6, i1 false), !dbg !41 { "ln": 26, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var362 <-- Var361]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %4, i8* align 1 %5, i64 6, i1 false), !dbg !41 { "ln": 26, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var360 <-- Var362]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %4, i8* align 1 %5, i64 6, i1 false), !dbg !41 { "ln": 26, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var363 <-- Var105]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %4, i8* align 1 %5, i64 6, i1 false), !dbg !41 { "ln": 26, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var364 <-- Var42]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %4, i8* align 1 %5, i64 6, i1 false), !dbg !41 { "ln": 26, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var365 <-- Var364]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %4, i8* align 1 %5, i64 6, i1 false), !dbg !41 { "ln": 26, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var363 <-- Var365]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %4, i8* align 1 %5, i64 6, i1 false), !dbg !41 { "ln": 26, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var366 <-- Var105]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %4, i8* align 1 %5, i64 6, i1 false), !dbg !41 { "ln": 26, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var367 <-- Var42]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %4, i8* align 1 %5, i64 6, i1 false), !dbg !41 { "ln": 26, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var368 <-- Var367]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %4, i8* align 1 %5, i64 6, i1 false), !dbg !41 { "ln": 26, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var366 <-- Var368]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %4, i8* align 1 %5, i64 6, i1 false), !dbg !41 { "ln": 26, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var369 <-- Var105]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %4, i8* align 1 %5, i64 6, i1 false), !dbg !41 { "ln": 26, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+GepStmt: [Var370 <-- Var42]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %4, i8* align 1 %5, i64 6, i1 false), !dbg !41 { "ln": 26, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+LoadStmt: [Var371 <-- Var370]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %4, i8* align 1 %5, i64 6, i1 false), !dbg !41 { "ln": 26, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+StoreStmt: [Var369 <-- Var371]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %4, i8* align 1 %5, i64 6, i1 false), !dbg !41 { "ln": 26, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+CopyStmt: [Var107 <-- Var0]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %4, i8* align 1 %5, i64 6, i1 false), !dbg !41 { "ln": 26, "cl": 10, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+arr type size: 6
+arr type size: 6
+Buffer Overflow Check Safe
+[6 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: 6
+arr type size: 6
+Buffer Overflow Check Safe
+[6 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: 6
+arr type size: 6
+Buffer Overflow Check Safe
+[6 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: 6
+arr type size: 6
+Buffer Overflow Check Safe
+[6 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: 6
+arr type size: 6
+Buffer Overflow Check Safe
+[6 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: 6
+arr type size: 6
+Buffer Overflow Check Safe
+[6 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+arr type size: 6
+arr type size: 6
+Buffer Overflow Check Safe
+[6 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+[6 x i8]*, byteOffset:[0, 0]
+arr type size: 6
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+IntraICFGNode115 {fun: TestCaseBad03{ "ln": 27, "cl": 26, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+   call void @llvm.dbg.declare(metadata i32* %bootDeviceType, metadata !45, metadata !DIExpression()), !dbg !46 { "ln": 27, "cl": 26, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+IntraICFGNode25 {fun: TestCaseBad03{ "ln": 29, "cl": 11, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+LoadStmt: [Var111 <-- Var74]	
+   %6 = load i8*, i8** %pblkname.addr, align 8, !dbg !44 { "ln": 29, "cl": 11, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+IntraICFGNode26 {fun: TestCaseBad03{ "ln": 29, "cl": 11, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+CmpStmt: [Var112 <-- (Var111 predicate33 Var0)]	
+   %tobool = icmp ne i8* %6, null, !dbg !44 { "ln": 29, "cl": 11, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+IntraICFGNode27 {fun: TestCaseBad03{ "ln": 29, "cl": 21, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+BranchStmt: [Condition Var112]
+Successor 0 ICFGNode28   Successor 1 ICFGNode29   
+   br i1 %tobool, label %lor.lhs.false, label %if.then, !dbg !46 { "ln": 29, "cl": 21, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+IntraICFGNode28 {fun: TestCaseBad03{ "ln": 29, "cl": 26, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+LoadStmt: [Var114 <-- Var70]	
+   %7 = load i8*, i8** %str.addr, align 8, !dbg !47 { "ln": 29, "cl": 26, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+IntraICFGNode30 {fun: TestCaseBad03{ "ln": 29, "cl": 26, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+CmpStmt: [Var115 <-- (Var114 predicate33 Var0)]	
+   %tobool1 = icmp ne i8* %7, null, !dbg !47 { "ln": 29, "cl": 26, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+IntraICFGNode32 {fun: TestCaseBad03{ "ln": 29, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+BranchStmt: [Condition Var115]
+Successor 0 ICFGNode34   Successor 1 ICFGNode29   
+   br i1 %tobool1, label %if.end, label %if.then, !dbg !48 { "ln": 29, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+CallICFGNode34 {fun: TestCaseBad03{ "ln": 33, "cl": 22, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+IntraICFGNode2 {fun: GetBootdeviceType{ "ln": 16, "cl": 5, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+   ret i32 0, !dbg !18 { "ln": 16, "cl": 5, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+FunExitICFGNode3 {fun: GetBootdeviceType{ "ln": 16, "cl": 5, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+PhiStmt: [Var63 <-- ([Var7, ICFGNode2],)]	
+   ret i32 0, !dbg !18 { "ln": 16, "cl": 5, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+RetICFGNode35 {fun: TestCaseBad03{ "ln": 33, "cl": 22, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+RetPE: [Var119 <-- Var63]	
+   %call = call i32 @GetBootdeviceType(), !dbg !51 { "ln": 33, "cl": 22, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+IntraICFGNode36 {fun: TestCaseBad03{ "ln": 33, "cl": 20, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+StoreStmt: [Var82 <-- Var119]	
+   store i32 %call, i32* %bootDeviceType, align 4, !dbg !52 { "ln": 33, "cl": 20, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var83	 Value: [0, 0]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+IntraICFGNode37 {fun: TestCaseBad03{ "ln": 34, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+LoadStmt: [Var121 <-- Var82]	
+   %8 = load i32, i32* %bootDeviceType, align 4, !dbg !53 { "ln": 34, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var83	 Value: [0, 0]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+IntraICFGNode38 {fun: TestCaseBad03{ "ln": 34, "cl": 24, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+CmpStmt: [Var122 <-- (Var121 predicate32 Var7)]	
+   %cmp = icmp eq i32 %8, 0, !dbg !55 { "ln": 34, "cl": 24, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var83	 Value: [0, 0]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+IntraICFGNode39 {fun: TestCaseBad03{ "ln": 34, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+BranchStmt: [Condition Var122]
+Successor 0 ICFGNode40   Successor 1 ICFGNode41   
+   br i1 %cmp, label %if.then2, label %if.else, !dbg !56 { "ln": 34, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var83	 Value: [0, 0]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+IntraICFGNode40 {fun: TestCaseBad03{ "ln": 37, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+LoadStmt: [Var124 <-- Var74]	
+   %9 = load i8*, i8** %pblkname.addr, align 8, !dbg !57 { "ln": 37, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var83	 Value: [0, 0]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+IntraICFGNode42 {fun: TestCaseBad03{ "ln": 37, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+GepStmt: [Var125 <-- Var76]	
+   %arraydecay = getelementptr inbounds [12 x i8], [12 x i8]* %deviceBlockPath, i64 0, i64 0, !dbg !57 { "ln": 37, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+[12 x i8]*, byteOffset:[0, 0]
+arr type size: c
+arr type size: c
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var83	 Value: [0, 0]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+IntraICFGNode44 {fun: TestCaseBad03{ "ln": 37, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+GepStmt: [Var128 <-- Var76]	
+   %arraydecay3 = getelementptr inbounds [12 x i8], [12 x i8]* %deviceBlockPath, i64 0, i64 0, !dbg !57 { "ln": 37, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+[12 x i8]*, byteOffset:[0, 0]
+arr type size: c
+arr type size: c
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var83	 Value: [0, 0]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+CallICFGNode46 {fun: TestCaseBad03{ "ln": 37, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var83	 Value: [0, 0]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+IntraICFGNode50 {fun: TestCaseBad03{ "ln": 37, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+LoadStmt: [Var132 <-- Var74]	
+   %10 = load i8*, i8** %pblkname.addr, align 8, !dbg !57 { "ln": 37, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var83	 Value: [0, 0]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+CallICFGNode52 {fun: TestCaseBad03{ "ln": 37, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var83	 Value: [0, 0]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+CallICFGNode56 {fun: TestCaseBad03{ "ln": 37, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+arr type size: 8
+arr type size: 8
+[1;31mBuffer overflow!! Accessing buffer range: [11, 11]
+Allocated buffer size: 8
+[1;0m
+
+---------Buffer Overflow Checking--------------
+CallICFGNode56 {fun: TestCaseBad03{ "ln": 37, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+[1;31mBuffer overflow!! Accessing buffer range: [11, 11]
+Allocated buffer size: 8
+[1;0m
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var83	 Value: [0, 0]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+IntraICFGNode60 {fun: TestCaseBad03{ "ln": 38, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+LoadStmt: [Var141 <-- Var74]	
+   %12 = load i8*, i8** %pblkname.addr, align 8, !dbg !59 { "ln": 38, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var83	 Value: [0, 0]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+IntraICFGNode62 {fun: TestCaseBad03{ "ln": 38, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+GepStmt: [Var142 <-- Var76]	
+   %arraydecay6 = getelementptr inbounds [12 x i8], [12 x i8]* %deviceBlockPath, i64 0, i64 0, !dbg !59 { "ln": 38, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+[12 x i8]*, byteOffset:[0, 0]
+arr type size: c
+arr type size: c
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var83	 Value: [0, 0]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+CallICFGNode64 {fun: TestCaseBad03{ "ln": 38, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var83	 Value: [0, 0]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+IntraICFGNode68 {fun: TestCaseBad03{ "ln": 38, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+GepStmt: [Var144 <-- Var141]	
+   %add.ptr = getelementptr inbounds i8, i8* %12, i64 %call7, !dbg !59 { "ln": 38, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+i8*, byteOffset:[11, 11]
+arr type size: 8
+arr type size: 8
+[1;31mBuffer overflow!! Accessing buffer range: [12, 12]
+Allocated buffer size: 8
+IntraICFGNode68 {fun: TestCaseBad03{ "ln": 38, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+GepStmt: [Var144 <-- Var141]	
+   %add.ptr = getelementptr inbounds i8, i8* %12, i64 %call7, !dbg !59 { "ln": 38, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }, Offset: [11, 11]
+[1;0m
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var83	 Value: [0, 0]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+IntraICFGNode70 {fun: TestCaseBad03{ "ln": 38, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+GepStmt: [Var145 <-- Var78]	
+   %arraydecay8 = getelementptr inbounds [11 x i8], [11 x i8]* %devicePathEmmc, i64 0, i64 0, !dbg !59 { "ln": 38, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+[11 x i8]*, byteOffset:[0, 0]
+arr type size: b
+arr type size: b
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var83	 Value: [0, 0]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+IntraICFGNode72 {fun: TestCaseBad03{ "ln": 38, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+GepStmt: [Var146 <-- Var78]	
+   %arraydecay9 = getelementptr inbounds [11 x i8], [11 x i8]* %devicePathEmmc, i64 0, i64 0, !dbg !59 { "ln": 38, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+[11 x i8]*, byteOffset:[0, 0]
+arr type size: b
+arr type size: b
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var83	 Value: [0, 0]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+CallICFGNode74 {fun: TestCaseBad03{ "ln": 38, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var83	 Value: [0, 0]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+IntraICFGNode78 {fun: TestCaseBad03{ "ln": 38, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+BinaryOPStmt: [Var148 <-- (Var147 opcode13 Var149)]	
+   %add = add i64 %call10, 1, !dbg !59 { "ln": 38, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var83	 Value: [0, 0]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+CallICFGNode80 {fun: TestCaseBad03{ "ln": 38, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+i8*, byteOffset:[11, 11]
+arr type size: 8
+arr type size: 8
+[1;31mBuffer overflow!! Accessing buffer range: [22, 22]
+Allocated buffer size: 8
+IntraICFGNode68 {fun: TestCaseBad03{ "ln": 38, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+GepStmt: [Var144 <-- Var141]	
+   %add.ptr = getelementptr inbounds i8, i8* %12, i64 %call7, !dbg !59 { "ln": 38, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }, Offset: [11, 11]
+[1;0m
+
+---------Buffer Overflow Checking--------------
+CallICFGNode80 {fun: TestCaseBad03{ "ln": 38, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+[1;31mBuffer overflow!! Accessing buffer range: [22, 22]
+Allocated buffer size: 8
+IntraICFGNode68 {fun: TestCaseBad03{ "ln": 38, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+GepStmt: [Var144 <-- Var141]	
+   %add.ptr = getelementptr inbounds i8, i8* %12, i64 %call7, !dbg !59 { "ln": 38, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }, Offset: [11, 11]
+[1;0m
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var83	 Value: [0, 0]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+IntraICFGNode84 {fun: TestCaseBad03{ "ln": 39, "cl": 5, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode31   
+   br label %if.end24, !dbg !60 { "ln": 39, "cl": 5, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var83	 Value: [0, 0]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+IntraICFGNode29 {fun: TestCaseBad03{ "ln": 30, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode31   
+   br label %if.end24, !dbg !49 { "ln": 30, "cl": 9, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+IntraICFGNode31 {fun: TestCaseBad03{ "ln": 43, "cl": 1, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+   ret void, !dbg !64 { "ln": 43, "cl": 1, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var83	 Value: [0, 0]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var83	 Value: [0, 0]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+FunExitICFGNode33 {fun: TestCaseBad03{ "ln": 43, "cl": 1, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var83	 Value: [0, 0]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+RetICFGNode102 {fun: main{ "ln": 48, "cl": 5, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var83	 Value: [0, 0]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------
+IntraICFGNode103 {fun: main{ "ln": 49, "cl": 5, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }}
+   ret i32 0, !dbg !31 { "ln": 49, "cl": 5, "fl": "function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var83	 Value: [0, 0]
+Var200	 Value: [0, 0]
+Var428	 Value: [97, 97]
+Var429	 Value: [98, 98]
+Var430	 Value: [99, 99]
+Var431	 Value: [100, 100]
+Var432	 Value: [101, 101]
+Var433	 Value: [102, 102]
+Var434	 Value: [103, 103]
+Var435	 Value: [0, 0]
+Var436	 Value: [115, 115]
+Var437	 Value: [100, 100]
+Var438	 Value: [100, 100]
+Var439	 Value: [50, 50]
+Var440	 Value: [52, 52]
+Var441	 Value: [0, 0]
+Var442	 Value: [109, 109]
+Var443	 Value: [109, 109]
+Var444	 Value: [99, 99]
+Var445	 Value: [98, 98]
+Var446	 Value: [108, 108]
+Var447	 Value: [107, 107]
+Var448	 Value: [48, 48]
+Var449	 Value: [112, 112]
+Var450	 Value: [50, 50]
+Var451	 Value: [56, 56]
+Var452	 Value: [0, 0]
+Var453	 Value: [47, 47]
+Var454	 Value: [100, 100]
+Var455	 Value: [101, 101]
+Var456	 Value: [118, 118]
+Var457	 Value: [47, 47]
+Var458	 Value: [98, 98]
+Var459	 Value: [108, 108]
+Var460	 Value: [111, 111]
+Var461	 Value: [99, 99]
+Var462	 Value: [107, 107]
+Var463	 Value: [47, 47]
+Var464	 Value: [0, 0]
+Var510	 Value: [97, 97]
+Var511	 Value: [98, 98]
+Var512	 Value: [99, 99]
+Var513	 Value: [100, 100]
+Var514	 Value: [101, 101]
+Var515	 Value: [102, 102]
+Var516	 Value: [103, 103]
+Var517	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var71	 Value: [ 0x7f0001ac(428) ,]
+Var75	 Value: [ 0x7f0001fe(510) ,]
+-----------------------------------------

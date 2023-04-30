@@ -1,0 +1,481 @@
+GlobalICFGNode0
+CopyStmt: [Var1 <-- Var0]	
+ i8* null { constant data }
+AddrStmt: [Var4 <-- Var6]	
+ @.str = private unnamed_addr constant [10 x i8] c"abcdefghi\00", align 1 { Glob  }
+AddrStmt: [Var27 <-- Var28]	
+ i8 0 { constant data }
+AddrStmt: [Var44 <-- Var45]	
+ i64 10 { constant data }
+AddrStmt: [Var46 <-- Var47]	
+ i1 false { constant data }
+AddrStmt: [Var7 <-- Var8]	
+ i64 0 { constant data }
+AddrStmt: [Var21 <-- Var22]	
+ i8 103 { constant data }
+AddrStmt: [Var9 <-- Var10]	
+ i8 97 { constant data }
+AddrStmt: [Var11 <-- Var12]	
+ i8 98 { constant data }
+AddrStmt: [Var13 <-- Var14]	
+ i8 99 { constant data }
+AddrStmt: [Var15 <-- Var16]	
+ i8 100 { constant data }
+AddrStmt: [Var17 <-- Var18]	
+ i8 101 { constant data }
+AddrStmt: [Var19 <-- Var20]	
+ i8 102 { constant data }
+AddrStmt: [Var23 <-- Var24]	
+ i8 104 { constant data }
+AddrStmt: [Var25 <-- Var26]	
+ i8 105 { constant data }
+AddrStmt: [Var35 <-- Var36]	
+ i32 1 { constant data }
+AddrStmt: [Var83 <-- Var84]	
+ i32 0 { constant data }
+GepStmt: [Var85 <-- Var4]	
+ @.str = private unnamed_addr constant [10 x i8] c"abcdefghi\00", align 1 { Glob  }
+StoreStmt: [Var85 <-- Var9]	
+ i8 97 { constant data }
+GepStmt: [Var86 <-- Var4]	
+ @.str = private unnamed_addr constant [10 x i8] c"abcdefghi\00", align 1 { Glob  }
+StoreStmt: [Var86 <-- Var11]	
+ i8 98 { constant data }
+GepStmt: [Var87 <-- Var4]	
+ @.str = private unnamed_addr constant [10 x i8] c"abcdefghi\00", align 1 { Glob  }
+StoreStmt: [Var87 <-- Var13]	
+ i8 99 { constant data }
+GepStmt: [Var88 <-- Var4]	
+ @.str = private unnamed_addr constant [10 x i8] c"abcdefghi\00", align 1 { Glob  }
+StoreStmt: [Var88 <-- Var15]	
+ i8 100 { constant data }
+GepStmt: [Var89 <-- Var4]	
+ @.str = private unnamed_addr constant [10 x i8] c"abcdefghi\00", align 1 { Glob  }
+StoreStmt: [Var89 <-- Var17]	
+ i8 101 { constant data }
+GepStmt: [Var90 <-- Var4]	
+ @.str = private unnamed_addr constant [10 x i8] c"abcdefghi\00", align 1 { Glob  }
+StoreStmt: [Var90 <-- Var19]	
+ i8 102 { constant data }
+GepStmt: [Var91 <-- Var4]	
+ @.str = private unnamed_addr constant [10 x i8] c"abcdefghi\00", align 1 { Glob  }
+StoreStmt: [Var91 <-- Var21]	
+ i8 103 { constant data }
+GepStmt: [Var92 <-- Var4]	
+ @.str = private unnamed_addr constant [10 x i8] c"abcdefghi\00", align 1 { Glob  }
+StoreStmt: [Var92 <-- Var23]	
+ i8 104 { constant data }
+GepStmt: [Var93 <-- Var4]	
+ @.str = private unnamed_addr constant [10 x i8] c"abcdefghi\00", align 1 { Glob  }
+StoreStmt: [Var93 <-- Var25]	
+ i8 105 { constant data }
+GepStmt: [Var94 <-- Var4]	
+ @.str = private unnamed_addr constant [10 x i8] c"abcdefghi\00", align 1 { Glob  }
+StoreStmt: [Var94 <-- Var27]	
+ i8 0 { constant data }
+AddrStmt: [Var29 <-- Var30]	
+Function: BadCase01 { "ln": 18, "file": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }
+AddrStmt: [Var56 <-- Var57]	
+Function: llvm.dbg.declare 
+AddrStmt: [Var48 <-- Var49]	
+Function: llvm.memset.p0i8.i64 
+AddrStmt: [Var53 <-- Var54]	
+Function: __strncpy_chk 
+AddrStmt: [Var72 <-- Var73]	
+Function: main { "ln": 26, "file": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }
+-----------Var and Value-----------
+Var7	 Value: [0, 0]
+Var8	 Value: [0, 0]
+Var9	 Value: [97, 97]
+Var10	 Value: [97, 97]
+Var11	 Value: [98, 98]
+Var12	 Value: [98, 98]
+Var13	 Value: [99, 99]
+Var14	 Value: [99, 99]
+Var15	 Value: [100, 100]
+Var16	 Value: [100, 100]
+Var17	 Value: [101, 101]
+Var18	 Value: [101, 101]
+Var19	 Value: [102, 102]
+Var20	 Value: [102, 102]
+Var21	 Value: [103, 103]
+Var22	 Value: [103, 103]
+Var23	 Value: [104, 104]
+Var24	 Value: [104, 104]
+Var25	 Value: [105, 105]
+Var26	 Value: [105, 105]
+Var27	 Value: [0, 0]
+Var28	 Value: [0, 0]
+Var35	 Value: [1, 1]
+Var36	 Value: [1, 1]
+Var44	 Value: [10, 10]
+Var45	 Value: [10, 10]
+Var46	 Value: [0, 0]
+Var47	 Value: [0, 0]
+Var83	 Value: [0, 0]
+Var84	 Value: [0, 0]
+Var131	 Value: [97, 97]
+Var132	 Value: [98, 98]
+Var133	 Value: [99, 99]
+Var134	 Value: [100, 100]
+Var135	 Value: [101, 101]
+Var136	 Value: [102, 102]
+Var137	 Value: [103, 103]
+Var138	 Value: [104, 104]
+Var139	 Value: [105, 105]
+Var140	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var4	 Value: [ 0x7f000006(6) ,]
+Var6	 Value: [ 0x7f000006(6) ,]
+Var29	 Value: [ 0x7f00001e(30) ,]
+Var30	 Value: [ 0x7f00001e(30) ,]
+Var48	 Value: [ 0x7f000031(49) ,]
+Var49	 Value: [ 0x7f000031(49) ,]
+Var53	 Value: [ 0x7f000036(54) ,]
+Var54	 Value: [ 0x7f000036(54) ,]
+Var56	 Value: [ 0x7f000039(57) ,]
+Var57	 Value: [ 0x7f000039(57) ,]
+Var72	 Value: [ 0x7f000049(73) ,]
+Var73	 Value: [ 0x7f000049(73) ,]
+Var85	 Value: [ 0x7f000083(131) ,]
+Var86	 Value: [ 0x7f000084(132) ,]
+Var87	 Value: [ 0x7f000085(133) ,]
+Var88	 Value: [ 0x7f000086(134) ,]
+Var89	 Value: [ 0x7f000087(135) ,]
+Var90	 Value: [ 0x7f000088(136) ,]
+Var91	 Value: [ 0x7f000089(137) ,]
+Var92	 Value: [ 0x7f00008a(138) ,]
+Var93	 Value: [ 0x7f00008b(139) ,]
+Var94	 Value: [ 0x7f00008c(140) ,]
+Var131	 Value: [ 0x7f000083(131) ,]
+Var132	 Value: [ 0x7f000084(132) ,]
+Var133	 Value: [ 0x7f000085(133) ,]
+Var134	 Value: [ 0x7f000086(134) ,]
+Var135	 Value: [ 0x7f000087(135) ,]
+Var136	 Value: [ 0x7f000088(136) ,]
+Var137	 Value: [ 0x7f000089(137) ,]
+Var138	 Value: [ 0x7f00008a(138) ,]
+Var139	 Value: [ 0x7f00008b(139) ,]
+Var140	 Value: [ 0x7f00008c(140) ,]
+-----------------------------------------
+IntraICFGNode15 {fun: main{ "ln": 27, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }}
+AddrStmt: [Var75 <-- Var76]	
+   %argv = alloca i8*, align 8 { "ln": 27, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode26 {fun: main{ "ln": 27, "cl": 11, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata i8** %argv, metadata !29, metadata !DIExpression()), !dbg !30 { "ln": 27, "cl": 11, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode16 {fun: main}
+GepStmt: [Var78 <-- Var4]	
+   %0 = getelementptr inbounds [10 x i8], [10 x i8]* @.str, i64 0, i64 0 
+[10 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode17 {fun: main{ "ln": 27, "cl": 11, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }}
+StoreStmt: [Var75 <-- Var78]	
+   store i8* %0, i8** %argv, align 8, !dbg !18 { "ln": 27, "cl": 11, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var76	 Value: [ 0x7f000083(131) ,]
+-----------------------------------------
+IntraICFGNode18 {fun: main{ "ln": 28, "cl": 15, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }}
+LoadStmt: [Var80 <-- Var75]	
+   %1 = load i8*, i8** %argv, align 8, !dbg !19 { "ln": 28, "cl": 15, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var76	 Value: [ 0x7f000083(131) ,]
+-----------------------------------------
+CallICFGNode19 {fun: main{ "ln": 28, "cl": 5, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }}
+CallPE: [Var32 <-- Var80]	
+   call void @BadCase01(i8* noundef %1), !dbg !20 { "ln": 28, "cl": 5, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }
+IntraICFGNode2 {fun: BadCase01{ "ln": 18, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }}
+AddrStmt: [Var33 <-- Var34]	
+   %argv.addr = alloca i8*, align 8 { "ln": 18, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var76	 Value: [ 0x7f000083(131) ,]
+-----------------------------------------
+IntraICFGNode3 {fun: BadCase01{ "ln": 20, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }}
+AddrStmt: [Var37 <-- Var38]	
+   %testName = alloca [10 x i8], align 1 { "ln": 20, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var76	 Value: [ 0x7f000083(131) ,]
+-----------------------------------------
+IntraICFGNode4 {fun: BadCase01}
+StoreStmt: [Var33 <-- Var32]	
+   store i8* %argv, i8** %argv.addr, align 8 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var34	 Value: [ 0x7f000083(131) ,]
+Var76	 Value: [ 0x7f000083(131) ,]
+-----------------------------------------
+IntraICFGNode24 {fun: BadCase01{ "ln": 18, "cl": 22, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata i8** %argv.addr, metadata !16, metadata !DIExpression()), !dbg !17 { "ln": 18, "cl": 22, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var34	 Value: [ 0x7f000083(131) ,]
+Var76	 Value: [ 0x7f000083(131) ,]
+-----------------------------------------
+IntraICFGNode25 {fun: BadCase01{ "ln": 20, "cl": 10, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata [10 x i8]* %testName, metadata !18, metadata !DIExpression()), !dbg !22 { "ln": 20, "cl": 10, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var34	 Value: [ 0x7f000083(131) ,]
+Var76	 Value: [ 0x7f000083(131) ,]
+-----------------------------------------
+IntraICFGNode5 {fun: BadCase01{ "ln": 20, "cl": 10, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }}
+CopyStmt: [Var42 <-- Var37]	
+   %0 = bitcast [10 x i8]* %testName to i8*, !dbg !22 { "ln": 20, "cl": 10, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }
+arr type size: a
+arr type size: a
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var34	 Value: [ 0x7f000083(131) ,]
+Var76	 Value: [ 0x7f000083(131) ,]
+-----------------------------------------
+CallICFGNode6 {fun: BadCase01{ "ln": 20, "cl": 10, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }}
+GepStmt: [Var111 <-- Var42]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !22 { "ln": 20, "cl": 10, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }
+StoreStmt: [Var111 <-- Var27]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !22 { "ln": 20, "cl": 10, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }
+GepStmt: [Var112 <-- Var42]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !22 { "ln": 20, "cl": 10, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }
+StoreStmt: [Var112 <-- Var27]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !22 { "ln": 20, "cl": 10, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }
+GepStmt: [Var113 <-- Var42]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !22 { "ln": 20, "cl": 10, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }
+StoreStmt: [Var113 <-- Var27]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !22 { "ln": 20, "cl": 10, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }
+GepStmt: [Var114 <-- Var42]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !22 { "ln": 20, "cl": 10, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }
+StoreStmt: [Var114 <-- Var27]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !22 { "ln": 20, "cl": 10, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }
+GepStmt: [Var115 <-- Var42]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !22 { "ln": 20, "cl": 10, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }
+StoreStmt: [Var115 <-- Var27]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !22 { "ln": 20, "cl": 10, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }
+GepStmt: [Var116 <-- Var42]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !22 { "ln": 20, "cl": 10, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }
+StoreStmt: [Var116 <-- Var27]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !22 { "ln": 20, "cl": 10, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }
+GepStmt: [Var117 <-- Var42]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !22 { "ln": 20, "cl": 10, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }
+StoreStmt: [Var117 <-- Var27]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !22 { "ln": 20, "cl": 10, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }
+GepStmt: [Var118 <-- Var42]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !22 { "ln": 20, "cl": 10, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }
+StoreStmt: [Var118 <-- Var27]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !22 { "ln": 20, "cl": 10, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }
+GepStmt: [Var119 <-- Var42]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !22 { "ln": 20, "cl": 10, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }
+StoreStmt: [Var119 <-- Var27]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !22 { "ln": 20, "cl": 10, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }
+GepStmt: [Var120 <-- Var42]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !22 { "ln": 20, "cl": 10, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }
+StoreStmt: [Var120 <-- Var27]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !22 { "ln": 20, "cl": 10, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }
+arr type size: a
+arr type size: a
+Buffer Overflow Check Safe
+arr type size: a
+arr type size: a
+Buffer Overflow Check Safe
+arr type size: a
+arr type size: a
+Buffer Overflow Check Safe
+arr type size: a
+arr type size: a
+Buffer Overflow Check Safe
+arr type size: a
+arr type size: a
+Buffer Overflow Check Safe
+arr type size: a
+arr type size: a
+Buffer Overflow Check Safe
+arr type size: a
+arr type size: a
+Buffer Overflow Check Safe
+arr type size: a
+arr type size: a
+Buffer Overflow Check Safe
+arr type size: a
+arr type size: a
+Buffer Overflow Check Safe
+arr type size: a
+arr type size: a
+Buffer Overflow Check Safe
+arr type size: a
+arr type size: a
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var121	 Value: [0, 0]
+Var122	 Value: [0, 0]
+Var123	 Value: [0, 0]
+Var124	 Value: [0, 0]
+Var125	 Value: [0, 0]
+Var126	 Value: [0, 0]
+Var127	 Value: [0, 0]
+Var128	 Value: [0, 0]
+Var129	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var34	 Value: [ 0x7f000083(131) ,]
+Var76	 Value: [ 0x7f000083(131) ,]
+-----------------------------------------
+IntraICFGNode8 {fun: BadCase01{ "ln": 23, "cl": 5, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }}
+GepStmt: [Var50 <-- Var37]	
+   %arraydecay = getelementptr inbounds [10 x i8], [10 x i8]* %testName, i64 0, i64 0, !dbg !23 { "ln": 23, "cl": 5, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }
+[10 x i8]*, byteOffset:[0, 0]
+arr type size: a
+arr type size: a
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var121	 Value: [0, 0]
+Var122	 Value: [0, 0]
+Var123	 Value: [0, 0]
+Var124	 Value: [0, 0]
+Var125	 Value: [0, 0]
+Var126	 Value: [0, 0]
+Var127	 Value: [0, 0]
+Var128	 Value: [0, 0]
+Var129	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var34	 Value: [ 0x7f000083(131) ,]
+Var76	 Value: [ 0x7f000083(131) ,]
+-----------------------------------------
+IntraICFGNode9 {fun: BadCase01{ "ln": 23, "cl": 5, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }}
+LoadStmt: [Var51 <-- Var33]	
+   %1 = load i8*, i8** %argv.addr, align 8, !dbg !23 { "ln": 23, "cl": 5, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var121	 Value: [0, 0]
+Var122	 Value: [0, 0]
+Var123	 Value: [0, 0]
+Var124	 Value: [0, 0]
+Var125	 Value: [0, 0]
+Var126	 Value: [0, 0]
+Var127	 Value: [0, 0]
+Var128	 Value: [0, 0]
+Var129	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var34	 Value: [ 0x7f000083(131) ,]
+Var76	 Value: [ 0x7f000083(131) ,]
+-----------------------------------------
+CallICFGNode10 {fun: BadCase01{ "ln": 23, "cl": 5, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }}
+[10 x i8]*, byteOffset:[0, 0]
+arr type size: a
+arr type size: a
+Buffer Overflow Check Safe
+Buffer Overflow Check Safe
+arr type size: a
+[10 x i8]*, byteOffset:[0, 0]
+arr type size: a
+arr type size: a
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var121	 Value: [97, 97]
+Var122	 Value: [98, 98]
+Var123	 Value: [99, 99]
+Var124	 Value: [100, 100]
+Var125	 Value: [101, 101]
+Var126	 Value: [102, 102]
+Var127	 Value: [103, 103]
+Var128	 Value: [104, 104]
+Var129	 Value: [105, 105]
+Var130	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var34	 Value: [ 0x7f000083(131) ,]
+Var76	 Value: [ 0x7f000083(131) ,]
+-----------------------------------------
+IntraICFGNode12 {fun: BadCase01{ "ln": 24, "cl": 1, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }}
+   ret void, !dbg !24 { "ln": 24, "cl": 1, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var121	 Value: [97, 97]
+Var122	 Value: [98, 98]
+Var123	 Value: [99, 99]
+Var124	 Value: [100, 100]
+Var125	 Value: [101, 101]
+Var126	 Value: [102, 102]
+Var127	 Value: [103, 103]
+Var128	 Value: [104, 104]
+Var129	 Value: [105, 105]
+Var130	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var34	 Value: [ 0x7f000083(131) ,]
+Var76	 Value: [ 0x7f000083(131) ,]
+-----------------------------------------
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var121	 Value: [97, 97]
+Var122	 Value: [98, 98]
+Var123	 Value: [99, 99]
+Var124	 Value: [100, 100]
+Var125	 Value: [101, 101]
+Var126	 Value: [102, 102]
+Var127	 Value: [103, 103]
+Var128	 Value: [104, 104]
+Var129	 Value: [105, 105]
+Var130	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var34	 Value: [ 0x7f000083(131) ,]
+Var76	 Value: [ 0x7f000083(131) ,]
+-----------------------------------------
+FunExitICFGNode13 {fun: BadCase01{ "ln": 18, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var121	 Value: [97, 97]
+Var122	 Value: [98, 98]
+Var123	 Value: [99, 99]
+Var124	 Value: [100, 100]
+Var125	 Value: [101, 101]
+Var126	 Value: [102, 102]
+Var127	 Value: [103, 103]
+Var128	 Value: [104, 104]
+Var129	 Value: [105, 105]
+Var130	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var34	 Value: [ 0x7f000083(131) ,]
+Var76	 Value: [ 0x7f000083(131) ,]
+-----------------------------------------
+RetICFGNode20 {fun: main{ "ln": 28, "cl": 5, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var121	 Value: [97, 97]
+Var122	 Value: [98, 98]
+Var123	 Value: [99, 99]
+Var124	 Value: [100, 100]
+Var125	 Value: [101, 101]
+Var126	 Value: [102, 102]
+Var127	 Value: [103, 103]
+Var128	 Value: [104, 104]
+Var129	 Value: [105, 105]
+Var130	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var34	 Value: [ 0x7f000083(131) ,]
+Var76	 Value: [ 0x7f000083(131) ,]
+-----------------------------------------
+IntraICFGNode21 {fun: main{ "ln": 29, "cl": 1, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }}
+   ret i32 0, !dbg !21 { "ln": 29, "cl": 1, "fl": "function/Buffer_Size_Warning_Array_BadCase01-1.c" }

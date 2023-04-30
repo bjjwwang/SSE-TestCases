@@ -1,0 +1,514 @@
+GlobalICFGNode0
+CopyStmt: [Var1 <-- Var0]	
+ i8* null { constant data }
+AddrStmt: [Var11 <-- Var12]	
+ i32 1 { constant data }
+AddrStmt: [Var28 <-- Var29]	
+ i1 false { constant data }
+AddrStmt: [Var30 <-- Var31]	
+ i1 true { constant data }
+AddrStmt: [Var39 <-- Var40]	
+ i32 0 { constant data }
+AddrStmt: [Var36 <-- Var37]	
+ i64 0 { constant data }
+AddrStmt: [Var92 <-- Var93]	
+ i32 2 { constant data }
+AddrStmt: [Var101 <-- Var102]	
+ i64 1 { constant data }
+AddrStmt: [Var4 <-- Var5]	
+Function: cwe120_c_30 { "ln": 13, "file": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+AddrStmt: [Var51 <-- Var52]	
+Function: llvm.dbg.declare 
+AddrStmt: [Var41 <-- Var42]	
+Function: __vsprintf_chk 
+AddrStmt: [Var32 <-- Var33]	
+Function: llvm.objectsize.i64.p0i8 
+AddrStmt: [Var47 <-- Var48]	
+Function: llvm.va_end 
+AddrStmt: [Var70 <-- Var71]	
+Function: main { "ln": 23, "file": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var11	 Value: [1, 1]
+Var12	 Value: [1, 1]
+Var28	 Value: [0, 0]
+Var29	 Value: [0, 0]
+Var30	 Value: [1, 1]
+Var31	 Value: [1, 1]
+Var36	 Value: [0, 0]
+Var37	 Value: [0, 0]
+Var39	 Value: [0, 0]
+Var40	 Value: [0, 0]
+Var92	 Value: [2, 2]
+Var93	 Value: [2, 2]
+Var101	 Value: [1, 1]
+Var102	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var4	 Value: [ 0x7f000005(5) ,]
+Var5	 Value: [ 0x7f000005(5) ,]
+Var32	 Value: [ 0x7f000021(33) ,]
+Var33	 Value: [ 0x7f000021(33) ,]
+Var41	 Value: [ 0x7f00002a(42) ,]
+Var42	 Value: [ 0x7f00002a(42) ,]
+Var47	 Value: [ 0x7f000030(48) ,]
+Var48	 Value: [ 0x7f000030(48) ,]
+Var51	 Value: [ 0x7f000034(52) ,]
+Var52	 Value: [ 0x7f000034(52) ,]
+Var70	 Value: [ 0x7f000047(71) ,]
+Var71	 Value: [ 0x7f000047(71) ,]
+-----------------------------------------
+IntraICFGNode25 {fun: main}
+AddrStmt: [Var75 <-- Var76]	
+   %retval = alloca i32, align 4 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode26 {fun: main{ "ln": 23, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+AddrStmt: [Var77 <-- Var78]	
+   %argc.addr = alloca i32, align 4 { "ln": 23, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode27 {fun: main{ "ln": 23, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+AddrStmt: [Var79 <-- Var80]	
+   %argv.addr = alloca i8**, align 8 { "ln": 23, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode28 {fun: main{ "ln": 28, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+AddrStmt: [Var81 <-- Var82]	
+   %buf = alloca i8*, align 8 { "ln": 28, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode29 {fun: main{ "ln": 29, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+AddrStmt: [Var83 <-- Var84]	
+   %fmt = alloca i8*, align 8 { "ln": 29, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode30 {fun: main}
+StoreStmt: [Var75 <-- Var39]	
+   store i32 0, i32* %retval, align 4 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode31 {fun: main}
+StoreStmt: [Var77 <-- Var73]	
+   store i32 %argc, i32* %argc.addr, align 4 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode56 {fun: main{ "ln": 23, "cl": 14, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata i32* %argc.addr, metadata !50, metadata !DIExpression()), !dbg !51 { "ln": 23, "cl": 14, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode32 {fun: main}
+StoreStmt: [Var79 <-- Var74]	
+   store i8** %argv, i8*** %argv.addr, align 8 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode57 {fun: main{ "ln": 23, "cl": 26, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata i8*** %argv.addr, metadata !52, metadata !DIExpression()), !dbg !53 { "ln": 23, "cl": 26, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode33 {fun: main{ "ln": 25, "cl": 9, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+LoadStmt: [Var90 <-- Var77]	
+   %0 = load i32, i32* %argc.addr, align 4, !dbg !22 { "ln": 25, "cl": 9, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode34 {fun: main{ "ln": 25, "cl": 14, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+CmpStmt: [Var91 <-- (Var90 predicate40 Var92)]	
+   %cmp = icmp slt i32 %0, 2, !dbg !24 { "ln": 25, "cl": 14, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode35 {fun: main{ "ln": 25, "cl": 9, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+BranchStmt: [Condition Var91]
+Successor 0 ICFGNode36   Successor 1 ICFGNode51   
+   br i1 %cmp, label %if.then, label %if.end, !dbg !25 { "ln": 25, "cl": 9, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode51 {fun: main{ "ln": 28, "cl": 12, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata i8** %buf, metadata !60, metadata !DIExpression()), !dbg !61 { "ln": 28, "cl": 12, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [2, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode37 {fun: main{ "ln": 28, "cl": 18, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+LoadStmt: [Var99 <-- Var79]	
+   %1 = load i8**, i8*** %argv.addr, align 8, !dbg !30 { "ln": 28, "cl": 18, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [2, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode39 {fun: main{ "ln": 28, "cl": 18, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+GepStmt: [Var100 <-- Var99]	
+   %arrayidx = getelementptr inbounds i8*, i8** %1, i64 1, !dbg !30 { "ln": 28, "cl": 18, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+i8**, byteOffset:[8, 8]
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [2, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode41 {fun: main{ "ln": 28, "cl": 18, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+LoadStmt: [Var103 <-- Var100]	
+   %2 = load i8*, i8** %arrayidx, align 8, !dbg !30 { "ln": 28, "cl": 18, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [2, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode43 {fun: main{ "ln": 28, "cl": 12, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+StoreStmt: [Var81 <-- Var103]	
+   store i8* %2, i8** %buf, align 8, !dbg !29 { "ln": 28, "cl": 12, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [2, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode58 {fun: main{ "ln": 29, "cl": 17, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata i8** %fmt, metadata !63, metadata !DIExpression()), !dbg !64 { "ln": 29, "cl": 17, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [2, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode45 {fun: main{ "ln": 30, "cl": 17, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+LoadStmt: [Var106 <-- Var81]	
+   %3 = load i8*, i8** %buf, align 8, !dbg !35 { "ln": 30, "cl": 17, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [2, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode46 {fun: main{ "ln": 30, "cl": 22, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+LoadStmt: [Var107 <-- Var83]	
+   %4 = load i8*, i8** %fmt, align 8, !dbg !36 { "ln": 30, "cl": 22, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [2, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode47 {fun: main{ "ln": 30, "cl": 5, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+CallPE: [Var7 <-- Var106]	
+   %call = call i32 @cwe120_c_30(i8* noundef %3, i8* noundef %4), !dbg !37 { "ln": 30, "cl": 5, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+CallPE: [Var8 <-- Var107]	
+   %call = call i32 @cwe120_c_30(i8* noundef %3, i8* noundef %4), !dbg !37 { "ln": 30, "cl": 5, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+IntraICFGNode2 {fun: cwe120_c_30{ "ln": 13, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+AddrStmt: [Var9 <-- Var10]	
+   %buf.addr = alloca i8*, align 8 { "ln": 13, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [2, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode3 {fun: cwe120_c_30{ "ln": 13, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+AddrStmt: [Var13 <-- Var14]	
+   %fmt.addr = alloca i8*, align 8 { "ln": 13, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [2, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode4 {fun: cwe120_c_30{ "ln": 15, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+AddrStmt: [Var15 <-- Var16]	
+   %args = alloca [1 x %struct.__va_list_tag], align 16 { "ln": 15, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [2, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode5 {fun: cwe120_c_30{ "ln": 16, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+AddrStmt: [Var17 <-- Var18]	
+   %n = alloca i32, align 4 { "ln": 16, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [2, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode6 {fun: cwe120_c_30}
+StoreStmt: [Var9 <-- Var7]	
+   store i8* %buf, i8** %buf.addr, align 8 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [2, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode52 {fun: cwe120_c_30{ "ln": 13, "cl": 23, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata i8** %buf.addr, metadata !19, metadata !DIExpression()), !dbg !20 { "ln": 13, "cl": 23, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [2, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode7 {fun: cwe120_c_30}
+StoreStmt: [Var13 <-- Var8]	
+   store i8* %fmt, i8** %fmt.addr, align 8 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [2, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode53 {fun: cwe120_c_30{ "ln": 13, "cl": 40, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata i8** %fmt.addr, metadata !21, metadata !DIExpression()), !dbg !22 { "ln": 13, "cl": 40, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [2, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode54 {fun: cwe120_c_30{ "ln": 15, "cl": 13, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata [1 x %struct.__va_list_tag]* %args, metadata !23, metadata !DIExpression()), !dbg !38 { "ln": 15, "cl": 13, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [2, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode55 {fun: cwe120_c_30{ "ln": 16, "cl": 9, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata i32* %n, metadata !39, metadata !DIExpression()), !dbg !40 { "ln": 16, "cl": 9, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [2, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode8 {fun: cwe120_c_30{ "ln": 19, "cl": 9, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+LoadStmt: [Var25 <-- Var9]	
+   %0 = load i8*, i8** %buf.addr, align 8, !dbg !41 { "ln": 19, "cl": 9, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [2, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode9 {fun: cwe120_c_30{ "ln": 19, "cl": 9, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+LoadStmt: [Var26 <-- Var9]	
+   %1 = load i8*, i8** %buf.addr, align 8, !dbg !41 { "ln": 19, "cl": 9, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [2, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode10 {fun: cwe120_c_30{ "ln": 19, "cl": 9, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [2, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode12 {fun: cwe120_c_30{ "ln": 19, "cl": 9, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+LoadStmt: [Var34 <-- Var13]	
+   %3 = load i8*, i8** %fmt.addr, align 8, !dbg !41 { "ln": 19, "cl": 9, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [2, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode13 {fun: cwe120_c_30{ "ln": 19, "cl": 9, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+GepStmt: [Var35 <-- Var15]	
+   %arraydecay = getelementptr inbounds [1 x %struct.__va_list_tag], [1 x %struct.__va_list_tag]* %args, i64 0, i64 0, !dbg !41 { "ln": 19, "cl": 9, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+[1 x %struct.__va_list_tag]*, byteOffset:[0, 0]
+arr type size: 24
+arr type size: 24
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [2, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode14 {fun: cwe120_c_30{ "ln": 19, "cl": 9, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+
+---------Buffer Overflow Checking--------------
+CallICFGNode14 {fun: cwe120_c_30{ "ln": 19, "cl": 9, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+fread dst_id or dst is not defined nor initializesd.
+
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [2, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode16 {fun: cwe120_c_30{ "ln": 19, "cl": 7, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+StoreStmt: [Var17 <-- Var38]	
+   store i32 %call, i32* %n, align 4, !dbg !42 { "ln": 19, "cl": 7, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [2, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode17 {fun: cwe120_c_30{ "ln": 20, "cl": 5, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+GepStmt: [Var44 <-- Var15]	
+   %arraydecay1 = getelementptr inbounds [1 x %struct.__va_list_tag], [1 x %struct.__va_list_tag]* %args, i64 0, i64 0, !dbg !43 { "ln": 20, "cl": 5, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+[1 x %struct.__va_list_tag]*, byteOffset:[0, 0]
+arr type size: 24
+arr type size: 24
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [2, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode18 {fun: cwe120_c_30{ "ln": 20, "cl": 5, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+CopyStmt: [Var45 <-- Var44]	
+   %arraydecay12 = bitcast %struct.__va_list_tag* %arraydecay1 to i8*, !dbg !43 { "ln": 20, "cl": 5, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+[1 x %struct.__va_list_tag]*, byteOffset:[0, 0]
+arr type size: 24
+arr type size: 24
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [2, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode19 {fun: cwe120_c_30{ "ln": 20, "cl": 5, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [2, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode21 {fun: cwe120_c_30{ "ln": 21, "cl": 12, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+LoadStmt: [Var49 <-- Var17]	
+   %4 = load i32, i32* %n, align 4, !dbg !44 { "ln": 21, "cl": 12, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [2, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode22 {fun: cwe120_c_30{ "ln": 21, "cl": 5, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+   ret i32 %4, !dbg !45 { "ln": 21, "cl": 5, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [2, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [2, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+FunExitICFGNode23 {fun: cwe120_c_30{ "ln": 13, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+PhiStmt: [Var6 <-- ([Var49, ICFGNode22],)]	
+   ret i32 %4, !dbg !45 { "ln": 21, "cl": 5, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [2, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+RetICFGNode48 {fun: main{ "ln": 30, "cl": 5, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+RetPE: [Var108 <-- Var6]	
+   %call = call i32 @cwe120_c_30(i8* noundef %3, i8* noundef %4), !dbg !37 { "ln": 30, "cl": 5, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [2, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode49 {fun: main{ "ln": 31, "cl": 5, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+StoreStmt: [Var75 <-- Var39]	
+   store i32 0, i32* %retval, align 4, !dbg !38 { "ln": 31, "cl": 5, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [2, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode50 {fun: main{ "ln": 31, "cl": 5, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode40   
+   br label %return, !dbg !38 { "ln": 31, "cl": 5, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [2, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode36 {fun: main{ "ln": 26, "cl": 9, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+StoreStmt: [Var75 <-- Var39]	
+   store i32 0, i32* %retval, align 4, !dbg !26 { "ln": 26, "cl": 9, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [-INF, 1]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode38 {fun: main{ "ln": 26, "cl": 9, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode40   
+   br label %return, !dbg !26 { "ln": 26, "cl": 9, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [-INF, 1]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode40 {fun: main{ "ln": 32, "cl": 1, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+LoadStmt: [Var111 <-- Var75]	
+   %5 = load i32, i32* %retval, align 4, !dbg !39 { "ln": 32, "cl": 1, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [-INF, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode42 {fun: main{ "ln": 32, "cl": 1, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }}
+   ret i32 %5, !dbg !39 { "ln": 32, "cl": 1, "fl": "function/SelfdefinedSprintf_DestOverflow_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var90	 Value: [-INF, +INF]
+Var76	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------

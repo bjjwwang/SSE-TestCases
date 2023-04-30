@@ -1,0 +1,1395 @@
+GlobalICFGNode0
+CopyStmt: [Var1 <-- Var0]	
+ i8* null { constant data }
+AddrStmt: [Var4 <-- Var6]	
+ @.str = private unnamed_addr constant [3 x i8] c"%d\00", align 1 { Glob  }
+AddrStmt: [Var89 <-- Var90]	
+ i32 0 { constant data }
+AddrStmt: [Var7 <-- Var8]	
+ i64 0 { constant data }
+AddrStmt: [Var9 <-- Var10]	
+ i8 37 { constant data }
+AddrStmt: [Var11 <-- Var12]	
+ i8 100 { constant data }
+AddrStmt: [Var13 <-- Var14]	
+ i8 0 { constant data }
+AddrStmt: [Var23 <-- Var24]	
+ i32 1 { constant data }
+AddrStmt: [Var61 <-- Var62]	
+ i32 -1 { constant data }
+AddrStmt: [Var97 <-- Var98]	
+ i32 2 { constant data }
+AddrStmt: [Var107 <-- Var108]	
+ i64 1 { constant data }
+GepStmt: [Var127 <-- Var4]	
+ @.str = private unnamed_addr constant [3 x i8] c"%d\00", align 1 { Glob  }
+StoreStmt: [Var127 <-- Var9]	
+ i8 37 { constant data }
+GepStmt: [Var128 <-- Var4]	
+ @.str = private unnamed_addr constant [3 x i8] c"%d\00", align 1 { Glob  }
+StoreStmt: [Var128 <-- Var11]	
+ i8 100 { constant data }
+GepStmt: [Var129 <-- Var4]	
+ @.str = private unnamed_addr constant [3 x i8] c"%d\00", align 1 { Glob  }
+StoreStmt: [Var129 <-- Var13]	
+ i8 0 { constant data }
+AddrStmt: [Var15 <-- Var16]	
+Function: cwe120_c_53 { "ln": 13, "file": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+AddrStmt: [Var67 <-- Var68]	
+Function: llvm.dbg.declare 
+AddrStmt: [Var73 <-- Var74]	
+Function: main { "ln": 24, "file": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+AddrStmt: [Var115 <-- Var116]	
+Function: scanf 
+-----------Var and Value-----------
+Var7	 Value: [0, 0]
+Var8	 Value: [0, 0]
+Var9	 Value: [37, 37]
+Var10	 Value: [37, 37]
+Var11	 Value: [100, 100]
+Var12	 Value: [100, 100]
+Var13	 Value: [0, 0]
+Var14	 Value: [0, 0]
+Var23	 Value: [1, 1]
+Var24	 Value: [1, 1]
+Var61	 Value: [(- 1), (- 1)]
+Var62	 Value: [(- 1), (- 1)]
+Var89	 Value: [0, 0]
+Var90	 Value: [0, 0]
+Var97	 Value: [2, 2]
+Var98	 Value: [2, 2]
+Var107	 Value: [1, 1]
+Var108	 Value: [1, 1]
+Var131	 Value: [37, 37]
+Var132	 Value: [100, 100]
+Var133	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var4	 Value: [ 0x7f000006(6) ,]
+Var6	 Value: [ 0x7f000006(6) ,]
+Var15	 Value: [ 0x7f000010(16) ,]
+Var16	 Value: [ 0x7f000010(16) ,]
+Var67	 Value: [ 0x7f000044(68) ,]
+Var68	 Value: [ 0x7f000044(68) ,]
+Var73	 Value: [ 0x7f00004a(74) ,]
+Var74	 Value: [ 0x7f00004a(74) ,]
+Var115	 Value: [ 0x7f000074(116) ,]
+Var116	 Value: [ 0x7f000074(116) ,]
+Var127	 Value: [ 0x7f000083(131) ,]
+Var128	 Value: [ 0x7f000084(132) ,]
+Var129	 Value: [ 0x7f000085(133) ,]
+Var131	 Value: [ 0x7f000083(131) ,]
+Var132	 Value: [ 0x7f000084(132) ,]
+Var133	 Value: [ 0x7f000085(133) ,]
+-----------------------------------------
+IntraICFGNode34 {fun: main}
+AddrStmt: [Var78 <-- Var79]	
+   %retval = alloca i32, align 4 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode35 {fun: main{ "ln": 24, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+AddrStmt: [Var80 <-- Var81]	
+   %argc.addr = alloca i32, align 4 { "ln": 24, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode36 {fun: main{ "ln": 24, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+AddrStmt: [Var82 <-- Var83]	
+   %argv.addr = alloca i8**, align 8 { "ln": 24, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode37 {fun: main{ "ln": 30, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+AddrStmt: [Var84 <-- Var85]	
+   %dest = alloca [5 x i8], align 1 { "ln": 30, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode38 {fun: main{ "ln": 31, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+AddrStmt: [Var86 <-- Var87]	
+   %n = alloca i32*, align 8 { "ln": 31, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode39 {fun: main}
+StoreStmt: [Var78 <-- Var89]	
+   store i32 0, i32* %retval, align 4 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode40 {fun: main}
+StoreStmt: [Var80 <-- Var76]	
+   store i32 %argc, i32* %argc.addr, align 4 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode71 {fun: main{ "ln": 24, "cl": 14, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+   call void @llvm.dbg.declare(metadata i32* %argc.addr, metadata !59, metadata !DIExpression()), !dbg !60 { "ln": 24, "cl": 14, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode41 {fun: main}
+StoreStmt: [Var82 <-- Var77]	
+   store i8** %argv, i8*** %argv.addr, align 8 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode72 {fun: main{ "ln": 24, "cl": 26, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+   call void @llvm.dbg.declare(metadata i8*** %argv.addr, metadata !61, metadata !DIExpression()), !dbg !62 { "ln": 24, "cl": 26, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode42 {fun: main{ "ln": 26, "cl": 9, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+LoadStmt: [Var95 <-- Var80]	
+   %0 = load i32, i32* %argc.addr, align 4, !dbg !26 { "ln": 26, "cl": 9, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode43 {fun: main{ "ln": 26, "cl": 14, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+CmpStmt: [Var96 <-- (Var95 predicate40 Var97)]	
+   %cmp = icmp slt i32 %0, 2, !dbg !28 { "ln": 26, "cl": 14, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode44 {fun: main{ "ln": 26, "cl": 9, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+BranchStmt: [Condition Var96]
+Successor 0 ICFGNode45   Successor 1 ICFGNode65   
+   br i1 %cmp, label %if.then, label %if.end, !dbg !29 { "ln": 26, "cl": 9, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode65 {fun: main{ "ln": 30, "cl": 19, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+   call void @llvm.dbg.declare(metadata [5 x i8]* %dest, metadata !69, metadata !DIExpression()), !dbg !73 { "ln": 30, "cl": 19, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode73 {fun: main{ "ln": 31, "cl": 11, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+   call void @llvm.dbg.declare(metadata i32** %n, metadata !74, metadata !DIExpression()), !dbg !75 { "ln": 31, "cl": 11, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode46 {fun: main{ "ln": 31, "cl": 22, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+LoadStmt: [Var105 <-- Var82]	
+   %1 = load i8**, i8*** %argv.addr, align 8, !dbg !39 { "ln": 31, "cl": 22, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode48 {fun: main{ "ln": 31, "cl": 22, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+GepStmt: [Var106 <-- Var105]	
+   %arrayidx = getelementptr inbounds i8*, i8** %1, i64 1, !dbg !39 { "ln": 31, "cl": 22, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+i8**, byteOffset:[8, 8]
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode50 {fun: main{ "ln": 31, "cl": 22, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+LoadStmt: [Var109 <-- Var106]	
+   %2 = load i8*, i8** %arrayidx, align 8, !dbg !39 { "ln": 31, "cl": 22, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode52 {fun: main{ "ln": 31, "cl": 15, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+CopyStmt: [Var110 <-- Var109]	
+   %3 = bitcast i8* %2 to i32*, !dbg !40 { "ln": 31, "cl": 15, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode54 {fun: main{ "ln": 31, "cl": 11, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+StoreStmt: [Var86 <-- Var110]	
+   store i32* %3, i32** %n, align 8, !dbg !38 { "ln": 31, "cl": 11, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode55 {fun: main{ "ln": 32, "cl": 17, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+LoadStmt: [Var112 <-- Var86]	
+   %4 = load i32*, i32** %n, align 8, !dbg !41 { "ln": 32, "cl": 17, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode56 {fun: main}
+GepStmt: [Var113 <-- Var4]	
+   %5 = getelementptr inbounds [3 x i8], [3 x i8]* @.str, i64 0, i64 0 
+[3 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode57 {fun: main{ "ln": 32, "cl": 5, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode59 {fun: main{ "ln": 33, "cl": 17, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+GepStmt: [Var117 <-- Var84]	
+   %arraydecay = getelementptr inbounds [5 x i8], [5 x i8]* %dest, i64 0, i64 0, !dbg !43 { "ln": 33, "cl": 17, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+[5 x i8]*, byteOffset:[0, 0]
+arr type size: 5
+arr type size: 5
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode60 {fun: main{ "ln": 33, "cl": 26, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+LoadStmt: [Var118 <-- Var86]	
+   %6 = load i32*, i32** %n, align 8, !dbg !44 { "ln": 33, "cl": 26, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode61 {fun: main{ "ln": 33, "cl": 5, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+CallPE: [Var18 <-- Var117]	
+   %call1 = call i8* @cwe120_c_53(i8* noundef %arraydecay, i32 noundef 0, i32* noundef %6), !dbg !45 { "ln": 33, "cl": 5, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+CallPE: [Var19 <-- Var89]	
+   %call1 = call i8* @cwe120_c_53(i8* noundef %arraydecay, i32 noundef 0, i32* noundef %6), !dbg !45 { "ln": 33, "cl": 5, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+CallPE: [Var20 <-- Var118]	
+   %call1 = call i8* @cwe120_c_53(i8* noundef %arraydecay, i32 noundef 0, i32* noundef %6), !dbg !45 { "ln": 33, "cl": 5, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+IntraICFGNode2 {fun: cwe120_c_53{ "ln": 13, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+AddrStmt: [Var21 <-- Var22]	
+   %s.addr = alloca i8*, align 8 { "ln": 13, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode3 {fun: cwe120_c_53{ "ln": 13, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+AddrStmt: [Var25 <-- Var26]	
+   %c.addr = alloca i32, align 4 { "ln": 13, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode4 {fun: cwe120_c_53{ "ln": 13, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+AddrStmt: [Var27 <-- Var28]	
+   %n.addr = alloca i32*, align 8 { "ln": 13, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode5 {fun: cwe120_c_53{ "ln": 15, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+AddrStmt: [Var29 <-- Var30]	
+   %uc = alloca i8, align 1 { "ln": 15, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode6 {fun: cwe120_c_53{ "ln": 16, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+AddrStmt: [Var31 <-- Var32]	
+   %su = alloca i8*, align 8 { "ln": 16, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode7 {fun: cwe120_c_53}
+StoreStmt: [Var21 <-- Var18]	
+   store i8* %s, i8** %s.addr, align 8 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+-----------------------------------------
+IntraICFGNode66 {fun: cwe120_c_53{ "ln": 13, "cl": 27, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+   call void @llvm.dbg.declare(metadata i8** %s.addr, metadata !20, metadata !DIExpression()), !dbg !21 { "ln": 13, "cl": 27, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+-----------------------------------------
+IntraICFGNode8 {fun: cwe120_c_53}
+StoreStmt: [Var25 <-- Var19]	
+   store i32 %c, i32* %c.addr, align 4 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+-----------------------------------------
+IntraICFGNode67 {fun: cwe120_c_53{ "ln": 13, "cl": 34, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+   call void @llvm.dbg.declare(metadata i32* %c.addr, metadata !22, metadata !DIExpression()), !dbg !23 { "ln": 13, "cl": 34, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+-----------------------------------------
+IntraICFGNode9 {fun: cwe120_c_53}
+StoreStmt: [Var27 <-- Var20]	
+   store i32* %n, i32** %n.addr, align 8 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+-----------------------------------------
+IntraICFGNode68 {fun: cwe120_c_53{ "ln": 13, "cl": 43, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+   call void @llvm.dbg.declare(metadata i32** %n.addr, metadata !24, metadata !DIExpression()), !dbg !25 { "ln": 13, "cl": 43, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+-----------------------------------------
+IntraICFGNode69 {fun: cwe120_c_53{ "ln": 15, "cl": 25, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+   call void @llvm.dbg.declare(metadata i8* %uc, metadata !26, metadata !DIExpression()), !dbg !28 { "ln": 15, "cl": 25, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+-----------------------------------------
+IntraICFGNode10 {fun: cwe120_c_53{ "ln": 15, "cl": 30, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+LoadStmt: [Var40 <-- Var25]	
+   %0 = load i32, i32* %c.addr, align 4, !dbg !29 { "ln": 15, "cl": 30, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+-----------------------------------------
+IntraICFGNode11 {fun: cwe120_c_53{ "ln": 15, "cl": 30, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+CopyStmt: [Var41 <-- Var40]	
+   %conv = trunc i32 %0 to i8, !dbg !29 { "ln": 15, "cl": 30, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+-----------------------------------------
+IntraICFGNode12 {fun: cwe120_c_53{ "ln": 15, "cl": 25, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+StoreStmt: [Var29 <-- Var41]	
+   store i8 %conv, i8* %uc, align 1, !dbg !28 { "ln": 15, "cl": 25, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+-----------------------------------------
+IntraICFGNode70 {fun: cwe120_c_53{ "ln": 16, "cl": 20, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+   call void @llvm.dbg.declare(metadata i8** %su, metadata !30, metadata !DIExpression()), !dbg !31 { "ln": 16, "cl": 20, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+-----------------------------------------
+IntraICFGNode13 {fun: cwe120_c_53{ "ln": 18, "cl": 32, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+LoadStmt: [Var44 <-- Var21]	
+   %1 = load i8*, i8** %s.addr, align 8, !dbg !32 { "ln": 18, "cl": 32, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+-----------------------------------------
+IntraICFGNode14 {fun: cwe120_c_53{ "ln": 18, "cl": 13, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+StoreStmt: [Var31 <-- Var44]	
+   store i8* %1, i8** %su, align 8, !dbg !34 { "ln": 18, "cl": 13, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000082(130) ,]
+-----------------------------------------
+IntraICFGNode15 {fun: cwe120_c_53{ "ln": 18, "cl": 10, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode16   
+   br label %for.cond, !dbg !35 { "ln": 18, "cl": 10, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000082(130) ,]
+-----------------------------------------
+IntraICFGNode16 {fun: cwe120_c_53{ "ln": 18, "cl": 39, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+LoadStmt: [Var48 <-- Var27]	
+   %2 = load i32*, i32** %n.addr, align 8, !dbg !36 { "ln": 18, "cl": 39, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000082(130) ,]
+-----------------------------------------
+IntraICFGNode17 {fun: cwe120_c_53{ "ln": 18, "cl": 37, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+CmpStmt: [Var49 <-- (Var0 predicate36 Var48)]	
+   %cmp = icmp ult i32* null, %2, !dbg !38 { "ln": 18, "cl": 37, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000082(130) ,]
+-----------------------------------------
+IntraICFGNode18 {fun: cwe120_c_53{ "ln": 18, "cl": 5, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+BranchStmt: [Condition Var49]
+Successor 0 ICFGNode19   Successor 1 ICFGNode20   
+   br i1 %cmp, label %for.body, label %for.end, !dbg !39 { "ln": 18, "cl": 5, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000082(130) ,]
+-----------------------------------------
+IntraICFGNode19 {fun: cwe120_c_53{ "ln": 19, "cl": 15, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+LoadStmt: [Var51 <-- Var29]	
+   %3 = load i8, i8* %uc, align 1, !dbg !40 { "ln": 19, "cl": 15, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000082(130) ,]
+-----------------------------------------
+IntraICFGNode21 {fun: cwe120_c_53{ "ln": 19, "cl": 10, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+LoadStmt: [Var52 <-- Var31]	
+   %4 = load i8*, i8** %su, align 8, !dbg !42 { "ln": 19, "cl": 10, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000082(130) ,]
+-----------------------------------------
+IntraICFGNode23 {fun: cwe120_c_53{ "ln": 19, "cl": 13, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+StoreStmt: [Var52 <-- Var51]	
+   store i8 %3, i8* %4, align 1, !dbg !43 { "ln": 19, "cl": 13, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000082(130) ,]
+-----------------------------------------
+IntraICFGNode25 {fun: cwe120_c_53{ "ln": 20, "cl": 5, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode26   
+   br label %for.inc, !dbg !44 { "ln": 20, "cl": 5, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000082(130) ,]
+-----------------------------------------
+IntraICFGNode26 {fun: cwe120_c_53{ "ln": 18, "cl": 42, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+LoadStmt: [Var56 <-- Var31]	
+   %5 = load i8*, i8** %su, align 8, !dbg !45 { "ln": 18, "cl": 42, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000082(130) ,]
+-----------------------------------------
+IntraICFGNode27 {fun: cwe120_c_53{ "ln": 18, "cl": 42, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+GepStmt: [Var57 <-- Var56]	
+   %incdec.ptr = getelementptr inbounds i8, i8* %5, i32 1, !dbg !45 { "ln": 18, "cl": 42, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+i8*, byteOffset:[1, 1]
+arr type size: 5
+arr type size: 5
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000082(130) ,]
+-----------------------------------------
+IntraICFGNode28 {fun: cwe120_c_53{ "ln": 18, "cl": 42, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+StoreStmt: [Var31 <-- Var57]	
+   store i8* %incdec.ptr, i8** %su, align 8, !dbg !45 { "ln": 18, "cl": 42, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000086(134) ,]
+-----------------------------------------
+IntraICFGNode29 {fun: cwe120_c_53{ "ln": 18, "cl": 48, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+LoadStmt: [Var59 <-- Var27]	
+   %6 = load i32*, i32** %n.addr, align 8, !dbg !46 { "ln": 18, "cl": 48, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000086(134) ,]
+-----------------------------------------
+IntraICFGNode30 {fun: cwe120_c_53{ "ln": 18, "cl": 48, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+GepStmt: [Var60 <-- Var59]	
+   %incdec.ptr2 = getelementptr inbounds i32, i32* %6, i32 -1, !dbg !46 { "ln": 18, "cl": 48, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+i32*, byteOffset:[(- 9223372036854775808), (- 9223372036854775808)]
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000086(134) ,]
+-----------------------------------------
+IntraICFGNode31 {fun: cwe120_c_53{ "ln": 18, "cl": 48, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+StoreStmt: [Var27 <-- Var60]	
+   store i32* %incdec.ptr2, i32** %n.addr, align 8, !dbg !46 { "ln": 18, "cl": 48, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000086(134) ,]
+-----------------------------------------
+IntraICFGNode32 {fun: cwe120_c_53{ "ln": 18, "cl": 5, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode16   
+   br label %for.cond, !dbg !47, !llvm.loop !48 { "ln": 18, "cl": 5, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000086(134) ,]
+-----------------------------------------
+IntraICFGNode16 {fun: cwe120_c_53{ "ln": 18, "cl": 39, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+LoadStmt: [Var48 <-- Var27]	
+   %2 = load i32*, i32** %n.addr, align 8, !dbg !36 { "ln": 18, "cl": 39, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000082(130) ,0x7f000086(134) ,]
+-----------------------------------------
+IntraICFGNode17 {fun: cwe120_c_53{ "ln": 18, "cl": 37, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+CmpStmt: [Var49 <-- (Var0 predicate36 Var48)]	
+   %cmp = icmp ult i32* null, %2, !dbg !38 { "ln": 18, "cl": 37, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000082(130) ,0x7f000086(134) ,]
+-----------------------------------------
+IntraICFGNode18 {fun: cwe120_c_53{ "ln": 18, "cl": 5, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+BranchStmt: [Condition Var49]
+Successor 0 ICFGNode19   Successor 1 ICFGNode20   
+   br i1 %cmp, label %for.body, label %for.end, !dbg !39 { "ln": 18, "cl": 5, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000082(130) ,0x7f000086(134) ,]
+-----------------------------------------
+IntraICFGNode19 {fun: cwe120_c_53{ "ln": 19, "cl": 15, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+LoadStmt: [Var51 <-- Var29]	
+   %3 = load i8, i8* %uc, align 1, !dbg !40 { "ln": 19, "cl": 15, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000082(130) ,0x7f000086(134) ,]
+-----------------------------------------
+IntraICFGNode21 {fun: cwe120_c_53{ "ln": 19, "cl": 10, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+LoadStmt: [Var52 <-- Var31]	
+   %4 = load i8*, i8** %su, align 8, !dbg !42 { "ln": 19, "cl": 10, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000082(130) ,0x7f000086(134) ,]
+-----------------------------------------
+IntraICFGNode23 {fun: cwe120_c_53{ "ln": 19, "cl": 13, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+StoreStmt: [Var52 <-- Var51]	
+   store i8 %3, i8* %4, align 1, !dbg !43 { "ln": 19, "cl": 13, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000082(130) ,0x7f000086(134) ,]
+-----------------------------------------
+IntraICFGNode25 {fun: cwe120_c_53{ "ln": 20, "cl": 5, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode26   
+   br label %for.inc, !dbg !44 { "ln": 20, "cl": 5, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000082(130) ,0x7f000086(134) ,]
+-----------------------------------------
+IntraICFGNode26 {fun: cwe120_c_53{ "ln": 18, "cl": 42, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+LoadStmt: [Var56 <-- Var31]	
+   %5 = load i8*, i8** %su, align 8, !dbg !45 { "ln": 18, "cl": 42, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000082(130) ,0x7f000086(134) ,]
+-----------------------------------------
+IntraICFGNode27 {fun: cwe120_c_53{ "ln": 18, "cl": 42, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+GepStmt: [Var57 <-- Var56]	
+   %incdec.ptr = getelementptr inbounds i8, i8* %5, i32 1, !dbg !45 { "ln": 18, "cl": 42, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+i8*, byteOffset:[1, 1]
+arr type size: 5
+arr type size: 5
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000082(130) ,0x7f000086(134) ,]
+-----------------------------------------
+IntraICFGNode28 {fun: cwe120_c_53{ "ln": 18, "cl": 42, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+StoreStmt: [Var31 <-- Var57]	
+   store i8* %incdec.ptr, i8** %su, align 8, !dbg !45 { "ln": 18, "cl": 42, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000087(135) ,0x7f000086(134) ,]
+-----------------------------------------
+IntraICFGNode29 {fun: cwe120_c_53{ "ln": 18, "cl": 48, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+LoadStmt: [Var59 <-- Var27]	
+   %6 = load i32*, i32** %n.addr, align 8, !dbg !46 { "ln": 18, "cl": 48, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000087(135) ,0x7f000086(134) ,]
+-----------------------------------------
+IntraICFGNode30 {fun: cwe120_c_53{ "ln": 18, "cl": 48, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+GepStmt: [Var60 <-- Var59]	
+   %incdec.ptr2 = getelementptr inbounds i32, i32* %6, i32 -1, !dbg !46 { "ln": 18, "cl": 48, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+i32*, byteOffset:[(- 9223372036854775808), (- 9223372036854775808)]
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000087(135) ,0x7f000086(134) ,]
+-----------------------------------------
+IntraICFGNode31 {fun: cwe120_c_53{ "ln": 18, "cl": 48, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+StoreStmt: [Var27 <-- Var60]	
+   store i32* %incdec.ptr2, i32** %n.addr, align 8, !dbg !46 { "ln": 18, "cl": 48, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000087(135) ,0x7f000086(134) ,]
+-----------------------------------------
+IntraICFGNode32 {fun: cwe120_c_53{ "ln": 18, "cl": 5, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode16   
+   br label %for.cond, !dbg !47, !llvm.loop !48 { "ln": 18, "cl": 5, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000087(135) ,0x7f000086(134) ,]
+-----------------------------------------
+IntraICFGNode16 {fun: cwe120_c_53{ "ln": 18, "cl": 39, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+LoadStmt: [Var48 <-- Var27]	
+   %2 = load i32*, i32** %n.addr, align 8, !dbg !36 { "ln": 18, "cl": 39, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000086(134) ,0x7f000082(130) ,0x7f000087(135) ,]
+-----------------------------------------
+IntraICFGNode17 {fun: cwe120_c_53{ "ln": 18, "cl": 37, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+CmpStmt: [Var49 <-- (Var0 predicate36 Var48)]	
+   %cmp = icmp ult i32* null, %2, !dbg !38 { "ln": 18, "cl": 37, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000086(134) ,0x7f000082(130) ,0x7f000087(135) ,]
+-----------------------------------------
+IntraICFGNode18 {fun: cwe120_c_53{ "ln": 18, "cl": 5, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+BranchStmt: [Condition Var49]
+Successor 0 ICFGNode19   Successor 1 ICFGNode20   
+   br i1 %cmp, label %for.body, label %for.end, !dbg !39 { "ln": 18, "cl": 5, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000086(134) ,0x7f000082(130) ,0x7f000087(135) ,]
+-----------------------------------------
+IntraICFGNode19 {fun: cwe120_c_53{ "ln": 19, "cl": 15, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+LoadStmt: [Var51 <-- Var29]	
+   %3 = load i8, i8* %uc, align 1, !dbg !40 { "ln": 19, "cl": 15, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000086(134) ,0x7f000082(130) ,0x7f000087(135) ,]
+-----------------------------------------
+IntraICFGNode21 {fun: cwe120_c_53{ "ln": 19, "cl": 10, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+LoadStmt: [Var52 <-- Var31]	
+   %4 = load i8*, i8** %su, align 8, !dbg !42 { "ln": 19, "cl": 10, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000086(134) ,0x7f000082(130) ,0x7f000087(135) ,]
+-----------------------------------------
+IntraICFGNode23 {fun: cwe120_c_53{ "ln": 19, "cl": 13, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+StoreStmt: [Var52 <-- Var51]	
+   store i8 %3, i8* %4, align 1, !dbg !43 { "ln": 19, "cl": 13, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000086(134) ,0x7f000082(130) ,0x7f000087(135) ,]
+-----------------------------------------
+IntraICFGNode25 {fun: cwe120_c_53{ "ln": 20, "cl": 5, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode26   
+   br label %for.inc, !dbg !44 { "ln": 20, "cl": 5, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000086(134) ,0x7f000082(130) ,0x7f000087(135) ,]
+-----------------------------------------
+IntraICFGNode26 {fun: cwe120_c_53{ "ln": 18, "cl": 42, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+LoadStmt: [Var56 <-- Var31]	
+   %5 = load i8*, i8** %su, align 8, !dbg !45 { "ln": 18, "cl": 42, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000086(134) ,0x7f000082(130) ,0x7f000087(135) ,]
+-----------------------------------------
+IntraICFGNode27 {fun: cwe120_c_53{ "ln": 18, "cl": 42, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+GepStmt: [Var57 <-- Var56]	
+   %incdec.ptr = getelementptr inbounds i8, i8* %5, i32 1, !dbg !45 { "ln": 18, "cl": 42, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+i8*, byteOffset:[1, 1]
+arr type size: 5
+arr type size: 5
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000086(134) ,0x7f000082(130) ,0x7f000087(135) ,]
+-----------------------------------------
+IntraICFGNode28 {fun: cwe120_c_53{ "ln": 18, "cl": 42, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+StoreStmt: [Var31 <-- Var57]	
+   store i8* %incdec.ptr, i8** %su, align 8, !dbg !45 { "ln": 18, "cl": 42, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000088(136) ,0x7f000086(134) ,0x7f000087(135) ,]
+-----------------------------------------
+IntraICFGNode29 {fun: cwe120_c_53{ "ln": 18, "cl": 48, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+LoadStmt: [Var59 <-- Var27]	
+   %6 = load i32*, i32** %n.addr, align 8, !dbg !46 { "ln": 18, "cl": 48, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000088(136) ,0x7f000086(134) ,0x7f000087(135) ,]
+-----------------------------------------
+IntraICFGNode30 {fun: cwe120_c_53{ "ln": 18, "cl": 48, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+GepStmt: [Var60 <-- Var59]	
+   %incdec.ptr2 = getelementptr inbounds i32, i32* %6, i32 -1, !dbg !46 { "ln": 18, "cl": 48, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+i32*, byteOffset:[(- 9223372036854775808), (- 9223372036854775808)]
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000088(136) ,0x7f000086(134) ,0x7f000087(135) ,]
+-----------------------------------------
+IntraICFGNode31 {fun: cwe120_c_53{ "ln": 18, "cl": 48, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+StoreStmt: [Var27 <-- Var60]	
+   store i32* %incdec.ptr2, i32** %n.addr, align 8, !dbg !46 { "ln": 18, "cl": 48, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000088(136) ,0x7f000086(134) ,0x7f000087(135) ,]
+-----------------------------------------
+IntraICFGNode32 {fun: cwe120_c_53{ "ln": 18, "cl": 5, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode16   
+   br label %for.cond, !dbg !47, !llvm.loop !48 { "ln": 18, "cl": 5, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000088(136) ,0x7f000086(134) ,0x7f000087(135) ,]
+-----------------------------------------
+IntraICFGNode16 {fun: cwe120_c_53{ "ln": 18, "cl": 39, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+LoadStmt: [Var48 <-- Var27]	
+   %2 = load i32*, i32** %n.addr, align 8, !dbg !36 { "ln": 18, "cl": 39, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000086(134) ,0x7f000088(136) ,0x7f000082(130) ,0x7f000087(135) ,]
+-----------------------------------------
+IntraICFGNode17 {fun: cwe120_c_53{ "ln": 18, "cl": 37, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+CmpStmt: [Var49 <-- (Var0 predicate36 Var48)]	
+   %cmp = icmp ult i32* null, %2, !dbg !38 { "ln": 18, "cl": 37, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000086(134) ,0x7f000088(136) ,0x7f000082(130) ,0x7f000087(135) ,]
+-----------------------------------------
+IntraICFGNode18 {fun: cwe120_c_53{ "ln": 18, "cl": 5, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+BranchStmt: [Condition Var49]
+Successor 0 ICFGNode19   Successor 1 ICFGNode20   
+   br i1 %cmp, label %for.body, label %for.end, !dbg !39 { "ln": 18, "cl": 5, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000086(134) ,0x7f000088(136) ,0x7f000082(130) ,0x7f000087(135) ,]
+-----------------------------------------
+IntraICFGNode16 {fun: cwe120_c_53{ "ln": 18, "cl": 39, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+LoadStmt: [Var48 <-- Var27]	
+   %2 = load i32*, i32** %n.addr, align 8, !dbg !36 { "ln": 18, "cl": 39, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000086(134) ,0x7f000088(136) ,0x7f000082(130) ,0x7f000087(135) ,]
+-----------------------------------------
+IntraICFGNode17 {fun: cwe120_c_53{ "ln": 18, "cl": 37, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+CmpStmt: [Var49 <-- (Var0 predicate36 Var48)]	
+   %cmp = icmp ult i32* null, %2, !dbg !38 { "ln": 18, "cl": 37, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000086(134) ,0x7f000088(136) ,0x7f000082(130) ,0x7f000087(135) ,]
+-----------------------------------------
+IntraICFGNode18 {fun: cwe120_c_53{ "ln": 18, "cl": 5, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+BranchStmt: [Condition Var49]
+Successor 0 ICFGNode19   Successor 1 ICFGNode20   
+   br i1 %cmp, label %for.body, label %for.end, !dbg !39 { "ln": 18, "cl": 5, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000086(134) ,0x7f000088(136) ,0x7f000082(130) ,0x7f000087(135) ,]
+-----------------------------------------
+IntraICFGNode20 {fun: cwe120_c_53{ "ln": 22, "cl": 12, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+LoadStmt: [Var65 <-- Var21]	
+   %7 = load i8*, i8** %s.addr, align 8, !dbg !51 { "ln": 22, "cl": 12, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000086(134) ,0x7f000088(136) ,0x7f000082(130) ,0x7f000087(135) ,]
+-----------------------------------------
+IntraICFGNode22 {fun: cwe120_c_53{ "ln": 22, "cl": 5, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+   ret i8* %7, !dbg !52 { "ln": 22, "cl": 5, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000086(134) ,0x7f000088(136) ,0x7f000082(130) ,0x7f000087(135) ,]
+-----------------------------------------
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000086(134) ,0x7f000088(136) ,0x7f000082(130) ,0x7f000087(135) ,]
+-----------------------------------------
+FunExitICFGNode24 {fun: cwe120_c_53{ "ln": 22, "cl": 12, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+PhiStmt: [Var17 <-- ([Var65, ICFGNode22],)]	
+   ret i8* %7, !dbg !52 { "ln": 22, "cl": 5, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000086(134) ,0x7f000088(136) ,0x7f000082(130) ,0x7f000087(135) ,]
+-----------------------------------------
+RetICFGNode62 {fun: main{ "ln": 33, "cl": 5, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+RetPE: [Var119 <-- Var17]	
+   %call1 = call i8* @cwe120_c_53(i8* noundef %arraydecay, i32 noundef 0, i32* noundef %6), !dbg !45 { "ln": 33, "cl": 5, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000086(134) ,0x7f000088(136) ,0x7f000082(130) ,0x7f000087(135) ,]
+-----------------------------------------
+IntraICFGNode63 {fun: main{ "ln": 34, "cl": 5, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+StoreStmt: [Var78 <-- Var89]	
+   store i32 0, i32* %retval, align 4, !dbg !46 { "ln": 34, "cl": 5, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000086(134) ,0x7f000088(136) ,0x7f000082(130) ,0x7f000087(135) ,]
+-----------------------------------------
+IntraICFGNode64 {fun: main{ "ln": 34, "cl": 5, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode49   
+   br label %return, !dbg !46 { "ln": 34, "cl": 5, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [2, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000086(134) ,0x7f000088(136) ,0x7f000082(130) ,0x7f000087(135) ,]
+-----------------------------------------
+IntraICFGNode45 {fun: main{ "ln": 27, "cl": 9, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+StoreStmt: [Var78 <-- Var89]	
+   store i32 0, i32* %retval, align 4, !dbg !30 { "ln": 27, "cl": 9, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [-INF, 1]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode47 {fun: main{ "ln": 27, "cl": 9, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode49   
+   br label %return, !dbg !30 { "ln": 27, "cl": 9, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [-INF, 1]
+Var79	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode49 {fun: main{ "ln": 35, "cl": 1, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+LoadStmt: [Var122 <-- Var78]	
+   %7 = load i32, i32* %retval, align 4, !dbg !47 { "ln": 35, "cl": 1, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [-INF, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000087(135) ,0x7f000082(130) ,0x7f000088(136) ,0x7f000086(134) ,]
+-----------------------------------------
+IntraICFGNode51 {fun: main{ "ln": 35, "cl": 1, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }}
+   ret i32 %7, !dbg !47 { "ln": 35, "cl": 1, "fl": "general/SelfdefinedMemset_CountOverflow_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var95	 Value: [-INF, +INF]
+Var26	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var22	 Value: [ 0x7f000082(130) ,]
+Var32	 Value: [ 0x7f000087(135) ,0x7f000082(130) ,0x7f000088(136) ,0x7f000086(134) ,]
+-----------------------------------------

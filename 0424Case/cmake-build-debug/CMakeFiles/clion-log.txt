@@ -1,0 +1,59 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CTest Enabled
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/dirty/ArrayIndex_WithoutCheckExternalData_BadCase01-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/dirty/ArrayIndex_WithoutCheckExternalData_BadCase03-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/dirty/ArrayIndex_WithoutCheckExternalData_BadCase12-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/dirty/WhileCopyOverflow_BadCase01-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/dirty/WhileCopyOverflow_BadCase02-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/function/Buffer_Size_Memmove_Member_In_Struct_BadCase01-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/function/Buffer_Size_Warning_Array_BadCase01-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/function/Memset_CountOverflow_BadCase02-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/function/Overlapping_Copy_Memory_Copy_BadCase05-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/function/Overlapping_Copy_Memory_Copy_BadCase06-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/function/Overrun_Not_Verify_Max_Value_BadCase01-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/function/Overrun_Sprintf_DestOverflow_BadCase03-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/function/PointBuffOverflow_BadCase01-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/function/Realpath_DestSizeNotEnough_BadCase01-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/function/ScanfPackaged_DestOverflow_BadCase01-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/function/Scanf_DestOverflow_BadCase02-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/function/SelfdefinedScanf_DestOverflow_BadCase01-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/function/SelfdefinedSprintf_DestOverflow_BadCase01-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/function/SprintfPackaged_DestOverflow_BadCase01-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/function/StringConvert_DestSizeNotEnough_BadCase01-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/function/String_Overflow_MemcpyRiskFunc_Use_BadCase01-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/function/String_Size_Strcpy_SrcOverflow_BadCase06-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/function/Unsafe_IoFunction_of_Stream_Buffer_BadCase03-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/function/Unsafe_IoFunction_of_String_Buffer_BadCase01-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/general/ArrayIndex_WithoutCheckExternalData_BadCase11-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/general/ArrayIndex_WronglyValidate_OOB_BadCase01-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/general/OverRun_BadCase_whitebox09-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/general/Overrun_ArrayIndex_Negative_BadCase04-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/general/Overrun_ArrayIndex_Overflow_BadCase03-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/general/Overrun_Bad_Boundary_Check_BadCase01-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/general/Overrun_Incompatible_Type_Cast_BadCase01-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/general/Overrun_No_Boundary_Check_BadCase01-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase02-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/general/SelfdefinedMemset_CountOverflow_BadCase03-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/general/Struct_Overrun_OOB_BadCase01-1.ll
+/Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case/testcase_bc/general/TlvBuffOverflow_BadCase01-1.ll
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/jiaweiwang/CLionProjects/SSE-TestCases/0424Case

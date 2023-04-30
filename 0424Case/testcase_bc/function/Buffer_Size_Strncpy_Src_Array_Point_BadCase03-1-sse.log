@@ -1,0 +1,357 @@
+GlobalICFGNode0
+CopyStmt: [Var1 <-- Var0]	
+ i8* null { constant data }
+AddrStmt: [Var4 <-- Var6]	
+ @__const.TestCaseBad03.deviceBlockPath = private unnamed_addr constant [12 x i8] c"/dev/block/\00", align 1 { Glob  }
+AddrStmt: [Var29 <-- Var31]	
+ @__const.TestCaseBad03.devicePathEmmc = private unnamed_addr constant [11 x i8] c"mmcblk0p28\00", align 1 { Glob  }
+AddrStmt: [Var42 <-- Var44]	
+ @__const.TestCaseBad03.devicePathUfs = private unnamed_addr constant [6 x i8] c"sdd24\00", align 1 { Glob  }
+AddrStmt: [Var122 <-- Var123]	
+ i1 true { constant data }
+AddrStmt: [Var80 <-- Var81]	
+ i64 12 { constant data }
+AddrStmt: [Var82 <-- Var83]	
+ i1 false { constant data }
+AddrStmt: [Var90 <-- Var91]	
+ i64 11 { constant data }
+AddrStmt: [Var11 <-- Var12]	
+ i8 100 { constant data }
+AddrStmt: [Var96 <-- Var97]	
+ i64 6 { constant data }
+AddrStmt: [Var140 <-- Var141]	
+ i64 -1 { constant data }
+AddrStmt: [Var7 <-- Var8]	
+ i32 0 { constant data }
+AddrStmt: [Var9 <-- Var10]	
+ i8 47 { constant data }
+AddrStmt: [Var13 <-- Var14]	
+ i8 101 { constant data }
+AddrStmt: [Var15 <-- Var16]	
+ i8 118 { constant data }
+AddrStmt: [Var17 <-- Var18]	
+ i8 98 { constant data }
+AddrStmt: [Var19 <-- Var20]	
+ i8 108 { constant data }
+AddrStmt: [Var21 <-- Var22]	
+ i8 111 { constant data }
+AddrStmt: [Var23 <-- Var24]	
+ i8 99 { constant data }
+AddrStmt: [Var25 <-- Var26]	
+ i8 107 { constant data }
+AddrStmt: [Var27 <-- Var28]	
+ i8 0 { constant data }
+AddrStmt: [Var32 <-- Var33]	
+ i8 109 { constant data }
+AddrStmt: [Var34 <-- Var35]	
+ i8 48 { constant data }
+AddrStmt: [Var36 <-- Var37]	
+ i8 112 { constant data }
+AddrStmt: [Var38 <-- Var39]	
+ i8 50 { constant data }
+AddrStmt: [Var40 <-- Var41]	
+ i8 56 { constant data }
+AddrStmt: [Var45 <-- Var46]	
+ i8 115 { constant data }
+AddrStmt: [Var47 <-- Var48]	
+ i8 52 { constant data }
+AddrStmt: [Var60 <-- Var61]	
+ i32 1 { constant data }
+AddrStmt: [Var114 <-- Var115]	
+ i64 0 { constant data }
+AddrStmt: [Var137 <-- Var138]	
+ i64 1 { constant data }
+GepStmt: [Var184 <-- Var4]	
+ @__const.TestCaseBad03.deviceBlockPath = private unnamed_addr constant [12 x i8] c"/dev/block/\00", align 1 { Glob  }
+StoreStmt: [Var184 <-- Var9]	
+ i8 47 { constant data }
+GepStmt: [Var185 <-- Var4]	
+ @__const.TestCaseBad03.deviceBlockPath = private unnamed_addr constant [12 x i8] c"/dev/block/\00", align 1 { Glob  }
+StoreStmt: [Var185 <-- Var11]	
+ i8 100 { constant data }
+GepStmt: [Var186 <-- Var4]	
+ @__const.TestCaseBad03.deviceBlockPath = private unnamed_addr constant [12 x i8] c"/dev/block/\00", align 1 { Glob  }
+StoreStmt: [Var186 <-- Var13]	
+ i8 101 { constant data }
+GepStmt: [Var187 <-- Var4]	
+ @__const.TestCaseBad03.deviceBlockPath = private unnamed_addr constant [12 x i8] c"/dev/block/\00", align 1 { Glob  }
+StoreStmt: [Var187 <-- Var15]	
+ i8 118 { constant data }
+GepStmt: [Var188 <-- Var4]	
+ @__const.TestCaseBad03.deviceBlockPath = private unnamed_addr constant [12 x i8] c"/dev/block/\00", align 1 { Glob  }
+StoreStmt: [Var188 <-- Var9]	
+ i8 47 { constant data }
+GepStmt: [Var189 <-- Var4]	
+ @__const.TestCaseBad03.deviceBlockPath = private unnamed_addr constant [12 x i8] c"/dev/block/\00", align 1 { Glob  }
+StoreStmt: [Var189 <-- Var17]	
+ i8 98 { constant data }
+GepStmt: [Var190 <-- Var4]	
+ @__const.TestCaseBad03.deviceBlockPath = private unnamed_addr constant [12 x i8] c"/dev/block/\00", align 1 { Glob  }
+StoreStmt: [Var190 <-- Var19]	
+ i8 108 { constant data }
+GepStmt: [Var191 <-- Var4]	
+ @__const.TestCaseBad03.deviceBlockPath = private unnamed_addr constant [12 x i8] c"/dev/block/\00", align 1 { Glob  }
+StoreStmt: [Var191 <-- Var21]	
+ i8 111 { constant data }
+GepStmt: [Var192 <-- Var4]	
+ @__const.TestCaseBad03.deviceBlockPath = private unnamed_addr constant [12 x i8] c"/dev/block/\00", align 1 { Glob  }
+StoreStmt: [Var192 <-- Var23]	
+ i8 99 { constant data }
+GepStmt: [Var193 <-- Var4]	
+ @__const.TestCaseBad03.deviceBlockPath = private unnamed_addr constant [12 x i8] c"/dev/block/\00", align 1 { Glob  }
+StoreStmt: [Var193 <-- Var25]	
+ i8 107 { constant data }
+GepStmt: [Var194 <-- Var4]	
+ @__const.TestCaseBad03.deviceBlockPath = private unnamed_addr constant [12 x i8] c"/dev/block/\00", align 1 { Glob  }
+StoreStmt: [Var194 <-- Var9]	
+ i8 47 { constant data }
+GepStmt: [Var195 <-- Var4]	
+ @__const.TestCaseBad03.deviceBlockPath = private unnamed_addr constant [12 x i8] c"/dev/block/\00", align 1 { Glob  }
+StoreStmt: [Var195 <-- Var27]	
+ i8 0 { constant data }
+GepStmt: [Var196 <-- Var29]	
+ @__const.TestCaseBad03.devicePathEmmc = private unnamed_addr constant [11 x i8] c"mmcblk0p28\00", align 1 { Glob  }
+StoreStmt: [Var196 <-- Var32]	
+ i8 109 { constant data }
+GepStmt: [Var197 <-- Var29]	
+ @__const.TestCaseBad03.devicePathEmmc = private unnamed_addr constant [11 x i8] c"mmcblk0p28\00", align 1 { Glob  }
+StoreStmt: [Var197 <-- Var32]	
+ i8 109 { constant data }
+GepStmt: [Var198 <-- Var29]	
+ @__const.TestCaseBad03.devicePathEmmc = private unnamed_addr constant [11 x i8] c"mmcblk0p28\00", align 1 { Glob  }
+StoreStmt: [Var198 <-- Var23]	
+ i8 99 { constant data }
+GepStmt: [Var199 <-- Var29]	
+ @__const.TestCaseBad03.devicePathEmmc = private unnamed_addr constant [11 x i8] c"mmcblk0p28\00", align 1 { Glob  }
+StoreStmt: [Var199 <-- Var17]	
+ i8 98 { constant data }
+GepStmt: [Var200 <-- Var29]	
+ @__const.TestCaseBad03.devicePathEmmc = private unnamed_addr constant [11 x i8] c"mmcblk0p28\00", align 1 { Glob  }
+StoreStmt: [Var200 <-- Var19]	
+ i8 108 { constant data }
+GepStmt: [Var201 <-- Var29]	
+ @__const.TestCaseBad03.devicePathEmmc = private unnamed_addr constant [11 x i8] c"mmcblk0p28\00", align 1 { Glob  }
+StoreStmt: [Var201 <-- Var25]	
+ i8 107 { constant data }
+GepStmt: [Var202 <-- Var29]	
+ @__const.TestCaseBad03.devicePathEmmc = private unnamed_addr constant [11 x i8] c"mmcblk0p28\00", align 1 { Glob  }
+StoreStmt: [Var202 <-- Var34]	
+ i8 48 { constant data }
+GepStmt: [Var203 <-- Var29]	
+ @__const.TestCaseBad03.devicePathEmmc = private unnamed_addr constant [11 x i8] c"mmcblk0p28\00", align 1 { Glob  }
+StoreStmt: [Var203 <-- Var36]	
+ i8 112 { constant data }
+GepStmt: [Var204 <-- Var29]	
+ @__const.TestCaseBad03.devicePathEmmc = private unnamed_addr constant [11 x i8] c"mmcblk0p28\00", align 1 { Glob  }
+StoreStmt: [Var204 <-- Var38]	
+ i8 50 { constant data }
+GepStmt: [Var205 <-- Var29]	
+ @__const.TestCaseBad03.devicePathEmmc = private unnamed_addr constant [11 x i8] c"mmcblk0p28\00", align 1 { Glob  }
+StoreStmt: [Var205 <-- Var40]	
+ i8 56 { constant data }
+GepStmt: [Var206 <-- Var29]	
+ @__const.TestCaseBad03.devicePathEmmc = private unnamed_addr constant [11 x i8] c"mmcblk0p28\00", align 1 { Glob  }
+StoreStmt: [Var206 <-- Var27]	
+ i8 0 { constant data }
+GepStmt: [Var207 <-- Var42]	
+ @__const.TestCaseBad03.devicePathUfs = private unnamed_addr constant [6 x i8] c"sdd24\00", align 1 { Glob  }
+StoreStmt: [Var207 <-- Var45]	
+ i8 115 { constant data }
+GepStmt: [Var208 <-- Var42]	
+ @__const.TestCaseBad03.devicePathUfs = private unnamed_addr constant [6 x i8] c"sdd24\00", align 1 { Glob  }
+StoreStmt: [Var208 <-- Var11]	
+ i8 100 { constant data }
+GepStmt: [Var209 <-- Var42]	
+ @__const.TestCaseBad03.devicePathUfs = private unnamed_addr constant [6 x i8] c"sdd24\00", align 1 { Glob  }
+StoreStmt: [Var209 <-- Var11]	
+ i8 100 { constant data }
+GepStmt: [Var210 <-- Var42]	
+ @__const.TestCaseBad03.devicePathUfs = private unnamed_addr constant [6 x i8] c"sdd24\00", align 1 { Glob  }
+StoreStmt: [Var210 <-- Var38]	
+ i8 50 { constant data }
+GepStmt: [Var211 <-- Var42]	
+ @__const.TestCaseBad03.devicePathUfs = private unnamed_addr constant [6 x i8] c"sdd24\00", align 1 { Glob  }
+StoreStmt: [Var211 <-- Var47]	
+ i8 52 { constant data }
+GepStmt: [Var212 <-- Var42]	
+ @__const.TestCaseBad03.devicePathUfs = private unnamed_addr constant [6 x i8] c"sdd24\00", align 1 { Glob  }
+StoreStmt: [Var212 <-- Var27]	
+ i8 0 { constant data }
+AddrStmt: [Var49 <-- Var50]	
+Function: GetBootdeviceType { in line: 14 file: function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c }
+AddrStmt: [Var53 <-- Var54]	
+Function: TestCaseBad03 { in line: 22 file: function/Buffer_Size_Strncpy_Src_Array_Point_BadCase03-1.c }
+AddrStmt: [Var161 <-- Var162]	
+Function: llvm.dbg.declare 
+AddrStmt: [Var84 <-- Var85]	
+Function: llvm.memcpy.p0i8.p0i8.i64 
+AddrStmt: [Var127 <-- Var128]	
+Function: __strncpy_chk 
+AddrStmt: [Var118 <-- Var119]	
+Function: strlen 
+AddrStmt: [Var124 <-- Var125]	
+Function: llvm.objectsize.i64.p0i8 
+-----------Var and Value-----------
+Var7	 Value: [0, 0]
+Var8	 Value: [0, 0]
+Var9	 Value: [47, 47]
+Var10	 Value: [47, 47]
+Var11	 Value: [100, 100]
+Var12	 Value: [100, 100]
+Var13	 Value: [101, 101]
+Var14	 Value: [101, 101]
+Var15	 Value: [118, 118]
+Var16	 Value: [118, 118]
+Var17	 Value: [98, 98]
+Var18	 Value: [98, 98]
+Var19	 Value: [108, 108]
+Var20	 Value: [108, 108]
+Var21	 Value: [111, 111]
+Var22	 Value: [111, 111]
+Var23	 Value: [99, 99]
+Var24	 Value: [99, 99]
+Var25	 Value: [107, 107]
+Var26	 Value: [107, 107]
+Var27	 Value: [0, 0]
+Var28	 Value: [0, 0]
+Var32	 Value: [109, 109]
+Var33	 Value: [109, 109]
+Var34	 Value: [48, 48]
+Var35	 Value: [48, 48]
+Var36	 Value: [112, 112]
+Var37	 Value: [112, 112]
+Var38	 Value: [50, 50]
+Var39	 Value: [50, 50]
+Var40	 Value: [56, 56]
+Var41	 Value: [56, 56]
+Var45	 Value: [115, 115]
+Var46	 Value: [115, 115]
+Var47	 Value: [52, 52]
+Var48	 Value: [52, 52]
+Var60	 Value: [1, 1]
+Var61	 Value: [1, 1]
+Var80	 Value: [12, 12]
+Var81	 Value: [12, 12]
+Var82	 Value: [0, 0]
+Var83	 Value: [0, 0]
+Var90	 Value: [11, 11]
+Var91	 Value: [11, 11]
+Var96	 Value: [6, 6]
+Var97	 Value: [6, 6]
+Var114	 Value: [0, 0]
+Var115	 Value: [0, 0]
+Var122	 Value: [1, 1]
+Var123	 Value: [1, 1]
+Var137	 Value: [1, 1]
+Var138	 Value: [1, 1]
+Var140	 Value: [(- 1), (- 1)]
+Var141	 Value: [(- 1), (- 1)]
+Var349	 Value: [47, 47]
+Var350	 Value: [100, 100]
+Var351	 Value: [101, 101]
+Var352	 Value: [118, 118]
+Var353	 Value: [47, 47]
+Var354	 Value: [98, 98]
+Var355	 Value: [108, 108]
+Var356	 Value: [111, 111]
+Var357	 Value: [99, 99]
+Var358	 Value: [107, 107]
+Var359	 Value: [47, 47]
+Var360	 Value: [0, 0]
+Var361	 Value: [109, 109]
+Var362	 Value: [109, 109]
+Var363	 Value: [99, 99]
+Var364	 Value: [98, 98]
+Var365	 Value: [108, 108]
+Var366	 Value: [107, 107]
+Var367	 Value: [48, 48]
+Var368	 Value: [112, 112]
+Var369	 Value: [50, 50]
+Var370	 Value: [56, 56]
+Var371	 Value: [0, 0]
+Var372	 Value: [115, 115]
+Var373	 Value: [100, 100]
+Var374	 Value: [100, 100]
+Var375	 Value: [50, 50]
+Var376	 Value: [52, 52]
+Var377	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var4	 Value: [ 0x7f000006(6) ,]
+Var6	 Value: [ 0x7f000006(6) ,]
+Var29	 Value: [ 0x7f00001f(31) ,]
+Var31	 Value: [ 0x7f00001f(31) ,]
+Var42	 Value: [ 0x7f00002c(44) ,]
+Var44	 Value: [ 0x7f00002c(44) ,]
+Var49	 Value: [ 0x7f000032(50) ,]
+Var50	 Value: [ 0x7f000032(50) ,]
+Var53	 Value: [ 0x7f000036(54) ,]
+Var54	 Value: [ 0x7f000036(54) ,]
+Var84	 Value: [ 0x7f000055(85) ,]
+Var85	 Value: [ 0x7f000055(85) ,]
+Var118	 Value: [ 0x7f000077(119) ,]
+Var119	 Value: [ 0x7f000077(119) ,]
+Var124	 Value: [ 0x7f00007d(125) ,]
+Var125	 Value: [ 0x7f00007d(125) ,]
+Var127	 Value: [ 0x7f000080(128) ,]
+Var128	 Value: [ 0x7f000080(128) ,]
+Var161	 Value: [ 0x7f0000a2(162) ,]
+Var162	 Value: [ 0x7f0000a2(162) ,]
+Var184	 Value: [ 0x7f00015d(349) ,]
+Var185	 Value: [ 0x7f00015e(350) ,]
+Var186	 Value: [ 0x7f00015f(351) ,]
+Var187	 Value: [ 0x7f000160(352) ,]
+Var188	 Value: [ 0x7f000161(353) ,]
+Var189	 Value: [ 0x7f000162(354) ,]
+Var190	 Value: [ 0x7f000163(355) ,]
+Var191	 Value: [ 0x7f000164(356) ,]
+Var192	 Value: [ 0x7f000165(357) ,]
+Var193	 Value: [ 0x7f000166(358) ,]
+Var194	 Value: [ 0x7f000167(359) ,]
+Var195	 Value: [ 0x7f000168(360) ,]
+Var196	 Value: [ 0x7f000169(361) ,]
+Var197	 Value: [ 0x7f00016a(362) ,]
+Var198	 Value: [ 0x7f00016b(363) ,]
+Var199	 Value: [ 0x7f00016c(364) ,]
+Var200	 Value: [ 0x7f00016d(365) ,]
+Var201	 Value: [ 0x7f00016e(366) ,]
+Var202	 Value: [ 0x7f00016f(367) ,]
+Var203	 Value: [ 0x7f000170(368) ,]
+Var204	 Value: [ 0x7f000171(369) ,]
+Var205	 Value: [ 0x7f000172(370) ,]
+Var206	 Value: [ 0x7f000173(371) ,]
+Var207	 Value: [ 0x7f000174(372) ,]
+Var208	 Value: [ 0x7f000175(373) ,]
+Var209	 Value: [ 0x7f000176(374) ,]
+Var210	 Value: [ 0x7f000177(375) ,]
+Var211	 Value: [ 0x7f000178(376) ,]
+Var212	 Value: [ 0x7f000179(377) ,]
+Var349	 Value: [ 0x7f00015d(349) ,]
+Var350	 Value: [ 0x7f00015e(350) ,]
+Var351	 Value: [ 0x7f00015f(351) ,]
+Var352	 Value: [ 0x7f000160(352) ,]
+Var353	 Value: [ 0x7f000161(353) ,]
+Var354	 Value: [ 0x7f000162(354) ,]
+Var355	 Value: [ 0x7f000163(355) ,]
+Var356	 Value: [ 0x7f000164(356) ,]
+Var357	 Value: [ 0x7f000165(357) ,]
+Var358	 Value: [ 0x7f000166(358) ,]
+Var359	 Value: [ 0x7f000167(359) ,]
+Var360	 Value: [ 0x7f000168(360) ,]
+Var361	 Value: [ 0x7f000169(361) ,]
+Var362	 Value: [ 0x7f00016a(362) ,]
+Var363	 Value: [ 0x7f00016b(363) ,]
+Var364	 Value: [ 0x7f00016c(364) ,]
+Var365	 Value: [ 0x7f00016d(365) ,]
+Var366	 Value: [ 0x7f00016e(366) ,]
+Var367	 Value: [ 0x7f00016f(367) ,]
+Var368	 Value: [ 0x7f000170(368) ,]
+Var369	 Value: [ 0x7f000171(369) ,]
+Var370	 Value: [ 0x7f000172(370) ,]
+Var371	 Value: [ 0x7f000173(371) ,]
+Var372	 Value: [ 0x7f000174(372) ,]
+Var373	 Value: [ 0x7f000175(373) ,]
+Var374	 Value: [ 0x7f000176(374) ,]
+Var375	 Value: [ 0x7f000177(375) ,]
+Var376	 Value: [ 0x7f000178(376) ,]
+Var377	 Value: [ 0x7f000179(377) ,]
+-----------------------------------------

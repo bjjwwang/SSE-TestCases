@@ -1,0 +1,649 @@
+GlobalICFGNode0
+CopyStmt: [Var1 <-- Var0]	
+ i8* null { constant data }
+AddrStmt: [Var10 <-- Var11]	
+ i32 1 { constant data }
+AddrStmt: [Var16 <-- Var17]	
+ i32 60 { constant data }
+AddrStmt: [Var61 <-- Var62]	
+ i32 10 { constant data }
+AddrStmt: [Var79 <-- Var80]	
+ i32 0 { constant data }
+AddrStmt: [Var4 <-- Var5]	
+Function: TestCaseBad01 { "ln": 12, "file": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+AddrStmt: [Var19 <-- Var20]	
+Function: llvm.dbg.declare 
+AddrStmt: [Var25 <-- Var26]	
+Function: MyFunc1 { "ln": 18, "file": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+AddrStmt: [Var33 <-- Var34]	
+Function: MyFunc2 { "ln": 25, "file": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+AddrStmt: [Var42 <-- Var43]	
+Function: MyFunc3 { "ln": 33, "file": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+AddrStmt: [Var51 <-- Var52]	
+Function: TestCaseBad02 { "ln": 44, "file": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+AddrStmt: [Var64 <-- Var65]	
+Function: MyFunc4 { "ln": 50, "file": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+AddrStmt: [Var73 <-- Var74]	
+Function: main { "ln": 58, "file": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+-----------Var and Value-----------
+Var10	 Value: [1, 1]
+Var11	 Value: [1, 1]
+Var16	 Value: [60, 60]
+Var17	 Value: [60, 60]
+Var61	 Value: [10, 10]
+Var62	 Value: [10, 10]
+Var79	 Value: [0, 0]
+Var80	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var4	 Value: [ 0x7f000005(5) ,]
+Var5	 Value: [ 0x7f000005(5) ,]
+Var19	 Value: [ 0x7f000014(20) ,]
+Var20	 Value: [ 0x7f000014(20) ,]
+Var25	 Value: [ 0x7f00001a(26) ,]
+Var26	 Value: [ 0x7f00001a(26) ,]
+Var33	 Value: [ 0x7f000022(34) ,]
+Var34	 Value: [ 0x7f000022(34) ,]
+Var42	 Value: [ 0x7f00002b(43) ,]
+Var43	 Value: [ 0x7f00002b(43) ,]
+Var51	 Value: [ 0x7f000034(52) ,]
+Var52	 Value: [ 0x7f000034(52) ,]
+Var64	 Value: [ 0x7f000041(65) ,]
+Var65	 Value: [ 0x7f000041(65) ,]
+Var73	 Value: [ 0x7f00004a(74) ,]
+Var74	 Value: [ 0x7f00004a(74) ,]
+-----------------------------------------
+IntraICFGNode43 {fun: main}
+AddrStmt: [Var76 <-- Var77]	
+   %retval = alloca i32, align 4 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode44 {fun: main}
+StoreStmt: [Var76 <-- Var79]	
+   store i32 0, i32* %retval, align 4 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode45 {fun: main{ "ln": 60, "cl": 5, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+IntraICFGNode9 {fun: MyFunc1{ "ln": 20, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+AddrStmt: [Var28 <-- Var29]	
+   %y = alloca i32, align 4 { "ln": 20, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode56 {fun: MyFunc1{ "ln": 20, "cl": 18, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata i32* %y, metadata !27, metadata !DIExpression()), !dbg !28 { "ln": 20, "cl": 18, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode10 {fun: MyFunc1{ "ln": 21, "cl": 5, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+CallPE: [Var7 <-- Var28]	
+   call void @TestCaseBad01(i32* noundef %y), !dbg !20 { "ln": 21, "cl": 5, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+IntraICFGNode2 {fun: TestCaseBad01{ "ln": 12, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+AddrStmt: [Var8 <-- Var9]	
+   %x.addr = alloca i32*, align 8 { "ln": 12, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode3 {fun: TestCaseBad01}
+StoreStmt: [Var8 <-- Var7]	
+   store i32* %x, i32** %x.addr, align 8 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+IntraICFGNode55 {fun: TestCaseBad01{ "ln": 12, "cl": 34, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata i32** %x.addr, metadata !19, metadata !DIExpression()), !dbg !20 { "ln": 12, "cl": 34, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+IntraICFGNode4 {fun: TestCaseBad01{ "ln": 15, "cl": 6, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+LoadStmt: [Var14 <-- Var8]	
+   %0 = load i32*, i32** %x.addr, align 8, !dbg !21 { "ln": 15, "cl": 6, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+IntraICFGNode5 {fun: TestCaseBad01{ "ln": 15, "cl": 8, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+StoreStmt: [Var14 <-- Var16]	
+   store i32 60, i32* %0, align 4, !dbg !22 { "ln": 15, "cl": 8, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+IntraICFGNode6 {fun: TestCaseBad01{ "ln": 16, "cl": 1, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+   ret void, !dbg !23 { "ln": 16, "cl": 1, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+FunExitICFGNode7 {fun: TestCaseBad01{ "ln": 12, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+RetICFGNode11 {fun: MyFunc1{ "ln": 21, "cl": 5, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+IntraICFGNode12 {fun: MyFunc1{ "ln": 22, "cl": 1, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+   ret void, !dbg !21 { "ln": 22, "cl": 1, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+FunExitICFGNode13 {fun: MyFunc1{ "ln": 20, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+RetICFGNode46 {fun: main{ "ln": 60, "cl": 5, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+CallICFGNode47 {fun: main{ "ln": 61, "cl": 5, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+IntraICFGNode15 {fun: MyFunc2{ "ln": 27, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+AddrStmt: [Var36 <-- Var37]	
+   %y = alloca i16, align 2 { "ln": 27, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+IntraICFGNode57 {fun: MyFunc2{ "ln": 27, "cl": 20, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata i16* %y, metadata !32, metadata !DIExpression()), !dbg !34 { "ln": 27, "cl": 20, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+IntraICFGNode16 {fun: MyFunc2{ "ln": 29, "cl": 19, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+CopyStmt: [Var39 <-- Var36]	
+   %0 = bitcast i16* %y to i32*, !dbg !20 { "ln": 29, "cl": 19, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+arr type size: 2
+arr type size: 2
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+CallICFGNode17 {fun: MyFunc2{ "ln": 29, "cl": 5, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+CallPE: [Var7 <-- Var39]	
+   call void @TestCaseBad01(i32* noundef %0), !dbg !21 { "ln": 29, "cl": 5, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+IntraICFGNode2 {fun: TestCaseBad01{ "ln": 12, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+AddrStmt: [Var8 <-- Var9]	
+   %x.addr = alloca i32*, align 8 { "ln": 12, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+IntraICFGNode3 {fun: TestCaseBad01}
+StoreStmt: [Var8 <-- Var7]	
+   store i32* %x, i32** %x.addr, align 8 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+IntraICFGNode55 {fun: TestCaseBad01{ "ln": 12, "cl": 34, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata i32** %x.addr, metadata !19, metadata !DIExpression()), !dbg !20 { "ln": 12, "cl": 34, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+IntraICFGNode4 {fun: TestCaseBad01{ "ln": 15, "cl": 6, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+LoadStmt: [Var14 <-- Var8]	
+   %0 = load i32*, i32** %x.addr, align 8, !dbg !21 { "ln": 15, "cl": 6, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+IntraICFGNode5 {fun: TestCaseBad01{ "ln": 15, "cl": 8, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+StoreStmt: [Var14 <-- Var16]	
+   store i32 60, i32* %0, align 4, !dbg !22 { "ln": 15, "cl": 8, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+IntraICFGNode6 {fun: TestCaseBad01{ "ln": 16, "cl": 1, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+   ret void, !dbg !23 { "ln": 16, "cl": 1, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+FunExitICFGNode7 {fun: TestCaseBad01{ "ln": 12, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+RetICFGNode18 {fun: MyFunc2{ "ln": 29, "cl": 5, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+IntraICFGNode19 {fun: MyFunc2{ "ln": 30, "cl": 1, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+   ret void, !dbg !22 { "ln": 30, "cl": 1, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+FunExitICFGNode20 {fun: MyFunc2{ "ln": 27, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+RetICFGNode48 {fun: main{ "ln": 61, "cl": 5, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+CallICFGNode49 {fun: main{ "ln": 62, "cl": 5, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+IntraICFGNode22 {fun: MyFunc3{ "ln": 35, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+AddrStmt: [Var45 <-- Var46]	
+   %y = alloca i16, align 2 { "ln": 35, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+IntraICFGNode58 {fun: MyFunc3{ "ln": 35, "cl": 20, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata i16* %y, metadata !39, metadata !DIExpression()), !dbg !40 { "ln": 35, "cl": 20, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+IntraICFGNode23 {fun: MyFunc3{ "ln": 37, "cl": 19, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+CopyStmt: [Var48 <-- Var45]	
+   %0 = bitcast i16* %y to i32*, !dbg !20 { "ln": 37, "cl": 19, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+arr type size: 2
+arr type size: 2
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+CallICFGNode24 {fun: MyFunc3{ "ln": 37, "cl": 5, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+CallPE: [Var7 <-- Var48]	
+   call void @TestCaseBad01(i32* noundef %0), !dbg !21 { "ln": 37, "cl": 5, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+IntraICFGNode2 {fun: TestCaseBad01{ "ln": 12, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+AddrStmt: [Var8 <-- Var9]	
+   %x.addr = alloca i32*, align 8 { "ln": 12, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+IntraICFGNode3 {fun: TestCaseBad01}
+StoreStmt: [Var8 <-- Var7]	
+   store i32* %x, i32** %x.addr, align 8 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+IntraICFGNode55 {fun: TestCaseBad01{ "ln": 12, "cl": 34, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata i32** %x.addr, metadata !19, metadata !DIExpression()), !dbg !20 { "ln": 12, "cl": 34, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+IntraICFGNode4 {fun: TestCaseBad01{ "ln": 15, "cl": 6, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+LoadStmt: [Var14 <-- Var8]	
+   %0 = load i32*, i32** %x.addr, align 8, !dbg !21 { "ln": 15, "cl": 6, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+IntraICFGNode5 {fun: TestCaseBad01{ "ln": 15, "cl": 8, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+StoreStmt: [Var14 <-- Var16]	
+   store i32 60, i32* %0, align 4, !dbg !22 { "ln": 15, "cl": 8, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+IntraICFGNode6 {fun: TestCaseBad01{ "ln": 16, "cl": 1, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+   ret void, !dbg !23 { "ln": 16, "cl": 1, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+FunExitICFGNode7 {fun: TestCaseBad01{ "ln": 12, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+RetICFGNode25 {fun: MyFunc3{ "ln": 37, "cl": 5, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+IntraICFGNode26 {fun: MyFunc3{ "ln": 38, "cl": 1, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+   ret void, !dbg !22 { "ln": 38, "cl": 1, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+FunExitICFGNode27 {fun: MyFunc3{ "ln": 35, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+RetICFGNode50 {fun: main{ "ln": 62, "cl": 5, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+CallICFGNode51 {fun: main{ "ln": 63, "cl": 5, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+IntraICFGNode36 {fun: MyFunc4{ "ln": 52, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+AddrStmt: [Var67 <-- Var68]	
+   %a = alloca i16, align 2 { "ln": 52, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+IntraICFGNode60 {fun: MyFunc4{ "ln": 52, "cl": 20, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata i16* %a, metadata !53, metadata !DIExpression()), !dbg !54 { "ln": 52, "cl": 20, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+IntraICFGNode37 {fun: MyFunc4{ "ln": 54, "cl": 19, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+CopyStmt: [Var70 <-- Var67]	
+   %0 = bitcast i16* %a to i32*, !dbg !20 { "ln": 54, "cl": 19, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+arr type size: 2
+arr type size: 2
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+CallICFGNode38 {fun: MyFunc4{ "ln": 54, "cl": 5, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+CallPE: [Var54 <-- Var70]	
+   call void @TestCaseBad02(i32* noundef %0), !dbg !21 { "ln": 54, "cl": 5, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+IntraICFGNode29 {fun: TestCaseBad02{ "ln": 44, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+AddrStmt: [Var55 <-- Var56]	
+   %p.addr = alloca i32*, align 8 { "ln": 44, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+IntraICFGNode30 {fun: TestCaseBad02}
+StoreStmt: [Var55 <-- Var54]	
+   store i32* %p, i32** %p.addr, align 8 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+IntraICFGNode59 {fun: TestCaseBad02{ "ln": 44, "cl": 25, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata i32** %p.addr, metadata !47, metadata !DIExpression()), !dbg !48 { "ln": 44, "cl": 25, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+IntraICFGNode31 {fun: TestCaseBad02{ "ln": 47, "cl": 6, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+LoadStmt: [Var59 <-- Var55]	
+   %0 = load i32*, i32** %p.addr, align 8, !dbg !19 { "ln": 47, "cl": 6, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+IntraICFGNode32 {fun: TestCaseBad02{ "ln": 47, "cl": 8, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+StoreStmt: [Var59 <-- Var61]	
+   store i32 10, i32* %0, align 4, !dbg !20 { "ln": 47, "cl": 8, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+IntraICFGNode33 {fun: TestCaseBad02{ "ln": 48, "cl": 1, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+   ret void, !dbg !21 { "ln": 48, "cl": 1, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+FunExitICFGNode34 {fun: TestCaseBad02{ "ln": 44, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+RetICFGNode39 {fun: MyFunc4{ "ln": 54, "cl": 5, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+IntraICFGNode40 {fun: MyFunc4{ "ln": 55, "cl": 1, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+   ret void, !dbg !22 { "ln": 55, "cl": 1, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+FunExitICFGNode41 {fun: MyFunc4{ "ln": 52, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+RetICFGNode52 {fun: main{ "ln": 63, "cl": 5, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------
+IntraICFGNode53 {fun: main{ "ln": 64, "cl": 5, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }}
+   ret i32 0, !dbg !21 { "ln": 64, "cl": 5, "fl": "general/Overrun_Incompatible_Type_Cast_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var29	 Value: [60, 60]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var9	 Value: [ 0x7f00001d(29) ,]
+-----------------------------------------

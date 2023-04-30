@@ -1,0 +1,32 @@
+GlobalICFGNode0
+CopyStmt: [Var1 <-- Var0]	
+ i8* null { constant data }
+AddrStmt: [Var10 <-- Var11]	
+ i32 1 { constant data }
+AddrStmt: [Var28 <-- Var29]	
+ i32 0 { constant data }
+AddrStmt: [Var4 <-- Var5]	
+Function: TestBad6 { in line: 17 file: function/Overlapping_Copy_Memory_Copy_BadCase06-1.c }
+AddrStmt: [Var36 <-- Var37]	
+Function: llvm.dbg.declare 
+AddrStmt: [Var42 <-- Var43]	
+Function: main { in line: 25 file: function/Overlapping_Copy_Memory_Copy_BadCase06-1.c }
+-----------Var and Value-----------
+Var10	 Value: [1, 1]
+Var11	 Value: [1, 1]
+Var28	 Value: [0, 0]
+Var29	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var4	 Value: [ 0x7f000005(5) ,]
+Var5	 Value: [ 0x7f000005(5) ,]
+Var36	 Value: [ 0x7f000025(37) ,]
+Var37	 Value: [ 0x7f000025(37) ,]
+Var42	 Value: [ 0x7f00002b(43) ,]
+Var43	 Value: [ 0x7f00002b(43) ,]
+-----------------------------------------
+IntraICFGNode22 {fun: main{ ln: 26  cl: 1  fl: function/Overlapping_Copy_Memory_Copy_BadCase06-1.c }}
+   ret i32 0, !dbg !25 { ln: 26  cl: 1  fl: function/Overlapping_Copy_Memory_Copy_BadCase06-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------

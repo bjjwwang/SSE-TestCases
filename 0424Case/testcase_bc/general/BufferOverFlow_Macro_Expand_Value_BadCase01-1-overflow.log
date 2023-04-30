@@ -1,0 +1,348 @@
+GlobalICFGNode0
+CopyStmt: [Var1 <-- Var0]	
+ i8* null { constant data }
+AddrStmt: [Var4 <-- Var6]	
+ @__FUNCTION__.main = private unnamed_addr constant [5 x i8] c"main\00", align 1 { Glob  }
+AddrStmt: [Var17 <-- Var18]	
+ i8 0 { constant data }
+AddrStmt: [Var36 <-- Var37]	
+ i64 256 { constant data }
+AddrStmt: [Var7 <-- Var8]	
+ i64 0 { constant data }
+AddrStmt: [Var9 <-- Var10]	
+ i8 109 { constant data }
+AddrStmt: [Var11 <-- Var12]	
+ i8 97 { constant data }
+AddrStmt: [Var13 <-- Var14]	
+ i8 105 { constant data }
+AddrStmt: [Var15 <-- Var16]	
+ i8 110 { constant data }
+AddrStmt: [Var25 <-- Var26]	
+ i32 1 { constant data }
+AddrStmt: [Var87 <-- Var88]	
+ i32 0 { constant data }
+GepStmt: [Var96 <-- Var4]	
+ @__FUNCTION__.main = private unnamed_addr constant [5 x i8] c"main\00", align 1 { Glob  }
+StoreStmt: [Var96 <-- Var9]	
+ i8 109 { constant data }
+GepStmt: [Var97 <-- Var4]	
+ @__FUNCTION__.main = private unnamed_addr constant [5 x i8] c"main\00", align 1 { Glob  }
+StoreStmt: [Var97 <-- Var11]	
+ i8 97 { constant data }
+GepStmt: [Var98 <-- Var4]	
+ @__FUNCTION__.main = private unnamed_addr constant [5 x i8] c"main\00", align 1 { Glob  }
+StoreStmt: [Var98 <-- Var13]	
+ i8 105 { constant data }
+GepStmt: [Var99 <-- Var4]	
+ @__FUNCTION__.main = private unnamed_addr constant [5 x i8] c"main\00", align 1 { Glob  }
+StoreStmt: [Var99 <-- Var15]	
+ i8 110 { constant data }
+GepStmt: [Var100 <-- Var4]	
+ @__FUNCTION__.main = private unnamed_addr constant [5 x i8] c"main\00", align 1 { Glob  }
+StoreStmt: [Var100 <-- Var17]	
+ i8 0 { constant data }
+AddrStmt: [Var19 <-- Var20]	
+Function: MyGetFileName { "ln": 27, "file": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }
+AddrStmt: [Var43 <-- Var44]	
+Function: llvm.dbg.declare 
+AddrStmt: [Var38 <-- Var39]	
+Function: VosMemChr 
+AddrStmt: [Var53 <-- Var54]	
+Function: MyLogTimeMonitor { "ln": 34, "file": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }
+AddrStmt: [Var64 <-- Var65]	
+Function: MyStartTimeMonitor { "ln": 40, "file": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }
+AddrStmt: [Var75 <-- Var76]	
+Function: main { "ln": 47, "file": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }
+-----------Var and Value-----------
+Var7	 Value: [0, 0]
+Var8	 Value: [0, 0]
+Var9	 Value: [109, 109]
+Var10	 Value: [109, 109]
+Var11	 Value: [97, 97]
+Var12	 Value: [97, 97]
+Var13	 Value: [105, 105]
+Var14	 Value: [105, 105]
+Var15	 Value: [110, 110]
+Var16	 Value: [110, 110]
+Var17	 Value: [0, 0]
+Var18	 Value: [0, 0]
+Var25	 Value: [1, 1]
+Var26	 Value: [1, 1]
+Var36	 Value: [256, 256]
+Var37	 Value: [256, 256]
+Var87	 Value: [0, 0]
+Var88	 Value: [0, 0]
+Var101	 Value: [109, 109]
+Var102	 Value: [97, 97]
+Var103	 Value: [105, 105]
+Var104	 Value: [110, 110]
+Var105	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var4	 Value: [ 0x7f000006(6) ,]
+Var6	 Value: [ 0x7f000006(6) ,]
+Var19	 Value: [ 0x7f000014(20) ,]
+Var20	 Value: [ 0x7f000014(20) ,]
+Var38	 Value: [ 0x7f000027(39) ,]
+Var39	 Value: [ 0x7f000027(39) ,]
+Var43	 Value: [ 0x7f00002c(44) ,]
+Var44	 Value: [ 0x7f00002c(44) ,]
+Var53	 Value: [ 0x7f000036(54) ,]
+Var54	 Value: [ 0x7f000036(54) ,]
+Var64	 Value: [ 0x7f000041(65) ,]
+Var65	 Value: [ 0x7f000041(65) ,]
+Var75	 Value: [ 0x7f00004c(76) ,]
+Var76	 Value: [ 0x7f00004c(76) ,]
+Var96	 Value: [ 0x7f000065(101) ,]
+Var97	 Value: [ 0x7f000066(102) ,]
+Var98	 Value: [ 0x7f000067(103) ,]
+Var99	 Value: [ 0x7f000068(104) ,]
+Var100	 Value: [ 0x7f000069(105) ,]
+Var101	 Value: [ 0x7f000065(101) ,]
+Var102	 Value: [ 0x7f000066(102) ,]
+Var103	 Value: [ 0x7f000067(103) ,]
+Var104	 Value: [ 0x7f000068(104) ,]
+Var105	 Value: [ 0x7f000069(105) ,]
+-----------------------------------------
+IntraICFGNode30 {fun: main}
+AddrStmt: [Var80 <-- Var81]	
+   %retval = alloca i32, align 4 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode31 {fun: main{ "ln": 47, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }}
+AddrStmt: [Var82 <-- Var83]	
+   %argc.addr = alloca i32, align 4 { "ln": 47, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode32 {fun: main{ "ln": 47, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }}
+AddrStmt: [Var84 <-- Var85]	
+   %argv.addr = alloca i8**, align 8 { "ln": 47, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode33 {fun: main}
+StoreStmt: [Var80 <-- Var87]	
+   store i32 0, i32* %retval, align 4 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var81	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode34 {fun: main}
+StoreStmt: [Var82 <-- Var78]	
+   store i32 %argc, i32* %argc.addr, align 4 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var81	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode45 {fun: main{ "ln": 47, "cl": 14, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata i32* %argc.addr, metadata !49, metadata !DIExpression()), !dbg !50 { "ln": 47, "cl": 14, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var81	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode35 {fun: main}
+StoreStmt: [Var84 <-- Var79]	
+   store i8** %argv, i8*** %argv.addr, align 8 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var81	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode46 {fun: main{ "ln": 47, "cl": 26, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata i8*** %argv.addr, metadata !51, metadata !DIExpression()), !dbg !52 { "ln": 47, "cl": 26, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var81	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode36 {fun: main}
+GepStmt: [Var93 <-- Var4]	
+   %0 = getelementptr inbounds [5 x i8], [5 x i8]* @__FUNCTION__.main, i64 0, i64 0 
+[5 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var81	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode37 {fun: main{ "ln": 49, "cl": 5, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }}
+CallPE: [Var67 <-- Var93]	
+   call void @MyStartTimeMonitor(i8* noundef %0), !dbg !22 { "ln": 49, "cl": 5, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }
+IntraICFGNode22 {fun: MyStartTimeMonitor{ "ln": 40, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }}
+AddrStmt: [Var68 <-- Var69]	
+   %pucFileName.addr = alloca i8*, align 8 { "ln": 40, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var81	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode23 {fun: MyStartTimeMonitor}
+StoreStmt: [Var68 <-- Var67]	
+   store i8* %pucFileName, i8** %pucFileName.addr, align 8 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var81	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var69	 Value: [ 0x7f000065(101) ,]
+-----------------------------------------
+IntraICFGNode44 {fun: MyStartTimeMonitor{ "ln": 40, "cl": 37, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata i8** %pucFileName.addr, metadata !38, metadata !DIExpression()), !dbg !39 { "ln": 40, "cl": 37, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var81	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var69	 Value: [ 0x7f000065(101) ,]
+-----------------------------------------
+IntraICFGNode24 {fun: MyStartTimeMonitor{ "ln": 42, "cl": 22, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }}
+LoadStmt: [Var72 <-- Var68]	
+   %0 = load i8*, i8** %pucFileName.addr, align 8, !dbg !20 { "ln": 42, "cl": 22, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var81	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var69	 Value: [ 0x7f000065(101) ,]
+-----------------------------------------
+CallICFGNode25 {fun: MyStartTimeMonitor{ "ln": 42, "cl": 5, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }}
+CallPE: [Var56 <-- Var72]	
+   call void @MyLogTimeMonitor(i8* noundef %0), !dbg !21 { "ln": 42, "cl": 5, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }
+IntraICFGNode14 {fun: MyLogTimeMonitor{ "ln": 34, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }}
+AddrStmt: [Var57 <-- Var58]	
+   %pucFileName.addr = alloca i8*, align 8 { "ln": 34, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var81	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var69	 Value: [ 0x7f000065(101) ,]
+-----------------------------------------
+IntraICFGNode15 {fun: MyLogTimeMonitor}
+StoreStmt: [Var57 <-- Var56]	
+   store i8* %pucFileName, i8** %pucFileName.addr, align 8 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var81	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var58	 Value: [ 0x7f000065(101) ,]
+Var69	 Value: [ 0x7f000065(101) ,]
+-----------------------------------------
+IntraICFGNode43 {fun: MyLogTimeMonitor{ "ln": 34, "cl": 35, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata i8** %pucFileName.addr, metadata !32, metadata !DIExpression()), !dbg !33 { "ln": 34, "cl": 35, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var81	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var58	 Value: [ 0x7f000065(101) ,]
+Var69	 Value: [ 0x7f000065(101) ,]
+-----------------------------------------
+IntraICFGNode16 {fun: MyLogTimeMonitor{ "ln": 36, "cl": 19, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }}
+LoadStmt: [Var61 <-- Var57]	
+   %0 = load i8*, i8** %pucFileName.addr, align 8, !dbg !20 { "ln": 36, "cl": 19, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var81	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var58	 Value: [ 0x7f000065(101) ,]
+Var69	 Value: [ 0x7f000065(101) ,]
+-----------------------------------------
+CallICFGNode17 {fun: MyLogTimeMonitor{ "ln": 36, "cl": 5, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }}
+CallPE: [Var22 <-- Var61]	
+   %call = call i8* @MyGetFileName(i8* noundef %0), !dbg !21 { "ln": 36, "cl": 5, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var81	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var58	 Value: [ 0x7f000065(101) ,]
+Var69	 Value: [ 0x7f000065(101) ,]
+-----------------------------------------
+FunExitICFGNode12 {fun: MyGetFileName}
+PhiStmt: [Var21 <-- ([Var41, ICFGNode11],)]	
+   ret i8* %1, !dbg !25 { "ln": 31, "cl": 1, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var81	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var58	 Value: [ 0x7f000065(101) ,]
+Var69	 Value: [ 0x7f000065(101) ,]
+-----------------------------------------
+RetICFGNode18 {fun: MyLogTimeMonitor{ "ln": 36, "cl": 5, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }}
+RetPE: [Var62 <-- Var21]	
+   %call = call i8* @MyGetFileName(i8* noundef %0), !dbg !21 { "ln": 36, "cl": 5, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var81	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var58	 Value: [ 0x7f000065(101) ,]
+Var69	 Value: [ 0x7f000065(101) ,]
+-----------------------------------------
+IntraICFGNode19 {fun: MyLogTimeMonitor{ "ln": 37, "cl": 1, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }}
+   ret void, !dbg !22 { "ln": 37, "cl": 1, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var81	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var58	 Value: [ 0x7f000065(101) ,]
+Var69	 Value: [ 0x7f000065(101) ,]
+-----------------------------------------
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var81	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var58	 Value: [ 0x7f000065(101) ,]
+Var69	 Value: [ 0x7f000065(101) ,]
+-----------------------------------------
+FunExitICFGNode20 {fun: MyLogTimeMonitor{ "ln": 34, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var81	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var58	 Value: [ 0x7f000065(101) ,]
+Var69	 Value: [ 0x7f000065(101) ,]
+-----------------------------------------
+RetICFGNode26 {fun: MyStartTimeMonitor{ "ln": 42, "cl": 5, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var81	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var58	 Value: [ 0x7f000065(101) ,]
+Var69	 Value: [ 0x7f000065(101) ,]
+-----------------------------------------
+IntraICFGNode27 {fun: MyStartTimeMonitor{ "ln": 43, "cl": 1, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }}
+   ret void, !dbg !22 { "ln": 43, "cl": 1, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var81	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var58	 Value: [ 0x7f000065(101) ,]
+Var69	 Value: [ 0x7f000065(101) ,]
+-----------------------------------------
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var81	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var58	 Value: [ 0x7f000065(101) ,]
+Var69	 Value: [ 0x7f000065(101) ,]
+-----------------------------------------
+FunExitICFGNode28 {fun: MyStartTimeMonitor{ "ln": 40, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var81	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var58	 Value: [ 0x7f000065(101) ,]
+Var69	 Value: [ 0x7f000065(101) ,]
+-----------------------------------------
+RetICFGNode38 {fun: main{ "ln": 49, "cl": 5, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var81	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var58	 Value: [ 0x7f000065(101) ,]
+Var69	 Value: [ 0x7f000065(101) ,]
+-----------------------------------------
+IntraICFGNode39 {fun: main{ "ln": 50, "cl": 5, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }}
+   ret i32 0, !dbg !23 { "ln": 50, "cl": 5, "fl": "general/BufferOverFlow_Macro_Expand_Value_BadCase01-1.c" }

@@ -1,0 +1,743 @@
+GlobalICFGNode0
+CopyStmt: [Var1 <-- Var0]	
+ i8* null { constant data }
+AddrStmt: [Var4 <-- Var6]	
+ @.str = private unnamed_addr constant [4 x i8] c"123\00", align 1 { Glob  }
+AddrStmt: [Var17 <-- Var19]	
+ @.str.1 = private unnamed_addr constant [3 x i8] c"%s\00", align 1 { Glob  }
+AddrStmt: [Var15 <-- Var16]	
+ i8 0 { constant data }
+AddrStmt: [Var34 <-- Var35]	
+ i64 10 { constant data }
+AddrStmt: [Var36 <-- Var37]	
+ i1 false { constant data }
+AddrStmt: [Var22 <-- Var23]	
+ i8 115 { constant data }
+AddrStmt: [Var7 <-- Var8]	
+ i64 0 { constant data }
+AddrStmt: [Var9 <-- Var10]	
+ i8 49 { constant data }
+AddrStmt: [Var11 <-- Var12]	
+ i8 50 { constant data }
+AddrStmt: [Var13 <-- Var14]	
+ i8 51 { constant data }
+AddrStmt: [Var20 <-- Var21]	
+ i8 37 { constant data }
+AddrStmt: [Var29 <-- Var30]	
+ i32 1 { constant data }
+AddrStmt: [Var81 <-- Var82]	
+ i32 0 { constant data }
+GepStmt: [Var83 <-- Var4]	
+ @.str = private unnamed_addr constant [4 x i8] c"123\00", align 1 { Glob  }
+StoreStmt: [Var83 <-- Var9]	
+ i8 49 { constant data }
+GepStmt: [Var84 <-- Var4]	
+ @.str = private unnamed_addr constant [4 x i8] c"123\00", align 1 { Glob  }
+StoreStmt: [Var84 <-- Var11]	
+ i8 50 { constant data }
+GepStmt: [Var85 <-- Var4]	
+ @.str = private unnamed_addr constant [4 x i8] c"123\00", align 1 { Glob  }
+StoreStmt: [Var85 <-- Var13]	
+ i8 51 { constant data }
+GepStmt: [Var86 <-- Var4]	
+ @.str = private unnamed_addr constant [4 x i8] c"123\00", align 1 { Glob  }
+StoreStmt: [Var86 <-- Var15]	
+ i8 0 { constant data }
+GepStmt: [Var87 <-- Var17]	
+ @.str.1 = private unnamed_addr constant [3 x i8] c"%s\00", align 1 { Glob  }
+StoreStmt: [Var87 <-- Var20]	
+ i8 37 { constant data }
+GepStmt: [Var88 <-- Var17]	
+ @.str.1 = private unnamed_addr constant [3 x i8] c"%s\00", align 1 { Glob  }
+StoreStmt: [Var88 <-- Var22]	
+ i8 115 { constant data }
+GepStmt: [Var89 <-- Var17]	
+ @.str.1 = private unnamed_addr constant [3 x i8] c"%s\00", align 1 { Glob  }
+StoreStmt: [Var89 <-- Var15]	
+ i8 0 { constant data }
+AddrStmt: [Var24 <-- Var25]	
+Function: Unsafe_IoFunction_of_String_Buffer_case01_Bad_05 { "ln": 9, "file": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+AddrStmt: [Var47 <-- Var48]	
+Function: llvm.dbg.declare 
+AddrStmt: [Var38 <-- Var39]	
+Function: llvm.memset.p0i8.i64 
+AddrStmt: [Var44 <-- Var45]	
+Function: sscanf 
+AddrStmt: [Var62 <-- Var63]	
+Function: Unsafe_IoFunction_of_String_Buffer_case01_Bad_04 { "ln": 17, "file": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+AddrStmt: [Var75 <-- Var76]	
+Function: main { "ln": 24, "file": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+-----------Var and Value-----------
+Var7	 Value: [0, 0]
+Var8	 Value: [0, 0]
+Var9	 Value: [49, 49]
+Var10	 Value: [49, 49]
+Var11	 Value: [50, 50]
+Var12	 Value: [50, 50]
+Var13	 Value: [51, 51]
+Var14	 Value: [51, 51]
+Var15	 Value: [0, 0]
+Var16	 Value: [0, 0]
+Var20	 Value: [37, 37]
+Var21	 Value: [37, 37]
+Var22	 Value: [115, 115]
+Var23	 Value: [115, 115]
+Var29	 Value: [1, 1]
+Var30	 Value: [1, 1]
+Var34	 Value: [10, 10]
+Var35	 Value: [10, 10]
+Var36	 Value: [0, 0]
+Var37	 Value: [0, 0]
+Var81	 Value: [0, 0]
+Var82	 Value: [0, 0]
+Var146	 Value: [49, 49]
+Var147	 Value: [50, 50]
+Var148	 Value: [51, 51]
+Var149	 Value: [0, 0]
+Var150	 Value: [37, 37]
+Var151	 Value: [115, 115]
+Var152	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var4	 Value: [ 0x7f000006(6) ,]
+Var6	 Value: [ 0x7f000006(6) ,]
+Var17	 Value: [ 0x7f000013(19) ,]
+Var19	 Value: [ 0x7f000013(19) ,]
+Var24	 Value: [ 0x7f000019(25) ,]
+Var25	 Value: [ 0x7f000019(25) ,]
+Var38	 Value: [ 0x7f000027(39) ,]
+Var39	 Value: [ 0x7f000027(39) ,]
+Var44	 Value: [ 0x7f00002d(45) ,]
+Var45	 Value: [ 0x7f00002d(45) ,]
+Var47	 Value: [ 0x7f000030(48) ,]
+Var48	 Value: [ 0x7f000030(48) ,]
+Var62	 Value: [ 0x7f00003f(63) ,]
+Var63	 Value: [ 0x7f00003f(63) ,]
+Var75	 Value: [ 0x7f00004c(76) ,]
+Var76	 Value: [ 0x7f00004c(76) ,]
+Var83	 Value: [ 0x7f000092(146) ,]
+Var84	 Value: [ 0x7f000093(147) ,]
+Var85	 Value: [ 0x7f000094(148) ,]
+Var86	 Value: [ 0x7f000095(149) ,]
+Var87	 Value: [ 0x7f000096(150) ,]
+Var88	 Value: [ 0x7f000097(151) ,]
+Var89	 Value: [ 0x7f000098(152) ,]
+Var146	 Value: [ 0x7f000092(146) ,]
+Var147	 Value: [ 0x7f000093(147) ,]
+Var148	 Value: [ 0x7f000094(148) ,]
+Var149	 Value: [ 0x7f000095(149) ,]
+Var150	 Value: [ 0x7f000096(150) ,]
+Var151	 Value: [ 0x7f000097(151) ,]
+Var152	 Value: [ 0x7f000098(152) ,]
+-----------------------------------------
+CallICFGNode26 {fun: main{ "ln": 25, "cl": 5, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }}
+IntraICFGNode2 {fun: Unsafe_IoFunction_of_String_Buffer_case01_Bad_05{ "ln": 11, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }}
+AddrStmt: [Var27 <-- Var28]	
+   %buffer = alloca [10 x i8], align 1 { "ln": 11, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode34 {fun: Unsafe_IoFunction_of_String_Buffer_case01_Bad_05{ "ln": 11, "cl": 10, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }}
+   call void @llvm.dbg.declare(metadata [10 x i8]* %buffer, metadata !14, metadata !DIExpression()), !dbg !19 { "ln": 11, "cl": 10, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode3 {fun: Unsafe_IoFunction_of_String_Buffer_case01_Bad_05{ "ln": 11, "cl": 10, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }}
+CopyStmt: [Var32 <-- Var27]	
+   %0 = bitcast [10 x i8]* %buffer to i8*, !dbg !19 { "ln": 11, "cl": 10, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+arr type size: 10
+arr type size: 10
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode4 {fun: Unsafe_IoFunction_of_String_Buffer_case01_Bad_05{ "ln": 11, "cl": 10, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }}
+GepStmt: [Var106 <-- Var32]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 11, "cl": 10, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+StoreStmt: [Var106 <-- Var15]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 11, "cl": 10, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+GepStmt: [Var107 <-- Var32]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 11, "cl": 10, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+StoreStmt: [Var107 <-- Var15]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 11, "cl": 10, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+GepStmt: [Var108 <-- Var32]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 11, "cl": 10, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+StoreStmt: [Var108 <-- Var15]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 11, "cl": 10, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+GepStmt: [Var109 <-- Var32]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 11, "cl": 10, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+StoreStmt: [Var109 <-- Var15]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 11, "cl": 10, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+GepStmt: [Var110 <-- Var32]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 11, "cl": 10, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+StoreStmt: [Var110 <-- Var15]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 11, "cl": 10, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+GepStmt: [Var111 <-- Var32]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 11, "cl": 10, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+StoreStmt: [Var111 <-- Var15]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 11, "cl": 10, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+GepStmt: [Var112 <-- Var32]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 11, "cl": 10, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+StoreStmt: [Var112 <-- Var15]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 11, "cl": 10, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+GepStmt: [Var113 <-- Var32]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 11, "cl": 10, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+StoreStmt: [Var113 <-- Var15]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 11, "cl": 10, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+GepStmt: [Var114 <-- Var32]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 11, "cl": 10, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+StoreStmt: [Var114 <-- Var15]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 11, "cl": 10, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+GepStmt: [Var115 <-- Var32]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 11, "cl": 10, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+StoreStmt: [Var115 <-- Var15]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 11, "cl": 10, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+arr type size: 10
+arr type size: 10
+Buffer Overflow Check Safe
+arr type size: 10
+arr type size: 10
+Buffer Overflow Check Safe
+arr type size: 10
+arr type size: 10
+Buffer Overflow Check Safe
+arr type size: 10
+arr type size: 10
+Buffer Overflow Check Safe
+arr type size: 10
+arr type size: 10
+Buffer Overflow Check Safe
+arr type size: 10
+arr type size: 10
+Buffer Overflow Check Safe
+arr type size: 10
+arr type size: 10
+Buffer Overflow Check Safe
+arr type size: 10
+arr type size: 10
+Buffer Overflow Check Safe
+arr type size: 10
+arr type size: 10
+Buffer Overflow Check Safe
+arr type size: 10
+arr type size: 10
+Buffer Overflow Check Safe
+arr type size: 10
+arr type size: 10
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var136	 Value: [0, 0]
+Var137	 Value: [0, 0]
+Var138	 Value: [0, 0]
+Var139	 Value: [0, 0]
+Var140	 Value: [0, 0]
+Var141	 Value: [0, 0]
+Var142	 Value: [0, 0]
+Var143	 Value: [0, 0]
+Var144	 Value: [0, 0]
+Var145	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode6 {fun: Unsafe_IoFunction_of_String_Buffer_case01_Bad_05{ "ln": 13, "cl": 25, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }}
+GepStmt: [Var40 <-- Var27]	
+   %arraydecay = getelementptr inbounds [10 x i8], [10 x i8]* %buffer, i64 0, i64 0, !dbg !20 { "ln": 13, "cl": 25, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+[10 x i8]*, byteOffset:[0, 0]
+arr type size: 10
+arr type size: 10
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var136	 Value: [0, 0]
+Var137	 Value: [0, 0]
+Var138	 Value: [0, 0]
+Var139	 Value: [0, 0]
+Var140	 Value: [0, 0]
+Var141	 Value: [0, 0]
+Var142	 Value: [0, 0]
+Var143	 Value: [0, 0]
+Var144	 Value: [0, 0]
+Var145	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode7 {fun: Unsafe_IoFunction_of_String_Buffer_case01_Bad_05}
+GepStmt: [Var41 <-- Var4]	
+   %1 = getelementptr inbounds [4 x i8], [4 x i8]* @.str, i64 0, i64 0 
+[4 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var136	 Value: [0, 0]
+Var137	 Value: [0, 0]
+Var138	 Value: [0, 0]
+Var139	 Value: [0, 0]
+Var140	 Value: [0, 0]
+Var141	 Value: [0, 0]
+Var142	 Value: [0, 0]
+Var143	 Value: [0, 0]
+Var144	 Value: [0, 0]
+Var145	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode8 {fun: Unsafe_IoFunction_of_String_Buffer_case01_Bad_05}
+GepStmt: [Var42 <-- Var17]	
+   %2 = getelementptr inbounds [3 x i8], [3 x i8]* @.str.1, i64 0, i64 0 
+[3 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var136	 Value: [0, 0]
+Var137	 Value: [0, 0]
+Var138	 Value: [0, 0]
+Var139	 Value: [0, 0]
+Var140	 Value: [0, 0]
+Var141	 Value: [0, 0]
+Var142	 Value: [0, 0]
+Var143	 Value: [0, 0]
+Var144	 Value: [0, 0]
+Var145	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode9 {fun: Unsafe_IoFunction_of_String_Buffer_case01_Bad_05{ "ln": 13, "cl": 5, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var136	 Value: [0, 0]
+Var137	 Value: [0, 0]
+Var138	 Value: [0, 0]
+Var139	 Value: [0, 0]
+Var140	 Value: [0, 0]
+Var141	 Value: [0, 0]
+Var142	 Value: [0, 0]
+Var143	 Value: [0, 0]
+Var144	 Value: [0, 0]
+Var145	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode11 {fun: Unsafe_IoFunction_of_String_Buffer_case01_Bad_05{ "ln": 14, "cl": 1, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }}
+   ret void, !dbg !22 { "ln": 14, "cl": 1, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var136	 Value: [0, 0]
+Var137	 Value: [0, 0]
+Var138	 Value: [0, 0]
+Var139	 Value: [0, 0]
+Var140	 Value: [0, 0]
+Var141	 Value: [0, 0]
+Var142	 Value: [0, 0]
+Var143	 Value: [0, 0]
+Var144	 Value: [0, 0]
+Var145	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var136	 Value: [0, 0]
+Var137	 Value: [0, 0]
+Var138	 Value: [0, 0]
+Var139	 Value: [0, 0]
+Var140	 Value: [0, 0]
+Var141	 Value: [0, 0]
+Var142	 Value: [0, 0]
+Var143	 Value: [0, 0]
+Var144	 Value: [0, 0]
+Var145	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+FunExitICFGNode12 {fun: Unsafe_IoFunction_of_String_Buffer_case01_Bad_05{ "ln": 11, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var136	 Value: [0, 0]
+Var137	 Value: [0, 0]
+Var138	 Value: [0, 0]
+Var139	 Value: [0, 0]
+Var140	 Value: [0, 0]
+Var141	 Value: [0, 0]
+Var142	 Value: [0, 0]
+Var143	 Value: [0, 0]
+Var144	 Value: [0, 0]
+Var145	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+RetICFGNode27 {fun: main{ "ln": 25, "cl": 5, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var136	 Value: [0, 0]
+Var137	 Value: [0, 0]
+Var138	 Value: [0, 0]
+Var139	 Value: [0, 0]
+Var140	 Value: [0, 0]
+Var141	 Value: [0, 0]
+Var142	 Value: [0, 0]
+Var143	 Value: [0, 0]
+Var144	 Value: [0, 0]
+Var145	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode28 {fun: main{ "ln": 26, "cl": 5, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }}
+IntraICFGNode14 {fun: Unsafe_IoFunction_of_String_Buffer_case01_Bad_04{ "ln": 19, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }}
+AddrStmt: [Var65 <-- Var66]	
+   %buffer = alloca [10 x i8], align 1 { "ln": 19, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var136	 Value: [0, 0]
+Var137	 Value: [0, 0]
+Var138	 Value: [0, 0]
+Var139	 Value: [0, 0]
+Var140	 Value: [0, 0]
+Var141	 Value: [0, 0]
+Var142	 Value: [0, 0]
+Var143	 Value: [0, 0]
+Var144	 Value: [0, 0]
+Var145	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode35 {fun: Unsafe_IoFunction_of_String_Buffer_case01_Bad_04{ "ln": 19, "cl": 7, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }}
+   call void @llvm.dbg.declare(metadata [10 x i8]* %buffer, metadata !24, metadata !DIExpression()), !dbg !25 { "ln": 19, "cl": 7, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var136	 Value: [0, 0]
+Var137	 Value: [0, 0]
+Var138	 Value: [0, 0]
+Var139	 Value: [0, 0]
+Var140	 Value: [0, 0]
+Var141	 Value: [0, 0]
+Var142	 Value: [0, 0]
+Var143	 Value: [0, 0]
+Var144	 Value: [0, 0]
+Var145	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode15 {fun: Unsafe_IoFunction_of_String_Buffer_case01_Bad_04{ "ln": 19, "cl": 7, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }}
+CopyStmt: [Var68 <-- Var65]	
+   %0 = bitcast [10 x i8]* %buffer to i8*, !dbg !19 { "ln": 19, "cl": 7, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+arr type size: 10
+arr type size: 10
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var136	 Value: [0, 0]
+Var137	 Value: [0, 0]
+Var138	 Value: [0, 0]
+Var139	 Value: [0, 0]
+Var140	 Value: [0, 0]
+Var141	 Value: [0, 0]
+Var142	 Value: [0, 0]
+Var143	 Value: [0, 0]
+Var144	 Value: [0, 0]
+Var145	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode16 {fun: Unsafe_IoFunction_of_String_Buffer_case01_Bad_04{ "ln": 19, "cl": 7, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }}
+GepStmt: [Var116 <-- Var68]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 19, "cl": 7, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+StoreStmt: [Var116 <-- Var15]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 19, "cl": 7, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+GepStmt: [Var117 <-- Var68]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 19, "cl": 7, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+StoreStmt: [Var117 <-- Var15]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 19, "cl": 7, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+GepStmt: [Var118 <-- Var68]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 19, "cl": 7, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+StoreStmt: [Var118 <-- Var15]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 19, "cl": 7, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+GepStmt: [Var119 <-- Var68]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 19, "cl": 7, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+StoreStmt: [Var119 <-- Var15]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 19, "cl": 7, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+GepStmt: [Var120 <-- Var68]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 19, "cl": 7, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+StoreStmt: [Var120 <-- Var15]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 19, "cl": 7, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+GepStmt: [Var121 <-- Var68]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 19, "cl": 7, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+StoreStmt: [Var121 <-- Var15]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 19, "cl": 7, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+GepStmt: [Var122 <-- Var68]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 19, "cl": 7, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+StoreStmt: [Var122 <-- Var15]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 19, "cl": 7, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+GepStmt: [Var123 <-- Var68]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 19, "cl": 7, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+StoreStmt: [Var123 <-- Var15]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 19, "cl": 7, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+GepStmt: [Var124 <-- Var68]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 19, "cl": 7, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+StoreStmt: [Var124 <-- Var15]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 19, "cl": 7, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+GepStmt: [Var125 <-- Var68]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 19, "cl": 7, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+StoreStmt: [Var125 <-- Var15]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 10, i1 false), !dbg !19 { "ln": 19, "cl": 7, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+arr type size: 10
+arr type size: 10
+Buffer Overflow Check Safe
+arr type size: 10
+arr type size: 10
+Buffer Overflow Check Safe
+arr type size: 10
+arr type size: 10
+Buffer Overflow Check Safe
+arr type size: 10
+arr type size: 10
+Buffer Overflow Check Safe
+arr type size: 10
+arr type size: 10
+Buffer Overflow Check Safe
+arr type size: 10
+arr type size: 10
+Buffer Overflow Check Safe
+arr type size: 10
+arr type size: 10
+Buffer Overflow Check Safe
+arr type size: 10
+arr type size: 10
+Buffer Overflow Check Safe
+arr type size: 10
+arr type size: 10
+Buffer Overflow Check Safe
+arr type size: 10
+arr type size: 10
+Buffer Overflow Check Safe
+arr type size: 10
+arr type size: 10
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var126	 Value: [0, 0]
+Var127	 Value: [0, 0]
+Var128	 Value: [0, 0]
+Var129	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var131	 Value: [0, 0]
+Var132	 Value: [0, 0]
+Var133	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var136	 Value: [0, 0]
+Var137	 Value: [0, 0]
+Var138	 Value: [0, 0]
+Var139	 Value: [0, 0]
+Var140	 Value: [0, 0]
+Var141	 Value: [0, 0]
+Var142	 Value: [0, 0]
+Var143	 Value: [0, 0]
+Var144	 Value: [0, 0]
+Var145	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode18 {fun: Unsafe_IoFunction_of_String_Buffer_case01_Bad_04{ "ln": 21, "cl": 23, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }}
+GepStmt: [Var70 <-- Var65]	
+   %arraydecay = getelementptr inbounds [10 x i8], [10 x i8]* %buffer, i64 0, i64 0, !dbg !20 { "ln": 21, "cl": 23, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+[10 x i8]*, byteOffset:[0, 0]
+arr type size: 10
+arr type size: 10
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var126	 Value: [0, 0]
+Var127	 Value: [0, 0]
+Var128	 Value: [0, 0]
+Var129	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var131	 Value: [0, 0]
+Var132	 Value: [0, 0]
+Var133	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var136	 Value: [0, 0]
+Var137	 Value: [0, 0]
+Var138	 Value: [0, 0]
+Var139	 Value: [0, 0]
+Var140	 Value: [0, 0]
+Var141	 Value: [0, 0]
+Var142	 Value: [0, 0]
+Var143	 Value: [0, 0]
+Var144	 Value: [0, 0]
+Var145	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode19 {fun: Unsafe_IoFunction_of_String_Buffer_case01_Bad_04}
+GepStmt: [Var71 <-- Var4]	
+   %1 = getelementptr inbounds [4 x i8], [4 x i8]* @.str, i64 0, i64 0 
+[4 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var126	 Value: [0, 0]
+Var127	 Value: [0, 0]
+Var128	 Value: [0, 0]
+Var129	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var131	 Value: [0, 0]
+Var132	 Value: [0, 0]
+Var133	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var136	 Value: [0, 0]
+Var137	 Value: [0, 0]
+Var138	 Value: [0, 0]
+Var139	 Value: [0, 0]
+Var140	 Value: [0, 0]
+Var141	 Value: [0, 0]
+Var142	 Value: [0, 0]
+Var143	 Value: [0, 0]
+Var144	 Value: [0, 0]
+Var145	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode20 {fun: Unsafe_IoFunction_of_String_Buffer_case01_Bad_04}
+GepStmt: [Var72 <-- Var17]	
+   %2 = getelementptr inbounds [3 x i8], [3 x i8]* @.str.1, i64 0, i64 0 
+[3 x i8]*, byteOffset:[0, 0]
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var126	 Value: [0, 0]
+Var127	 Value: [0, 0]
+Var128	 Value: [0, 0]
+Var129	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var131	 Value: [0, 0]
+Var132	 Value: [0, 0]
+Var133	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var136	 Value: [0, 0]
+Var137	 Value: [0, 0]
+Var138	 Value: [0, 0]
+Var139	 Value: [0, 0]
+Var140	 Value: [0, 0]
+Var141	 Value: [0, 0]
+Var142	 Value: [0, 0]
+Var143	 Value: [0, 0]
+Var144	 Value: [0, 0]
+Var145	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode21 {fun: Unsafe_IoFunction_of_String_Buffer_case01_Bad_04{ "ln": 21, "cl": 5, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var126	 Value: [0, 0]
+Var127	 Value: [0, 0]
+Var128	 Value: [0, 0]
+Var129	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var131	 Value: [0, 0]
+Var132	 Value: [0, 0]
+Var133	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var136	 Value: [0, 0]
+Var137	 Value: [0, 0]
+Var138	 Value: [0, 0]
+Var139	 Value: [0, 0]
+Var140	 Value: [0, 0]
+Var141	 Value: [0, 0]
+Var142	 Value: [0, 0]
+Var143	 Value: [0, 0]
+Var144	 Value: [0, 0]
+Var145	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode23 {fun: Unsafe_IoFunction_of_String_Buffer_case01_Bad_04{ "ln": 22, "cl": 1, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }}
+   ret void, !dbg !22 { "ln": 22, "cl": 1, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var126	 Value: [0, 0]
+Var127	 Value: [0, 0]
+Var128	 Value: [0, 0]
+Var129	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var131	 Value: [0, 0]
+Var132	 Value: [0, 0]
+Var133	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var136	 Value: [0, 0]
+Var137	 Value: [0, 0]
+Var138	 Value: [0, 0]
+Var139	 Value: [0, 0]
+Var140	 Value: [0, 0]
+Var141	 Value: [0, 0]
+Var142	 Value: [0, 0]
+Var143	 Value: [0, 0]
+Var144	 Value: [0, 0]
+Var145	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var126	 Value: [0, 0]
+Var127	 Value: [0, 0]
+Var128	 Value: [0, 0]
+Var129	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var131	 Value: [0, 0]
+Var132	 Value: [0, 0]
+Var133	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var136	 Value: [0, 0]
+Var137	 Value: [0, 0]
+Var138	 Value: [0, 0]
+Var139	 Value: [0, 0]
+Var140	 Value: [0, 0]
+Var141	 Value: [0, 0]
+Var142	 Value: [0, 0]
+Var143	 Value: [0, 0]
+Var144	 Value: [0, 0]
+Var145	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+FunExitICFGNode24 {fun: Unsafe_IoFunction_of_String_Buffer_case01_Bad_04{ "ln": 19, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var126	 Value: [0, 0]
+Var127	 Value: [0, 0]
+Var128	 Value: [0, 0]
+Var129	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var131	 Value: [0, 0]
+Var132	 Value: [0, 0]
+Var133	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var136	 Value: [0, 0]
+Var137	 Value: [0, 0]
+Var138	 Value: [0, 0]
+Var139	 Value: [0, 0]
+Var140	 Value: [0, 0]
+Var141	 Value: [0, 0]
+Var142	 Value: [0, 0]
+Var143	 Value: [0, 0]
+Var144	 Value: [0, 0]
+Var145	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+RetICFGNode29 {fun: main{ "ln": 26, "cl": 5, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var126	 Value: [0, 0]
+Var127	 Value: [0, 0]
+Var128	 Value: [0, 0]
+Var129	 Value: [0, 0]
+Var130	 Value: [0, 0]
+Var131	 Value: [0, 0]
+Var132	 Value: [0, 0]
+Var133	 Value: [0, 0]
+Var134	 Value: [0, 0]
+Var135	 Value: [0, 0]
+Var136	 Value: [0, 0]
+Var137	 Value: [0, 0]
+Var138	 Value: [0, 0]
+Var139	 Value: [0, 0]
+Var140	 Value: [0, 0]
+Var141	 Value: [0, 0]
+Var142	 Value: [0, 0]
+Var143	 Value: [0, 0]
+Var144	 Value: [0, 0]
+Var145	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode30 {fun: main{ "ln": 27, "cl": 1, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }}
+   ret i32 0, !dbg !17 { "ln": 27, "cl": 1, "fl": "function/Unsafe_IoFunction_of_String_Buffer_BadCase04-1.c" }

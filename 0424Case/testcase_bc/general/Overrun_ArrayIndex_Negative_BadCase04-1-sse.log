@@ -1,0 +1,333 @@
+GlobalICFGNode0
+CopyStmt: [Var1 <-- Var0]	
+ i8* null { constant data }
+AddrStmt: [Var14 <-- Var15]	
+ i8 0 { constant data }
+AddrStmt: [Var16 <-- Var17]	
+ i64 40 { constant data }
+AddrStmt: [Var18 <-- Var19]	
+ i1 false { constant data }
+AddrStmt: [Var9 <-- Var10]	
+ i32 1 { constant data }
+AddrStmt: [Var23 <-- Var24]	
+ i64 0 { constant data }
+AddrStmt: [Var25 <-- Var26]	
+ i64 -1 { constant data }
+AddrStmt: [Var28 <-- Var29]	
+ i32 0 { constant data }
+AddrStmt: [Var4 <-- Var5]	
+Function: TestBadCase04 { in line: 9 file: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }
+AddrStmt: [Var31 <-- Var32]	
+Function: llvm.dbg.declare 
+AddrStmt: [Var20 <-- Var21]	
+Function: llvm.memset.p0i8.i64 
+AddrStmt: [Var42 <-- Var43]	
+Function: main { in line: 16 file: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }
+-----------Var and Value-----------
+Var9	 Value: [1, 1]
+Var10	 Value: [1, 1]
+Var14	 Value: [0, 0]
+Var15	 Value: [0, 0]
+Var16	 Value: [40, 40]
+Var17	 Value: [40, 40]
+Var18	 Value: [0, 0]
+Var19	 Value: [0, 0]
+Var23	 Value: [0, 0]
+Var24	 Value: [0, 0]
+Var25	 Value: [(- 1), (- 1)]
+Var26	 Value: [(- 1), (- 1)]
+Var28	 Value: [0, 0]
+Var29	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var4	 Value: [ 0x7f000005(5) ,]
+Var5	 Value: [ 0x7f000005(5) ,]
+Var20	 Value: [ 0x7f000015(21) ,]
+Var21	 Value: [ 0x7f000015(21) ,]
+Var31	 Value: [ 0x7f000020(32) ,]
+Var32	 Value: [ 0x7f000020(32) ,]
+Var42	 Value: [ 0x7f00002b(43) ,]
+Var43	 Value: [ 0x7f00002b(43) ,]
+-----------------------------------------
+CallICFGNode11 {fun: main{ ln: 17  cl: 5  fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }}
+IntraICFGNode2 {fun: TestBadCase04{ ln: 11 fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }}
+AddrStmt: [Var7 <-- Var8]	
+   %buffer = alloca [10 x i32], align 16 { ln: 11 fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode16 {fun: TestBadCase04{ ln: 11  cl: 9  fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }}
+   call void @llvm.dbg.declare(metadata [10 x i32]* %buffer, metadata !14, metadata !DIExpression()), !dbg !19 { ln: 11  cl: 9  fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode3 {fun: TestBadCase04{ ln: 11  cl: 9  fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }}
+CopyStmt: [Var12 <-- Var7]	
+   %0 = bitcast [10 x i32]* %buffer to i8*, !dbg !19 { ln: 11  cl: 9  fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var12	 Value: [ 0x7f000008(8) ,]
+-----------------------------------------
+CallICFGNode4 {fun: TestBadCase04{ ln: 11  cl: 9  fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }}
+GepStmt: [Var63 <-- Var12]	
+   call void @llvm.memset.p0i8.i64(i8* align 16 %0, i8 0, i64 40, i1 false), !dbg !19 { ln: 11  cl: 9  fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }
+StoreStmt: [Var63 <-- Var14]	
+   call void @llvm.memset.p0i8.i64(i8* align 16 %0, i8 0, i64 40, i1 false), !dbg !19 { ln: 11  cl: 9  fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }
+GepStmt: [Var64 <-- Var12]	
+   call void @llvm.memset.p0i8.i64(i8* align 16 %0, i8 0, i64 40, i1 false), !dbg !19 { ln: 11  cl: 9  fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }
+StoreStmt: [Var64 <-- Var14]	
+   call void @llvm.memset.p0i8.i64(i8* align 16 %0, i8 0, i64 40, i1 false), !dbg !19 { ln: 11  cl: 9  fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }
+GepStmt: [Var65 <-- Var12]	
+   call void @llvm.memset.p0i8.i64(i8* align 16 %0, i8 0, i64 40, i1 false), !dbg !19 { ln: 11  cl: 9  fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }
+StoreStmt: [Var65 <-- Var14]	
+   call void @llvm.memset.p0i8.i64(i8* align 16 %0, i8 0, i64 40, i1 false), !dbg !19 { ln: 11  cl: 9  fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }
+GepStmt: [Var66 <-- Var12]	
+   call void @llvm.memset.p0i8.i64(i8* align 16 %0, i8 0, i64 40, i1 false), !dbg !19 { ln: 11  cl: 9  fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }
+StoreStmt: [Var66 <-- Var14]	
+   call void @llvm.memset.p0i8.i64(i8* align 16 %0, i8 0, i64 40, i1 false), !dbg !19 { ln: 11  cl: 9  fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }
+GepStmt: [Var67 <-- Var12]	
+   call void @llvm.memset.p0i8.i64(i8* align 16 %0, i8 0, i64 40, i1 false), !dbg !19 { ln: 11  cl: 9  fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }
+StoreStmt: [Var67 <-- Var14]	
+   call void @llvm.memset.p0i8.i64(i8* align 16 %0, i8 0, i64 40, i1 false), !dbg !19 { ln: 11  cl: 9  fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }
+GepStmt: [Var68 <-- Var12]	
+   call void @llvm.memset.p0i8.i64(i8* align 16 %0, i8 0, i64 40, i1 false), !dbg !19 { ln: 11  cl: 9  fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }
+StoreStmt: [Var68 <-- Var14]	
+   call void @llvm.memset.p0i8.i64(i8* align 16 %0, i8 0, i64 40, i1 false), !dbg !19 { ln: 11  cl: 9  fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }
+GepStmt: [Var69 <-- Var12]	
+   call void @llvm.memset.p0i8.i64(i8* align 16 %0, i8 0, i64 40, i1 false), !dbg !19 { ln: 11  cl: 9  fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }
+StoreStmt: [Var69 <-- Var14]	
+   call void @llvm.memset.p0i8.i64(i8* align 16 %0, i8 0, i64 40, i1 false), !dbg !19 { ln: 11  cl: 9  fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }
+GepStmt: [Var70 <-- Var12]	
+   call void @llvm.memset.p0i8.i64(i8* align 16 %0, i8 0, i64 40, i1 false), !dbg !19 { ln: 11  cl: 9  fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }
+StoreStmt: [Var70 <-- Var14]	
+   call void @llvm.memset.p0i8.i64(i8* align 16 %0, i8 0, i64 40, i1 false), !dbg !19 { ln: 11  cl: 9  fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }
+GepStmt: [Var71 <-- Var12]	
+   call void @llvm.memset.p0i8.i64(i8* align 16 %0, i8 0, i64 40, i1 false), !dbg !19 { ln: 11  cl: 9  fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }
+StoreStmt: [Var71 <-- Var14]	
+   call void @llvm.memset.p0i8.i64(i8* align 16 %0, i8 0, i64 40, i1 false), !dbg !19 { ln: 11  cl: 9  fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }
+GepStmt: [Var72 <-- Var12]	
+   call void @llvm.memset.p0i8.i64(i8* align 16 %0, i8 0, i64 40, i1 false), !dbg !19 { ln: 11  cl: 9  fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }
+StoreStmt: [Var72 <-- Var14]	
+   call void @llvm.memset.p0i8.i64(i8* align 16 %0, i8 0, i64 40, i1 false), !dbg !19 { ln: 11  cl: 9  fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var13	 Value: [-INF, +INF]
+Var73	 Value: [0, 0]
+Var74	 Value: [0, 0]
+Var75	 Value: [0, 0]
+Var76	 Value: [0, 0]
+Var77	 Value: [0, 0]
+Var78	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var80	 Value: [0, 0]
+Var81	 Value: [0, 0]
+Var82	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var12	 Value: [ 0x7f000008(8) ,]
+Var63	 Value: [ 0x7f000049(73) ,]
+Var64	 Value: [ 0x7f00004a(74) ,]
+Var65	 Value: [ 0x7f00004b(75) ,]
+Var66	 Value: [ 0x7f00004c(76) ,]
+Var67	 Value: [ 0x7f00004d(77) ,]
+Var68	 Value: [ 0x7f00004e(78) ,]
+Var69	 Value: [ 0x7f00004f(79) ,]
+Var70	 Value: [ 0x7f000050(80) ,]
+Var71	 Value: [ 0x7f000051(81) ,]
+Var72	 Value: [ 0x7f000052(82) ,]
+-----------------------------------------
+IntraICFGNode6 {fun: TestBadCase04{ ln: 13  cl: 5  fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }}
+GepStmt: [Var22 <-- Var7]	
+   %arrayidx = getelementptr inbounds [10 x i32], [10 x i32]* %buffer, i64 0, i64 -1, !dbg !20 { ln: 13  cl: 5  fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var13	 Value: [-INF, +INF]
+Var73	 Value: [0, 0]
+Var74	 Value: [0, 0]
+Var75	 Value: [0, 0]
+Var76	 Value: [0, 0]
+Var77	 Value: [0, 0]
+Var78	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var80	 Value: [0, 0]
+Var81	 Value: [0, 0]
+Var82	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var12	 Value: [ 0x7f000008(8) ,]
+Var63	 Value: [ 0x7f000049(73) ,]
+Var64	 Value: [ 0x7f00004a(74) ,]
+Var65	 Value: [ 0x7f00004b(75) ,]
+Var66	 Value: [ 0x7f00004c(76) ,]
+Var67	 Value: [ 0x7f00004d(77) ,]
+Var68	 Value: [ 0x7f00004e(78) ,]
+Var69	 Value: [ 0x7f00004f(79) ,]
+Var70	 Value: [ 0x7f000050(80) ,]
+Var71	 Value: [ 0x7f000051(81) ,]
+Var72	 Value: [ 0x7f000052(82) ,]
+-----------------------------------------
+IntraICFGNode7 {fun: TestBadCase04{ ln: 13  cl: 16  fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }}
+StoreStmt: [Var22 <-- Var28]	
+   store i32 0, i32* %arrayidx, align 4, !dbg !21 { ln: 13  cl: 16  fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var13	 Value: [-INF, +INF]
+Var73	 Value: [0, 0]
+Var74	 Value: [0, 0]
+Var75	 Value: [0, 0]
+Var76	 Value: [0, 0]
+Var77	 Value: [0, 0]
+Var78	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var80	 Value: [0, 0]
+Var81	 Value: [0, 0]
+Var82	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var12	 Value: [ 0x7f000008(8) ,]
+Var63	 Value: [ 0x7f000049(73) ,]
+Var64	 Value: [ 0x7f00004a(74) ,]
+Var65	 Value: [ 0x7f00004b(75) ,]
+Var66	 Value: [ 0x7f00004c(76) ,]
+Var67	 Value: [ 0x7f00004d(77) ,]
+Var68	 Value: [ 0x7f00004e(78) ,]
+Var69	 Value: [ 0x7f00004f(79) ,]
+Var70	 Value: [ 0x7f000050(80) ,]
+Var71	 Value: [ 0x7f000051(81) ,]
+Var72	 Value: [ 0x7f000052(82) ,]
+-----------------------------------------
+IntraICFGNode8 {fun: TestBadCase04{ ln: 14  cl: 1  fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }}
+   ret void, !dbg !22 { ln: 14  cl: 1  fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var13	 Value: [-INF, +INF]
+Var73	 Value: [0, 0]
+Var74	 Value: [0, 0]
+Var75	 Value: [0, 0]
+Var76	 Value: [0, 0]
+Var77	 Value: [0, 0]
+Var78	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var80	 Value: [0, 0]
+Var81	 Value: [0, 0]
+Var82	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var12	 Value: [ 0x7f000008(8) ,]
+Var63	 Value: [ 0x7f000049(73) ,]
+Var64	 Value: [ 0x7f00004a(74) ,]
+Var65	 Value: [ 0x7f00004b(75) ,]
+Var66	 Value: [ 0x7f00004c(76) ,]
+Var67	 Value: [ 0x7f00004d(77) ,]
+Var68	 Value: [ 0x7f00004e(78) ,]
+Var69	 Value: [ 0x7f00004f(79) ,]
+Var70	 Value: [ 0x7f000050(80) ,]
+Var71	 Value: [ 0x7f000051(81) ,]
+Var72	 Value: [ 0x7f000052(82) ,]
+-----------------------------------------
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var13	 Value: [-INF, +INF]
+Var73	 Value: [0, 0]
+Var74	 Value: [0, 0]
+Var75	 Value: [0, 0]
+Var76	 Value: [0, 0]
+Var77	 Value: [0, 0]
+Var78	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var80	 Value: [0, 0]
+Var81	 Value: [0, 0]
+Var82	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var12	 Value: [ 0x7f000008(8) ,]
+Var63	 Value: [ 0x7f000049(73) ,]
+Var64	 Value: [ 0x7f00004a(74) ,]
+Var65	 Value: [ 0x7f00004b(75) ,]
+Var66	 Value: [ 0x7f00004c(76) ,]
+Var67	 Value: [ 0x7f00004d(77) ,]
+Var68	 Value: [ 0x7f00004e(78) ,]
+Var69	 Value: [ 0x7f00004f(79) ,]
+Var70	 Value: [ 0x7f000050(80) ,]
+Var71	 Value: [ 0x7f000051(81) ,]
+Var72	 Value: [ 0x7f000052(82) ,]
+-----------------------------------------
+FunExitICFGNode9 {fun: TestBadCase04{ ln: 11 fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var13	 Value: [-INF, +INF]
+Var73	 Value: [0, 0]
+Var74	 Value: [0, 0]
+Var75	 Value: [0, 0]
+Var76	 Value: [0, 0]
+Var77	 Value: [0, 0]
+Var78	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var80	 Value: [0, 0]
+Var81	 Value: [0, 0]
+Var82	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var12	 Value: [ 0x7f000008(8) ,]
+Var63	 Value: [ 0x7f000049(73) ,]
+Var64	 Value: [ 0x7f00004a(74) ,]
+Var65	 Value: [ 0x7f00004b(75) ,]
+Var66	 Value: [ 0x7f00004c(76) ,]
+Var67	 Value: [ 0x7f00004d(77) ,]
+Var68	 Value: [ 0x7f00004e(78) ,]
+Var69	 Value: [ 0x7f00004f(79) ,]
+Var70	 Value: [ 0x7f000050(80) ,]
+Var71	 Value: [ 0x7f000051(81) ,]
+Var72	 Value: [ 0x7f000052(82) ,]
+-----------------------------------------
+RetICFGNode12 {fun: main{ ln: 17  cl: 5  fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var13	 Value: [-INF, +INF]
+Var73	 Value: [0, 0]
+Var74	 Value: [0, 0]
+Var75	 Value: [0, 0]
+Var76	 Value: [0, 0]
+Var77	 Value: [0, 0]
+Var78	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var80	 Value: [0, 0]
+Var81	 Value: [0, 0]
+Var82	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var12	 Value: [ 0x7f000008(8) ,]
+Var63	 Value: [ 0x7f000049(73) ,]
+Var64	 Value: [ 0x7f00004a(74) ,]
+Var65	 Value: [ 0x7f00004b(75) ,]
+Var66	 Value: [ 0x7f00004c(76) ,]
+Var67	 Value: [ 0x7f00004d(77) ,]
+Var68	 Value: [ 0x7f00004e(78) ,]
+Var69	 Value: [ 0x7f00004f(79) ,]
+Var70	 Value: [ 0x7f000050(80) ,]
+Var71	 Value: [ 0x7f000051(81) ,]
+Var72	 Value: [ 0x7f000052(82) ,]
+-----------------------------------------
+IntraICFGNode13 {fun: main{ ln: 18  cl: 1  fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }}
+   ret i32 0, !dbg !16 { ln: 18  cl: 1  fl: general/Overrun_ArrayIndex_Negative_BadCase04-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var13	 Value: [-INF, +INF]
+Var73	 Value: [0, 0]
+Var74	 Value: [0, 0]
+Var75	 Value: [0, 0]
+Var76	 Value: [0, 0]
+Var77	 Value: [0, 0]
+Var78	 Value: [0, 0]
+Var79	 Value: [0, 0]
+Var80	 Value: [0, 0]
+Var81	 Value: [0, 0]
+Var82	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var12	 Value: [ 0x7f000008(8) ,]
+Var63	 Value: [ 0x7f000049(73) ,]
+Var64	 Value: [ 0x7f00004a(74) ,]
+Var65	 Value: [ 0x7f00004b(75) ,]
+Var66	 Value: [ 0x7f00004c(76) ,]
+Var67	 Value: [ 0x7f00004d(77) ,]
+Var68	 Value: [ 0x7f00004e(78) ,]
+Var69	 Value: [ 0x7f00004f(79) ,]
+Var70	 Value: [ 0x7f000050(80) ,]
+Var71	 Value: [ 0x7f000051(81) ,]
+Var72	 Value: [ 0x7f000052(82) ,]
+-----------------------------------------

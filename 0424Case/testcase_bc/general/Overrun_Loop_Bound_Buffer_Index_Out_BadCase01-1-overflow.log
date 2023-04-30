@@ -1,0 +1,1699 @@
+GlobalICFGNode0
+CopyStmt: [Var1 <-- Var0]	
+ i8* null { constant data }
+AddrStmt: [Var83 <-- Var84]	
+ i32 10 { constant data }
+AddrStmt: [Var10 <-- Var11]	
+ i32 1 { constant data }
+AddrStmt: [Var37 <-- Var38]	
+ i32 0 { constant data }
+AddrStmt: [Var50 <-- Var51]	
+ i8 1 { constant data }
+AddrStmt: [Var4 <-- Var5]	
+Function: TestCaseBad01 { "ln": 13, "file": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+AddrStmt: [Var69 <-- Var70]	
+Function: llvm.dbg.declare 
+AddrStmt: [Var28 <-- Var29]	
+Function: malloc 
+AddrStmt: [Var65 <-- Var66]	
+Function: free 
+AddrStmt: [Var79 <-- Var80]	
+Function: main { "ln": 34, "file": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var10	 Value: [1, 1]
+Var11	 Value: [1, 1]
+Var37	 Value: [0, 0]
+Var38	 Value: [0, 0]
+Var50	 Value: [1, 1]
+Var51	 Value: [1, 1]
+Var83	 Value: [10, 10]
+Var84	 Value: [10, 10]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var4	 Value: [ 0x7f000005(5) ,]
+Var5	 Value: [ 0x7f000005(5) ,]
+Var28	 Value: [ 0x7f00001d(29) ,]
+Var29	 Value: [ 0x7f00001d(29) ,]
+Var65	 Value: [ 0x7f000042(66) ,]
+Var66	 Value: [ 0x7f000042(66) ,]
+Var69	 Value: [ 0x7f000046(70) ,]
+Var70	 Value: [ 0x7f000046(70) ,]
+Var79	 Value: [ 0x7f000050(80) ,]
+Var80	 Value: [ 0x7f000050(80) ,]
+-----------------------------------------
+CallICFGNode47 {fun: main{ "ln": 35, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+CallPE: [Var7 <-- Var83]	
+   call void @TestCaseBad01(i32 noundef 10), !dbg !17 { "ln": 35, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+IntraICFGNode2 {fun: TestCaseBad01{ "ln": 13, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+AddrStmt: [Var8 <-- Var9]	
+   %n.addr = alloca i32, align 4 { "ln": 13, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode3 {fun: TestCaseBad01{ "ln": 19, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+AddrStmt: [Var12 <-- Var13]	
+   %p = alloca i8*, align 8 { "ln": 19, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode4 {fun: TestCaseBad01{ "ln": 24, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+AddrStmt: [Var14 <-- Var15]	
+   %i = alloca i32, align 4 { "ln": 24, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode5 {fun: TestCaseBad01}
+StoreStmt: [Var8 <-- Var7]	
+   store i32 %n, i32* %n.addr, align 4 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode53 {fun: TestCaseBad01{ "ln": 13, "cl": 24, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata i32* %n.addr, metadata !17, metadata !DIExpression()), !dbg !18 { "ln": 13, "cl": 24, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode6 {fun: TestCaseBad01{ "ln": 15, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+LoadStmt: [Var18 <-- Var8]	
+   %0 = load i32, i32* %n.addr, align 4, !dbg !19 { "ln": 15, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode7 {fun: TestCaseBad01{ "ln": 15, "cl": 11, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+CmpStmt: [Var19 <-- (Var18 predicate40 Var10)]	
+   %cmp = icmp slt i32 %0, 1, !dbg !21 { "ln": 15, "cl": 11, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode8 {fun: TestCaseBad01{ "ln": 15, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+BranchStmt: [Condition Var19]
+Successor 0 ICFGNode9   Successor 1 ICFGNode51   
+   br i1 %cmp, label %if.then, label %if.end, !dbg !22 { "ln": 15, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode51 {fun: TestCaseBad01{ "ln": 19, "cl": 11, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata i8** %p, metadata !25, metadata !DIExpression()), !dbg !28 { "ln": 19, "cl": 11, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode10 {fun: TestCaseBad01{ "ln": 19, "cl": 22, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+LoadStmt: [Var24 <-- Var8]	
+   %1 = load i32, i32* %n.addr, align 4, !dbg !29 { "ln": 19, "cl": 22, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode12 {fun: TestCaseBad01{ "ln": 19, "cl": 22, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+CopyStmt: [Var25 <-- Var24]	
+   %conv = sext i32 %1 to i64, !dbg !29 { "ln": 19, "cl": 22, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode14 {fun: TestCaseBad01{ "ln": 19, "cl": 15, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+AddrStmt: [Var26 <-- Var27]	
+   %call = call i8* @malloc(i64 noundef %conv) #4, !dbg !30 { "ln": 19, "cl": 15, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode16 {fun: TestCaseBad01{ "ln": 19, "cl": 11, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+StoreStmt: [Var12 <-- Var26]	
+   store i8* %call, i8** %p, align 8, !dbg !28 { "ln": 19, "cl": 11, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode17 {fun: TestCaseBad01{ "ln": 20, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+LoadStmt: [Var31 <-- Var12]	
+   %2 = load i8*, i8** %p, align 8, !dbg !31 { "ln": 20, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode18 {fun: TestCaseBad01{ "ln": 20, "cl": 11, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+CmpStmt: [Var32 <-- (Var31 predicate32 Var0)]	
+   %cmp1 = icmp eq i8* %2, null, !dbg !33 { "ln": 20, "cl": 11, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode19 {fun: TestCaseBad01{ "ln": 20, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+BranchStmt: [Condition Var32]
+Successor 0 ICFGNode20   Successor 1 ICFGNode52   
+   br i1 %cmp1, label %if.then3, label %if.end4, !dbg !34 { "ln": 20, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode52 {fun: TestCaseBad01{ "ln": 24, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata i32* %i, metadata !37, metadata !DIExpression()), !dbg !38 { "ln": 24, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode21 {fun: TestCaseBad01{ "ln": 24, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+StoreStmt: [Var14 <-- Var37]	
+   store i32 0, i32* %i, align 4, !dbg !38 { "ln": 24, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode22 {fun: TestCaseBad01{ "ln": 25, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode23   
+   br label %for.cond, !dbg !39 { "ln": 25, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode23 {fun: TestCaseBad01{ "ln": 25, "cl": 12, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+LoadStmt: [Var41 <-- Var14]	
+   %3 = load i32, i32* %i, align 4, !dbg !40 { "ln": 25, "cl": 12, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode24 {fun: TestCaseBad01{ "ln": 25, "cl": 16, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+LoadStmt: [Var42 <-- Var8]	
+   %4 = load i32, i32* %n.addr, align 4, !dbg !43 { "ln": 25, "cl": 16, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode25 {fun: TestCaseBad01{ "ln": 25, "cl": 14, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+CmpStmt: [Var43 <-- (Var41 predicate40 Var42)]	
+   %cmp5 = icmp slt i32 %3, %4, !dbg !44 { "ln": 25, "cl": 14, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode26 {fun: TestCaseBad01{ "ln": 25, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+BranchStmt: [Condition Var43]
+Successor 0 ICFGNode27   Successor 1 ICFGNode28   
+   br i1 %cmp5, label %for.body, label %for.end, !dbg !45 { "ln": 25, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode27 {fun: TestCaseBad01{ "ln": 26, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+LoadStmt: [Var45 <-- Var12]	
+   %5 = load i8*, i8** %p, align 8, !dbg !46 { "ln": 26, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode29 {fun: TestCaseBad01{ "ln": 26, "cl": 11, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+LoadStmt: [Var46 <-- Var14]	
+   %6 = load i32, i32* %i, align 4, !dbg !48 { "ln": 26, "cl": 11, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode31 {fun: TestCaseBad01{ "ln": 26, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+CopyStmt: [Var47 <-- Var46]	
+   %idxprom = sext i32 %6 to i64, !dbg !46 { "ln": 26, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode33 {fun: TestCaseBad01{ "ln": 26, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+GepStmt: [Var48 <-- Var45]	
+   %arrayidx = getelementptr inbounds i8, i8* %5, i64 %idxprom, !dbg !46 { "ln": 26, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+i8*, byteOffset:[0, 0]
+arr type size: a
+arr type size: a
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode35 {fun: TestCaseBad01{ "ln": 26, "cl": 14, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+StoreStmt: [Var48 <-- Var50]	
+   store i8 1, i8* %arrayidx, align 1, !dbg !49 { "ln": 26, "cl": 14, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 0]
+Var86	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode37 {fun: TestCaseBad01{ "ln": 27, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode39   
+   br label %for.inc, !dbg !50 { "ln": 27, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 0]
+Var86	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode39 {fun: TestCaseBad01{ "ln": 25, "cl": 20, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+LoadStmt: [Var54 <-- Var14]	
+   %7 = load i32, i32* %i, align 4, !dbg !51 { "ln": 25, "cl": 20, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 0]
+Var86	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode42 {fun: TestCaseBad01{ "ln": 25, "cl": 20, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+BinaryOPStmt: [Var55 <-- (Var54 opcode13 Var10)]	
+   %inc = add nsw i32 %7, 1, !dbg !51 { "ln": 25, "cl": 20, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 0]
+Var86	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode44 {fun: TestCaseBad01{ "ln": 25, "cl": 20, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+StoreStmt: [Var14 <-- Var55]	
+   store i32 %inc, i32* %i, align 4, !dbg !51 { "ln": 25, "cl": 20, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var15	 Value: [1, 1]
+Var86	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode45 {fun: TestCaseBad01{ "ln": 25, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode23   
+   br label %for.cond, !dbg !52, !llvm.loop !53 { "ln": 25, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var15	 Value: [1, 1]
+Var86	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode23 {fun: TestCaseBad01{ "ln": 25, "cl": 12, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+LoadStmt: [Var41 <-- Var14]	
+   %3 = load i32, i32* %i, align 4, !dbg !40 { "ln": 25, "cl": 12, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 1]
+Var86	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode24 {fun: TestCaseBad01{ "ln": 25, "cl": 16, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+LoadStmt: [Var42 <-- Var8]	
+   %4 = load i32, i32* %n.addr, align 4, !dbg !43 { "ln": 25, "cl": 16, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 1]
+Var86	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode25 {fun: TestCaseBad01{ "ln": 25, "cl": 14, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+CmpStmt: [Var43 <-- (Var41 predicate40 Var42)]	
+   %cmp5 = icmp slt i32 %3, %4, !dbg !44 { "ln": 25, "cl": 14, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 1]
+Var86	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode26 {fun: TestCaseBad01{ "ln": 25, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+BranchStmt: [Condition Var43]
+Successor 0 ICFGNode27   Successor 1 ICFGNode28   
+   br i1 %cmp5, label %for.body, label %for.end, !dbg !45 { "ln": 25, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 1]
+Var86	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode27 {fun: TestCaseBad01{ "ln": 26, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+LoadStmt: [Var45 <-- Var12]	
+   %5 = load i8*, i8** %p, align 8, !dbg !46 { "ln": 26, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 1]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 1]
+Var86	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode29 {fun: TestCaseBad01{ "ln": 26, "cl": 11, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+LoadStmt: [Var46 <-- Var14]	
+   %6 = load i32, i32* %i, align 4, !dbg !48 { "ln": 26, "cl": 11, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 1]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 1]
+Var86	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode31 {fun: TestCaseBad01{ "ln": 26, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+CopyStmt: [Var47 <-- Var46]	
+   %idxprom = sext i32 %6 to i64, !dbg !46 { "ln": 26, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 1]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 1]
+Var86	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode33 {fun: TestCaseBad01{ "ln": 26, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+GepStmt: [Var48 <-- Var45]	
+   %arrayidx = getelementptr inbounds i8, i8* %5, i64 %idxprom, !dbg !46 { "ln": 26, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+i8*, byteOffset:[0, 1]
+arr type size: a
+arr type size: a
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 1]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 1]
+Var86	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode35 {fun: TestCaseBad01{ "ln": 26, "cl": 14, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+StoreStmt: [Var48 <-- Var50]	
+   store i8 1, i8* %arrayidx, align 1, !dbg !49 { "ln": 26, "cl": 14, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 1]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 1]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode37 {fun: TestCaseBad01{ "ln": 27, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode39   
+   br label %for.inc, !dbg !50 { "ln": 27, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 1]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 1]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode39 {fun: TestCaseBad01{ "ln": 25, "cl": 20, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+LoadStmt: [Var54 <-- Var14]	
+   %7 = load i32, i32* %i, align 4, !dbg !51 { "ln": 25, "cl": 20, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 1]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 1]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode42 {fun: TestCaseBad01{ "ln": 25, "cl": 20, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+BinaryOPStmt: [Var55 <-- (Var54 opcode13 Var10)]	
+   %inc = add nsw i32 %7, 1, !dbg !51 { "ln": 25, "cl": 20, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 1]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 1]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode44 {fun: TestCaseBad01{ "ln": 25, "cl": 20, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+StoreStmt: [Var14 <-- Var55]	
+   store i32 %inc, i32* %i, align 4, !dbg !51 { "ln": 25, "cl": 20, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 1]
+Var9	 Value: [10, 10]
+Var15	 Value: [1, 2]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode45 {fun: TestCaseBad01{ "ln": 25, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode23   
+   br label %for.cond, !dbg !52, !llvm.loop !53 { "ln": 25, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 1]
+Var9	 Value: [10, 10]
+Var15	 Value: [1, 2]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode23 {fun: TestCaseBad01{ "ln": 25, "cl": 12, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+LoadStmt: [Var41 <-- Var14]	
+   %3 = load i32, i32* %i, align 4, !dbg !40 { "ln": 25, "cl": 12, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 2]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 2]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode24 {fun: TestCaseBad01{ "ln": 25, "cl": 16, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+LoadStmt: [Var42 <-- Var8]	
+   %4 = load i32, i32* %n.addr, align 4, !dbg !43 { "ln": 25, "cl": 16, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 2]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 2]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode25 {fun: TestCaseBad01{ "ln": 25, "cl": 14, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+CmpStmt: [Var43 <-- (Var41 predicate40 Var42)]	
+   %cmp5 = icmp slt i32 %3, %4, !dbg !44 { "ln": 25, "cl": 14, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 2]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 2]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode26 {fun: TestCaseBad01{ "ln": 25, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+BranchStmt: [Condition Var43]
+Successor 0 ICFGNode27   Successor 1 ICFGNode28   
+   br i1 %cmp5, label %for.body, label %for.end, !dbg !45 { "ln": 25, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 2]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 2]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode27 {fun: TestCaseBad01{ "ln": 26, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+LoadStmt: [Var45 <-- Var12]	
+   %5 = load i8*, i8** %p, align 8, !dbg !46 { "ln": 26, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 2]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 2]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode29 {fun: TestCaseBad01{ "ln": 26, "cl": 11, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+LoadStmt: [Var46 <-- Var14]	
+   %6 = load i32, i32* %i, align 4, !dbg !48 { "ln": 26, "cl": 11, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 2]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 2]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode31 {fun: TestCaseBad01{ "ln": 26, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+CopyStmt: [Var47 <-- Var46]	
+   %idxprom = sext i32 %6 to i64, !dbg !46 { "ln": 26, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 2]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 2]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode33 {fun: TestCaseBad01{ "ln": 26, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+GepStmt: [Var48 <-- Var45]	
+   %arrayidx = getelementptr inbounds i8, i8* %5, i64 %idxprom, !dbg !46 { "ln": 26, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+i8*, byteOffset:[0, 2]
+arr type size: a
+arr type size: a
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 2]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 2]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode35 {fun: TestCaseBad01{ "ln": 26, "cl": 14, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+StoreStmt: [Var48 <-- Var50]	
+   store i8 1, i8* %arrayidx, align 1, !dbg !49 { "ln": 26, "cl": 14, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 2]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 2]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode37 {fun: TestCaseBad01{ "ln": 27, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode39   
+   br label %for.inc, !dbg !50 { "ln": 27, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 2]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 2]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode39 {fun: TestCaseBad01{ "ln": 25, "cl": 20, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+LoadStmt: [Var54 <-- Var14]	
+   %7 = load i32, i32* %i, align 4, !dbg !51 { "ln": 25, "cl": 20, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 2]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 2]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode42 {fun: TestCaseBad01{ "ln": 25, "cl": 20, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+BinaryOPStmt: [Var55 <-- (Var54 opcode13 Var10)]	
+   %inc = add nsw i32 %7, 1, !dbg !51 { "ln": 25, "cl": 20, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 2]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 2]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode44 {fun: TestCaseBad01{ "ln": 25, "cl": 20, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+StoreStmt: [Var14 <-- Var55]	
+   store i32 %inc, i32* %i, align 4, !dbg !51 { "ln": 25, "cl": 20, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 2]
+Var9	 Value: [10, 10]
+Var15	 Value: [1, 3]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode45 {fun: TestCaseBad01{ "ln": 25, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode23   
+   br label %for.cond, !dbg !52, !llvm.loop !53 { "ln": 25, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 2]
+Var9	 Value: [10, 10]
+Var15	 Value: [1, 3]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode23 {fun: TestCaseBad01{ "ln": 25, "cl": 12, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+LoadStmt: [Var41 <-- Var14]	
+   %3 = load i32, i32* %i, align 4, !dbg !40 { "ln": 25, "cl": 12, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 3]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 3]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode24 {fun: TestCaseBad01{ "ln": 25, "cl": 16, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+LoadStmt: [Var42 <-- Var8]	
+   %4 = load i32, i32* %n.addr, align 4, !dbg !43 { "ln": 25, "cl": 16, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 3]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 3]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode25 {fun: TestCaseBad01{ "ln": 25, "cl": 14, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+CmpStmt: [Var43 <-- (Var41 predicate40 Var42)]	
+   %cmp5 = icmp slt i32 %3, %4, !dbg !44 { "ln": 25, "cl": 14, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 3]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 3]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode26 {fun: TestCaseBad01{ "ln": 25, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+BranchStmt: [Condition Var43]
+Successor 0 ICFGNode27   Successor 1 ICFGNode28   
+   br i1 %cmp5, label %for.body, label %for.end, !dbg !45 { "ln": 25, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 3]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 3]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode27 {fun: TestCaseBad01{ "ln": 26, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+LoadStmt: [Var45 <-- Var12]	
+   %5 = load i8*, i8** %p, align 8, !dbg !46 { "ln": 26, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 9]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 9]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode29 {fun: TestCaseBad01{ "ln": 26, "cl": 11, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+LoadStmt: [Var46 <-- Var14]	
+   %6 = load i32, i32* %i, align 4, !dbg !48 { "ln": 26, "cl": 11, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 9]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 9]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode31 {fun: TestCaseBad01{ "ln": 26, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+CopyStmt: [Var47 <-- Var46]	
+   %idxprom = sext i32 %6 to i64, !dbg !46 { "ln": 26, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 9]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 9]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode33 {fun: TestCaseBad01{ "ln": 26, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+GepStmt: [Var48 <-- Var45]	
+   %arrayidx = getelementptr inbounds i8, i8* %5, i64 %idxprom, !dbg !46 { "ln": 26, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+i8*, byteOffset:[0, 9]
+arr type size: a
+arr type size: a
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 9]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 9]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode35 {fun: TestCaseBad01{ "ln": 26, "cl": 14, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+StoreStmt: [Var48 <-- Var50]	
+   store i8 1, i8* %arrayidx, align 1, !dbg !49 { "ln": 26, "cl": 14, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 9]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 9]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var89	 Value: [1, 1]
+Var90	 Value: [1, 1]
+Var91	 Value: [1, 1]
+Var92	 Value: [1, 1]
+Var93	 Value: [1, 1]
+Var94	 Value: [1, 1]
+Var95	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode37 {fun: TestCaseBad01{ "ln": 27, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode39   
+   br label %for.inc, !dbg !50 { "ln": 27, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 9]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 9]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var89	 Value: [1, 1]
+Var90	 Value: [1, 1]
+Var91	 Value: [1, 1]
+Var92	 Value: [1, 1]
+Var93	 Value: [1, 1]
+Var94	 Value: [1, 1]
+Var95	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode39 {fun: TestCaseBad01{ "ln": 25, "cl": 20, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+LoadStmt: [Var54 <-- Var14]	
+   %7 = load i32, i32* %i, align 4, !dbg !51 { "ln": 25, "cl": 20, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 9]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 9]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var89	 Value: [1, 1]
+Var90	 Value: [1, 1]
+Var91	 Value: [1, 1]
+Var92	 Value: [1, 1]
+Var93	 Value: [1, 1]
+Var94	 Value: [1, 1]
+Var95	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode42 {fun: TestCaseBad01{ "ln": 25, "cl": 20, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+BinaryOPStmt: [Var55 <-- (Var54 opcode13 Var10)]	
+   %inc = add nsw i32 %7, 1, !dbg !51 { "ln": 25, "cl": 20, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 9]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 9]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var89	 Value: [1, 1]
+Var90	 Value: [1, 1]
+Var91	 Value: [1, 1]
+Var92	 Value: [1, 1]
+Var93	 Value: [1, 1]
+Var94	 Value: [1, 1]
+Var95	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode44 {fun: TestCaseBad01{ "ln": 25, "cl": 20, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+StoreStmt: [Var14 <-- Var55]	
+   store i32 %inc, i32* %i, align 4, !dbg !51 { "ln": 25, "cl": 20, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 9]
+Var9	 Value: [10, 10]
+Var15	 Value: [1, 10]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var89	 Value: [1, 1]
+Var90	 Value: [1, 1]
+Var91	 Value: [1, 1]
+Var92	 Value: [1, 1]
+Var93	 Value: [1, 1]
+Var94	 Value: [1, 1]
+Var95	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode45 {fun: TestCaseBad01{ "ln": 25, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode23   
+   br label %for.cond, !dbg !52, !llvm.loop !53 { "ln": 25, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 9]
+Var9	 Value: [10, 10]
+Var15	 Value: [1, 10]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var89	 Value: [1, 1]
+Var90	 Value: [1, 1]
+Var91	 Value: [1, 1]
+Var92	 Value: [1, 1]
+Var93	 Value: [1, 1]
+Var94	 Value: [1, 1]
+Var95	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode23 {fun: TestCaseBad01{ "ln": 25, "cl": 12, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+LoadStmt: [Var41 <-- Var14]	
+   %3 = load i32, i32* %i, align 4, !dbg !40 { "ln": 25, "cl": 12, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 10]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 10]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var89	 Value: [1, 1]
+Var90	 Value: [1, 1]
+Var91	 Value: [1, 1]
+Var92	 Value: [1, 1]
+Var93	 Value: [1, 1]
+Var94	 Value: [1, 1]
+Var95	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode24 {fun: TestCaseBad01{ "ln": 25, "cl": 16, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+LoadStmt: [Var42 <-- Var8]	
+   %4 = load i32, i32* %n.addr, align 4, !dbg !43 { "ln": 25, "cl": 16, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 10]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 10]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var89	 Value: [1, 1]
+Var90	 Value: [1, 1]
+Var91	 Value: [1, 1]
+Var92	 Value: [1, 1]
+Var93	 Value: [1, 1]
+Var94	 Value: [1, 1]
+Var95	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode25 {fun: TestCaseBad01{ "ln": 25, "cl": 14, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+CmpStmt: [Var43 <-- (Var41 predicate40 Var42)]	
+   %cmp5 = icmp slt i32 %3, %4, !dbg !44 { "ln": 25, "cl": 14, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 10]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 10]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var89	 Value: [1, 1]
+Var90	 Value: [1, 1]
+Var91	 Value: [1, 1]
+Var92	 Value: [1, 1]
+Var93	 Value: [1, 1]
+Var94	 Value: [1, 1]
+Var95	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode26 {fun: TestCaseBad01{ "ln": 25, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+BranchStmt: [Condition Var43]
+Successor 0 ICFGNode27   Successor 1 ICFGNode28   
+   br i1 %cmp5, label %for.body, label %for.end, !dbg !45 { "ln": 25, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 10]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 10]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var89	 Value: [1, 1]
+Var90	 Value: [1, 1]
+Var91	 Value: [1, 1]
+Var92	 Value: [1, 1]
+Var93	 Value: [1, 1]
+Var94	 Value: [1, 1]
+Var95	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode23 {fun: TestCaseBad01{ "ln": 25, "cl": 12, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+LoadStmt: [Var41 <-- Var14]	
+   %3 = load i32, i32* %i, align 4, !dbg !40 { "ln": 25, "cl": 12, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 10]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 10]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var89	 Value: [1, 1]
+Var90	 Value: [1, 1]
+Var91	 Value: [1, 1]
+Var92	 Value: [1, 1]
+Var93	 Value: [1, 1]
+Var94	 Value: [1, 1]
+Var95	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode24 {fun: TestCaseBad01{ "ln": 25, "cl": 16, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+LoadStmt: [Var42 <-- Var8]	
+   %4 = load i32, i32* %n.addr, align 4, !dbg !43 { "ln": 25, "cl": 16, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 10]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 10]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var89	 Value: [1, 1]
+Var90	 Value: [1, 1]
+Var91	 Value: [1, 1]
+Var92	 Value: [1, 1]
+Var93	 Value: [1, 1]
+Var94	 Value: [1, 1]
+Var95	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode25 {fun: TestCaseBad01{ "ln": 25, "cl": 14, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+CmpStmt: [Var43 <-- (Var41 predicate40 Var42)]	
+   %cmp5 = icmp slt i32 %3, %4, !dbg !44 { "ln": 25, "cl": 14, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 10]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 10]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var89	 Value: [1, 1]
+Var90	 Value: [1, 1]
+Var91	 Value: [1, 1]
+Var92	 Value: [1, 1]
+Var93	 Value: [1, 1]
+Var94	 Value: [1, 1]
+Var95	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode26 {fun: TestCaseBad01{ "ln": 25, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+BranchStmt: [Condition Var43]
+Successor 0 ICFGNode27   Successor 1 ICFGNode28   
+   br i1 %cmp5, label %for.body, label %for.end, !dbg !45 { "ln": 25, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 10]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 10]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var89	 Value: [1, 1]
+Var90	 Value: [1, 1]
+Var91	 Value: [1, 1]
+Var92	 Value: [1, 1]
+Var93	 Value: [1, 1]
+Var94	 Value: [1, 1]
+Var95	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode27 {fun: TestCaseBad01{ "ln": 26, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+LoadStmt: [Var45 <-- Var12]	
+   %5 = load i8*, i8** %p, align 8, !dbg !46 { "ln": 26, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 9]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 9]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode29 {fun: TestCaseBad01{ "ln": 26, "cl": 11, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+LoadStmt: [Var46 <-- Var14]	
+   %6 = load i32, i32* %i, align 4, !dbg !48 { "ln": 26, "cl": 11, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 9]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 9]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode31 {fun: TestCaseBad01{ "ln": 26, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+CopyStmt: [Var47 <-- Var46]	
+   %idxprom = sext i32 %6 to i64, !dbg !46 { "ln": 26, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 9]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 9]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode33 {fun: TestCaseBad01{ "ln": 26, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+GepStmt: [Var48 <-- Var45]	
+   %arrayidx = getelementptr inbounds i8, i8* %5, i64 %idxprom, !dbg !46 { "ln": 26, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+i8*, byteOffset:[0, 9]
+arr type size: a
+arr type size: a
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 9]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 9]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode35 {fun: TestCaseBad01{ "ln": 26, "cl": 14, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+StoreStmt: [Var48 <-- Var50]	
+   store i8 1, i8* %arrayidx, align 1, !dbg !49 { "ln": 26, "cl": 14, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 9]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 9]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var89	 Value: [1, 1]
+Var90	 Value: [1, 1]
+Var91	 Value: [1, 1]
+Var92	 Value: [1, 1]
+Var93	 Value: [1, 1]
+Var94	 Value: [1, 1]
+Var95	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode37 {fun: TestCaseBad01{ "ln": 27, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode39   
+   br label %for.inc, !dbg !50 { "ln": 27, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 9]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 9]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var89	 Value: [1, 1]
+Var90	 Value: [1, 1]
+Var91	 Value: [1, 1]
+Var92	 Value: [1, 1]
+Var93	 Value: [1, 1]
+Var94	 Value: [1, 1]
+Var95	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode39 {fun: TestCaseBad01{ "ln": 25, "cl": 20, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+LoadStmt: [Var54 <-- Var14]	
+   %7 = load i32, i32* %i, align 4, !dbg !51 { "ln": 25, "cl": 20, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 9]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 9]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var89	 Value: [1, 1]
+Var90	 Value: [1, 1]
+Var91	 Value: [1, 1]
+Var92	 Value: [1, 1]
+Var93	 Value: [1, 1]
+Var94	 Value: [1, 1]
+Var95	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode42 {fun: TestCaseBad01{ "ln": 25, "cl": 20, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+BinaryOPStmt: [Var55 <-- (Var54 opcode13 Var10)]	
+   %inc = add nsw i32 %7, 1, !dbg !51 { "ln": 25, "cl": 20, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 9]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 9]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var89	 Value: [1, 1]
+Var90	 Value: [1, 1]
+Var91	 Value: [1, 1]
+Var92	 Value: [1, 1]
+Var93	 Value: [1, 1]
+Var94	 Value: [1, 1]
+Var95	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode44 {fun: TestCaseBad01{ "ln": 25, "cl": 20, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+StoreStmt: [Var14 <-- Var55]	
+   store i32 %inc, i32* %i, align 4, !dbg !51 { "ln": 25, "cl": 20, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 9]
+Var9	 Value: [10, 10]
+Var15	 Value: [1, 10]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var89	 Value: [1, 1]
+Var90	 Value: [1, 1]
+Var91	 Value: [1, 1]
+Var92	 Value: [1, 1]
+Var93	 Value: [1, 1]
+Var94	 Value: [1, 1]
+Var95	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode45 {fun: TestCaseBad01{ "ln": 25, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode23   
+   br label %for.cond, !dbg !52, !llvm.loop !53 { "ln": 25, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 9]
+Var9	 Value: [10, 10]
+Var15	 Value: [1, 10]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var89	 Value: [1, 1]
+Var90	 Value: [1, 1]
+Var91	 Value: [1, 1]
+Var92	 Value: [1, 1]
+Var93	 Value: [1, 1]
+Var94	 Value: [1, 1]
+Var95	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode23 {fun: TestCaseBad01{ "ln": 25, "cl": 12, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+LoadStmt: [Var41 <-- Var14]	
+   %3 = load i32, i32* %i, align 4, !dbg !40 { "ln": 25, "cl": 12, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 10]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 10]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var89	 Value: [1, 1]
+Var90	 Value: [1, 1]
+Var91	 Value: [1, 1]
+Var92	 Value: [1, 1]
+Var93	 Value: [1, 1]
+Var94	 Value: [1, 1]
+Var95	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode24 {fun: TestCaseBad01{ "ln": 25, "cl": 16, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+LoadStmt: [Var42 <-- Var8]	
+   %4 = load i32, i32* %n.addr, align 4, !dbg !43 { "ln": 25, "cl": 16, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 10]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 10]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var89	 Value: [1, 1]
+Var90	 Value: [1, 1]
+Var91	 Value: [1, 1]
+Var92	 Value: [1, 1]
+Var93	 Value: [1, 1]
+Var94	 Value: [1, 1]
+Var95	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode25 {fun: TestCaseBad01{ "ln": 25, "cl": 14, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+CmpStmt: [Var43 <-- (Var41 predicate40 Var42)]	
+   %cmp5 = icmp slt i32 %3, %4, !dbg !44 { "ln": 25, "cl": 14, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 10]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 10]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var89	 Value: [1, 1]
+Var90	 Value: [1, 1]
+Var91	 Value: [1, 1]
+Var92	 Value: [1, 1]
+Var93	 Value: [1, 1]
+Var94	 Value: [1, 1]
+Var95	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode26 {fun: TestCaseBad01{ "ln": 25, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+BranchStmt: [Condition Var43]
+Successor 0 ICFGNode27   Successor 1 ICFGNode28   
+   br i1 %cmp5, label %for.body, label %for.end, !dbg !45 { "ln": 25, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [0, 10]
+Var9	 Value: [10, 10]
+Var15	 Value: [0, 10]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var89	 Value: [1, 1]
+Var90	 Value: [1, 1]
+Var91	 Value: [1, 1]
+Var92	 Value: [1, 1]
+Var93	 Value: [1, 1]
+Var94	 Value: [1, 1]
+Var95	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode28 {fun: TestCaseBad01{ "ln": 30, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+LoadStmt: [Var58 <-- Var12]	
+   %8 = load i8*, i8** %p, align 8, !dbg !56 { "ln": 30, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [10, 10]
+Var9	 Value: [10, 10]
+Var15	 Value: [10, 10]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var89	 Value: [1, 1]
+Var90	 Value: [1, 1]
+Var91	 Value: [1, 1]
+Var92	 Value: [1, 1]
+Var93	 Value: [1, 1]
+Var94	 Value: [1, 1]
+Var95	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode30 {fun: TestCaseBad01{ "ln": 30, "cl": 7, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+LoadStmt: [Var59 <-- Var14]	
+   %9 = load i32, i32* %i, align 4, !dbg !57 { "ln": 30, "cl": 7, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [10, 10]
+Var9	 Value: [10, 10]
+Var15	 Value: [10, 10]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var89	 Value: [1, 1]
+Var90	 Value: [1, 1]
+Var91	 Value: [1, 1]
+Var92	 Value: [1, 1]
+Var93	 Value: [1, 1]
+Var94	 Value: [1, 1]
+Var95	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode32 {fun: TestCaseBad01{ "ln": 30, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+CopyStmt: [Var60 <-- Var59]	
+   %idxprom7 = sext i32 %9 to i64, !dbg !56 { "ln": 30, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [10, 10]
+Var9	 Value: [10, 10]
+Var15	 Value: [10, 10]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var89	 Value: [1, 1]
+Var90	 Value: [1, 1]
+Var91	 Value: [1, 1]
+Var92	 Value: [1, 1]
+Var93	 Value: [1, 1]
+Var94	 Value: [1, 1]
+Var95	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode34 {fun: TestCaseBad01{ "ln": 30, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+GepStmt: [Var61 <-- Var58]	
+   %arrayidx8 = getelementptr inbounds i8, i8* %8, i64 %idxprom7, !dbg !56 { "ln": 30, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+i8*, byteOffset:[10, 10]
+arr type size: a
+arr type size: a
+[1;31mBuffer overflow!! Accessing buffer range: [11, 11]
+Allocated buffer size: 10
+IntraICFGNode34 {fun: TestCaseBad01{ "ln": 30, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+GepStmt: [Var61 <-- Var58]	
+   %arrayidx8 = getelementptr inbounds i8, i8* %8, i64 %idxprom7, !dbg !56 { "ln": 30, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }, Offset: [10, 10]
+[1;0m
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [10, 10]
+Var9	 Value: [10, 10]
+Var15	 Value: [10, 10]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var89	 Value: [1, 1]
+Var90	 Value: [1, 1]
+Var91	 Value: [1, 1]
+Var92	 Value: [1, 1]
+Var93	 Value: [1, 1]
+Var94	 Value: [1, 1]
+Var95	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode36 {fun: TestCaseBad01{ "ln": 30, "cl": 10, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+StoreStmt: [Var61 <-- Var50]	
+   store i8 1, i8* %arrayidx8, align 1, !dbg !58 { "ln": 30, "cl": 10, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [10, 10]
+Var9	 Value: [10, 10]
+Var15	 Value: [10, 10]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var89	 Value: [1, 1]
+Var90	 Value: [1, 1]
+Var91	 Value: [1, 1]
+Var92	 Value: [1, 1]
+Var93	 Value: [1, 1]
+Var94	 Value: [1, 1]
+Var95	 Value: [1, 1]
+Var96	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode38 {fun: TestCaseBad01{ "ln": 32, "cl": 10, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+LoadStmt: [Var63 <-- Var12]	
+   %10 = load i8*, i8** %p, align 8, !dbg !59 { "ln": 32, "cl": 10, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [10, 10]
+Var9	 Value: [10, 10]
+Var15	 Value: [10, 10]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var89	 Value: [1, 1]
+Var90	 Value: [1, 1]
+Var91	 Value: [1, 1]
+Var92	 Value: [1, 1]
+Var93	 Value: [1, 1]
+Var94	 Value: [1, 1]
+Var95	 Value: [1, 1]
+Var96	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+CallICFGNode40 {fun: TestCaseBad01{ "ln": 32, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [10, 10]
+Var9	 Value: [10, 10]
+Var15	 Value: [10, 10]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var89	 Value: [1, 1]
+Var90	 Value: [1, 1]
+Var91	 Value: [1, 1]
+Var92	 Value: [1, 1]
+Var93	 Value: [1, 1]
+Var94	 Value: [1, 1]
+Var95	 Value: [1, 1]
+Var96	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode43 {fun: TestCaseBad01{ "ln": 33, "cl": 1, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode11   
+   br label %return, !dbg !61 { "ln": 33, "cl": 1, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [10, 10]
+Var9	 Value: [10, 10]
+Var15	 Value: [10, 10]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var89	 Value: [1, 1]
+Var90	 Value: [1, 1]
+Var91	 Value: [1, 1]
+Var92	 Value: [1, 1]
+Var93	 Value: [1, 1]
+Var94	 Value: [1, 1]
+Var95	 Value: [1, 1]
+Var96	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode20 {fun: TestCaseBad01{ "ln": 21, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode11   
+   br label %return, !dbg !35 { "ln": 21, "cl": 9, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var9	 Value: [10, 10]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode11 {fun: TestCaseBad01{ "ln": 33, "cl": 1, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+   ret void, !dbg !61 { "ln": 33, "cl": 1, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [10, 10]
+Var9	 Value: [10, 10]
+Var15	 Value: [10, 10]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var89	 Value: [1, 1]
+Var90	 Value: [1, 1]
+Var91	 Value: [1, 1]
+Var92	 Value: [1, 1]
+Var93	 Value: [1, 1]
+Var94	 Value: [1, 1]
+Var95	 Value: [1, 1]
+Var96	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [10, 10]
+Var9	 Value: [10, 10]
+Var15	 Value: [10, 10]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var89	 Value: [1, 1]
+Var90	 Value: [1, 1]
+Var91	 Value: [1, 1]
+Var92	 Value: [1, 1]
+Var93	 Value: [1, 1]
+Var94	 Value: [1, 1]
+Var95	 Value: [1, 1]
+Var96	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+FunExitICFGNode13 {fun: TestCaseBad01{ "ln": 33, "cl": 1, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [10, 10]
+Var9	 Value: [10, 10]
+Var15	 Value: [10, 10]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var89	 Value: [1, 1]
+Var90	 Value: [1, 1]
+Var91	 Value: [1, 1]
+Var92	 Value: [1, 1]
+Var93	 Value: [1, 1]
+Var94	 Value: [1, 1]
+Var95	 Value: [1, 1]
+Var96	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+RetICFGNode48 {fun: main{ "ln": 35, "cl": 5, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [10, 10]
+Var9	 Value: [10, 10]
+Var15	 Value: [10, 10]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var89	 Value: [1, 1]
+Var90	 Value: [1, 1]
+Var91	 Value: [1, 1]
+Var92	 Value: [1, 1]
+Var93	 Value: [1, 1]
+Var94	 Value: [1, 1]
+Var95	 Value: [1, 1]
+Var96	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------
+IntraICFGNode49 {fun: main{ "ln": 36, "cl": 1, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }}
+   ret i32 0, !dbg !18 { "ln": 36, "cl": 1, "fl": "general/Overrun_Loop_Bound_Buffer_Index_Out_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var41	 Value: [10, 10]
+Var9	 Value: [10, 10]
+Var15	 Value: [10, 10]
+Var86	 Value: [1, 1]
+Var87	 Value: [1, 1]
+Var88	 Value: [1, 1]
+Var89	 Value: [1, 1]
+Var90	 Value: [1, 1]
+Var91	 Value: [1, 1]
+Var92	 Value: [1, 1]
+Var93	 Value: [1, 1]
+Var94	 Value: [1, 1]
+Var95	 Value: [1, 1]
+Var96	 Value: [1, 1]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var13	 Value: [ 0x7f00001b(27) ,]
+-----------------------------------------

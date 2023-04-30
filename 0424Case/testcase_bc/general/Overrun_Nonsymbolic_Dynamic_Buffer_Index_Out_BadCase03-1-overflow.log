@@ -1,0 +1,506 @@
+GlobalICFGNode0
+CopyStmt: [Var1 <-- Var0]	
+ i8* null { constant data }
+AddrStmt: [Var29 <-- Var30]	
+ i64 8 { constant data }
+AddrStmt: [Var55 <-- Var56]	
+ i1 false { constant data }
+AddrStmt: [Var79 <-- Var80]	
+ i32 2 { constant data }
+AddrStmt: [Var13 <-- Var14]	
+ i32 1 { constant data }
+AddrStmt: [Var43 <-- Var44]	
+ i32 0 { constant data }
+AddrStmt: [Var4 <-- Var5]	
+ @s1 = global %struct.SS zeroinitializer, align 4, !dbg !0 { Glob "ln": 10, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+AddrStmt: [Var6 <-- Var7]	
+Function: TestCaseBad03 { "ln": 16, "file": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+AddrStmt: [Var62 <-- Var63]	
+Function: llvm.dbg.declare 
+AddrStmt: [Var33 <-- Var34]	
+Function: malloc 
+AddrStmt: [Var57 <-- Var58]	
+Function: llvm.memcpy.p0i8.p0i8.i64 
+AddrStmt: [Var75 <-- Var76]	
+Function: main { "ln": 28, "file": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+-----------Var and Value-----------
+Var13	 Value: [1, 1]
+Var14	 Value: [1, 1]
+Var29	 Value: [8, 8]
+Var30	 Value: [8, 8]
+Var43	 Value: [0, 0]
+Var44	 Value: [0, 0]
+Var55	 Value: [0, 0]
+Var56	 Value: [0, 0]
+Var79	 Value: [2, 2]
+Var80	 Value: [2, 2]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var4	 Value: [ 0x7f000005(5) ,]
+Var5	 Value: [ 0x7f000005(5) ,]
+Var6	 Value: [ 0x7f000007(7) ,]
+Var7	 Value: [ 0x7f000007(7) ,]
+Var33	 Value: [ 0x7f000022(34) ,]
+Var34	 Value: [ 0x7f000022(34) ,]
+Var57	 Value: [ 0x7f00003a(58) ,]
+Var58	 Value: [ 0x7f00003a(58) ,]
+Var62	 Value: [ 0x7f00003f(63) ,]
+Var63	 Value: [ 0x7f00003f(63) ,]
+Var75	 Value: [ 0x7f00004c(76) ,]
+Var76	 Value: [ 0x7f00004c(76) ,]
+-----------------------------------------
+CallICFGNode35 {fun: main{ "ln": 29, "cl": 5, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+CallPE: [Var9 <-- Var79]	
+   call void @TestCaseBad03(i32 noundef 2, i32 noundef 2), !dbg !22 { "ln": 29, "cl": 5, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+CallPE: [Var10 <-- Var79]	
+   call void @TestCaseBad03(i32 noundef 2, i32 noundef 2), !dbg !22 { "ln": 29, "cl": 5, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+IntraICFGNode2 {fun: TestCaseBad03{ "ln": 16, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+AddrStmt: [Var11 <-- Var12]	
+   %n.addr = alloca i32, align 4 { "ln": 16, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode3 {fun: TestCaseBad03{ "ln": 16, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+AddrStmt: [Var15 <-- Var16]	
+   %i.addr = alloca i32, align 4 { "ln": 16, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode4 {fun: TestCaseBad03{ "ln": 18, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+AddrStmt: [Var17 <-- Var18]	
+   %p = alloca %struct.SS*, align 8 { "ln": 18, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode5 {fun: TestCaseBad03{ "ln": 20, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+AddrStmt: [Var19 <-- Var20]	
+   %obj = alloca %struct.SS, align 4 { "ln": 20, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode6 {fun: TestCaseBad03}
+StoreStmt: [Var11 <-- Var9]	
+   store i32 %n, i32* %n.addr, align 4 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var12	 Value: [2, 2]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode41 {fun: TestCaseBad03{ "ln": 16, "cl": 24, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+   call void @llvm.dbg.declare(metadata i32* %n.addr, metadata !22, metadata !DIExpression()), !dbg !23 { "ln": 16, "cl": 24, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var12	 Value: [2, 2]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode7 {fun: TestCaseBad03}
+StoreStmt: [Var15 <-- Var10]	
+   store i32 %i, i32* %i.addr, align 4 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var12	 Value: [2, 2]
+Var16	 Value: [2, 2]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode42 {fun: TestCaseBad03{ "ln": 16, "cl": 31, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+   call void @llvm.dbg.declare(metadata i32* %i.addr, metadata !24, metadata !DIExpression()), !dbg !25 { "ln": 16, "cl": 31, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var12	 Value: [2, 2]
+Var16	 Value: [2, 2]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode43 {fun: TestCaseBad03{ "ln": 18, "cl": 17, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+   call void @llvm.dbg.declare(metadata %struct.SS** %p, metadata !26, metadata !DIExpression()), !dbg !28 { "ln": 18, "cl": 17, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var12	 Value: [2, 2]
+Var16	 Value: [2, 2]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode8 {fun: TestCaseBad03{ "ln": 18, "cl": 28, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+LoadStmt: [Var26 <-- Var11]	
+   %0 = load i32, i32* %n.addr, align 4, !dbg !29 { "ln": 18, "cl": 28, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var12	 Value: [2, 2]
+Var16	 Value: [2, 2]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode9 {fun: TestCaseBad03{ "ln": 18, "cl": 28, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+CopyStmt: [Var27 <-- Var26]	
+   %conv = sext i32 %0 to i64, !dbg !29 { "ln": 18, "cl": 28, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var12	 Value: [2, 2]
+Var16	 Value: [2, 2]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode10 {fun: TestCaseBad03{ "ln": 18, "cl": 30, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+BinaryOPStmt: [Var28 <-- (Var27 opcode17 Var29)]	
+   %mul = mul i64 %conv, 8, !dbg !30 { "ln": 18, "cl": 30, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var12	 Value: [2, 2]
+Var16	 Value: [2, 2]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode11 {fun: TestCaseBad03{ "ln": 18, "cl": 21, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+AddrStmt: [Var31 <-- Var32]	
+   %call = call i8* @malloc(i64 noundef %mul) #4, !dbg !31 { "ln": 18, "cl": 21, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var12	 Value: [2, 2]
+Var16	 Value: [2, 2]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode13 {fun: TestCaseBad03{ "ln": 18, "cl": 21, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+CopyStmt: [Var35 <-- Var31]	
+   %1 = bitcast i8* %call to %struct.SS*, !dbg !31 { "ln": 18, "cl": 21, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+arr type size: 16
+arr type size: 16
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var12	 Value: [2, 2]
+Var16	 Value: [2, 2]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode14 {fun: TestCaseBad03{ "ln": 18, "cl": 17, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+StoreStmt: [Var17 <-- Var35]	
+   store %struct.SS* %1, %struct.SS** %p, align 8, !dbg !28 { "ln": 18, "cl": 17, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var12	 Value: [2, 2]
+Var16	 Value: [2, 2]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var18	 Value: [ 0x7f000020(32) ,]
+-----------------------------------------
+IntraICFGNode15 {fun: TestCaseBad03{ "ln": 19, "cl": 9, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+LoadStmt: [Var37 <-- Var15]	
+   %2 = load i32, i32* %i.addr, align 4, !dbg !32 { "ln": 19, "cl": 9, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var12	 Value: [2, 2]
+Var16	 Value: [2, 2]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var18	 Value: [ 0x7f000020(32) ,]
+-----------------------------------------
+IntraICFGNode16 {fun: TestCaseBad03{ "ln": 19, "cl": 14, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+LoadStmt: [Var38 <-- Var11]	
+   %3 = load i32, i32* %n.addr, align 4, !dbg !34 { "ln": 19, "cl": 14, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var12	 Value: [2, 2]
+Var16	 Value: [2, 2]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var18	 Value: [ 0x7f000020(32) ,]
+-----------------------------------------
+IntraICFGNode17 {fun: TestCaseBad03{ "ln": 19, "cl": 11, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+CmpStmt: [Var39 <-- (Var37 predicate41 Var38)]	
+   %cmp = icmp sle i32 %2, %3, !dbg !35 { "ln": 19, "cl": 11, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var12	 Value: [2, 2]
+Var16	 Value: [2, 2]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var18	 Value: [ 0x7f000020(32) ,]
+-----------------------------------------
+IntraICFGNode18 {fun: TestCaseBad03{ "ln": 19, "cl": 9, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+BranchStmt: [Condition Var39]
+Successor 0 ICFGNode39   Successor 1 ICFGNode20   
+   br i1 %cmp, label %if.then, label %if.end, !dbg !36 { "ln": 19, "cl": 9, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var12	 Value: [2, 2]
+Var16	 Value: [2, 2]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var18	 Value: [ 0x7f000020(32) ,]
+-----------------------------------------
+IntraICFGNode39 {fun: TestCaseBad03{ "ln": 20, "cl": 19, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+   call void @llvm.dbg.declare(metadata %struct.SS* %obj, metadata !37, metadata !DIExpression()), !dbg !39 { "ln": 20, "cl": 19, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var12	 Value: [2, 2]
+Var16	 Value: [2, 2]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var18	 Value: [ 0x7f000020(32) ,]
+-----------------------------------------
+IntraICFGNode19 {fun: TestCaseBad03{ "ln": 21, "cl": 13, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+GepStmt: [Var42 <-- Var19]	
+   %a = getelementptr inbounds %struct.SS, %struct.SS* %obj, i32 0, i32 0, !dbg !40 { "ln": 21, "cl": 13, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+%struct.SS*, byteOffset:[0, 0]
+arr type size: 8
+arr type size: 8
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var12	 Value: [2, 2]
+Var16	 Value: [2, 2]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var18	 Value: [ 0x7f000020(32) ,]
+-----------------------------------------
+IntraICFGNode21 {fun: TestCaseBad03{ "ln": 21, "cl": 15, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+StoreStmt: [Var42 <-- Var43]	
+   store i32 0, i32* %a, align 4, !dbg !41 { "ln": 21, "cl": 15, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var12	 Value: [2, 2]
+Var16	 Value: [2, 2]
+Var20	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var18	 Value: [ 0x7f000020(32) ,]
+-----------------------------------------
+IntraICFGNode23 {fun: TestCaseBad03{ "ln": 22, "cl": 13, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+GepStmt: [Var46 <-- Var19]	
+   %b = getelementptr inbounds %struct.SS, %struct.SS* %obj, i32 0, i32 1, !dbg !42 { "ln": 22, "cl": 13, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+%struct.SS*, byteOffset:[4, 4]
+arr type size: 8
+arr type size: 8
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var12	 Value: [2, 2]
+Var16	 Value: [2, 2]
+Var20	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var18	 Value: [ 0x7f000020(32) ,]
+-----------------------------------------
+IntraICFGNode24 {fun: TestCaseBad03{ "ln": 22, "cl": 15, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+StoreStmt: [Var46 <-- Var43]	
+   store i32 0, i32* %b, align 4, !dbg !43 { "ln": 22, "cl": 15, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var12	 Value: [2, 2]
+Var16	 Value: [2, 2]
+Var20	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var18	 Value: [ 0x7f000020(32) ,]
+-----------------------------------------
+IntraICFGNode25 {fun: TestCaseBad03{ "ln": 24, "cl": 9, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+LoadStmt: [Var48 <-- Var17]	
+   %4 = load %struct.SS*, %struct.SS** %p, align 8, !dbg !44 { "ln": 24, "cl": 9, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var12	 Value: [2, 2]
+Var16	 Value: [2, 2]
+Var20	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var18	 Value: [ 0x7f000020(32) ,]
+-----------------------------------------
+IntraICFGNode26 {fun: TestCaseBad03{ "ln": 24, "cl": 11, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+LoadStmt: [Var49 <-- Var15]	
+   %5 = load i32, i32* %i.addr, align 4, !dbg !45 { "ln": 24, "cl": 11, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var12	 Value: [2, 2]
+Var16	 Value: [2, 2]
+Var20	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var18	 Value: [ 0x7f000020(32) ,]
+-----------------------------------------
+IntraICFGNode27 {fun: TestCaseBad03{ "ln": 24, "cl": 9, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+CopyStmt: [Var50 <-- Var49]	
+   %idxprom = sext i32 %5 to i64, !dbg !44 { "ln": 24, "cl": 9, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var12	 Value: [2, 2]
+Var16	 Value: [2, 2]
+Var20	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var18	 Value: [ 0x7f000020(32) ,]
+-----------------------------------------
+IntraICFGNode28 {fun: TestCaseBad03{ "ln": 24, "cl": 9, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+GepStmt: [Var51 <-- Var48]	
+   %arrayidx = getelementptr inbounds %struct.SS, %struct.SS* %4, i64 %idxprom, !dbg !44 { "ln": 24, "cl": 9, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+%struct.SS*, byteOffset:[16, 16]
+arr type size: 10
+arr type size: 10
+[1;31mBuffer overflow!! Accessing buffer range: [17, 17]
+Allocated buffer size: 16
+IntraICFGNode28 {fun: TestCaseBad03{ "ln": 24, "cl": 9, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+GepStmt: [Var51 <-- Var48]	
+   %arrayidx = getelementptr inbounds %struct.SS, %struct.SS* %4, i64 %idxprom, !dbg !44 { "ln": 24, "cl": 9, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }, Offset: [16, 16]
+[1;0m
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var12	 Value: [2, 2]
+Var16	 Value: [2, 2]
+Var20	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var18	 Value: [ 0x7f000020(32) ,]
+-----------------------------------------
+IntraICFGNode29 {fun: TestCaseBad03{ "ln": 24, "cl": 16, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+CopyStmt: [Var52 <-- Var51]	
+   %6 = bitcast %struct.SS* %arrayidx to i8*, !dbg !46 { "ln": 24, "cl": 16, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+%struct.SS*, byteOffset:[16, 16]
+arr type size: 10
+arr type size: 10
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var12	 Value: [2, 2]
+Var16	 Value: [2, 2]
+Var20	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var18	 Value: [ 0x7f000020(32) ,]
+-----------------------------------------
+IntraICFGNode30 {fun: TestCaseBad03{ "ln": 24, "cl": 16, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+CopyStmt: [Var53 <-- Var19]	
+   %7 = bitcast %struct.SS* %obj to i8*, !dbg !46 { "ln": 24, "cl": 16, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+arr type size: 8
+arr type size: 8
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var12	 Value: [2, 2]
+Var16	 Value: [2, 2]
+Var20	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var18	 Value: [ 0x7f000020(32) ,]
+-----------------------------------------
+CallICFGNode31 {fun: TestCaseBad03{ "ln": 24, "cl": 16, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+GepStmt: [Var82 <-- Var52]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 4 %6, i8* align 4 %7, i64 8, i1 false), !dbg !46 { "ln": 24, "cl": 16, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+GepStmt: [Var83 <-- Var53]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 4 %6, i8* align 4 %7, i64 8, i1 false), !dbg !46 { "ln": 24, "cl": 16, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+LoadStmt: [Var84 <-- Var83]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 4 %6, i8* align 4 %7, i64 8, i1 false), !dbg !46 { "ln": 24, "cl": 16, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+StoreStmt: [Var82 <-- Var84]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 4 %6, i8* align 4 %7, i64 8, i1 false), !dbg !46 { "ln": 24, "cl": 16, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+GepStmt: [Var85 <-- Var52]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 4 %6, i8* align 4 %7, i64 8, i1 false), !dbg !46 { "ln": 24, "cl": 16, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+GepStmt: [Var86 <-- Var53]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 4 %6, i8* align 4 %7, i64 8, i1 false), !dbg !46 { "ln": 24, "cl": 16, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+LoadStmt: [Var87 <-- Var86]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 4 %6, i8* align 4 %7, i64 8, i1 false), !dbg !46 { "ln": 24, "cl": 16, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+StoreStmt: [Var85 <-- Var87]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 4 %6, i8* align 4 %7, i64 8, i1 false), !dbg !46 { "ln": 24, "cl": 16, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+CopyStmt: [Var54 <-- Var0]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 4 %6, i8* align 4 %7, i64 8, i1 false), !dbg !46 { "ln": 24, "cl": 16, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+%struct.SS*, byteOffset:[16, 16]
+arr type size: 10
+arr type size: 10
+[1;31mBuffer overflow!! Accessing buffer range: [17, 17]
+Allocated buffer size: 16
+IntraICFGNode28 {fun: TestCaseBad03{ "ln": 24, "cl": 9, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+GepStmt: [Var51 <-- Var48]	
+   %arrayidx = getelementptr inbounds %struct.SS, %struct.SS* %4, i64 %idxprom, !dbg !44 { "ln": 24, "cl": 9, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }, Offset: [16, 16]
+[1;0m
+arr type size: 8
+arr type size: 8
+Buffer Overflow Check Safe
+%struct.SS*, byteOffset:[16, 16]
+arr type size: 10
+arr type size: 10
+[1;31mBuffer overflow!! Accessing buffer range: [17, 17]
+Allocated buffer size: 16
+IntraICFGNode28 {fun: TestCaseBad03{ "ln": 24, "cl": 9, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+GepStmt: [Var51 <-- Var48]	
+   %arrayidx = getelementptr inbounds %struct.SS, %struct.SS* %4, i64 %idxprom, !dbg !44 { "ln": 24, "cl": 9, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }, Offset: [16, 16]
+[1;0m
+arr type size: 8
+arr type size: 8
+Buffer Overflow Check Safe
+%struct.SS*, byteOffset:[16, 16]
+arr type size: 10
+arr type size: 10
+[1;31mBuffer overflow!! Accessing buffer range: [24, 24]
+Allocated buffer size: 16
+IntraICFGNode28 {fun: TestCaseBad03{ "ln": 24, "cl": 9, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+GepStmt: [Var51 <-- Var48]	
+   %arrayidx = getelementptr inbounds %struct.SS, %struct.SS* %4, i64 %idxprom, !dbg !44 { "ln": 24, "cl": 9, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }, Offset: [16, 16]
+[1;0m
+
+---------Buffer Overflow Checking--------------
+CallICFGNode31 {fun: TestCaseBad03{ "ln": 24, "cl": 16, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+GepStmt: [Var82 <-- Var52]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 4 %6, i8* align 4 %7, i64 8, i1 false), !dbg !46 { "ln": 24, "cl": 16, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+GepStmt: [Var83 <-- Var53]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 4 %6, i8* align 4 %7, i64 8, i1 false), !dbg !46 { "ln": 24, "cl": 16, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+LoadStmt: [Var84 <-- Var83]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 4 %6, i8* align 4 %7, i64 8, i1 false), !dbg !46 { "ln": 24, "cl": 16, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+StoreStmt: [Var82 <-- Var84]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 4 %6, i8* align 4 %7, i64 8, i1 false), !dbg !46 { "ln": 24, "cl": 16, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+GepStmt: [Var85 <-- Var52]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 4 %6, i8* align 4 %7, i64 8, i1 false), !dbg !46 { "ln": 24, "cl": 16, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+GepStmt: [Var86 <-- Var53]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 4 %6, i8* align 4 %7, i64 8, i1 false), !dbg !46 { "ln": 24, "cl": 16, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+LoadStmt: [Var87 <-- Var86]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 4 %6, i8* align 4 %7, i64 8, i1 false), !dbg !46 { "ln": 24, "cl": 16, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+StoreStmt: [Var85 <-- Var87]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 4 %6, i8* align 4 %7, i64 8, i1 false), !dbg !46 { "ln": 24, "cl": 16, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+CopyStmt: [Var54 <-- Var0]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 4 %6, i8* align 4 %7, i64 8, i1 false), !dbg !46 { "ln": 24, "cl": 16, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+[1;31mBuffer overflow!! Accessing buffer range: [24, 24]
+Allocated buffer size: 16
+IntraICFGNode28 {fun: TestCaseBad03{ "ln": 24, "cl": 9, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+GepStmt: [Var51 <-- Var48]	
+   %arrayidx = getelementptr inbounds %struct.SS, %struct.SS* %4, i64 %idxprom, !dbg !44 { "ln": 24, "cl": 9, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }, Offset: [16, 16]
+[1;0m
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var12	 Value: [2, 2]
+Var16	 Value: [2, 2]
+Var20	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var18	 Value: [ 0x7f000020(32) ,]
+-----------------------------------------
+IntraICFGNode33 {fun: TestCaseBad03{ "ln": 25, "cl": 5, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode20   
+   br label %if.end, !dbg !47 { "ln": 25, "cl": 5, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var12	 Value: [2, 2]
+Var16	 Value: [2, 2]
+Var20	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var18	 Value: [ 0x7f000020(32) ,]
+-----------------------------------------
+IntraICFGNode20 {fun: TestCaseBad03{ "ln": 26, "cl": 1, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+   ret void, !dbg !48 { "ln": 26, "cl": 1, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var12	 Value: [2, 2]
+Var16	 Value: [2, 2]
+Var20	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var18	 Value: [ 0x7f000020(32) ,]
+-----------------------------------------
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var12	 Value: [2, 2]
+Var16	 Value: [2, 2]
+Var20	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var18	 Value: [ 0x7f000020(32) ,]
+-----------------------------------------
+FunExitICFGNode22 {fun: TestCaseBad03{ "ln": 26, "cl": 1, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var12	 Value: [2, 2]
+Var16	 Value: [2, 2]
+Var20	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var18	 Value: [ 0x7f000020(32) ,]
+-----------------------------------------
+RetICFGNode36 {fun: main{ "ln": 29, "cl": 5, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var12	 Value: [2, 2]
+Var16	 Value: [2, 2]
+Var20	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var18	 Value: [ 0x7f000020(32) ,]
+-----------------------------------------
+IntraICFGNode37 {fun: main{ "ln": 30, "cl": 1, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }}
+   ret i32 0, !dbg !23 { "ln": 30, "cl": 1, "fl": "general/Overrun_Nonsymbolic_Dynamic_Buffer_Index_Out_BadCase03-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var12	 Value: [2, 2]
+Var16	 Value: [2, 2]
+Var20	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var18	 Value: [ 0x7f000020(32) ,]
+-----------------------------------------

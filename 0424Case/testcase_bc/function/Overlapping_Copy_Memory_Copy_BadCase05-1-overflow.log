@@ -1,0 +1,267 @@
+GlobalICFGNode0
+CopyStmt: [Var1 <-- Var0]	
+ i8* null { constant data }
+AddrStmt: [Var26 <-- Var27]	
+ i1 false { constant data }
+AddrStmt: [Var28 <-- Var29]	
+ i1 true { constant data }
+AddrStmt: [Var33 <-- Var34]	
+ i64 3 { constant data }
+AddrStmt: [Var64 <-- Var65]	
+ i64 60 { constant data }
+AddrStmt: [Var10 <-- Var11]	
+ i32 1 { constant data }
+AddrStmt: [Var19 <-- Var20]	
+ i64 2 { constant data }
+AddrStmt: [Var97 <-- Var98]	
+ i32 0 { constant data }
+AddrStmt: [Var4 <-- Var5]	
+Function: TestBad2 { "ln": 9, "file": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }
+AddrStmt: [Var38 <-- Var39]	
+Function: llvm.dbg.declare 
+AddrStmt: [Var35 <-- Var36]	
+Function: __memcpy_chk 
+AddrStmt: [Var30 <-- Var31]	
+Function: llvm.objectsize.i64.p0i8 
+AddrStmt: [Var54 <-- Var55]	
+Function: TestBad5 { "ln": 20, "file": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }
+AddrStmt: [Var66 <-- Var67]	
+Function: malloc 
+AddrStmt: [Var84 <-- Var85]	
+Function: free 
+AddrStmt: [Var92 <-- Var93]	
+Function: main { "ln": 32, "file": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }
+-----------Var and Value-----------
+Var10	 Value: [1, 1]
+Var11	 Value: [1, 1]
+Var19	 Value: [2, 2]
+Var20	 Value: [2, 2]
+Var26	 Value: [0, 0]
+Var27	 Value: [0, 0]
+Var28	 Value: [1, 1]
+Var29	 Value: [1, 1]
+Var33	 Value: [3, 3]
+Var34	 Value: [3, 3]
+Var64	 Value: [60, 60]
+Var65	 Value: [60, 60]
+Var97	 Value: [0, 0]
+Var98	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var4	 Value: [ 0x7f000005(5) ,]
+Var5	 Value: [ 0x7f000005(5) ,]
+Var30	 Value: [ 0x7f00001f(31) ,]
+Var31	 Value: [ 0x7f00001f(31) ,]
+Var35	 Value: [ 0x7f000024(36) ,]
+Var36	 Value: [ 0x7f000024(36) ,]
+Var38	 Value: [ 0x7f000027(39) ,]
+Var39	 Value: [ 0x7f000027(39) ,]
+Var54	 Value: [ 0x7f000037(55) ,]
+Var55	 Value: [ 0x7f000037(55) ,]
+Var66	 Value: [ 0x7f000043(67) ,]
+Var67	 Value: [ 0x7f000043(67) ,]
+Var84	 Value: [ 0x7f000055(85) ,]
+Var85	 Value: [ 0x7f000055(85) ,]
+Var92	 Value: [ 0x7f00005d(93) ,]
+Var93	 Value: [ 0x7f00005d(93) ,]
+-----------------------------------------
+CallICFGNode43 {fun: main{ "ln": 33, "cl": 5, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }}
+IntraICFGNode18 {fun: TestBad5{ "ln": 22, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }}
+AddrStmt: [Var57 <-- Var58]	
+   %p = alloca i8*, align 8 { "ln": 22, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode19 {fun: TestBad5{ "ln": 26, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }}
+AddrStmt: [Var59 <-- Var60]	
+   %q = alloca i8*, align 8 { "ln": 26, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode50 {fun: TestBad5{ "ln": 22, "cl": 11, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }}
+   call void @llvm.dbg.declare(metadata i8** %p, metadata !29, metadata !DIExpression()), !dbg !30 { "ln": 22, "cl": 11, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode20 {fun: TestBad5{ "ln": 22, "cl": 23, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }}
+AddrStmt: [Var62 <-- Var63]	
+   %call = call i8* @malloc(i64 noundef 60), !dbg !20 { "ln": 22, "cl": 23, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode22 {fun: TestBad5{ "ln": 22, "cl": 11, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }}
+StoreStmt: [Var57 <-- Var62]	
+   store i8* %call, i8** %p, align 8, !dbg !19 { "ln": 22, "cl": 11, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var58	 Value: [ 0x7f00003f(63) ,]
+-----------------------------------------
+IntraICFGNode23 {fun: TestBad5{ "ln": 23, "cl": 9, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }}
+LoadStmt: [Var69 <-- Var57]	
+   %0 = load i8*, i8** %p, align 8, !dbg !21 { "ln": 23, "cl": 9, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var58	 Value: [ 0x7f00003f(63) ,]
+-----------------------------------------
+IntraICFGNode24 {fun: TestBad5{ "ln": 23, "cl": 11, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }}
+CmpStmt: [Var70 <-- (Var69 predicate32 Var0)]	
+   %cmp = icmp eq i8* %0, null, !dbg !23 { "ln": 23, "cl": 11, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var58	 Value: [ 0x7f00003f(63) ,]
+-----------------------------------------
+IntraICFGNode25 {fun: TestBad5{ "ln": 23, "cl": 9, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }}
+BranchStmt: [Condition Var70]
+Successor 0 ICFGNode26   Successor 1 ICFGNode47   
+   br i1 %cmp, label %if.then, label %if.end, !dbg !24 { "ln": 23, "cl": 9, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var58	 Value: [ 0x7f00003f(63) ,]
+-----------------------------------------
+IntraICFGNode47 {fun: TestBad5{ "ln": 26, "cl": 11, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }}
+   call void @llvm.dbg.declare(metadata i8** %q, metadata !38, metadata !DIExpression()), !dbg !39 { "ln": 26, "cl": 11, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var58	 Value: [ 0x7f00003f(63) ,]
+-----------------------------------------
+IntraICFGNode27 {fun: TestBad5{ "ln": 26, "cl": 15, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }}
+LoadStmt: [Var75 <-- Var57]	
+   %1 = load i8*, i8** %p, align 8, !dbg !29 { "ln": 26, "cl": 15, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var58	 Value: [ 0x7f00003f(63) ,]
+-----------------------------------------
+IntraICFGNode29 {fun: TestBad5{ "ln": 26, "cl": 11, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }}
+StoreStmt: [Var59 <-- Var75]	
+   store i8* %1, i8** %q, align 8, !dbg !28 { "ln": 26, "cl": 11, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var58	 Value: [ 0x7f00003f(63) ,]
+Var60	 Value: [ 0x7f00003f(63) ,]
+-----------------------------------------
+IntraICFGNode31 {fun: TestBad5{ "ln": 28, "cl": 5, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }}
+LoadStmt: [Var77 <-- Var57]	
+   %2 = load i8*, i8** %p, align 8, !dbg !30 { "ln": 28, "cl": 5, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var58	 Value: [ 0x7f00003f(63) ,]
+Var60	 Value: [ 0x7f00003f(63) ,]
+-----------------------------------------
+IntraICFGNode32 {fun: TestBad5{ "ln": 28, "cl": 5, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }}
+LoadStmt: [Var78 <-- Var59]	
+   %3 = load i8*, i8** %q, align 8, !dbg !30 { "ln": 28, "cl": 5, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var58	 Value: [ 0x7f00003f(63) ,]
+Var60	 Value: [ 0x7f00003f(63) ,]
+-----------------------------------------
+IntraICFGNode33 {fun: TestBad5{ "ln": 28, "cl": 5, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }}
+LoadStmt: [Var79 <-- Var57]	
+   %4 = load i8*, i8** %p, align 8, !dbg !30 { "ln": 28, "cl": 5, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var58	 Value: [ 0x7f00003f(63) ,]
+Var60	 Value: [ 0x7f00003f(63) ,]
+-----------------------------------------
+CallICFGNode34 {fun: TestBad5{ "ln": 28, "cl": 5, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var58	 Value: [ 0x7f00003f(63) ,]
+Var60	 Value: [ 0x7f00003f(63) ,]
+-----------------------------------------
+CallICFGNode36 {fun: TestBad5{ "ln": 28, "cl": 5, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }}
+arr type size: 3c
+arr type size: 3c
+Buffer Overflow Check Safe
+arr type size: 3c
+arr type size: 3c
+Buffer Overflow Check Safe
+arr type size: 3c
+arr type size: 3c
+arr type size: 3c
+arr type size: 3c
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var58	 Value: [ 0x7f00003f(63) ,]
+Var60	 Value: [ 0x7f00003f(63) ,]
+-----------------------------------------
+IntraICFGNode38 {fun: TestBad5{ "ln": 29, "cl": 10, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }}
+LoadStmt: [Var82 <-- Var57]	
+   %6 = load i8*, i8** %p, align 8, !dbg !31 { "ln": 29, "cl": 10, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var58	 Value: [ 0x7f00003f(63) ,]
+Var60	 Value: [ 0x7f00003f(63) ,]
+-----------------------------------------
+CallICFGNode39 {fun: TestBad5{ "ln": 29, "cl": 5, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var58	 Value: [ 0x7f00003f(63) ,]
+Var60	 Value: [ 0x7f00003f(63) ,]
+-----------------------------------------
+IntraICFGNode41 {fun: TestBad5{ "ln": 30, "cl": 1, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode28   
+   br label %return, !dbg !33 { "ln": 30, "cl": 1, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var58	 Value: [ 0x7f00003f(63) ,]
+Var60	 Value: [ 0x7f00003f(63) ,]
+-----------------------------------------
+IntraICFGNode26 {fun: TestBad5{ "ln": 24, "cl": 9, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }}
+BranchStmt: [ Unconditional branch]
+Successor 0 ICFGNode28   
+   br label %return, !dbg !25 { "ln": 24, "cl": 9, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var58	 Value: [ 0x7f00003f(63) ,]
+-----------------------------------------
+IntraICFGNode28 {fun: TestBad5{ "ln": 30, "cl": 1, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }}
+   ret void, !dbg !33 { "ln": 30, "cl": 1, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var58	 Value: [ 0x7f00003f(63) ,]
+Var60	 Value: [ 0x7f00003f(63) ,]
+-----------------------------------------
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var58	 Value: [ 0x7f00003f(63) ,]
+Var60	 Value: [ 0x7f00003f(63) ,]
+-----------------------------------------
+FunExitICFGNode30 {fun: TestBad5{ "ln": 30, "cl": 1, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var58	 Value: [ 0x7f00003f(63) ,]
+Var60	 Value: [ 0x7f00003f(63) ,]
+-----------------------------------------
+RetICFGNode44 {fun: main{ "ln": 33, "cl": 5, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var58	 Value: [ 0x7f00003f(63) ,]
+Var60	 Value: [ 0x7f00003f(63) ,]
+-----------------------------------------
+IntraICFGNode45 {fun: main{ "ln": 34, "cl": 1, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }}
+   ret i32 0, !dbg !20 { "ln": 34, "cl": 1, "fl": "function/Overlapping_Copy_Memory_Copy_BadCase05-1.c" }

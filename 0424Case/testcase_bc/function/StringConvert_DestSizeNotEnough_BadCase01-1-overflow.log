@@ -1,0 +1,269 @@
+GlobalICFGNode0
+CopyStmt: [Var1 <-- Var0]	
+ i8* null { constant data }
+AddrStmt: [Var20 <-- Var21]	
+ i8 0 { constant data }
+AddrStmt: [Var22 <-- Var23]	
+ i64 5 { constant data }
+AddrStmt: [Var24 <-- Var25]	
+ i1 false { constant data }
+AddrStmt: [Var33 <-- Var34]	
+ i32 10 { constant data }
+AddrStmt: [Var9 <-- Var10]	
+ i32 1 { constant data }
+AddrStmt: [Var15 <-- Var16]	
+ i32 123456789 { constant data }
+AddrStmt: [Var30 <-- Var31]	
+ i64 0 { constant data }
+AddrStmt: [Var58 <-- Var59]	
+ i32 0 { constant data }
+AddrStmt: [Var4 <-- Var5]	
+Function: test_bad_1 { "ln": 8, "file": "function/StringConvert_DestSizeNotEnough_BadCase01-1.c" }
+AddrStmt: [Var38 <-- Var39]	
+Function: llvm.dbg.declare 
+AddrStmt: [Var26 <-- Var27]	
+Function: llvm.memset.p0i8.i64 
+AddrStmt: [Var36 <-- Var49]	
+Function: itoa 
+AddrStmt: [Var52 <-- Var53]	
+Function: main { "ln": 17, "file": "function/StringConvert_DestSizeNotEnough_BadCase01-1.c" }
+-----------Var and Value-----------
+Var9	 Value: [1, 1]
+Var10	 Value: [1, 1]
+Var15	 Value: [123456789, 123456789]
+Var16	 Value: [123456789, 123456789]
+Var20	 Value: [0, 0]
+Var21	 Value: [0, 0]
+Var22	 Value: [5, 5]
+Var23	 Value: [5, 5]
+Var24	 Value: [0, 0]
+Var25	 Value: [0, 0]
+Var30	 Value: [0, 0]
+Var31	 Value: [0, 0]
+Var33	 Value: [10, 10]
+Var34	 Value: [10, 10]
+Var58	 Value: [0, 0]
+Var59	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var4	 Value: [ 0x7f000005(5) ,]
+Var5	 Value: [ 0x7f000005(5) ,]
+Var26	 Value: [ 0x7f00001b(27) ,]
+Var27	 Value: [ 0x7f00001b(27) ,]
+Var36	 Value: [ 0x7f000031(49) ,]
+Var38	 Value: [ 0x7f000027(39) ,]
+Var39	 Value: [ 0x7f000027(39) ,]
+Var49	 Value: [ 0x7f000031(49) ,]
+Var52	 Value: [ 0x7f000035(53) ,]
+Var53	 Value: [ 0x7f000035(53) ,]
+-----------------------------------------
+IntraICFGNode15 {fun: main}
+AddrStmt: [Var55 <-- Var56]	
+   %retval = alloca i32, align 4 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode16 {fun: main}
+StoreStmt: [Var55 <-- Var58]	
+   store i32 0, i32* %retval, align 4 
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var56	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode17 {fun: main{ "ln": 19, "cl": 5, "fl": "function/StringConvert_DestSizeNotEnough_BadCase01-1.c" }}
+IntraICFGNode2 {fun: test_bad_1{ "ln": 10, "fl": "function/StringConvert_DestSizeNotEnough_BadCase01-1.c" }}
+AddrStmt: [Var7 <-- Var8]	
+   %num = alloca i32, align 4 { "ln": 10, "fl": "function/StringConvert_DestSizeNotEnough_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var56	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode3 {fun: test_bad_1{ "ln": 11, "fl": "function/StringConvert_DestSizeNotEnough_BadCase01-1.c" }}
+AddrStmt: [Var11 <-- Var12]	
+   %ch = alloca [5 x i8], align 1 { "ln": 11, "fl": "function/StringConvert_DestSizeNotEnough_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var56	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode22 {fun: test_bad_1{ "ln": 10, "cl": 9, "fl": "function/StringConvert_DestSizeNotEnough_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata i32* %num, metadata !14, metadata !DIExpression()), !dbg !16 { "ln": 10, "cl": 9, "fl": "function/StringConvert_DestSizeNotEnough_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var56	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode4 {fun: test_bad_1{ "ln": 10, "cl": 9, "fl": "function/StringConvert_DestSizeNotEnough_BadCase01-1.c" }}
+StoreStmt: [Var7 <-- Var15]	
+   store i32 123456789, i32* %num, align 4, !dbg !16 { "ln": 10, "cl": 9, "fl": "function/StringConvert_DestSizeNotEnough_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var8	 Value: [123456789, 123456789]
+Var56	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode23 {fun: test_bad_1{ "ln": 11, "cl": 10, "fl": "function/StringConvert_DestSizeNotEnough_BadCase01-1.c" }}
+   call void @llvm.dbg.declare(metadata [5 x i8]* %ch, metadata !17, metadata !DIExpression()), !dbg !22 { "ln": 11, "cl": 10, "fl": "function/StringConvert_DestSizeNotEnough_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var8	 Value: [123456789, 123456789]
+Var56	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode5 {fun: test_bad_1{ "ln": 11, "cl": 10, "fl": "function/StringConvert_DestSizeNotEnough_BadCase01-1.c" }}
+CopyStmt: [Var18 <-- Var11]	
+   %0 = bitcast [5 x i8]* %ch to i8*, !dbg !22 { "ln": 11, "cl": 10, "fl": "function/StringConvert_DestSizeNotEnough_BadCase01-1.c" }
+arr type size: 5
+arr type size: 5
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var8	 Value: [123456789, 123456789]
+Var56	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode6 {fun: test_bad_1{ "ln": 11, "cl": 10, "fl": "function/StringConvert_DestSizeNotEnough_BadCase01-1.c" }}
+GepStmt: [Var68 <-- Var18]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 5, i1 false), !dbg !22 { "ln": 11, "cl": 10, "fl": "function/StringConvert_DestSizeNotEnough_BadCase01-1.c" }
+StoreStmt: [Var68 <-- Var20]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 5, i1 false), !dbg !22 { "ln": 11, "cl": 10, "fl": "function/StringConvert_DestSizeNotEnough_BadCase01-1.c" }
+GepStmt: [Var69 <-- Var18]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 5, i1 false), !dbg !22 { "ln": 11, "cl": 10, "fl": "function/StringConvert_DestSizeNotEnough_BadCase01-1.c" }
+StoreStmt: [Var69 <-- Var20]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 5, i1 false), !dbg !22 { "ln": 11, "cl": 10, "fl": "function/StringConvert_DestSizeNotEnough_BadCase01-1.c" }
+GepStmt: [Var70 <-- Var18]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 5, i1 false), !dbg !22 { "ln": 11, "cl": 10, "fl": "function/StringConvert_DestSizeNotEnough_BadCase01-1.c" }
+StoreStmt: [Var70 <-- Var20]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 5, i1 false), !dbg !22 { "ln": 11, "cl": 10, "fl": "function/StringConvert_DestSizeNotEnough_BadCase01-1.c" }
+GepStmt: [Var71 <-- Var18]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 5, i1 false), !dbg !22 { "ln": 11, "cl": 10, "fl": "function/StringConvert_DestSizeNotEnough_BadCase01-1.c" }
+StoreStmt: [Var71 <-- Var20]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 5, i1 false), !dbg !22 { "ln": 11, "cl": 10, "fl": "function/StringConvert_DestSizeNotEnough_BadCase01-1.c" }
+GepStmt: [Var72 <-- Var18]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 5, i1 false), !dbg !22 { "ln": 11, "cl": 10, "fl": "function/StringConvert_DestSizeNotEnough_BadCase01-1.c" }
+StoreStmt: [Var72 <-- Var20]	
+   call void @llvm.memset.p0i8.i64(i8* align 1 %0, i8 0, i64 5, i1 false), !dbg !22 { "ln": 11, "cl": 10, "fl": "function/StringConvert_DestSizeNotEnough_BadCase01-1.c" }
+arr type size: 5
+arr type size: 5
+Buffer Overflow Check Safe
+arr type size: 5
+arr type size: 5
+Buffer Overflow Check Safe
+arr type size: 5
+arr type size: 5
+Buffer Overflow Check Safe
+arr type size: 5
+arr type size: 5
+Buffer Overflow Check Safe
+arr type size: 5
+arr type size: 5
+Buffer Overflow Check Safe
+arr type size: 5
+arr type size: 5
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var8	 Value: [123456789, 123456789]
+Var56	 Value: [0, 0]
+Var73	 Value: [0, 0]
+Var74	 Value: [0, 0]
+Var75	 Value: [0, 0]
+Var76	 Value: [0, 0]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode8 {fun: test_bad_1{ "ln": 13, "cl": 10, "fl": "function/StringConvert_DestSizeNotEnough_BadCase01-1.c" }}
+LoadStmt: [Var28 <-- Var7]	
+   %1 = load i32, i32* %num, align 4, !dbg !23 { "ln": 13, "cl": 10, "fl": "function/StringConvert_DestSizeNotEnough_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var8	 Value: [123456789, 123456789]
+Var56	 Value: [0, 0]
+Var73	 Value: [0, 0]
+Var74	 Value: [0, 0]
+Var75	 Value: [0, 0]
+Var76	 Value: [0, 0]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode9 {fun: test_bad_1{ "ln": 13, "cl": 15, "fl": "function/StringConvert_DestSizeNotEnough_BadCase01-1.c" }}
+GepStmt: [Var29 <-- Var11]	
+   %arraydecay = getelementptr inbounds [5 x i8], [5 x i8]* %ch, i64 0, i64 0, !dbg !24 { "ln": 13, "cl": 15, "fl": "function/StringConvert_DestSizeNotEnough_BadCase01-1.c" }
+[5 x i8]*, byteOffset:[0, 0]
+arr type size: 5
+arr type size: 5
+Buffer Overflow Check Safe
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var8	 Value: [123456789, 123456789]
+Var56	 Value: [0, 0]
+Var73	 Value: [0, 0]
+Var74	 Value: [0, 0]
+Var75	 Value: [0, 0]
+Var76	 Value: [0, 0]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+CallICFGNode10 {fun: test_bad_1{ "ln": 13, "cl": 5, "fl": "function/StringConvert_DestSizeNotEnough_BadCase01-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var8	 Value: [123456789, 123456789]
+Var56	 Value: [0, 0]
+Var73	 Value: [0, 0]
+Var74	 Value: [0, 0]
+Var75	 Value: [0, 0]
+Var76	 Value: [0, 0]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode12 {fun: test_bad_1{ "ln": 14, "cl": 1, "fl": "function/StringConvert_DestSizeNotEnough_BadCase01-1.c" }}
+   ret void, !dbg !26 { "ln": 14, "cl": 1, "fl": "function/StringConvert_DestSizeNotEnough_BadCase01-1.c" }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var8	 Value: [123456789, 123456789]
+Var56	 Value: [0, 0]
+Var73	 Value: [0, 0]
+Var74	 Value: [0, 0]
+Var75	 Value: [0, 0]
+Var76	 Value: [0, 0]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var8	 Value: [123456789, 123456789]
+Var56	 Value: [0, 0]
+Var73	 Value: [0, 0]
+Var74	 Value: [0, 0]
+Var75	 Value: [0, 0]
+Var76	 Value: [0, 0]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+FunExitICFGNode13 {fun: test_bad_1{ "ln": 10, "fl": "function/StringConvert_DestSizeNotEnough_BadCase01-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var8	 Value: [123456789, 123456789]
+Var56	 Value: [0, 0]
+Var73	 Value: [0, 0]
+Var74	 Value: [0, 0]
+Var75	 Value: [0, 0]
+Var76	 Value: [0, 0]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+RetICFGNode18 {fun: main{ "ln": 19, "cl": 5, "fl": "function/StringConvert_DestSizeNotEnough_BadCase01-1.c" }}
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var8	 Value: [123456789, 123456789]
+Var56	 Value: [0, 0]
+Var73	 Value: [0, 0]
+Var74	 Value: [0, 0]
+Var75	 Value: [0, 0]
+Var76	 Value: [0, 0]
+Var77	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
+IntraICFGNode19 {fun: main{ "ln": 20, "cl": 5, "fl": "function/StringConvert_DestSizeNotEnough_BadCase01-1.c" }}
+   ret i32 0, !dbg !16 { "ln": 20, "cl": 5, "fl": "function/StringConvert_DestSizeNotEnough_BadCase01-1.c" }

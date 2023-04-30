@@ -1,0 +1,46 @@
+GlobalICFGNode0
+CopyStmt: [Var1 <-- Var0]	
+ i8* null { constant data }
+AddrStmt: [Var37 <-- Var38]	
+ i8 0 { constant data }
+AddrStmt: [Var39 <-- Var40]	
+ i64 10 { constant data }
+AddrStmt: [Var41 <-- Var42]	
+ i1 false { constant data }
+AddrStmt: [Var10 <-- Var11]	
+ i32 1 { constant data }
+AddrStmt: [Var50 <-- Var51]	
+ i64 0 { constant data }
+AddrStmt: [Var4 <-- Var5]	
+Function: GetInfoByAddr { in line: 9 file: function/String_Size_Strcpy_SrcOverflow_BadCase06-1.c }
+AddrStmt: [Var16 <-- Var17]	
+Function: llvm.dbg.declare 
+AddrStmt: [Var22 <-- Var23]	
+Function: TestCaseBad06 { in line: 22 file: function/String_Size_Strcpy_SrcOverflow_BadCase06-1.c }
+AddrStmt: [Var43 <-- Var44]	
+Function: llvm.memset.p0i8.i64 
+AddrStmt: [Var54 <-- Var55]	
+Function: __strcpy_chk 
+-----------Var and Value-----------
+Var10	 Value: [1, 1]
+Var11	 Value: [1, 1]
+Var37	 Value: [0, 0]
+Var38	 Value: [0, 0]
+Var39	 Value: [10, 10]
+Var40	 Value: [10, 10]
+Var41	 Value: [0, 0]
+Var42	 Value: [0, 0]
+Var50	 Value: [0, 0]
+Var51	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var4	 Value: [ 0x7f000005(5) ,]
+Var5	 Value: [ 0x7f000005(5) ,]
+Var16	 Value: [ 0x7f000011(17) ,]
+Var17	 Value: [ 0x7f000011(17) ,]
+Var22	 Value: [ 0x7f000017(23) ,]
+Var23	 Value: [ 0x7f000017(23) ,]
+Var43	 Value: [ 0x7f00002c(44) ,]
+Var44	 Value: [ 0x7f00002c(44) ,]
+Var54	 Value: [ 0x7f000037(55) ,]
+Var55	 Value: [ 0x7f000037(55) ,]
+-----------------------------------------

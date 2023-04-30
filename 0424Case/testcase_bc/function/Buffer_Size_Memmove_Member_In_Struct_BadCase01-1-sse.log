@@ -1,0 +1,20 @@
+GlobalICFGNode0
+CopyStmt: [Var1 <-- Var0]	
+ i8* null { constant data }
+AddrStmt: [Var8 <-- Var9]	
+ i32 0 { constant data }
+AddrStmt: [Var4 <-- Var5]	
+Function: main { in line: 37 file: function/Buffer_Size_Memmove_Member_In_Struct_BadCase01-1.c }
+-----------Var and Value-----------
+Var8	 Value: [0, 0]
+Var9	 Value: [0, 0]
+Var0	 Value: [ 0x7f000000(0) ,]
+Var4	 Value: [ 0x7f000005(5) ,]
+Var5	 Value: [ 0x7f000005(5) ,]
+-----------------------------------------
+IntraICFGNode2 {fun: main{ ln: 39  cl: 1  fl: function/Buffer_Size_Memmove_Member_In_Struct_BadCase01-1.c }}
+   ret i32 0, !dbg !15 { ln: 39  cl: 1  fl: function/Buffer_Size_Memmove_Member_In_Struct_BadCase01-1.c }
+-----------Var and Value-----------
+Var1	 Value: [-INF, +INF]
+Var0	 Value: [ 0x7f000000(0) ,]
+-----------------------------------------
